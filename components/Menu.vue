@@ -52,6 +52,8 @@
           Search Experience Marketing
         </nuxt-link>
 
+        <nuxt-link class="mb-8" to="/about"> About </nuxt-link>
+
         <nuxt-link class="mb-8" to="/careers"> Careers </nuxt-link>
 
         <nuxt-link class="" to="/contact">Contact Us</nuxt-link>

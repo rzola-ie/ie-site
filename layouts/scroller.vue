@@ -1,13 +1,16 @@
 <template>
-  <div id="app" class="relative min-h-screen flex flex-col">
+  <div
+    id="app"
+    class="relative min-h-screen flex flex-col overflow-auto"
+  >
     <Header ref="header" />
     <Nuxt class="flex-1" />
-    <img
+    <!-- <img
       class="absolute w-full inset-x-0 z-1"
       src="/images/reference/audience.png"
       alt=""
       style="top: 190px"
-    />
+    /> -->
     <!-- <footer class="h-20 w-full p-10">hi</footer> -->
     <Menu />
   </div>
