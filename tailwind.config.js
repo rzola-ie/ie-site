@@ -12,8 +12,13 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      backgroundImage: theme => ({ 'stripes': "url('/images/background-pattern.svg')" }),
       zIndex: {
-        '-1': '-1'
+        '0': 0,
+        '1': 1
+      },
+      gridTemplateRows: {
+        'autorows': 'repeat(auto-fill, minmax(250px, 1fr))'
       },
       colors: {
         'ie-purple': '#4f4e76'
