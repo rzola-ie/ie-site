@@ -306,7 +306,7 @@
         </svg>
     </div>
     <footer class="w-screen">
-      <p class="text-gray-600 text-xs text-center p-5">&copy; 2021 IDEA EVOLVER. All rights reserved.</p>
+      <p class="text-gray-600 text-xs text-center p-5 bg-transparent">&copy; 2021 IDEA EVOLVER. All rights reserved.</p>
     </footer>
   </section>
 </div>
