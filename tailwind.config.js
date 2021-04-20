@@ -14,8 +14,10 @@ module.exports = {
     extend: {
       backgroundImage: theme => ({ 'stripes': "url('/images/background-pattern.svg')" }),
       zIndex: {
+        'behind': -1,
         '0': 0,
-        '1': 1
+        '1': 1,
+        '2': 2,
       },
       gridTemplateRows: {
         'autorows': 'repeat(auto-fill, minmax(250px, 1fr))'

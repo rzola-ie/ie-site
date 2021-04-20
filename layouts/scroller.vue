@@ -8,7 +8,6 @@
       alt=""
       style="top: 190px"
     /> -->
-    <!-- <footer class="h-20 w-full p-10">hi</footer> -->
     <Menu />
   </div>
 </template>

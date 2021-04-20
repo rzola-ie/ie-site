@@ -65,7 +65,7 @@
     </svg>
   </div>
   <div class="relative justify-items-center z-1">
-    <svg class="my-4" width="100%" height="105px" viewBox="0 0 95 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <svg class="my-8" width="100%" height="105px" viewBox="0 0 95 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
             <g id="IE_mobile_SEM" transform="translate(-140.000000, -116.000000)">
                 <g id="Icon-3" transform="translate(140.000000, 116.000000)">
@@ -76,7 +76,9 @@
             </g>
         </g>
     </svg>
-    <h1 class="text-3xl tracking-wide leading-normal text-ie-purple mb-4 ml-8">Search Experience Marketing</h1>
+    <h1 class="text-3xl tracking-wide leading-normal text-ie-purple mb-4 ml-8">
+      Search Experience Marketing
+    </h1>
     <p class="ml-8 mr-10 text-base leading-normal text-gray-600 pb-6">
       Whether you are looking to increase awareness of a product or service, maximize conversions,
       or have your digital presence work harder for you, our Content, SEO and Paid Search (PPC)
@@ -97,11 +99,23 @@
   <!-- style="background: #efefef url('/images/background-pattern.svg') center -5px/100% repeat" -->
   <!-- class="bg-stripes bg-repeat bg-center bg-gray-200" -->
   <section class="relative z-1" style="background: #efefef url('/images/background-pattern.svg') center -5px/250% repeat">
-    <div class="relative z-1 py-8">
-      <svg class="my-8" width="100%" height="268px" viewBox="0 0 320 268" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <div class="relative z-1 py-8 mt-12">
+      <svg class="mb-8" width="100vw" height="268px" viewBox="0 0 352 268" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <title>Group</title>
+          <defs>
+              <polygon id="path-1" points="0 0 180 0 180 158.839844 0 158.839844"></polygon>
+              <polygon id="path-3" points="0 0 180 0 180 72.84375 0 72.84375"></polygon>
+              <path d="M4.16187292,109 C1.86332996,109 0,106.904258 0,104.319018 L0,4.6809816 C0,2.09574233 1.86332996,0 4.16187292,0 L149.838127,0 C152.13667,0 154,2.09574233 154,4.6809816 L154,104.319018 C154,106.904258 152.13667,109 149.838127,109 L4.16187292,109 Z" id="path-5"></path>
+              <filter id="filter-7">
+                  <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.905882 0 0 0 0 0.905882 0 0 0 0 0.905882 0 0 0 1.000000 0"></feColorMatrix>
+              </filter>
+              <filter id="filter-8">
+                  <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.905882 0 0 0 0 0.905882 0 0 0 0 0.905882 0 0 0 1.000000 0"></feColorMatrix>
+              </filter>
+          </defs>
           <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
               <g id="IE_mobile_SEM" transform="translate(-23.000000, -720.000000)">
-                  <g id="seo-diagram" transform="translate(23.000000, 721.000000)">
+                  <g id="Group" transform="translate(23.000000, 721.000000)">
                       <g id="Group-11" transform="translate(79.000000, 8.000000)">
                           <path d="M90.8887555,37.9363245 C48.8352758,31.5345874 15.9484362,18.6455285 17.4348282,9.14891615 C18.9205527,-0.348354488 54.2161883,-2.85796184 96.2703354,3.54443362 C138.323815,9.94617075 171.210655,22.8345714 169.724263,32.331842 C168.237871,41.8291127 132.942235,44.3380617 90.8887555,37.9363245 Z" id="Fill-1" fill="#D1D1D1"></path>
                           <g id="Group-5" transform="translate(0.000000, 9.105469)">
@@ -145,20 +159,20 @@
                       </g>
                       <g id="Group-6" transform="translate(164.000000, 144.000000)">
                           <g id="Group-10">
-                              <mask id="mask-6" fill="white">
-                                  <use xlink:href="#path-5"></use>
-                              </mask>
-                              <use id="Mask" fill="#4F77FF" xlink:href="#path-5"></use>
-                              <g mask="url(#mask-6)">
-                                  <g transform="translate(134.423729, 18.385542)">
-                                      <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="56.1186441" height="82.7349398" rx="12"></rect>
-                                      <g id="Group-9" stroke-width="1" fill="none" transform="translate(2.445825, 47.277108)">
-                                          <path d="M1.96987952,3.93975904 L41.0979171,3.93975904 C42.1858515,3.93975904 43.0677966,3.05781393 43.0677966,1.96987952 C43.0677966,0.881945101 42.1858515,-2.42029636e-15 41.0979171,0 L1.96987952,0 C0.881945101,1.9985031e-16 -1.3323354e-16,0.881945101 0,1.96987952 C1.3323354e-16,3.05781393 0.881945101,3.93975904 1.96987952,3.93975904 Z" id="Fill-13" fill="#E7E7E7"></path>
-                                          <path d="M1.96987952,26.2650602 L41.0979171,26.2650602 C42.1858515,26.2650602 43.0677966,25.3831151 43.0677966,24.2951807 C43.0677966,23.2072463 42.1858515,22.3253012 41.0979171,22.3253012 L1.96987952,22.3253012 C0.881945101,22.3253012 -1.3323354e-16,23.2072463 0,24.2951807 C1.3323354e-16,25.3831151 0.881945101,26.2650602 1.96987952,26.2650602 Z" id="Fill-13" fill="#E7E7E7"></path>
-                                          <path d="M1.96987952,11.8192771 L22.8267307,11.8192771 C23.9146651,11.8192771 24.7966102,10.937332 24.7966102,9.84939759 C24.7966102,8.76146317 23.9146651,7.87951807 22.8267307,7.87951807 L1.96987952,7.87951807 C0.881945101,7.87951807 -1.3323354e-16,8.76146317 0,9.84939759 C1.3323354e-16,10.937332 0.881945101,11.8192771 1.96987952,11.8192771 Z" id="Fill-15" fill="#E7E7E7"></path>
-                                      </g>
-                                      <path d="M12,0 L44.1186441,0 C50.7460611,-1.21743675e-15 56.1186441,5.372583 56.1186441,12 L56.1186441,39.3975904 L56.1186441,39.3975904 L0,39.3975904 L0,12 C-8.11624501e-16,5.372583 5.372583,1.21743675e-15 12,0 Z" id="Rectangle" fill="#D1D1D1"></path>
+                              <g id="Mask-2">
+                                  <mask id="mask-6" fill="white">
+                                      <use xlink:href="#path-5"></use>
+                                  </mask>
+                                  <use id="Mask" fill="#4F77FF" xlink:href="#path-5"></use>
+                              </g>
+                              <g transform="translate(134.423729, 18.385542)">
+                                  <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="56.1186441" height="82.7349398" rx="12"></rect>
+                                  <g id="Group-9" transform="translate(2.445825, 47.277108)" fill="#E7E7E7">
+                                      <path d="M1.96987952,3.93975904 L41.0979171,3.93975904 C42.1858515,3.93975904 43.0677966,3.05781393 43.0677966,1.96987952 C43.0677966,0.881945101 42.1858515,-2.42029636e-15 41.0979171,0 L1.96987952,0 C0.881945101,1.9985031e-16 -1.3323354e-16,0.881945101 0,1.96987952 C1.3323354e-16,3.05781393 0.881945101,3.93975904 1.96987952,3.93975904 Z" id="Fill-13"></path>
+                                      <path d="M1.96987952,26.2650602 L41.0979171,26.2650602 C42.1858515,26.2650602 43.0677966,25.3831151 43.0677966,24.2951807 C43.0677966,23.2072463 42.1858515,22.3253012 41.0979171,22.3253012 L1.96987952,22.3253012 C0.881945101,22.3253012 -1.3323354e-16,23.2072463 0,24.2951807 C1.3323354e-16,25.3831151 0.881945101,26.2650602 1.96987952,26.2650602 Z" id="Fill-13"></path>
+                                      <path d="M1.96987952,11.8192771 L22.8267307,11.8192771 C23.9146651,11.8192771 24.7966102,10.937332 24.7966102,9.84939759 C24.7966102,8.76146317 23.9146651,7.87951807 22.8267307,7.87951807 L1.96987952,7.87951807 C0.881945101,7.87951807 -1.3323354e-16,8.76146317 0,9.84939759 C1.3323354e-16,10.937332 0.881945101,11.8192771 1.96987952,11.8192771 Z" id="Fill-15"></path>
                                   </g>
+                                  <path d="M12,0 L44.1186441,0 C50.7460611,-1.21743675e-15 56.1186441,5.372583 56.1186441,12 L56.1186441,39.3975904 L56.1186441,39.3975904 L0,39.3975904 L0,12 C-8.11624501e-16,5.372583 5.372583,1.21743675e-15 12,0 Z" id="Rectangle" fill="#D1D1D1"></path>
                               </g>
                           </g>
                           <g id="Group-10" transform="translate(5.000000, 17.000000)">
@@ -213,6 +227,17 @@
               </g>
           </g>
       </svg>
+
+      <svg class="relative top-5 left-4 z-behind" width="36px" height="35px" viewBox="0 0 36 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g id="IE_mobile_SEM" transform="translate(-16.000000, -1030.000000)">
+                  <g id="SEO" transform="translate(16.000000, 1030.000000)">
+                      <circle id="Oval" fill="#4BBFE1" style="mix-blend-mode: multiply;" cx="11" cy="11" r="11"></circle>
+                      <rect id="Rectangle" fill="#4F77FF" style="mix-blend-mode: darken;" x="8" y="6.5483871" width="28" height="28.4516129" rx="4"></rect>
+                  </g>
+              </g>
+          </g>
+      </svg>
       <div class="mx-8 text-gray-600 bg-white p-8">
         <h4 class="text-2xl pb-2">
           Content + SEO
@@ -235,7 +260,18 @@
           we capture organic results that drive the most valuable interactions.
         </p>
       </div>
-      <div class="mx-8 text-gray-600 bg-white p-8 mt-16">
+      <svg class="relative top-4 left-72" width="17px" height="17px" x="300px" y="150px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g id="IE_mobile_SAMD" transform="translate(-302.000000, -871.000000)" fill="#4BBFE1">
+                <g id="Product-Development.---Column-1" transform="translate(29.000000, 871.000000)">
+                    <circle id="Oval" style="mix-blend-mode: multiply;" cx="281.5" cy="8.5" r="8.5"></circle>
+                </g>
+            </g>
+        </g>
+      </svg>
+      <div class="relative mx-8 text-gray-600 bg-white p-8 mt-16">
+        <div class="absolute left-9 -top-5 w-6 h-6 bg-blue-500 rounded-full z-behind" style=""></div>
+        <div class="absolute -top-4 left-12 w-16 h-4 rounded-t-md" style="background-color: #4F77FF; mix-blend-mode: multiply;"></div>
         <h4 class="text-2xl pb-2">
           Paid Search
         </h4>
@@ -256,8 +292,22 @@
           heavily impacts CTR, so specific calls-to-action are incorporated into ads to maximize clicks and guide on-site behavior.
           By focusing on what really matters to your audience, we redefine customer journeys at decision making moments.
         </p>
+        <div class="absolute -bottom-2 right-1 w-5 h-5 bg-blue-500 rounded-full" style=""></div>
+        <div class="absolute -bottom-7 -right-2 w-5 h-8 rounded-md" style="background-color: #4F77FF"></div>
       </div>
+        <svg class="relative top-4 left-16" width="13px" height="13px" x="300px" y="150px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g id="IE_mobile_SAMD" transform="translate(-302.000000, -871.000000)" fill="#4BBFE1">
+                  <g id="Product-Development.---Column-1" transform="translate(29.000000, 871.000000)">
+                      <circle id="Oval" style="mix-blend-mode: multiply;" cx="281.5" cy="8.5" r="8.5"></circle>
+                  </g>
+              </g>
+          </g>
+        </svg>
     </div>
+    <footer class="w-screen">
+      <p class="text-gray-600 text-xs text-center p-5">&copy; 2021 IDEA EVOLVER. All rights reserved.</p>
+    </footer>
   </section>
 </div>
 </template>

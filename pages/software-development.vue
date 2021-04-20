@@ -65,7 +65,7 @@
     </svg>
   </div>
   <div class="relative justify-items-center z-1">
-    <svg width="100%" height="105px" viewBox="0 0 104 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <svg class="my-8" width="100vw" height="105px" viewBox="0 0 104 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
             <g id="IE_mobile_SAMD" transform="translate(-134.000000, -116.000000)">
                 <g id="Icon-2" transform="translate(134.000000, 116.000000)">
@@ -76,7 +76,9 @@
             </g>
         </g>
     </svg>
-    <h1 class="text-3xl tracking-wide leading-normal text-ie-purple mb-4 ml-8">Custom Software Development</h1>
+    <h1 class="text-3xl tracking-wide leading-normal text-ie-purple mb-4 ml-8">
+      Custom Software Development
+    </h1>
     <p class="ml-8 mr-10 text-base leading-normal text-gray-600 pb-6">
       We minimize the guesswork associated with feature planning and requirements gathering by starting with user behavior research. Our Quality
       Management System is aligned with ISO 13485 and IEC 62304. Building on a scalable infrastructure, we implement the right languages and
@@ -97,7 +99,7 @@
   <!-- style="background: #efefef url('/images/background-pattern.svg') center -5px/100% repeat" -->
   <!-- class="bg-stripes bg-repeat bg-center bg-gray-200" -->
   <section class="relative z-1" style="background: #efefef url('/images/background-pattern.svg') center -5px/250% repeat">
-    <div class="relative z-1 py-8">
+    <div class="relative z-1 py-12 mt-12">
       <svg width="353px" height="194px" viewBox="0 0 353 194" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
               <g id="IE_mobile_SAMD" transform="translate(-6.000000, -707.000000)">
@@ -123,68 +125,97 @@
                               </g>
                               <path d="M153.58177,27.6889373 L32.6324669,74.2165156 C30.1127637,75.1858117 27.3081958,75.0951394 24.8563642,73.9651126 L4.31040608,64.495668 C3.3072548,64.0333247 2.86884329,62.8453067 3.33118656,61.8421554 C3.54663752,61.3746891 3.93402397,61.0082867 4.4127525,60.8191759 L120.676609,14.8918061 C124.602388,13.3410172 128.98193,13.4043461 132.861227,15.0679977 L153.651973,23.9841885 C154.667129,24.4195419 155.137152,25.5954119 154.701798,26.6105677 C154.489172,27.1063687 154.085271,27.4952474 153.58177,27.6889373 Z" id="Fill-28" fill="#966CE0" style="mix-blend-mode: multiply;"></path>
                           </g>
-                          <g id="Group-48" style="mix-blend-mode: multiply;" transform="translate(227.251506, 73.180322)">
-                              <mask id="mask-4" fill="white">
-                                  <use xlink:href="#path-3"></use>
-                              </mask>
-                              <g id="Clip-47"></g>
-                              <path d="M6.06425856,16.17175 C14.0530228,19.87 27.0052814,19.870125 34.9938897,16.171875 C42.9823422,12.473875 42.9821863,6.47775 34.9932662,2.7795 C30.9984943,0.930125 25.764057,0.005625 20.5282167,0.005625 C15.2936236,0.005875 10.0577833,0.930375 6.06394677,2.77925 C-1.9246616,6.4775 -1.9245057,12.4735 6.06425856,16.17175 Z" id="Fill-46" fill="#4BBFE1" style="mix-blend-mode: multiply;" mask="url(#mask-4)"></path>
-                          </g>
                       </g>
                   </g>
               </g>
           </g>
+          <g id="Group-48" style="mix-blend-mode: multiply;" transform="translate(227.251506, 73.180322)">
+            <g id="Clip-47"></g>
+            <path d="M6.06425856,16.17175 C14.0530228,19.87 27.0052814,19.870125 34.9938897,16.171875 C42.9823422,12.473875 42.9821863,6.47775 34.9932662,2.7795 C30.9984943,0.930125 25.764057,0.005625 20.5282167,0.005625 C15.2936236,0.005875 10.0577833,0.930375 6.06394677,2.77925 C-1.9246616,6.4775 -1.9245057,12.4735 6.06425856,16.17175 Z" id="Fill-46" fill="#4BBFE1" style="mix-blend-mode: multiply;" mask="url(#mask-4)"></path>
+          </g>
+        <svg width="17px" height="17px" x="300px" y="150px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="IE_mobile_SAMD" transform="translate(-302.000000, -871.000000)" fill="#4BBFE1">
+                    <g id="Product-Development.---Column-1" transform="translate(29.000000, 871.000000)">
+                        <circle id="Oval" style="mix-blend-mode: multiply;" cx="281.5" cy="8.5" r="8.5"></circle>
+                    </g>
+                </g>
+            </g>
+        </svg>
       </svg>
-      <div class="mx-8 text-gray-600 bg-white p-8">
-        <h4 class="text-2xl pb-2">
-          Product Development
-        </h4>
-        <svg width="62px" height="3px" viewBox="0 0 62 3" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                <g id="IE_mobile_SEM" transform="translate(-62.000000, -1120.000000)" fill="#4BBFE1">
-                    <g id="SEO" transform="translate(16.000000, 1030.000000)">
-                        <g id="Group-2" transform="translate(14.000000, 14.000000)">
-                            <polygon id="Rectangle" points="32 76 73.5535038 76 94 76 94 79 32 79"></polygon>
-                        </g>
-                    </g>
-                </g>
-            </g>
-        </svg>
-        <p class="pt-4">
-          Our objective for developing digital software products is to cultivate, maintain and increase a company's market share by satisfying
-          consumer demand. A product/market fit can be established through our research process before any development begins. Services
-          include the conceptualization, design, and development of newly created or newly rebranded digital products and med tech device software.
-        </p>
+
+      <svg width="100%" height="26px" viewBox="0 0 25 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g id="IE_mobile_SAMD" transform="translate(-71.000000, -922.000000)" fill="#966CE0">
+                  <g id="Product-Development.---Column-1" transform="translate(29.000000, 871.000000)">
+                      <rect id="Rectangle" style="mix-blend-mode: multiply;" x="-50" y="70" width="25" height="26" rx="4"></rect>
+                  </g>
+              </g>
+          </g>
+      </svg>
+      <div class="relative">
+        <div class="relative mx-8 text-gray-600 bg-white p-8">
+          <h4 class="text-2xl pb-2">
+            Product Development
+          </h4>
+          <svg width="62px" height="3px" viewBox="0 0 62 3" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <g id="IE_mobile_SEM" transform="translate(-62.000000, -1120.000000)" fill="#4BBFE1">
+                      <g id="SEO" transform="translate(16.000000, 1030.000000)">
+                          <g id="Group-2" transform="translate(14.000000, 14.000000)">
+                              <polygon id="Rectangle" points="32 76 73.5535038 76 94 76 94 79 32 79"></polygon>
+                          </g>
+                      </g>
+                  </g>
+              </g>
+          </svg>
+          <p class="pt-4">
+            Our objective for developing digital software products is to cultivate, maintain and increase a company's market share by satisfying
+            consumer demand. A product/market fit can be established through our research process before any development begins. Services
+            include the conceptualization, design, and development of newly created or newly rebranded digital products and med tech device software.
+          </p>
+          <div class="absolute -bottom-2.5 right-10 w-5 h-5 rounded-md" style="background-color: #966CE0"></div>
+          <div class="absolute -bottom-2.5 right-10 w-5 h-2.5 rounded-b-md" style="mix-blend-mode: multiply; background-color: #efefef;"></div>
+        </div>
+        <div class="relative mx-8 text-gray-600 bg-white p-8 mt-16">
+          <div class="absolute -top-6 left-20 w-10 h-6 rounded-sm" style="background-color: #966CE0"></div>
+          <div class="absolute -top-3 w-6 h-3 bg-blue-500 rounded-full" style="mix-blend-mode: multiply; left: 6.7rem; border-bottom-left-radius: 4rem; border-bottom-right-radius: 4rem;"></div>
+          <div class="absolute -top-1.5 left-56 w-3 h-1.5 bg-blue-500 rounded-full" style="mix-blend-mode: multiply; border-bottom-left-radius: 4rem; border-bottom-right-radius: 4rem;"></div>
+          <h4 class="text-2xl pb-2">
+            Medical Device Software
+          </h4>
+          <svg width="62px" height="3px" viewBox="0 0 62 3" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <g id="IE_mobile_SEM" transform="translate(-62.000000, -1120.000000)" fill="#4BBFE1">
+                      <g id="SEO" transform="translate(16.000000, 1030.000000)">
+                          <g id="Group-2" transform="translate(14.000000, 14.000000)">
+                              <polygon id="Rectangle" points="32 76 73.5535038 76 94 76 94 79 32 79"></polygon>
+                          </g>
+                      </g>
+                  </g>
+              </g>
+          </svg>
+          <p class="pt-4">
+            Medical device software has a long history of living within proprietary hardware devices, but in recent years, has taken home inside
+            our everyday devices like phones and watches. The software living in common devices is reaching more people and solving old problems
+            on larger scales.
+          </p>
+          <p class="pt-4">
+            Clients appreciate our harmonious blend of regulatory rigor, scalable development practices, and engaging design patterns.
+            Our ISO 13485 aligned Quality Management System (QMS) guides our regulated technology practices to ensure safe and successful
+            product launches under any safety classification. We build medical device software on modern technology stacks designed for security,
+            scalability, fast responses, and best in class user design. The validated tools and infrastructure we offer beneath your custom
+            software layer facilitates a fast and cost-efficient program.
+          </p>
+        </div>
+        <div class="absolute -bottom-3 right-24 h-5 w-5 rounded-full bg-blue-500" style="mix-blend-mode: multiply"></div>
       </div>
-      <div class="mx-8 text-gray-600 bg-white p-8 mt-16">
-        <h4 class="text-2xl pb-2">
-          Medical Device Software
-        </h4>
-        <svg width="62px" height="3px" viewBox="0 0 62 3" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                <g id="IE_mobile_SEM" transform="translate(-62.000000, -1120.000000)" fill="#4BBFE1">
-                    <g id="SEO" transform="translate(16.000000, 1030.000000)">
-                        <g id="Group-2" transform="translate(14.000000, 14.000000)">
-                            <polygon id="Rectangle" points="32 76 73.5535038 76 94 76 94 79 32 79"></polygon>
-                        </g>
-                    </g>
-                </g>
-            </g>
-        </svg>
-        <p class="pt-4">
-          Medical device software has a long history of living within proprietary hardware devices, but in recent years, has taken home inside
-          our everyday devices like phones and watches. The software living in common devices is reaching more people and solving old problems
-          on larger scales.
-        </p>
-        <p class="pt-4">
-          Clients appreciate our harmonious blend of regulatory rigor, scalable development practices, and engaging design patterns.
-          Our ISO 13485 aligned Quality Management System (QMS) guides our regulated technology practices to ensure safe and successful
-          product launches under any safety classification. We build medical device software on modern technology stacks designed for security,
-          scalability, fast responses, and best in class user design. The validated tools and infrastructure we offer beneath your custom
-          software layer facilitates a fast and cost-efficient program.
-        </p>
-      </div>
+      <div class="absolute bottom-0 left-24 w-7 h-10 rounded-md" style="background-color: #966CE0"></div>
+      <div class="absolute bottom-2 w-6 h-6 bg-blue-500 rounded-full" style="mix-blend-mode: multiply; left: 5.3rem;"></div>
     </div>
+    <footer class="w-screen">
+      <p class="text-gray-600 text-xs text-center p-5">&copy; 2021 IDEA EVOLVER. All rights reserved.</p>
+    </footer>
   </section>
 </div>
 </template>
