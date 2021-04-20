@@ -12,10 +12,12 @@
       <nav id="header-links" class="hidden xl:inline-block">
         <ul class="flex">
           <li
-            id="audience-research"
+            id="search-behavior-analysis"
             class="mr-12 text-gray-700 hover:text-gray-500 transition ease-in duration-150"
           >
-            <nuxt-link to="/audience-research"> Audience Research</nuxt-link>
+            <nuxt-link to="/search-behavior-analysis">
+              Search Behavior Analysis
+            </nuxt-link>
           </li>
           <li
             id="software-development"
@@ -32,6 +34,12 @@
             <nuxt-link to="/search-experience-marketing">
               Search Experience Marketing
             </nuxt-link>
+          </li>
+          <li
+            id="about"
+            class="mr-12 text-gray-700 hover:text-gray-500 transition ease-in duration-150"
+          >
+            <nuxt-link to="/about">About</nuxt-link>
           </li>
           <li
             id="careers"

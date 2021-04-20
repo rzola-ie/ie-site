@@ -10,7 +10,9 @@
       src="/images/reference/contact.png"
       alt=""
     />
-    <!-- <footer class="h-20 w-full p-10">hi</footer> -->
+    <footer class="w-screen z-1">
+      <p class="text-gray-600 text-xs text-center p-5 bg-transparent">&copy; 2021 IDEA EVOLVER. All rights reserved.</p>
+    </footer>
     <Menu />
   </div>
 </template>

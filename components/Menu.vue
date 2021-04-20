@@ -40,8 +40,8 @@
     </div>
     <div class="flex-1" @click="toggleMenu">
       <nav id="menu-links" class="flex flex-col text-2xl text-gray-600 pt-32">
-        <nuxt-link class="mb-8" to="/audience-research">
-          Audience Research
+        <nuxt-link class="mb-8" to="/search-behavior-analysis">
+          Search Behavior Analysis
         </nuxt-link>
 
         <nuxt-link class="mb-8" to="/software-development">
@@ -51,6 +51,8 @@
         <nuxt-link class="mb-8" to="/search-experience-marketing">
           Search Experience Marketing
         </nuxt-link>
+
+        <nuxt-link class="mb-8" to="/about"> About </nuxt-link>
 
         <nuxt-link class="mb-8" to="/careers"> Careers </nuxt-link>
 
