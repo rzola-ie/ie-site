@@ -12,12 +12,14 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      backgroundImage: theme => ({ 'stripes': "url('/images/background-pattern.svg')" }),
       zIndex: {
         'behind': -1,
         '0': 0,
         '1': 1,
         '2': 2,
+      },
+      height: {
+        scrollerheight: 'calc(100vh - 7.5rem)',
       },
       gridTemplateRows: {
         'autorows': 'repeat(auto-fill, minmax(250px, 1fr))'

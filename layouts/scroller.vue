@@ -1,5 +1,7 @@
 <template>
   <div id="app" class="relative min-h-screen flex flex-col">
+    <img class="w-screen absolute hidden md:block -top-12 z-behind" src="/images/bracket-bg.svg" alt="Background Image">
+
     <Header ref="header" />
     <Nuxt class="flex-1" />
     <!-- <img
@@ -41,7 +43,8 @@
 }
 
 body {
-  @apply bg-gray-100;
+  /* @apply bg-gray-100; */
+  background-color: #f8f8f8;
   font-family: "Avenir";
 }
 </style>

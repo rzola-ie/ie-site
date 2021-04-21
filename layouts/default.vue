@@ -10,8 +10,8 @@
       src="/images/reference/contact.png"
       alt=""
     />
-    <footer class="w-screen z-1">
-      <p class="text-gray-600 text-xs text-center p-5 bg-transparent">&copy; 2021 IDEA EVOLVER. All rights reserved.</p>
+    <footer class="z-1 w-5/12">
+      <p class="text-gray-600 text-xs text-center md:text-left md:ml-28 p-5 bg-transparent">&copy; 2021 IDEA EVOLVER. All rights reserved.</p>
     </footer>
     <Menu />
   </div>
@@ -46,7 +46,7 @@
 }
 
 body {
-  @apply bg-gray-100;
+  /* @apply bg-gray-100; */
   font-family: "Avenir";
 }
 </style>

@@ -1,8 +1,9 @@
 <template>
 <div>
+  <img class="w-screen fixed right-0 left-0 top-0 bottom-0 hidden md:block" src="/images/bracket-bg.svg" alt="Background Image">
   <div class="absolute z-0">
     <svg
-        class="canvas-mobile flex-1"
+        class="canvas-mobile flex-1 md:hidden"
         :viewBox="`0 0 800 2000`"
         version="1.1"
         xmlns="http://www.w3.org/2000/svg"
@@ -66,8 +67,7 @@
   </div>
   <div class="relative justify-items-center z-1">
 
-
-    <svg class="my-8" width="100vw" height="105px" viewBox="0 0 139 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <svg class="my-8 md:hidden" width="100vw" height="105px" viewBox="0 0 139 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
             <g id="IE_mobile_Contact" transform="translate(-118.000000, -116.000000)">
                 <g id="hero-Icon" transform="translate(118.000000, 116.000000)">
@@ -78,25 +78,36 @@
             </g>
         </g>
     </svg>
-    <div class="relative">
-      <h1 class="text-3xl tracking-wide leading-normal text-ie-purple mb-4 ml-8">
+    <div class="relative ml-32 md:bg-transparent md:mt-40">
+      <h1 class="text-3xl tracking-wide leading-normal text-ie-purple mb-4">
         Contact Us
       </h1>
-      <p class="ml-8 mr-10 mb-4 text-base leading-normal text-gray-600 pb-6 text-xl">
+      <p class="mr-10 mb-4 text-base leading-normal text-gray-600 pb-6 text-xl">
         1315 Walnut Street <br />
         Suite 932 <br />
         Philadelphia, PA 19107
       </p>
-      <p class="ml-8 text-xl text-gray-600">215-420-9053</p>
-      <a class="text-base text-gray-600 ml-8 border-b-2 border-blue-300 text-xl" href="mailto:press1for@idea-evolver.com">careers@idea-evolver.com</a>
-      <div class="flex ml-8 mt-12">
+      <p class="text-xl text-gray-600">215-420-9053</p>
+      <a class="text-base text-gray-600 border-b-2 border-blue-300 text-xl" href="mailto:press1for@idea-evolver.com">careers@idea-evolver.com</a>
+      <div class="flex mt-12">
         <a class="text-black" href="https://www.facebook.com/IdeaEvolver/"><img class="mr-8" src="/images/facebook.svg" alt="Idea Evolver Facebook Link"></a>
         <a href="https://www.linkedin.com/company/idea-evolver/"><img class="mr-8" src="/images/linkedin.svg" alt="Idea Evolver LinkedIn Link"></a>
         <a href="https://www.instagram.com/idea_evolver/"><img src="/images/instagram.svg" alt="Idea Evolver Instagram Link"></a>
       </div>
-
     </div>
+
   </div>
+    <svg class="hidden md:block absolute -bottom-6 z-2" width="100vw" height="320px" viewBox="0 0 451 360" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g id="IE_desktop_Contact" transform="translate(-843.000000, -693.000000)">
+                <g id="Big-icon" transform="translate(843.000000, 693.000000)">
+                    <path d="M85.3255915,129.20523 C116.554598,129.547573 135.236685,122.003491 136.143807,94.7746568 L136.211503,87.6543292 C158.069486,54.9417363 215.400031,62.297947 227.426661,60.5444802 C239.416541,62.560967 296.874741,56.463495 318.111858,89.6478539 L318.044162,96.770269 C318.438732,124.011628 336.975756,131.962765 368.204762,132.305108 C395.97355,132.609878 418.647751,137.701194 418.862443,114.979187 L418.9959,100.734356 C419.162238,83.2748371 414.257199,67.2619279 406.120173,55.1755319 C406.124041,55.1734444 387.527057,21.9431613 342.335324,7.49584748 C330.387995,3.67579484 318.123463,1.85135439 305.824116,1.71566946 L227.987568,0.861898133 L150.15102,0.00812680464 C137.851674,-0.127558125 125.556195,1.43177484 113.537303,4.98880747 C68.0844567,18.4404027 48.8666066,51.2573686 48.8666066,51.2573686 C40.5071513,63.1642431 35.3023169,79.0665169 35.137913,96.5260362 L35.0044557,110.770866 C34.7897635,133.492873 57.5568039,128.90046 85.3255915,129.20523 L35.137913,66.5" id="Fill-3" fill="#EFCB57" style="mix-blend-mode: multiply;"></path>
+                    <path d="M112.351259,139 L347.243312,139 C356.223806,139 364.302789,144.45843 367.654069,152.790188 L438.848718,329.790188 C443.382872,341.062738 437.920322,353.876603 426.647773,358.410757 C424.037941,359.460508 421.251002,360 418.437961,360 L33.8277489,360 C21.6774844,360 11.8277489,350.150264 11.8277489,338 C11.8277489,334.926805 12.4716179,331.887701 13.717863,329.078538 L92.2413727,152.078538 C95.7692196,144.126411 103.651717,139 112.351259,139 Z" id="Rectangle" fill="#EFCB57" style="mix-blend-mode: multiply;"></path>
+                    <ellipse id="Oval" fill="#4BBFE1" style="mix-blend-mode: multiply;" cx="227" cy="159.5" rx="77" ry="76.5"></ellipse>
+                </g>
+            </g>
+        </g>
+    </svg>
   <!-- #efefef url(//ideaevolver.com/wp-content/themes/idea-evolver/assets-img/service-background-pattern.svg) center -5px/100% repeat -->
   <!-- style="background: #efefef url('/images/background-pattern.svg') center -5px/100% repeat" -->
   <!-- class="bg-stripes bg-repeat bg-center bg-gray-200" -->
