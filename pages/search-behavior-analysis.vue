@@ -297,7 +297,7 @@
         </div>
     <div class="relative md:flex md:flex-row md:mt-12 md:mx-40">
       <div class="relative md:inline-block mx-8 md:mx-0 md:mt-16 md:mr-4 text-gray-600 bg-white p-8 md:p-14 md:flex-1 md:h-1/6">
-        <h4 class="text-2xl pb-2">
+        <h4 class="text-4xl pb-2">
           Research & Analysis
         </h4>
         <svg width="62px" height="3px" viewBox="0 0 62 3" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -311,7 +311,7 @@
                 </g>
             </g>
         </svg>
-        <p class="pt-4">
+        <p class="pt-4 md:leading-5">
           We identify value in every click by organizing PPC accounts and assets to create efficiency and pinpoint learnings.
           Advertising strategy, keywords and creative are informed by natural language search behavior and desired high value
           actions. Messaging heavily impacts CTR, so specific calls-to-action are incorporated into ads to maximize clicks and
@@ -322,7 +322,7 @@
       <div class="relative mx-8 md:mx-0 text-gray-600 bg-white p-8 mt-16 md:mt-0 md:p-14 md:flex-1 md:h-1/6">
         <div class="md:hidden absolute -top-3 left-20 w-5 h-5 rounded-full bg-blue-500 z-behind" style="left: 5.25rem;"></div>
         <div class="md:hidden absolute w-8 h-8 rounded-full -top-5 left-24 z-behind" style="mix-blend-mode: multiply; background-color:#60D9B3;"></div>
-        <h4 class="text-2xl pb-2">
+        <h4 class="text-4xl pb-2">
           Insights & Imagination
         </h4>
         <svg width="62px" height="3px" viewBox="0 0 62 3" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -336,7 +336,7 @@
                 </g>
             </g>
         </svg>
-        <p class="pt-4">
+        <p class="pt-4 md:leading-5">
           We identify value in every click by organizing PPC accounts and assets to create efficiency and pinpoint learnings.
           Advertising strategy, keywords and creative are informed by natural language search behavior and desired high
           value actions. Messaging heavily impacts CTR, so specific calls-to-action are incorporated into ads to maximize

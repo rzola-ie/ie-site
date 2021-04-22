@@ -3,6 +3,7 @@
     id="app"
     class="container relative h-screen flex flex-col overflow-hidden mx-auto"
   >
+    <img class="w-screen absolute hidden md:block -top-12 z-behind" src="/images/bracket-bg.svg" alt="Background Image">
     <Header ref="header" />
     <Nuxt class="flex-1" />
     <img
@@ -10,7 +11,7 @@
       src="/images/reference/contact.png"
       alt=""
     />
-    <footer class="z-1 w-5/12">
+    <footer class="z-1 w-screen md:w-5/12">
       <p class="text-gray-600 text-xs text-center md:text-left md:ml-28 p-5 bg-transparent">&copy; 2021 IDEA EVOLVER. All rights reserved.</p>
     </footer>
     <Menu />

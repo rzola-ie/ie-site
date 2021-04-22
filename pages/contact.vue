@@ -1,6 +1,5 @@
 <template>
 <div>
-  <img class="w-screen fixed right-0 left-0 top-0 bottom-0 hidden md:block" src="/images/bracket-bg.svg" alt="Background Image">
   <div class="absolute z-0">
     <svg
         class="canvas-mobile flex-1 md:hidden"
@@ -78,7 +77,7 @@
             </g>
         </g>
     </svg>
-    <div class="relative ml-32 md:bg-transparent md:mt-40">
+    <div class="relative ml-12 md:ml-32 md:bg-transparent md:mt-40">
       <h1 class="text-3xl tracking-wide leading-normal text-ie-purple mb-4">
         Contact Us
       </h1>

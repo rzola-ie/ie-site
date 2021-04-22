@@ -199,7 +199,7 @@
             </g>
         </svg> -->
         <div class="relative md:inline-block mx-8 md:mx-0 md:mr-4 text-gray-600 bg-white p-8 md:p-14 md:flex-1 md:h-1/6">
-          <h4 class="text-2xl pb-2">
+          <h4 class="text-4xl pb-2">
             Product Development
           </h4>
           <svg width="62px" height="3px" viewBox="0 0 62 3" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -213,7 +213,7 @@
                   </g>
               </g>
           </svg>
-          <p class="pt-4">
+          <p class="pt-4 md:leading-5">
             Our objective for developing digital software products is to cultivate, maintain and increase a company's market share by satisfying
             consumer demand. A product/market fit can be established through our research process before any development begins. Services
             include the conceptualization, design, and development of newly created or newly rebranded digital products and med tech device software.
@@ -225,7 +225,7 @@
           <div class="absolute md:hidden -top-6 left-20 w-10 h-6 rounded-sm" style="background-color: #966CE0"></div>
           <div class="absolute md:hidden -top-3 w-6 h-3 bg-blue-500 rounded-full" style="mix-blend-mode: multiply; left: 6.7rem; border-bottom-left-radius: 4rem; border-bottom-right-radius: 4rem;"></div>
           <div class="absolute md:hidden -top-1.5 left-56 w-3 h-1.5 bg-blue-500 rounded-full" style="mix-blend-mode: multiply; border-bottom-left-radius: 4rem; border-bottom-right-radius: 4rem;"></div>
-          <h4 class="text-2xl pb-2">
+          <h4 class="text-4xl pb-2">
             Medical Device Software
           </h4>
           <svg width="62px" height="3px" viewBox="0 0 62 3" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -239,12 +239,12 @@
                   </g>
               </g>
           </svg>
-          <p class="pt-4">
+          <p class="pt-4 md:leading-5">
             Medical device software has a long history of living within proprietary hardware devices, but in recent years, has taken home inside
             our everyday devices like phones and watches. The software living in common devices is reaching more people and solving old problems
             on larger scales.
           </p>
-          <p class="pt-4">
+          <p class="pt-4 md:leading-5">
             Clients appreciate our harmonious blend of regulatory rigor, scalable development practices, and engaging design patterns.
             Our ISO 13485 aligned Quality Management System (QMS) guides our regulated technology practices to ensure safe and successful
             product launches under any safety classification. We build medical device software on modern technology stacks designed for security,
