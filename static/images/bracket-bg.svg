@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920px" height="1396px" viewBox="0 0 1920 1396" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Desktop_bg</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1920" height="1397"></rect>
+        <filter x="-8.7%" y="-7.3%" width="117.4%" height="114.5%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="24" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.803187274   0 0 0 0 0.791203744   0 0 0 0 0.791203744  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Bracket-" transform="translate(0.000000, -1.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#F8F8F8" xlink:href="#path-1"></use>
+            <g filter="url(#filter-3)" mask="url(#mask-2)" fill="#F9F9F9" id="Rectangle">
+                <g transform="translate(772.000000, 142.000000)">
+                    <path d="M787.723698,0 L1042.81949,0 C1047.79005,2.75086319e-14 1051.81949,4.02943725 1051.81949,9 C1051.81949,9.89595016 1051.68571,10.7868785 1051.42256,11.6433147 L667.357147,1261.64331 C666.196326,1265.42138 662.706453,1268 658.754073,1268 L402.18051,1268 C397.209947,1268 393.18051,1263.97056 393.18051,1259 C393.18051,1258.10405 393.314294,1257.21312 393.577436,1256.35669 L777.20883,7.76928208 C778.62761,3.15164203 782.893011,6.39621524e-14 787.723698,0 Z" transform="translate(722.500000, 634.000000) scale(-1, 1) translate(-722.500000, -634.000000) "></path>
+                    <path d="M397.723698,0 L636.57881,0 C648.17679,-9.23594167e-15 657.57881,9.40202025 657.57881,21 C657.57881,23.0905504 657.266648,25.1693831 656.65265,27.1677342 L279.961289,1253.16773 C277.252707,1261.98323 269.10967,1268 259.887449,1268 L28.4211898,1268 C16.8232101,1268 7.42118981,1258.59798 7.42118981,1247 C7.42118981,1244.90945 7.7333517,1242.83062 8.34734975,1240.83227 L387.20883,7.76928208 C388.62761,3.15164203 392.893011,6.39621524e-14 397.723698,0 Z"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

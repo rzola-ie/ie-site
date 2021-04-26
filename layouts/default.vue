@@ -1,17 +1,13 @@
 <template>
   <div
     id="app"
-    class="container relative h-screen flex flex-col overflow-hidden mx-auto"
+    class="relative h-screen flex flex-col overflow-hidden"
   >
+    <img class="w-screen absolute hidden lg:block xl:block -top-12 z-behind opacity-75" style="mix-blend-mode: multiply;" src="/images/bracket-bg.svg" alt="Background Image">
     <Header ref="header" />
     <Nuxt class="flex-1" />
-    <img
-      class="absolute left-2/4 -z-1 transform -translate-x-1/2 hidden"
-      src="/images/reference/contact.png"
-      alt=""
-    />
-    <footer class="w-screen z-1">
-      <p class="text-gray-600 text-xs text-center p-5 bg-transparent">&copy; 2021 IDEA EVOLVER. All rights reserved.</p>
+    <footer class="z-1 w-screen xl:w-5/12 xl:ml-12">
+      <p class="text-gray-600 text-xs text-center xl:text-left xl:ml-28 p-5 bg-transparent">&copy; 2021 IDEA EVOLVER. All rights reserved.</p>
     </footer>
     <Menu />
   </div>
@@ -46,7 +42,7 @@
 }
 
 body {
-  @apply bg-gray-100;
+  /* @apply bg-gray-100; */
   font-family: "Avenir";
 }
 </style>
