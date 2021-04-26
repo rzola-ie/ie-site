@@ -2,7 +2,7 @@
 <div>
   <div class="absolute z-0">
     <svg
-        class="canvas-mobile flex-1 md:hidden"
+        class="canvas-mobile flex-1 md:hidden xl:hidden"
         :viewBox="`0 0 800 2000`"
         version="1.1"
         xmlns="http://www.w3.org/2000/svg"
@@ -64,8 +64,8 @@
         </g>
     </svg>
   </div>
-  <div class="relative w-screen md:h-scrollerheight">
-    <svg class="hidden md:block absolute -bottom-20 z-1 right-1/3" width="352px" height="399px" viewBox="0 0 352 399" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <div class="relative w-screen xl:h-scrollerheight">
+    <svg class="hidden xl:block absolute -bottom-20 z-1 right-1/3" width="352px" height="399px" viewBox="0 0 352 399" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
             <g id="IE_desktop_SEM" transform="translate(-899.000000, -615.000000)">
                 <g id="Secondary-section" transform="translate(-13.000000, 615.000000)">
@@ -79,7 +79,7 @@
         </g>
     </svg>
     <div class="relative justify-items-center z-1">
-      <svg class="my-8 md:hidden" width="100vw" height="105px" viewBox="0 0 95 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <svg class="my-8 md:h-40 xl:hidden" width="100vw" height="105px" viewBox="0 0 95 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
               <g id="IE_mobile_SEM" transform="translate(-140.000000, -116.000000)">
                   <g id="Icon-3" transform="translate(140.000000, 116.000000)">
@@ -90,8 +90,8 @@
               </g>
           </g>
       </svg>
-      <div class="relative md:ml-32 md:pl-12 md:py-32 md:bg-transparent md:w-4/12">
-        <h1 class="text-2xl md:text-5xl tracking-wide leading-normal text-ie-purple mb-4 ml-8">
+      <div class="relative md:ml-20 xl:ml-32 xl:pl-12 xl:py-32 xl:bg-transparent md:w-4/5 xl:w-4/12">
+        <h1 class="text-2xl xl:text-5xl tracking-wide leading-normal text-ie-purple mb-4 ml-8">
           Search Experience Marketing
         </h1>
         <p class="ml-8 mr-10 text-base leading-normal text-gray-600 pb-6">
@@ -99,7 +99,7 @@
           or have your digital presence work harder for you, our Content, SEO and Paid Search (PPC)
           services help you achieve the right outcome with the right audiences.
         </p>
-        <svg class="md:ml-8" width="" height="13px" viewBox="0 0 23 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <svg class="md:w-100 xl:ml-8" width="" height="13px" viewBox="0 0 23 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                 <g id="IE_mobile_SEM" transform="translate(-176.000000, -544.000000)">
                     <g id="Scrolll-arrow" transform="translate(50.000000, 250.000000)">
@@ -117,7 +117,7 @@
   <!-- class="bg-stripes bg-repeat bg-center bg-gray-200" -->
   <section class="relative z-1" style="background: #efefef url('/images/background-pattern.svg') center -5px/100% repeat">
     <div class="relative z-1 py-8 mt-12">
-      <svg class="md:hidden mb-8" width="100vw" height="268px" viewBox="0 0 352 268" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <svg class="md:h-72 xl:hidden mb-8" width="100vw" height="268px" viewBox="0 0 352 268" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <title>Group</title>
           <defs>
               <polygon id="path-1" points="0 0 180 0 180 158.839844 0 158.839844"></polygon>
@@ -245,7 +245,7 @@
           </g>
       </svg>
 
-      <svg class="relative md:hidden top-5 left-4 z-behind" width="36px" height="35px" viewBox="0 0 36 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <svg class="relative xl:hidden top-5 left-4 z-behind" width="36px" height="35px" viewBox="0 0 36 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
               <g id="IE_mobile_SEM" transform="translate(-16.000000, -1030.000000)">
                   <g id="SEO" transform="translate(16.000000, 1030.000000)">
@@ -255,9 +255,9 @@
               </g>
           </g>
       </svg>
-      <div class="relative md:flex md:flex-row md:mt-12 md:mx-44 md:space-x-6">
-        <div class="relative mx-8 md:mx-0 md:mt-16 text-gray-600 p-8 md:p-0 md:h-1/6">
-          <svg class="hidden md:block" width="22rem" height="" viewBox="0 0 456 723" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <div class="relative xl:flex xl:flex-row xl:mt-12 xl:mx-44 xl:space-x-6">
+        <div class="hidden xl:block relative mx-8 xl:mx-0 xl:mt-16 text-gray-600 p-8 xl:p-0 xl:h-1/6">
+          <svg class="hidden xl:block" width="22rem" height="" viewBox="0 0 456 723" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
               <title>SEM graphic</title>
               <defs>
                   <polygon id="path-1" points="0 0 327 0 327 290.082031 0 290.082031"></polygon>
@@ -387,65 +387,81 @@
               </g>
           </svg>
         </div>
-        <!-- <img class="hidden md:block py-16" src="/images/sem-large.svg" alt="Large Icon"> -->
-        <div class="relative mx-8 md:mx-0 text-gray-600 bg-white p-8 md:p-16 md:flex-1 md:h-1/6">
-          <h4 class="text-4xl pb-2">
-            Content + SEO
-          </h4>
-          <svg width="62px" height="3px" viewBox="0 0 62 3" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-              <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                  <g id="IE_mobile_SEM" transform="translate(-62.000000, -1120.000000)" fill="#4BBFE1">
-                      <g id="SEO" transform="translate(16.000000, 1030.000000)">
-                          <g id="Group-2" transform="translate(14.000000, 14.000000)">
-                              <polygon id="Rectangle" points="32 76 73.5535038 76 94 76 94 79 32 79"></polygon>
-                          </g>
-                      </g>
-                  </g>
-              </g>
-          </svg>
-          <p class="pt-4 md:leading-5">
-            Audience intent and core needs are steeped into a compelling content strategy that is designed for owned media performance.
-            Websites are architected or re-architected for topic influence and category authority. Unique pages, answers and digital
-            assets are optimized for mobile SERPs and Voice results. Prioritizing data and experience, and then optimization, is how
-            we capture organic results that drive the most valuable interactions.
-          </p>
+        <!-- <img class="hidden xl:block py-16" src="/images/sem-large.svg" alt="Large Icon"> -->
+
+        <div class="relative mx-8 xl:mx-0 text-gray-600 bg-white p-8 xl:p-16 xl:flex-1 xl:h-1/6">
+            <svg class="absolute hidden xl:block -top-6 -left-6 z-behind" width="51px" height="50px" viewBox="0 0 51 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g id="IE_desktop_SEM" transform="translate(-705.000000, -1116.000000)">
+                        <g id="Secondary-section" transform="translate(-13.000000, 615.000000)">
+                            <g id="geometric-shapes" transform="translate(718.000000, 501.000000)">
+                                <circle id="Oval" fill="#4BBFE1" style="mix-blend-mode: multiply;" cx="15.5" cy="15.5" r="15.5"></circle>
+                                <rect id="Rectangle" fill="#4F77FF" style="mix-blend-mode: darken;" x="11" y="9.7753059" width="40" height="40.2246941" rx="4"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </svg>
+            <h4 class="text-4xl pb-2">
+                Content + SEO
+            </h4>
+            <svg width="62px" height="3px" viewBox="0 0 62 3" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g id="IE_mobile_SEM" transform="translate(-62.000000, -1120.000000)" fill="#4BBFE1">
+                        <g id="SEO" transform="translate(16.000000, 1030.000000)">
+                            <g id="Group-2" transform="translate(14.000000, 14.000000)">
+                                <polygon id="Rectangle" points="32 76 73.5535038 76 94 76 94 79 32 79"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </svg>
+            <p class="pt-4 xl:leading-5">
+                Audience intent and core needs are steeped into a compelling content strategy that is designed for owned media performance.
+                Websites are architected or re-architected for topic influence and category authority. Unique pages, answers and digital
+                assets are optimized for mobile SERPs and Voice results. Prioritizing data and experience, and then optimization, is how
+                we capture organic results that drive the most valuable interactions.
+            </p>
+            <div class="hidden xl:block absolute -bottom-10 right-32 w-6 h-6 bg-blue-500 rounded-full z-behind" style=""></div>
+            <div class="hidden xl:block absolute -bottom-20 right-20 w-3 h-3 bg-blue-500 rounded-full z-behind" style=""></div>
         </div>
-        <svg class="relative md:hidden top-4 left-72" width="17px" height="17px" x="300px" y="150px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-          <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-              <g id="IE_mobile_SAMD" transform="translate(-302.000000, -871.000000)" fill="#4BBFE1">
-                  <g id="Product-Development.---Column-1" transform="translate(29.000000, 871.000000)">
-                      <circle id="Oval" style="mix-blend-mode: multiply;" cx="281.5" cy="8.5" r="8.5"></circle>
-                  </g>
-              </g>
-          </g>
+        <svg class="relative xl:hidden top-4 left-72" width="17px" height="17px" x="300px" y="150px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g id="IE_mobile_SAMD" transform="translate(-302.000000, -871.000000)" fill="#4BBFE1">
+                <g id="Product-Development.---Column-1" transform="translate(29.000000, 871.000000)">
+                    <circle id="Oval" style="mix-blend-mode: multiply;" cx="281.5" cy="8.5" r="8.5"></circle>
+                </g>
+            </g>
+        </g>
         </svg>
-        <div class="relative mx-8 md:mx-0 md:mt-16 text-gray-600 bg-white p-8 mt-16 md:mt-0 md:p-16 md:flex-1 md:h-1/6">
-          <div class="md:hidden absolute left-9 -top-5 w-6 h-6 bg-blue-500 rounded-full z-behind" style=""></div>
-          <div class="md:hidden absolute -top-4 left-12 w-16 h-4 rounded-t-md" style="background-color: #4F77FF; mix-blend-mode: multiply;"></div>
-          <h4 class="text-4xl pb-2">
-            Paid Search
-          </h4>
-          <svg width="62px" height="3px" viewBox="0 0 62 3" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-              <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                  <g id="IE_mobile_SEM" transform="translate(-62.000000, -1120.000000)" fill="#4BBFE1">
-                      <g id="SEO" transform="translate(16.000000, 1030.000000)">
-                          <g id="Group-2" transform="translate(14.000000, 14.000000)">
-                              <polygon id="Rectangle" points="32 76 73.5535038 76 94 76 94 79 32 79"></polygon>
-                          </g>
-                      </g>
-                  </g>
-              </g>
-          </svg>
-          <p class="pt-4 md:leading-5">
-            We identify value in every click by organizing PPC accounts and assets to create efficiency and pinpoint learnings. Advertising
-            strategy, keywords and creative are informed by natural language search behavior and desired high value actions. Messaging
-            heavily impacts CTR, so specific calls-to-action are incorporated into ads to maximize clicks and guide on-site behavior.
-            By focusing on what really matters to your audience, we redefine customer journeys at decision making moments.
-          </p>
-          <div class="md:hidden absolute -bottom-2 right-1 w-5 h-5 bg-blue-500 rounded-full" style=""></div>
-          <div class="md:hidden absolute -bottom-7 -right-2 w-5 h-8 rounded-md" style="background-color: #4F77FF"></div>
+        <div class="relative mx-8 xl:mx-0 xl:mt-16 text-gray-600 bg-white p-8 mt-16 xl:mt-0 xl:p-16 xl:flex-1 xl:h-1/6">
+            <div class="xl:hidden absolute left-9 -top-5 w-6 h-6 bg-blue-500 rounded-full z-behind" style=""></div>
+            <div class="xl:hidden absolute -top-4 left-12 w-16 h-4 rounded-t-xl" style="background-color: #4F77FF; mix-blend-mode: multiply;"></div>
+            <div class="hidden xl:block absolute -top-2 right-12 w-6 h-6 bg-blue-500 rounded-full z-behind" style=""></div>
+            <h4 class="text-4xl pb-2">
+                Paid Search
+            </h4>
+            <svg width="62px" height="3px" viewBox="0 0 62 3" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g id="IE_mobile_SEM" transform="translate(-62.000000, -1120.000000)" fill="#4BBFE1">
+                        <g id="SEO" transform="translate(16.000000, 1030.000000)">
+                            <g id="Group-2" transform="translate(14.000000, 14.000000)">
+                                <polygon id="Rectangle" points="32 76 73.5535038 76 94 76 94 79 32 79"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </svg>
+            <p class="pt-4 xl:leading-5">
+                We identify value in every click by organizing PPC accounts and assets to create efficiency and pinpoint learnings. Advertising
+                strategy, keywords and creative are informed by natural language search behavior and desired high value actions. Messaging
+                heavily impacts CTR, so specific calls-to-action are incorporated into ads to maximize clicks and guide on-site behavior.
+                By focusing on what really matters to your audience, we redefine customer journeys at decision making moments.
+            </p>
+            <div class="xl:hidden absolute -bottom-2 right-1 w-5 h-5 bg-blue-500 rounded-full" style=""></div>
+            <div class="xl:hidden absolute -bottom-7 -right-2 w-5 h-8 rounded-xl" style="background-color: #4F77FF"></div>
         </div>
-          <svg class="md:hidden relative top-4 left-16" width="13px" height="13px" x="300px" y="150px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <svg class="xl:hidden relative top-4 left-16" width="13px" height="13px" x="300px" y="150px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                 <g id="IE_mobile_SAMD" transform="translate(-302.000000, -871.000000)" fill="#4BBFE1">
                     <g id="Product-Development.---Column-1" transform="translate(29.000000, 871.000000)">

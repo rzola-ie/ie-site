@@ -2,7 +2,7 @@
 <div>
   <div class="absolute z-0">
     <svg
-        class="canvas-mobile flex-1 md:hidden"
+        class="canvas-mobile flex-1 md:hidden xl:hidden"
         :viewBox="`0 0 800 2000`"
         version="1.1"
         xmlns="http://www.w3.org/2000/svg"
@@ -64,8 +64,8 @@
         </g>
     </svg>
   </div>
-  <div class="relative w-screen md:h-scrollerheight">
-    <svg class="hidden md:block absolute -bottom-20 z-1 right-1/3" width="405px" height="394px" viewBox="0 0 405 394" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <div class="relative w-screen xl:h-scrollerheight">
+    <svg class="hidden xl:block absolute -bottom-20 z-1 right-1/3" width="405px" height="394px" viewBox="0 0 405 394" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
             <g id="IE_desktop_AR" transform="translate(-872.000000, -627.000000)">
                 <g id="Big-Icon" transform="translate(872.000000, 627.000000)">
@@ -76,7 +76,7 @@
         </g>
     </svg>
     <div class="relative justify-items-center z-1">
-        <svg class="my-8 md:hidden" width="100vw" height="105px" viewBox="0 0 108 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <svg class="my-8 md:h-40 xl:hidden" width="100vw" height="105px" viewBox="0 0 108 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                 <g id="IE_mobile_Audience" transform="translate(-134.000000, -116.000000)">
                     <g id="Icon-1" transform="translate(134.000000, 116.000000)" style="mix-blend-mode: multiply;">
@@ -87,8 +87,8 @@
             </g>
         </svg>
 
-        <div class="relative md:ml-32 md:pl-12 md:py-32 md:bg-transparent md:w-4/12">
-            <h1 class="text-2xl md:text-5xl tracking-wide leading-normal text-ie-purple mb-4 ml-8">
+        <div class="relative md:ml-20 xl:ml-32 xl:pl-12 xl:py-32 xl:bg-transparent md:w-4/5 xl:w-4/12">
+            <h1 class="text-2xl xl:text-5xl tracking-wide leading-normal text-ie-purple mb-4 ml-8">
             Search Behavior Analysis
             </h1>
             <p class="ml-8 mr-10 text-base leading-normal text-gray-600 pb-6">
@@ -96,7 +96,7 @@
             intent, core needs and their daily lives. Insights from the analysis helps you connect on a more meaningful level by
             delivering targeted content and/or technology at micro-moments that make all the difference.
             </p>
-            <svg class="md:ml-8" width="" height="13px" viewBox="0 0 23 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <svg class="md:w-100 xl:ml-8" width="" height="13px" viewBox="0 0 23 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                     <g id="IE_mobile_SEM" transform="translate(-176.000000, -544.000000)">
                         <g id="Scrolll-arrow" transform="translate(50.000000, 250.000000)">
@@ -112,7 +112,7 @@
   <section class="relative z-1" style="background: #efefef url('/images/background-pattern.svg') center -5px/250% repeat">
     <div class="relative z-1 py-8 mt-12">
         <div class="relative">
-            <svg class="md:hidden mb-12" width="100vw" height="164px" viewBox="0 0 324 164" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <svg class="md:h-72 xl:hidden mb-12" width="100vw" height="164px" viewBox="0 0 324 164" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>chart</title>
                 <defs>
                     <filter id="filter-1">
@@ -291,13 +291,27 @@
                     </g>
                 </g>
             </svg>
-            <div class="md:hidden absolute -bottom-10 right-14 h-5 w-5 rounded-full bg-blue-500" style="mix-blend-mode: multiply"></div>
-            <div class="md:hidden absolute -bottom-18 left-16 w-6 h-6 rounded-full bg-blue-500 z-behind"></div>
-            <div class="md:hidden absolute w-6 h-6 rounded-full -bottom-20 left-12 z-behind" style="mix-blend-mode: multiply; background-color:#60D9B3;"></div>
+            <div class="xl:hidden absolute -bottom-10 right-14 h-5 w-5 rounded-full bg-blue-500" style="mix-blend-mode: multiply"></div>
+            <div class="xl:hidden absolute -bottom-18 left-16 w-6 h-6 rounded-full bg-blue-500 z-behind"></div>
+            <div class="xl:hidden absolute w-6 h-6 rounded-full -bottom-20 left-12 z-behind" style="mix-blend-mode: multiply; background-color:#60D9B3;"></div>
         </div>
-    <div class="relative md:flex md:flex-row md:mt-12 md:mx-40">
-      <div class="relative md:inline-block mx-8 md:mx-0 md:mt-16 md:mr-4 text-gray-600 bg-white p-8 md:p-14 md:flex-1 md:h-1/6">
-        <h4 class="text-4xl pb-2">
+    <div class="relative xl:flex xl:flex-row xl:mt-12 xl:mx-40 lg:flex lg:px-20">
+        <svg class="hidden xl:block absolute top-8 left-6" width="62px" height="55px" viewBox="0 0 62 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="IE_desktop_AR" transform="translate(-277.000000, -1160.000000)">
+                    <g id="Secondary-section" transform="translate(-12.000000, 996.000000)">
+                        <g id="geometric" transform="translate(289.000000, 106.000000)">
+                            <g id="Group-2" transform="translate(0.000000, 58.000000)">
+                                <ellipse id="Oval" fill="#60D9B3" style="mix-blend-mode: multiply;" cx="27.5" cy="29" rx="27.5" ry="26"></ellipse>
+                                <circle id="geometric" fill="#4BBFE1" style="mix-blend-mode: multiply;" cx="50" cy="12" r="12"></circle>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </svg>
+      <div class="relative xl:inline-block mx-8 xl:mx-0 xl:mt-16 xl:mr-4 text-gray-600 bg-white p-8 xl:p-14 xl:flex-1 xl:h-1/6 lg:mx-0 lg:mt-16">
+        <h4 class="text-4xl lg:text-3xl pb-2">
           Research & Analysis
         </h4>
         <svg width="62px" height="3px" viewBox="0 0 62 3" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -311,7 +325,7 @@
                 </g>
             </g>
         </svg>
-        <p class="pt-4 md:leading-5">
+        <p class="pt-4 xl:leading-5">
           We identify value in every click by organizing PPC accounts and assets to create efficiency and pinpoint learnings.
           Advertising strategy, keywords and creative are informed by natural language search behavior and desired high value
           actions. Messaging heavily impacts CTR, so specific calls-to-action are incorporated into ads to maximize clicks and
@@ -319,10 +333,22 @@
           decision making moments.
         </p>
       </div>
-      <div class="relative mx-8 md:mx-0 text-gray-600 bg-white p-8 mt-16 md:mt-0 md:p-14 md:flex-1 md:h-1/6">
-        <div class="md:hidden absolute -top-3 left-20 w-5 h-5 rounded-full bg-blue-500 z-behind" style="left: 5.25rem;"></div>
-        <div class="md:hidden absolute w-8 h-8 rounded-full -top-5 left-24 z-behind" style="mix-blend-mode: multiply; background-color:#60D9B3;"></div>
-        <h4 class="text-4xl pb-2">
+      <div class="relative mx-8 lg:mx-4 xl:mx-0 text-gray-600 bg-white lg:mt-0 p-8 mt-16 xl:mt-0 xl:p-14 xl:flex-1 xl:h-1/6 lg:h-1/6">
+        <svg class="hidden xl:block absolute -top-10 right-8 z-behind" width="99px" height="63px" viewBox="0 0 99 63" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="IE_desktop_AR" transform="translate(-1519.000000, -1102.000000)">
+                    <g id="Secondary-section" transform="translate(-12.000000, 996.000000)">
+                        <g id="geometric" transform="translate(289.000000, 106.000000)">
+                            <ellipse id="Oval" fill="#59CBA7" style="mix-blend-mode: multiply;" cx="1266" cy="38" rx="24" ry="25"></ellipse>
+                            <ellipse id="Oval" fill="#4BBFE1" style="mix-blend-mode: multiply;" transform="translate(1328.500000, 13.000000) scale(-1, 1) translate(-1328.500000, -13.000000) " cx="1328.5" cy="13" rx="12.5" ry="13"></ellipse>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </svg>
+        <div class="xl:hidden absolute -top-3 left-20 w-5 h-5 rounded-full bg-blue-500 z-behind" style="left: 5.25rem;"></div>
+        <div class="xl:hidden absolute w-8 h-8 rounded-full -top-5 left-24 z-behind" style="mix-blend-mode: multiply; background-color:#60D9B3;"></div>
+        <h4 class="text-4xl lg:text-3xl pb-2">
           Insights & Imagination
         </h4>
         <svg width="62px" height="3px" viewBox="0 0 62 3" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -336,19 +362,19 @@
                 </g>
             </g>
         </svg>
-        <p class="pt-4 md:leading-5">
+        <p class="pt-4 xl:leading-5">
           We identify value in every click by organizing PPC accounts and assets to create efficiency and pinpoint learnings.
           Advertising strategy, keywords and creative are informed by natural language search behavior and desired high
           value actions. Messaging heavily impacts CTR, so specific calls-to-action are incorporated into ads to maximize
           clicks and guide on-site behavior. By focusing on what really matters to your audience, we redefine customer
           journeys at decision making moments.
         </p>
-        <div class="md:hidden absolute bottom-0 right-5 w-4 h-4 rounded-full bg-blue-500" style=""></div>
-        <div class="md:hidden absolute w-6 h-6 rounded-full -bottom-2 right-7" style="mix-blend-mode: multiply; background-color:#60D9B3;"></div>
-        <div class="md:hidden absolute -bottom-6 left-10 w-3 h-3 rounded-full bg-blue-500" style=""></div>
+        <div class="xl:hidden absolute bottom-0 right-5 w-4 h-4 rounded-full bg-blue-500" style=""></div>
+        <div class="xl:hidden absolute w-6 h-6 rounded-full -bottom-2 right-7" style="mix-blend-mode: multiply; background-color:#60D9B3;"></div>
+        <div class="xl:hidden absolute -bottom-6 left-10 w-3 h-3 rounded-full bg-blue-500" style=""></div>
       </div>
     </div>
-    <div class="hidden md:block">
+    <div class="hidden xl:block">
         <svg width="100vw" height="687px" viewBox="0 0 1112 687" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <title>Diagram</title>
             <defs>

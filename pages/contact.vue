@@ -2,7 +2,7 @@
 <div>
   <div class="absolute z-0">
     <svg
-        class="canvas-mobile flex-1 md:hidden"
+        class="canvas-mobile flex-1 lg:hidden xl:hidden"
         :viewBox="`0 0 800 2000`"
         version="1.1"
         xmlns="http://www.w3.org/2000/svg"
@@ -64,9 +64,9 @@
         </g>
     </svg>
   </div>
-  <div class="relative justify-items-center z-1">
+  <div class="relative justify-items-center z-1 md:mt-16">
 
-    <svg class="my-8 md:hidden" width="100vw" height="105px" viewBox="0 0 139 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <svg class="my-8 md:h-40 xl:hidden" width="100vw" height="105px" viewBox="0 0 139 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
             <g id="IE_mobile_Contact" transform="translate(-118.000000, -116.000000)">
                 <g id="hero-Icon" transform="translate(118.000000, 116.000000)">
@@ -77,18 +77,18 @@
             </g>
         </g>
     </svg>
-    <div class="relative ml-12 md:ml-32 md:bg-transparent md:mt-40">
-      <h1 class="text-3xl tracking-wide leading-normal text-ie-purple mb-4">
+    <div class="relative xl:ml-32 md:ml-20 xl:pl-12 xl:py-32 xl:bg-transparent md:w-3/5 xl:w-2/5">
+      <h1 class="text-3xl xl:text-5xl tracking-wide leading-normal text-ie-purple mb-4 ml-8 xl:mb-8">
         Contact Us
       </h1>
-      <p class="mr-10 mb-4 text-base leading-normal text-gray-600 pb-6 text-xl">
+      <p class="ml-8 mr-10 mb-4 text-xl leading-normal text-gray-600 pb-6 md:w-4/5">
         1315 Walnut Street <br />
         Suite 932 <br />
         Philadelphia, PA 19107
       </p>
-      <p class="text-xl text-gray-600">215-420-9053</p>
-      <a class="text-base text-gray-600 border-b-2 border-blue-300 text-xl" href="mailto:press1for@idea-evolver.com">careers@idea-evolver.com</a>
-      <div class="flex mt-12">
+      <p class="ml-8 text-xl text-gray-600">215-420-9053</p>
+      <a class="ml-8 text-base text-gray-600 border-b-2 border-blue-300 text-xl" href="mailto:press1for@idea-evolver.com">careers@idea-evolver.com</a>
+      <div class="flex mt-12 ml-8">
         <a class="text-black" href="https://www.facebook.com/IdeaEvolver/"><img class="mr-8" src="/images/facebook.svg" alt="Idea Evolver Facebook Link"></a>
         <a href="https://www.linkedin.com/company/idea-evolver/"><img class="mr-8" src="/images/linkedin.svg" alt="Idea Evolver LinkedIn Link"></a>
         <a href="https://www.instagram.com/idea_evolver/"><img src="/images/instagram.svg" alt="Idea Evolver Instagram Link"></a>
@@ -96,7 +96,7 @@
     </div>
 
   </div>
-    <svg class="hidden md:block absolute -bottom-6 z-2" width="100vw" height="320px" viewBox="0 0 451 360" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <svg class="hidden xl:block absolute -bottom-6 z-2" width="100vw" height="320px" viewBox="0 0 451 360" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
             <g id="IE_desktop_Contact" transform="translate(-843.000000, -693.000000)">
                 <g id="Big-icon" transform="translate(843.000000, 693.000000)">

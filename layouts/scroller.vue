@@ -1,15 +1,9 @@
 <template>
   <div id="app" class="relative min-h-screen flex flex-col">
-    <img class="w-screen absolute hidden md:block -top-12 z-behind" src="/images/bracket-bg.svg" alt="Background Image">
+    <img class="w-screen absolute hidden md:block xl:block -top-12 z-behind" src="/images/bracket-bg.svg" alt="Background Image">
 
     <Header ref="header" />
     <Nuxt class="flex-1" />
-    <!-- <img
-      class="absolute w-full inset-x-0 z-1"
-      src="/images/reference/audience.png"
-      alt=""
-      style="top: 190px"
-    /> -->
     <Menu />
   </div>
 </template>

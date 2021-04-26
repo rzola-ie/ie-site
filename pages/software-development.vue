@@ -2,7 +2,7 @@
 <div>
   <div class="absolute z-0">
     <svg
-        class="canvas-mobile flex-1 md:hidden"
+        class="canvas-mobile flex-1 md:hidden xl:hidden"
         :viewBox="`0 0 800 2000`"
         version="1.1"
         xmlns="http://www.w3.org/2000/svg"
@@ -64,8 +64,8 @@
         </g>
     </svg>
   </div>
-  <div class="relative w-screen md:h-scrollerheight">
-      <svg class="hidden md:block absolute -bottom-16 z-1 right-1/3" width="" height="399px" viewBox="0 0 377 399" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <div class="relative w-screen xl:h-scrollerheight">
+      <svg class="hidden xl:block absolute -bottom-16 z-1 right-1/3" width="" height="399px" viewBox="0 0 377 399" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
             <g id="IE_desktop_SaMD" transform="translate(-925.000000, -611.000000)">
                 <g id="Secondary-section" transform="translate(-34.000000, 611.000000)">
@@ -79,7 +79,7 @@
         </g>
     </svg>
     <div class="relative justify-items-center z-1">
-      <svg class="my-8 md:hidden" width="100vw" height="105px" viewBox="0 0 104 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <svg class="my-8 md:h-40 xl:hidden" width="100vw" height="105px" viewBox="0 0 104 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
               <g id="IE_mobile_SAMD" transform="translate(-134.000000, -116.000000)">
                   <g id="Icon-2" transform="translate(134.000000, 116.000000)">
@@ -90,8 +90,8 @@
               </g>
           </g>
       </svg>
-      <div class="relative md:ml-32 md:pl-12 md:py-32 md:bg-transparent md:w-4/12">
-        <h1 class="text-2xl md:text-5xl tracking-wide leading-normal text-ie-purple mb-4 ml-8">
+      <div class="relative md:ml-20 xl:ml-32 xl:pl-12 xl:py-32 xl:bg-transparent md:w-4/5 xl:w-4/12">
+        <h1 class="text-2xl xl:text-5xl tracking-wide leading-normal text-ie-purple mb-4 ml-8">
           Custom Software Development
         </h1>
         <p class="ml-8 mr-10 text-base leading-normal text-gray-600 pb-6">
@@ -99,7 +99,7 @@
           Management System is aligned with ISO 13485 and IEC 62304. Building on a scalable infrastructure, we implement the right languages and
           frameworks, so your applications are reliable, fast and intuitive.
         </p>
-        <svg class="md:ml-8" width="" height="13px" viewBox="0 0 23 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <svg class="md:w-100 xl:ml-8" width="" height="13px" viewBox="0 0 23 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                 <g id="IE_mobile_SEM" transform="translate(-176.000000, -544.000000)">
                     <g id="Scrolll-arrow" transform="translate(50.000000, 250.000000)">
@@ -116,8 +116,35 @@
   <!-- style="background: #efefef url('/images/background-pattern.svg') center -5px/100% repeat" -->
   <!-- class="bg-stripes bg-repeat bg-center bg-gray-200" -->
   <section class="relative z-1" style="background: #efefef url('/images/background-pattern.svg') center -5px/100% repeat">
+  <div class="relative">
+    <svg class="absolute hidden xl:block z-behind center m-auto py-20 px-20" width="100vw" height="100%" viewBox="0 0 1396 1462" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g id="IE_desktop_SaMD" transform="translate(-229.000000, -1158.000000)">
+                <g id="Secondary-section" transform="translate(-34.000000, 611.000000)">
+                    <g id="geometric-shapes-" transform="translate(263.000000, 547.000000)">
+                        <ellipse id="Oval" fill="#4BBFE1" style="mix-blend-mode: multiply;" cx="28.5" cy="28" rx="28.5" ry="28"></ellipse>
+                        <rect id="Rectangle" fill="#966CE0" style="mix-blend-mode: multiply;" x="745" y="628" width="48" height="39" rx="4"></rect>
+                        <ellipse id="Oval" fill="#4BBFE1" style="mix-blend-mode: multiply;" transform="translate(783.000000, 701.500000) scale(1, -1) translate(-783.000000, -701.500000) " cx="783" cy="701.5" rx="21" ry="22.5"></ellipse>
+                        <circle id="Oval" fill="#4BBFE1" cx="54.5" cy="501.5" r="10.5"></circle>
+                        <rect id="Rectangle" fill="#966CE0" style="mix-blend-mode: multiply;" x="11" y="467" width="46" height="39" rx="4"></rect>
+                        <circle id="Oval" fill="#4BBFE1" cx="1346.5" cy="1378.5" r="10.5"></circle>
+                        <circle id="Oval" fill="#4BBFE1" style="mix-blend-mode: multiply;" cx="1379.5" cy="774.5" r="10.5"></circle>
+                        <circle id="Oval" fill="#4BBFE1" style="mix-blend-mode: multiply;" cx="113" cy="946" r="8"></circle>
+                        <rect id="Rectangle" fill="#966CE0" style="mix-blend-mode: multiply;" x="1340" y="1379" width="28" height="31" rx="4"></rect>
+                        <rect id="Rectangle" fill="#966CE0" style="mix-blend-mode: multiply;" x="1352" y="10" width="44" height="46" rx="4"></rect>
+                        <circle id="Oval" fill="#4BBFE1" style="mix-blend-mode: multiply;" cx="1347.5" cy="54.5" r="19.5"></circle>
+                        <path d="M271.12777,1420 L285.87223,1420 C287.655267,1420 288.30184,1420.18565 288.953691,1420.53427 C289.605543,1420.88288 290.11712,1421.39446 290.465735,1422.04631 C290.814349,1422.69816 291,1423.34473 291,1425.12777 L291,1439.87223 C291,1441.65527 290.814349,1442.30184 290.465735,1442.95369 C290.11712,1443.60554 289.605543,1444.11712 288.953691,1444.46573 C288.30184,1444.81435 287.655267,1445 285.87223,1445 L271.12777,1445 C269.344733,1445 268.69816,1444.81435 268.046309,1444.46573 C267.394457,1444.11712 266.88288,1443.60554 266.534265,1442.95369 C266.185651,1442.30184 266,1441.65527 266,1439.87223 L266,1425.12777 C266,1423.34473 266.185651,1422.69816 266.534265,1422.04631 C266.88288,1421.39446 267.394457,1420.88288 268.046309,1420.53427 C268.69816,1420.18565 269.344733,1420 271.12777,1420 Z" id="Rectangle" fill="#966CE0" style="mix-blend-mode: darken;"></path>
+                        <circle id="Oval" fill="#4BBFE1" style="mix-blend-mode: multiply;" cx="266" cy="1445" r="17"></circle>
+                        <path d="M1174.12777,923 L1197.87223,923 C1199.65527,923 1200.30184,923.185651 1200.95369,923.534265 C1201.60554,923.88288 1202.11712,924.394457 1202.46573,925.046309 C1202.81435,925.69816 1203,926.344733 1203,928.12777 L1203,951.87223 C1203,953.655267 1202.81435,954.30184 1202.46573,954.953691 C1202.11712,955.605543 1201.60554,956.11712 1200.95369,956.465735 C1200.30184,956.814349 1199.65527,957 1197.87223,957 L1174.12777,957 C1172.34473,957 1171.69816,956.814349 1171.04631,956.465735 C1170.39446,956.11712 1169.88288,955.605543 1169.53427,954.953691 C1169.18565,954.30184 1169,953.655267 1169,951.87223 L1169,928.12777 C1169,926.344733 1169.18565,925.69816 1169.53427,925.046309 C1169.88288,924.394457 1170.39446,923.88288 1171.04631,923.534265 C1171.69816,923.185651 1172.34473,923 1174.12777,923 Z" id="Rectangle" fill="#966CE0" style="mix-blend-mode: darken;"></path>
+                        <path d="M129.12777,897 L152.87223,897 C154.655267,897 155.30184,897.185651 155.953691,897.534265 C156.605543,897.88288 157.11712,898.394457 157.465735,899.046309 C157.814349,899.69816 158,900.344733 158,902.12777 L158,925.87223 C158,927.655267 157.814349,928.30184 157.465735,928.953691 C157.11712,929.605543 156.605543,930.11712 155.953691,930.465735 C155.30184,930.814349 154.655267,931 152.87223,931 L129.12777,931 C127.344733,931 126.69816,930.814349 126.046309,930.465735 C125.394457,930.11712 124.88288,929.605543 124.534265,928.953691 C124.185651,928.30184 124,927.655267 124,925.87223 L124,902.12777 C124,900.344733 124.185651,899.69816 124.534265,899.046309 C124.88288,898.394457 125.394457,897.88288 126.046309,897.534265 C126.69816,897.185651 127.344733,897 129.12777,897 Z" id="Rectangle" fill="#966CE0" style="mix-blend-mode: darken;"></path>
+                        <circle id="Oval" fill="#4BBFE1" style="mix-blend-mode: multiply;" cx="1203" cy="931" r="17"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </svg>
     <div class="relative z-1 py-12 mt-12">
-      <svg class="md:hidden" width="353px" height="194px" viewBox="0 0 353 194" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <svg class="md:h-72 md:w-100 md:m-auto xl:hidden" width="353px" height="194px" viewBox="0 0 353 194" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
               <g id="IE_mobile_SAMD" transform="translate(-6.000000, -707.000000)">
                   <g id="Software-Development-Process" transform="translate(6.000000, 707.000000)">
@@ -150,7 +177,7 @@
             <g id="Clip-47"></g>
             <path d="M6.06425856,16.17175 C14.0530228,19.87 27.0052814,19.870125 34.9938897,16.171875 C42.9823422,12.473875 42.9821863,6.47775 34.9932662,2.7795 C30.9984943,0.930125 25.764057,0.005625 20.5282167,0.005625 C15.2936236,0.005875 10.0577833,0.930375 6.06394677,2.77925 C-1.9246616,6.4775 -1.9245057,12.4735 6.06425856,16.17175 Z" id="Fill-46" fill="#4BBFE1" style="mix-blend-mode: multiply;" mask="url(#mask-4)"></path>
           </g>
-        <svg class="md:hidden" width="17px" height="17px" x="300px" y="150px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <svg class="xl:hidden" width="17px" height="17px" x="300px" y="150px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                 <g id="IE_mobile_SAMD" transform="translate(-302.000000, -871.000000)" fill="#4BBFE1">
                     <g id="Product-Development.---Column-1" transform="translate(29.000000, 871.000000)">
@@ -161,7 +188,7 @@
         </svg>
       </svg>
 
-      <svg class="md:hidden" width="100%" height="26px" viewBox="0 0 25 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <svg class="xl:hidden" width="100%" height="26px" viewBox="0 0 25 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
               <g id="IE_mobile_SAMD" transform="translate(-71.000000, -922.000000)" fill="#966CE0">
                   <g id="Product-Development.---Column-1" transform="translate(29.000000, 871.000000)">
@@ -170,7 +197,7 @@
               </g>
           </g>
       </svg>
-      <div class="relative md:flex md:flex-row md:mt-14 md:mx-40">
+      <div class="relative xl:flex xl:flex-row xl:mt-14 xl:mx-40 lg:flex lg:px-20">
 <!-- 
         <svg class="absolute mt-16 p-10" width="1396px" height="1462px" viewBox="0 0 1396 1462" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -198,8 +225,8 @@
                 </g>
             </g>
         </svg> -->
-        <div class="relative md:inline-block mx-8 md:mx-0 md:mr-4 text-gray-600 bg-white p-8 md:p-14 md:flex-1 md:h-1/6">
-          <h4 class="text-4xl pb-2">
+        <div class="relative xl:inline-block mx-8 xl:mx-0 xl:mr-4 text-gray-600 bg-white p-8 xl:p-14 xl:flex-1 xl:h-1/6 lg:mx-0 lg:mt-16">
+          <h4 class="text-4xl lg:text-3xl pb-2">
             Product Development
           </h4>
           <svg width="62px" height="3px" viewBox="0 0 62 3" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -213,19 +240,18 @@
                   </g>
               </g>
           </svg>
-          <p class="pt-4 md:leading-5">
+          <p class="pt-4 xl:leading-5">
             Our objective for developing digital software products is to cultivate, maintain and increase a company's market share by satisfying
             consumer demand. A product/market fit can be established through our research process before any development begins. Services
             include the conceptualization, design, and development of newly created or newly rebranded digital products and med tech device software.
           </p>
-          <div class="absolute md:hidden -bottom-2.5 right-10 w-5 h-5 rounded-md" style="background-color: #966CE0"></div>
-          <div class="absolute md:hidden-bottom-2.5 right-10 w-5 h-2.5 rounded-b-md" style="mix-blend-mode: multiply; background-color: #efefef;"></div>
+          <div class="absolute xl:hidden -bottom-2.5 right-10 w-5 h-5 rounded-xl" style="background-color: #966CE0"></div>
         </div>
-        <div class="relative mx-8 md:mx-0 text-gray-600 bg-white p-8 mt-16 md:mt-12 md:p-14 md:flex-1">
-          <div class="absolute md:hidden -top-6 left-20 w-10 h-6 rounded-sm" style="background-color: #966CE0"></div>
-          <div class="absolute md:hidden -top-3 w-6 h-3 bg-blue-500 rounded-full" style="mix-blend-mode: multiply; left: 6.7rem; border-bottom-left-radius: 4rem; border-bottom-right-radius: 4rem;"></div>
-          <div class="absolute md:hidden -top-1.5 left-56 w-3 h-1.5 bg-blue-500 rounded-full" style="mix-blend-mode: multiply; border-bottom-left-radius: 4rem; border-bottom-right-radius: 4rem;"></div>
-          <h4 class="text-4xl pb-2">
+        <div class="relative mx-8 lg:mx-4 xl:mx-0 text-gray-600 bg-white lg:mt-0 p-8 mt-16 xl:mt-12 xl:p-14 xl:flex-1 lg:h-1/6">
+          <div class="absolute xl:hidden -top-6 left-20 w-10 h-6 rounded-sm" style="background-color: #966CE0"></div>
+          <div class="absolute xl:hidden -top-3 w-6 h-3 bg-blue-500 rounded-full" style="mix-blend-mode: multiply; left: 6.7rem; border-bottom-left-radius: 4rem; border-bottom-right-radius: 4rem;"></div>
+          <div class="absolute xl:hidden -top-1.5 left-56 w-3 h-1.5 bg-blue-500 rounded-full" style="mix-blend-mode: multiply; border-bottom-left-radius: 4rem; border-bottom-right-radius: 4rem;"></div>
+          <h4 class="text-4xl lg:text-3xl pb-2">
             Medical Device Software
           </h4>
           <svg width="62px" height="3px" viewBox="0 0 62 3" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -239,12 +265,12 @@
                   </g>
               </g>
           </svg>
-          <p class="pt-4 md:leading-5">
+          <p class="pt-4 xl:leading-5">
             Medical device software has a long history of living within proprietary hardware devices, but in recent years, has taken home inside
             our everyday devices like phones and watches. The software living in common devices is reaching more people and solving old problems
             on larger scales.
           </p>
-          <p class="pt-4 md:leading-5">
+          <p class="pt-4 xl:leading-5">
             Clients appreciate our harmonious blend of regulatory rigor, scalable development practices, and engaging design patterns.
             Our ISO 13485 aligned Quality Management System (QMS) guides our regulated technology practices to ensure safe and successful
             product launches under any safety classification. We build medical device software on modern technology stacks designed for security,
@@ -252,10 +278,10 @@
             software layer facilitates a fast and cost-efficient program.
           </p>
         </div>
-        <div class="absolute md:hidden -bottom-3 right-24 h-5 w-5 rounded-full bg-blue-500" style="mix-blend-mode: multiply"></div>
+        <div class="absolute xl:hidden -bottom-3 right-24 h-5 w-5 rounded-full bg-blue-500" style="mix-blend-mode: multiply"></div>
       </div>
-      <div class="hidden md:block">
-        <svg width="100vw" height="692px" viewBox="0 0 1259 692" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <div class="hidden xl:block">
+        <svg class="center m-auto" width="60%" height="692px" viewBox="0 0 1259 692" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                 <g id="IE_desktop_SaMD" transform="translate(-359.000000, -2004.000000)">
                     <g id="Secondary-section" transform="translate(-34.000000, 611.000000)">
@@ -290,9 +316,10 @@
             </g>
         </svg>
       </div>
-      <div class="absolute md:hidden bottom-0 left-24 w-7 h-10 rounded-md" style="background-color: #966CE0"></div>
-      <div class="absolute md:hidden bottom-2 w-6 h-6 bg-blue-500 rounded-full" style="mix-blend-mode: multiply; left: 5.3rem;"></div>
+      <div class="absolute xl:hidden bottom-0 left-24 w-7 h-10 rounded-xl" style="background-color: #966CE0"></div>
+      <div class="absolute xl:hidden bottom-2 w-6 h-6 bg-blue-500 rounded-full" style="mix-blend-mode: multiply; left: 5.3rem;"></div>
     </div>
+  </div>
     <footer class="w-screen">
       <p class="text-gray-600 text-xs text-center p-5 bg-transparent">&copy; 2021 IDEA EVOLVER. All rights reserved.</p>
     </footer>
