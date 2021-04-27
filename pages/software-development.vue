@@ -8,6 +8,7 @@
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
         preserveAspectRatio="xMidYMin meet"
+        style="mix-blend-mode: multiply;"
       >
         <defs>
           <filter id="dropshadow" height="130%">
@@ -65,7 +66,7 @@
     </svg>
   </div>
   <div class="relative w-screen xl:h-scrollerheight">
-      <svg class="hidden xl:block absolute -bottom-16 z-1 right-1/3" width="" height="399px" viewBox="0 0 377 399" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <svg class="hidden xl:block absolute -bottom-16 z-1 right-1/3" width="" height="399px" viewBox="0 0 377 399" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
         <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
             <g id="IE_desktop_SaMD" transform="translate(-925.000000, -611.000000)">
                 <g id="Secondary-section" transform="translate(-34.000000, 611.000000)">
@@ -78,8 +79,8 @@
             </g>
         </g>
     </svg>
-    <div class="relative justify-items-center z-1">
-      <svg class="my-8 md:h-40 xl:hidden" width="100vw" height="105px" viewBox="0 0 104 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <div class="relative justify-items-center z-1" style="mix-blend-mode: multiply;">
+      <svg class="my-8 md:h-40 xl:hidden" width="100vw" height="105px" viewBox="0 0 104 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
           <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
               <g id="IE_mobile_SAMD" transform="translate(-134.000000, -116.000000)">
                   <g id="Icon-2" transform="translate(134.000000, 116.000000)">
@@ -99,7 +100,7 @@
           Management System is aligned with ISO 13485 and IEC 62304. Building on a scalable infrastructure, we implement the right languages and
           frameworks, so your applications are reliable, fast and intuitive.
         </p>
-        <svg class="md:w-100 xl:ml-8" width="" height="13px" viewBox="0 0 23 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <svg class="lg:w-10 xl:ml-6" width="100vw" height="13px" viewBox="0 0 23 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                 <g id="IE_mobile_SEM" transform="translate(-176.000000, -544.000000)">
                     <g id="Scrolll-arrow" transform="translate(50.000000, 250.000000)">

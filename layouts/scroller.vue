@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="relative min-h-screen flex flex-col">
+  <div id="app" class="relative min-h-screen min-h-none flex flex-col">
     <img class="w-screen absolute hidden md:block xl:block -top-12 z-behind" src="/images/bracket-bg.svg" alt="Background Image">
 
     <Header ref="header" />

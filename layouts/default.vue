@@ -3,10 +3,11 @@
     id="app"
     class="relative h-screen flex flex-col overflow-hidden"
   >
-    <img class="w-screen absolute hidden lg:block xl:block -top-12 z-behind opacity-75" style="mix-blend-mode: multiply;" src="/images/bracket-bg.svg" alt="Background Image">
+    <img class="w-screen absolute hidden lg:block xl:block -top-12 z-behind opacity-75" src="/images/bracket-bg.svg" alt="Background Image">
+
     <Header ref="header" />
     <Nuxt class="flex-1" />
-    <footer class="z-1 w-screen xl:w-5/12 xl:ml-12">
+    <footer class="z-1 w-screen xl:w-5/12 xl:ml-20">
       <p class="text-gray-600 text-xs text-center xl:text-left xl:ml-28 p-5 bg-transparent">&copy; 2021 IDEA EVOLVER. All rights reserved.</p>
     </footer>
     <Menu />

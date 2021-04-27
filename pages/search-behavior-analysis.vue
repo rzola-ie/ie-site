@@ -1,6 +1,6 @@
 <template>
 <div>
-  <div class="absolute z-0">
+  <div class="absolute z-0" style="background-blend-mode: multiply;">
     <svg
         class="canvas-mobile flex-1 md:hidden xl:hidden"
         :viewBox="`0 0 800 2000`"
@@ -14,6 +14,7 @@
             <feGaussianBlur in="SourceAlpha" stdDeviation="5" />
             <!-- stdDeviation is how much to blur -->
             <feOffset dx="2" dy="2" result="offsetblur" />
+            <feBlend in="SourceGraphic" in2="floodFill" mode="multiply"/>
             <!-- how much to offset -->
             <feComponentTransfer>
               <feFuncA type="linear" slope="0.1" />
@@ -65,7 +66,7 @@
     </svg>
   </div>
   <div class="relative w-screen xl:h-scrollerheight">
-    <svg class="hidden xl:block absolute -bottom-20 z-1 right-1/3" width="405px" height="394px" viewBox="0 0 405 394" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <svg class="hidden xl:block absolute -bottom-20 z-1 right-1/3" width="405px" height="394px" viewBox="0 0 405 394" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  style="mix-blend-mode: multiply;">
         <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
             <g id="IE_desktop_AR" transform="translate(-872.000000, -627.000000)">
                 <g id="Big-Icon" transform="translate(872.000000, 627.000000)">
@@ -75,8 +76,8 @@
             </g>
         </g>
     </svg>
-    <div class="relative justify-items-center z-1">
-        <svg class="my-8 md:h-40 xl:hidden" width="100vw" height="105px" viewBox="0 0 108 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <div class="relative justify-items-center z-1" style="mix-blend-mode: multiply;">
+        <svg class="my-8 md:h-40 xl:hidden" width="100vw" height="105px" viewBox="0 0 108 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                 <g id="IE_mobile_Audience" transform="translate(-134.000000, -116.000000)">
                     <g id="Icon-1" transform="translate(134.000000, 116.000000)" style="mix-blend-mode: multiply;">
@@ -96,7 +97,7 @@
             intent, core needs and their daily lives. Insights from the analysis helps you connect on a more meaningful level by
             delivering targeted content and/or technology at micro-moments that make all the difference.
             </p>
-            <svg class="md:w-100 xl:ml-8" width="" height="13px" viewBox="0 0 23 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <svg class="lg:w-10 xl:ml-6 animate-bounceslow" width="100vw" height="13px" viewBox="0 0 23 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                     <g id="IE_mobile_SEM" transform="translate(-176.000000, -544.000000)">
                         <g id="Scrolll-arrow" transform="translate(50.000000, 250.000000)">

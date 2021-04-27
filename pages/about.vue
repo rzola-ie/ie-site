@@ -64,8 +64,8 @@
         </g>
     </svg>
   </div>
-  <div class="relative w-screen xl:h-scrollerheight">
-    <svg class="hidden xl:block absolute -bottom-20 z-1 right-1/3" width="438px" height="457px" viewBox="0 0 438 457" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <div class="relative w-screen xl:h-scrollerheight" style="mix-blend-mode: multiply;">
+    <svg class="hidden xl:block absolute -bottom-20 z-1 right-1/3" width="438px" height="457px" viewBox="0 0 438 457" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
         <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
             <g id="IE_desktop_About" transform="translate(-890.000000, -601.000000)" fill="#4BBFE1">
                 <g id="Secondary-section" transform="translate(-14.000000, 601.000000)">
@@ -81,7 +81,7 @@
         </g>
     </svg>
     <div class="relative justify-items-center z-1">
-        <svg class="my-8 md:h-40 xl:hidden" width="100vw" height="105px" viewBox="0 0 100 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <svg class="my-8 md:h-40 xl:hidden" width="100vw" height="105px" viewBox="0 0 100 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                 <g id="IE_mobile_About" transform="translate(-138.000000, -116.000000)" fill="#4BBFE1">
                     <g id="Hero-Icon" transform="translate(138.000000, 116.000000)">
@@ -102,7 +102,7 @@
             Management System (QMS). Building on a scalable infrastructure, we implement the right languages and
             frameworks so your applications are reliable, fast and intuitive.
             </p>
-            <svg class="md:w-100 xl:ml-8" width="" height="13px" viewBox="0 0 23 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <svg class="lg:w-10 xl:ml-6 arrowdown" width="100vw" height="13px" viewBox="0 0 23 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                     <g id="IE_mobile_SEM" transform="translate(-176.000000, -544.000000)">
                         <g id="Scrolll-arrow" transform="translate(50.000000, 250.000000)">
@@ -353,6 +353,14 @@
 export default {
   layout: "scroller",
 };
+import gsap from 'gsap';
+import { ScrollToPlugin } from "gsap/ScrollToPlugin";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollToPlugin, ScrollTrigger);
+
+let arr = document.querySelector('arrowdown');
+arr.onclick(alert('hey'))
 </script>
 
 <style lang="scss" scoped>

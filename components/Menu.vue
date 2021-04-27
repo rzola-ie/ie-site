@@ -44,19 +44,19 @@
           Search Behavior Analysis
         </nuxt-link>
 
-        <nuxt-link class="mb-8" to="/software-development">
+        <nuxt-link id="software-development" class="mb-8 sd" to="/software-development">
           Software Development
         </nuxt-link>
 
-        <nuxt-link class="mb-8" to="/search-experience-marketing">
+        <nuxt-link id="search-experience-marketing" class="mb-8" to="/search-experience-marketing">
           Search Experience Marketing
         </nuxt-link>
 
-        <nuxt-link class="mb-8" to="/about"> About </nuxt-link>
+        <nuxt-link id="about" class="mb-8" to="/about"> About </nuxt-link>
 
-        <nuxt-link class="mb-8" to="/careers"> Careers </nuxt-link>
+        <nuxt-link id="careers" class="mb-8" to="/careers"> Careers </nuxt-link>
 
-        <nuxt-link class="" to="/contact">Contact Us</nuxt-link>
+        <nuxt-link id="contact" class="" to="/contact">Contact Us</nuxt-link>
       </nav>
     </div>
   </div>
@@ -79,6 +79,3 @@ export default {
   },
 };
 </script>
-
-<style lang="scss" scoped>
-</style>

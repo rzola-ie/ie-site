@@ -65,7 +65,7 @@
     </svg>
   </div>
   <div class="relative w-screen xl:h-scrollerheight">
-    <svg class="hidden xl:block absolute -bottom-20 z-1 right-1/3" width="352px" height="399px" viewBox="0 0 352 399" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <svg class="hidden xl:block absolute -bottom-20 z-1 right-1/3" width="352px" height="399px" viewBox="0 0 352 399" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
         <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
             <g id="IE_desktop_SEM" transform="translate(-899.000000, -615.000000)">
                 <g id="Secondary-section" transform="translate(-13.000000, 615.000000)">
@@ -78,18 +78,18 @@
             </g>
         </g>
     </svg>
-    <div class="relative justify-items-center z-1">
-      <svg class="my-8 md:h-40 xl:hidden" width="100vw" height="105px" viewBox="0 0 95 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-          <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-              <g id="IE_mobile_SEM" transform="translate(-140.000000, -116.000000)">
-                  <g id="Icon-3" transform="translate(140.000000, 116.000000)">
-                      <ellipse id="Oval" fill="#4BBFE1" cx="73.2679739" cy="53.1408228" rx="21.1111111" ry="21.2658228"></ellipse>
-                      <rect id="Rectangle" fill="#4F77FF" style="mix-blend-mode: multiply;" x="39.1176471" y="0" width="35.3921569" height="105" rx="6"></rect>
-                      <rect id="Rectangle" fill="#4F77FF" x="1.11799459e-13" y="22.5" width="35.3921569" height="82.5" rx="6"></rect>
-                  </g>
-              </g>
-          </g>
-      </svg>
+    <div class="relative justify-items-center z-1" style="mix-blend-mode: multiply;">
+        <svg class="my-8 md:h-40 xl:hidden" width="100vw" height="105px" viewBox="0 0 95 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
+            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="IE_mobile_SEM" transform="translate(-140.000000, -116.000000)">
+                    <g id="Icon-3" transform="translate(140.000000, 116.000000)">
+                        <ellipse id="Oval" fill="#4BBFE1" cx="73.2679739" cy="53.1408228" rx="21.1111111" ry="21.2658228"></ellipse>
+                        <rect id="Rectangle" fill="#4F77FF" style="mix-blend-mode: multiply;" x="39.1176471" y="0" width="35.3921569" height="105" rx="6"></rect>
+                        <rect id="Rectangle" fill="#4F77FF" x="1.11799459e-13" y="22.5" width="35.3921569" height="82.5" rx="6"></rect>
+                    </g>
+                </g>
+            </g>
+        </svg>
       <div class="relative md:ml-20 xl:ml-32 xl:pl-12 xl:py-32 xl:bg-transparent md:w-4/5 xl:w-4/12">
         <h1 class="text-2xl xl:text-5xl tracking-wide leading-normal text-ie-purple mb-4 ml-8">
           Search Experience Marketing
@@ -99,7 +99,7 @@
           or have your digital presence work harder for you, our Content, SEO and Paid Search (PPC)
           services help you achieve the right outcome with the right audiences.
         </p>
-        <svg class="md:w-100 xl:ml-8" width="" height="13px" viewBox="0 0 23 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <svg class="lg:w-10 xl:ml-6" width="100vw" height="13px" viewBox="0 0 23 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                 <g id="IE_mobile_SEM" transform="translate(-176.000000, -544.000000)">
                     <g id="Scrolll-arrow" transform="translate(50.000000, 250.000000)">

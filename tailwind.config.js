@@ -12,6 +12,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      animation: {
+        'bounceslow': 'bounce 3s linear infinite',
+      },
       zIndex: {
         'behind': -1,
         '0': 0,
