@@ -1,6 +1,6 @@
 <template>
   <div id="app" class="relative min-h-screen min-h-none flex flex-col">
-    <img class="w-screen absolute hidden md:block xl:block -top-12 z-behind" src="/images/bracket-bg.svg" alt="Background Image">
+    <img class="w-screen absolute hidden md:block top-2 md:-top-2 lg:-top-12 z-behind opacity-75" src="/images/bracket-bg.svg" alt="Background Image">
 
     <Header ref="header" />
     <Nuxt class="flex-1" />
@@ -9,6 +9,22 @@
 </template>
 
 <style>
+export default {
+  transition: "default"
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition-property: opacity;
+  transition-timing-function: ease-in-out;
+  transition-duration: 500ms;
+}
+
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}
+
 @font-face {
   font-family: "Nunito";
   src: url("/fonts/nunito-regular.woff") format("woff"),

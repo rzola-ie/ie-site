@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'idea-evolver',
+    title: 'Idea Evolver | Evolve Responsibly',
     htmlAttrs: {
       lang: 'en'
     },

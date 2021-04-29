@@ -1,8 +1,8 @@
 <template>
-<div>
+<div class="fade-in">
   <div class="absolute z-0">
     <svg
-        class="canvas-mobile flex-1 md:hidden xl:hidden"
+        class="canvas-mobile flex-1 md:hidden"
         :viewBox="`0 0 800 2000`"
         version="1.1"
         xmlns="http://www.w3.org/2000/svg"
@@ -79,7 +79,7 @@
         </g>
     </svg>
     <div class="relative justify-items-center z-1" style="mix-blend-mode: multiply;">
-        <svg class="my-8 md:h-40 xl:hidden" width="100vw" height="105px" viewBox="0 0 95 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
+        <svg ref="anime" class="my-8 lg:h-40 xl:hidden anime" width="100vw" height="105px" viewBox="0 0 95 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                 <g id="IE_mobile_SEM" transform="translate(-140.000000, -116.000000)">
                     <g id="Icon-3" transform="translate(140.000000, 116.000000)">
@@ -90,7 +90,7 @@
                 </g>
             </g>
         </svg>
-      <div class="relative md:ml-20 xl:ml-32 xl:pl-12 xl:py-32 xl:bg-transparent md:w-4/5 xl:w-4/12">
+      <div class="relative lg:ml-20 xl:ml-32 xl:pl-12 xl:py-32 xl:bg-transparent lg:w-4/5 xl:w-4/12">
         <h1 class="text-2xl xl:text-5xl tracking-wide leading-normal text-ie-purple mb-4 ml-8">
           Search Experience Marketing
         </h1>
@@ -99,7 +99,7 @@
           or have your digital presence work harder for you, our Content, SEO and Paid Search (PPC)
           services help you achieve the right outcome with the right audiences.
         </p>
-        <svg class="lg:w-10 xl:ml-6" width="100vw" height="13px" viewBox="0 0 23 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <svg class="w-screen md:w-20 xl:w-10 xl:ml-6" width="100vw" height="13px" viewBox="0 0 23 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                 <g id="IE_mobile_SEM" transform="translate(-176.000000, -544.000000)">
                     <g id="Scrolll-arrow" transform="translate(50.000000, 250.000000)">
@@ -117,7 +117,7 @@
   <!-- class="bg-stripes bg-repeat bg-center bg-gray-200" -->
   <section class="relative z-1" style="background: #efefef url('/images/background-pattern.svg') center -5px/100% repeat">
     <div class="relative z-1 py-8 mt-12">
-      <svg class="md:h-72 xl:hidden mb-8" width="100vw" height="268px" viewBox="0 0 352 268" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <svg ref="anime" class="lg:h-72 xl:hidden mb-8 anime" width="100vw" height="268px" viewBox="0 0 352 268" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <title>Group</title>
           <defs>
               <polygon id="path-1" points="0 0 180 0 180 158.839844 0 158.839844"></polygon>
@@ -245,7 +245,7 @@
           </g>
       </svg>
 
-      <svg class="relative xl:hidden top-5 left-4 z-behind" width="36px" height="35px" viewBox="0 0 36 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <svg  ref="anime" class="relative xl:hidden top-5 left-4 z-behind anime" width="36px" height="35px" viewBox="0 0 36 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
               <g id="IE_mobile_SEM" transform="translate(-16.000000, -1030.000000)">
                   <g id="SEO" transform="translate(16.000000, 1030.000000)">
@@ -257,7 +257,7 @@
       </svg>
       <div class="relative xl:flex xl:flex-row xl:mt-12 xl:mx-44 xl:space-x-6">
         <div class="hidden xl:block relative mx-8 xl:mx-0 xl:mt-16 text-gray-600 p-8 xl:p-0 xl:h-1/6">
-          <svg class="hidden xl:block" width="22rem" height="" viewBox="0 0 456 723" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <svg ref="anime" class="hidden xl:block anime" width="22rem" height="" viewBox="0 0 456 723" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
               <title>SEM graphic</title>
               <defs>
                   <polygon id="path-1" points="0 0 327 0 327 290.082031 0 290.082031"></polygon>
@@ -390,7 +390,7 @@
         <!-- <img class="hidden xl:block py-16" src="/images/sem-large.svg" alt="Large Icon"> -->
 
         <div class="relative mx-8 xl:mx-0 text-gray-600 bg-white p-8 xl:p-16 xl:flex-1 xl:h-1/6">
-            <svg class="absolute hidden xl:block -top-6 -left-6 z-behind" width="51px" height="50px" viewBox="0 0 51 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <svg ref="anime" class="absolute hidden xl:block -top-6 -left-6 z-behind anime" width="51px" height="50px" viewBox="0 0 51 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                     <g id="IE_desktop_SEM" transform="translate(-705.000000, -1116.000000)">
                         <g id="Secondary-section" transform="translate(-13.000000, 615.000000)">
@@ -422,10 +422,10 @@
                 assets are optimized for mobile SERPs and Voice results. Prioritizing data and experience, and then optimization, is how
                 we capture organic results that drive the most valuable interactions.
             </p>
-            <div class="hidden xl:block absolute -bottom-10 right-32 w-6 h-6 bg-blue-500 rounded-full z-behind" style=""></div>
-            <div class="hidden xl:block absolute -bottom-20 right-20 w-3 h-3 bg-blue-500 rounded-full z-behind" style=""></div>
+            <div ref="anime" class="hidden xl:block absolute -bottom-10 right-32 w-6 h-6 bg-blue-500 rounded-full z-behind anime" style=""></div>
+            <div ref="anime" class="hidden xl:block absolute -bottom-20 right-20 w-3 h-3 bg-blue-500 rounded-full z-behind anime" style=""></div>
         </div>
-        <svg class="relative xl:hidden top-4 left-72" width="17px" height="17px" x="300px" y="150px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <svg ref="anime" class="relative xl:hidden top-4 left-72 anime" width="17px" height="17px" x="300px" y="150px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
             <g id="IE_mobile_SAMD" transform="translate(-302.000000, -871.000000)" fill="#4BBFE1">
                 <g id="Product-Development.---Column-1" transform="translate(29.000000, 871.000000)">
@@ -435,9 +435,9 @@
         </g>
         </svg>
         <div class="relative mx-8 xl:mx-0 xl:mt-16 text-gray-600 bg-white p-8 mt-16 xl:mt-0 xl:p-16 xl:flex-1 xl:h-1/6">
-            <div class="xl:hidden absolute left-9 -top-5 w-6 h-6 bg-blue-500 rounded-full z-behind" style=""></div>
-            <div class="xl:hidden absolute -top-4 left-12 w-16 h-4 rounded-t-xl" style="background-color: #4F77FF; mix-blend-mode: multiply;"></div>
-            <div class="hidden xl:block absolute -top-2 right-12 w-6 h-6 bg-blue-500 rounded-full z-behind" style=""></div>
+            <div ref="anime" class="xl:hidden absolute left-9 -top-5 w-6 h-6 bg-blue-500 rounded-full z-behind anime" style=""></div>
+            <div ref="anime" class="xl:hidden absolute -top-4 left-12 w-16 h-4 rounded-t-xl anime" style="background-color: #4F77FF; mix-blend-mode: multiply;"></div>
+            <div ref="anime" class="hidden xl:block absolute -top-2 right-12 w-6 h-6 bg-blue-500 rounded-full z-behind anime" style=""></div>
             <h4 class="text-4xl pb-2">
                 Paid Search
             </h4>
@@ -458,10 +458,10 @@
                 heavily impacts CTR, so specific calls-to-action are incorporated into ads to maximize clicks and guide on-site behavior.
                 By focusing on what really matters to your audience, we redefine customer journeys at decision making moments.
             </p>
-            <div class="xl:hidden absolute -bottom-2 right-1 w-5 h-5 bg-blue-500 rounded-full" style=""></div>
-            <div class="xl:hidden absolute -bottom-7 -right-2 w-5 h-8 rounded-xl" style="background-color: #4F77FF"></div>
+            <div ref="anime" class="xl:hidden absolute -bottom-2 right-1 w-5 h-5 bg-blue-500 rounded-full anime" style=""></div>
+            <div ref="anime" class="xl:hidden absolute -bottom-7 -right-2 w-5 h-8 rounded-xl anime" style="background-color: #4F77FF"></div>
         </div>
-          <svg class="xl:hidden relative top-4 left-16" width="13px" height="13px" x="300px" y="150px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <svg ref="anime" class="xl:hidden relative top-4 left-16 anime" width="13px" height="13px" x="300px" y="150px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                 <g id="IE_mobile_SAMD" transform="translate(-302.000000, -871.000000)" fill="#4BBFE1">
                     <g id="Product-Development.---Column-1" transform="translate(29.000000, 871.000000)">
@@ -480,8 +480,36 @@
 </template>
 
 <script>
+import gsap from 'gsap';
+import { ScrollToPlugin } from "gsap/ScrollToPlugin";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollToPlugin, ScrollTrigger);
+
 export default {
   layout: "scroller",
+    mounted() {
+    gsap.utils.toArray('.anime').forEach(box => {
+        gsap.fromTo(box, {
+            autoAlpha: 0, 
+            opacity: .7,
+            scale: .2,
+            }, {
+            scrollTrigger: {
+            trigger: box,
+            once: true,
+            start: "center bottom",
+            },
+            duration: 1.3,
+            delay: .2,
+            autoAlpha: 1, 
+            scale: 1,
+            opacity: 1,
+            yoyo: true,
+            ease: "expo",
+        });
+    });
+  }
 };
 </script>
 

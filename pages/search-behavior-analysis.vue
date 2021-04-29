@@ -1,8 +1,8 @@
 <template>
-<div>
+<div class="fade-in">
   <div class="absolute z-0" style="background-blend-mode: multiply;">
     <svg
-        class="canvas-mobile flex-1 md:hidden xl:hidden"
+        class="canvas-mobile flex-1 md:hidden"
         :viewBox="`0 0 800 2000`"
         version="1.1"
         xmlns="http://www.w3.org/2000/svg"
@@ -77,7 +77,7 @@
         </g>
     </svg>
     <div class="relative justify-items-center z-1" style="mix-blend-mode: multiply;">
-        <svg class="my-8 md:h-40 xl:hidden" width="100vw" height="105px" viewBox="0 0 108 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
+        <svg class="my-8 lg:h-40 xl:hidden" width="100vw" height="105px" viewBox="0 0 108 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                 <g id="IE_mobile_Audience" transform="translate(-134.000000, -116.000000)">
                     <g id="Icon-1" transform="translate(134.000000, 116.000000)" style="mix-blend-mode: multiply;">
@@ -88,7 +88,7 @@
             </g>
         </svg>
 
-        <div class="relative md:ml-20 xl:ml-32 xl:pl-12 xl:py-32 xl:bg-transparent md:w-4/5 xl:w-4/12">
+        <div class="relative lg:ml-20 xl:ml-32 xl:pl-12 xl:py-32 xl:bg-transparent lg:w-4/5 xl:w-4/12">
             <h1 class="text-2xl xl:text-5xl tracking-wide leading-normal text-ie-purple mb-4 ml-8">
             Search Behavior Analysis
             </h1>
@@ -97,7 +97,7 @@
             intent, core needs and their daily lives. Insights from the analysis helps you connect on a more meaningful level by
             delivering targeted content and/or technology at micro-moments that make all the difference.
             </p>
-            <svg class="lg:w-10 xl:ml-6 animate-bounceslow" width="100vw" height="13px" viewBox="0 0 23 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <svg class="w-screen md:w-20 xl:w-10 xl:ml-6 animate-bounceslow" width="100vw" height="13px" viewBox="0 0 23 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                     <g id="IE_mobile_SEM" transform="translate(-176.000000, -544.000000)">
                         <g id="Scrolll-arrow" transform="translate(50.000000, 250.000000)">
@@ -113,7 +113,7 @@
   <section class="relative z-1" style="background: #efefef url('/images/background-pattern.svg') center -5px/250% repeat">
     <div class="relative z-1 py-8 mt-12">
         <div class="relative">
-            <svg class="md:h-72 xl:hidden mb-12" width="100vw" height="164px" viewBox="0 0 324 164" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <svg class="lg:h-72 xl:hidden mb-12" width="100vw" height="164px" viewBox="0 0 324 164" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>chart</title>
                 <defs>
                     <filter id="filter-1">
@@ -135,11 +135,11 @@
                 <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                     <g id="IE_mobile_Audience" transform="translate(-24.000000, -700.000000)">
                         <g id="chart" transform="translate(24.000000, 696.786828)">
-                            <circle id="Oval" fill="#59CBA7" cx="5.5" cy="34.7131722" r="5.5"></circle>
+                            <circle ref="anime" class="anime" id="Oval" fill="#59CBA7" cx="5.5" cy="34.7131722" r="5.5"></circle>
                             <circle id="Oval" fill="#4BBFE1" style="mix-blend-mode: multiply;" transform="translate(286.948272, 14.004505) rotate(-143.000000) translate(-286.948272, -14.004505) " cx="286.948272" cy="14.0045053" r="10"></circle>
                             <ellipse id="Oval" fill="#60D9B3" style="mix-blend-mode: multiply;" transform="translate(303.511443, 30.242157) rotate(-143.000000) translate(-303.511443, -30.242157) " cx="303.511443" cy="30.2421574" rx="20" ry="19"></ellipse>
                             <g id="seats" transform="translate(22.000000, 92.213172)">
-                                <g filter="url(#filter-1)" id="Group-9" opacity="0.512044271">
+                                <g ref="seats-1" class="seats-1" filter="url(#filter-1)" id="Group-9" opacity="0.512044271">
                                     <g style="mix-blend-mode: multiply;" transform="translate(59.572954, 0.000000)">
                                         <g id="Group-4">
                                             <path d="M0.81941623,10.6665 L0.81941623,3.1315 C0.81941623,1.7595 2.17663976,0.6455 3.85074807,0.6455 L18.8340175,0.6455 C20.5071293,0.6455 21.8643528,1.7595 21.8643528,3.1315 L21.8643528,10.6665" id="Fill-1" fill="#FF0000"></path>
@@ -171,7 +171,7 @@
                                         </g>
                                     </g>
                                 </g>
-                                <g filter="url(#filter-2)" id="Group-7">
+                                <g ref="seats-2" class="seats-2" filter="url(#filter-2)" id="Group-7">
                                     <g transform="translate(51.629893, 7.000000)">
                                         <g id="Group-32">
                                             <path d="M0.0648021352,14.2583 L0.0648021352,3.9523 C0.0648021352,2.0743 1.55917865,0.5523 3.40309395,0.5523 L19.9070196,0.5523 C21.7509349,0.5523 23.2453114,2.0743 23.2453114,3.9523 L23.2453114,14.2583" id="Fill-29" fill="#FF0000"></path>
@@ -203,7 +203,7 @@
                                         </g>
                                     </g>
                                 </g>
-                                <g filter="url(#filter-3)" id="Group-5">
+                                <g ref="seats-3" class="seats-3" filter="url(#filter-3)" id="Group-5">
                                     <g transform="translate(34.750890, 16.000000)">
                                         <g id="Group-60">
                                             <path d="M0.228255252,17.1515647 L0.228255252,4.31332941 C0.228255252,1.97438824 2.02047426,0.0780352941 4.23097777,0.0780352941 L24.0204379,0.0780352941 C26.2319421,0.0780352941 28.0231604,1.97438824 28.0231604,4.31332941 L28.0231604,17.1515647" id="Fill-57" fill="#FF0000"></path>
@@ -235,7 +235,7 @@
                                         </g>
                                     </g>
                                 </g>
-                                <g filter="url(#filter-4)" id="Group-6">
+                                <g ref="seats-4" class="seats-4" filter="url(#filter-4)" id="Group-6">
                                     <g transform="translate(0.000000, 30.000000)">
                                         <path d="M33.2518321,44.8744255 L0.877005545,45.0000982 C-0.273805247,44.9922436 -0.294549475,44.15868 0.829590165,43.1366073 L9.03936569,36.5790436 C10.1635053,35.5569709 12.0087539,34.7351891 13.1585769,34.7429878 L43.533067,34.9511891 C44.6838778,34.9580618 44.8439047,35.5029709 43.5804824,36.8136982 L37.3463477,43.3732255 C36.2212202,44.3943164 35.1109101,44.9873345 33.2518321,44.8744255" id="Fill-85" fill="#FFFFFF"></path>
                                         <path d="M113.514883,45 L82.2705876,44.9645015 C81.1392305,44.9635421 80.588761,44.1662848 81.0411076,43.1838642 L84.9267746,36.8758412 C85.3791212,35.89438 86.6625688,35.0990415 87.7949071,35.1 L117.664501,35.1287827 C118.795858,35.1297421 119.346327,35.9269995 118.893981,36.9084607 L116.479176,43.1972957 C116.027811,44.1797163 114.64624,45.0009586 113.514883,45" id="Fill-88" fill="#FFFFFF"></path>
@@ -261,7 +261,7 @@
                                     </g>
                                 </g>
                             </g>
-                            <g id="gree-diagram" transform="translate(91.000000, 18.213172)" fill="#65D8B4">
+                            <g ref="green-graph" class="green-graph" id="gree-diagram" transform="translate(91.000000, 18.213172)" fill="#65D8B4">
                                 <path d="M33.7605634,27.8120805 C36.5025405,27.8120805 38.7253521,30.0348922 38.7253521,32.7768693 L38.7253521,148 L38.7253521,148 L28.7957746,148 L28.7957746,32.7768693 C28.7957746,30.0348922 31.0185863,27.8120805 33.7605634,27.8120805 Z" id="Rectangle"></path>
                                 <path d="M4.96478873,35.7583893 C7.70676584,35.7583893 9.92957746,37.9812009 9.92957746,40.723178 L9.92957746,148 L9.92957746,148 L0,148 L0,40.723178 C-3.35795348e-16,37.9812009 2.22281163,35.7583893 4.96478873,35.7583893 Z" id="Rectangle"></path>
                                 <path d="M63.5492958,20.8590604 C66.2912729,20.8590604 68.5140845,23.081872 68.5140845,25.8238491 L68.5140845,148 L68.5140845,148 L58.584507,148 L58.584507,25.8238491 C58.584507,23.081872 60.8073187,20.8590604 63.5492958,20.8590604 Z" id="Rectangle"></path>
@@ -274,7 +274,7 @@
                                 <path d="M19.8591549,0 C22.601132,-5.03693022e-16 24.8239437,2.22281163 24.8239437,4.96478873 L24.8239437,148 L24.8239437,148 L14.8943662,148 L14.8943662,4.96478873 C14.8943662,2.22281163 17.1171778,5.03693022e-16 19.8591549,0 Z" id="Rectangle"></path>
                             </g>
                             <!-- filter="url(#filter-5)" -->
-                            <g id="blue-diagram">
+                            <g  ref="blue-graph" class="blue-graph" id="blue-diagram">
                                 <g transform="translate(91.000000, 100.213172)">
                                     <rect id="Rectangle" fill="#4bbfe1" x="28.7957746" y="12" width="9.92957746" height="54"></rect>
                                     <rect id="Rectangle" fill="#4bbfe1" x="0" y="23" width="9.92957746" height="43"></rect>
@@ -292,12 +292,12 @@
                     </g>
                 </g>
             </svg>
-            <div class="xl:hidden absolute -bottom-10 right-14 h-5 w-5 rounded-full bg-blue-500" style="mix-blend-mode: multiply"></div>
-            <div class="xl:hidden absolute -bottom-18 left-16 w-6 h-6 rounded-full bg-blue-500 z-behind"></div>
-            <div class="xl:hidden absolute w-6 h-6 rounded-full -bottom-20 left-12 z-behind" style="mix-blend-mode: multiply; background-color:#60D9B3;"></div>
+            <div ref="anime" class="xl:hidden absolute -bottom-10 right-14 h-5 w-5 rounded-full bg-blue-500 anime" style="mix-blend-mode: multiply"></div>
+            <div ref="anime" class="xl:hidden absolute -bottom-18 left-16 w-6 h-6 rounded-full bg-blue-500 z-behind anime"></div>
+            <div ref="anime" class="xl:hidden absolute w-6 h-6 rounded-full -bottom-20 left-12 z-behind anime" style="mix-blend-mode: multiply; background-color:#60D9B3;"></div>
         </div>
     <div class="relative xl:flex xl:flex-row xl:mt-12 xl:mx-40 lg:flex lg:px-20">
-        <svg class="hidden xl:block absolute top-8 left-6" width="62px" height="55px" viewBox="0 0 62 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <svg ref="anime" class="hidden xl:block absolute top-8 left-6 anime" width="62px" height="55px" viewBox="0 0 62 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                 <g id="IE_desktop_AR" transform="translate(-277.000000, -1160.000000)">
                     <g id="Secondary-section" transform="translate(-12.000000, 996.000000)">
@@ -335,7 +335,7 @@
         </p>
       </div>
       <div class="relative mx-8 lg:mx-4 xl:mx-0 text-gray-600 bg-white lg:mt-0 p-8 mt-16 xl:mt-0 xl:p-14 xl:flex-1 xl:h-1/6 lg:h-1/6">
-        <svg class="hidden xl:block absolute -top-10 right-8 z-behind" width="99px" height="63px" viewBox="0 0 99 63" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <svg ref="anime" class="hidden xl:block absolute -top-10 right-8 z-behind anime" width="99px" height="63px" viewBox="0 0 99 63" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                 <g id="IE_desktop_AR" transform="translate(-1519.000000, -1102.000000)">
                     <g id="Secondary-section" transform="translate(-12.000000, 996.000000)">
@@ -370,13 +370,13 @@
           clicks and guide on-site behavior. By focusing on what really matters to your audience, we redefine customer
           journeys at decision making moments.
         </p>
-        <div class="xl:hidden absolute bottom-0 right-5 w-4 h-4 rounded-full bg-blue-500" style=""></div>
-        <div class="xl:hidden absolute w-6 h-6 rounded-full -bottom-2 right-7" style="mix-blend-mode: multiply; background-color:#60D9B3;"></div>
-        <div class="xl:hidden absolute -bottom-6 left-10 w-3 h-3 rounded-full bg-blue-500" style=""></div>
+        <div ref="anime" class="xl:hidden absolute bottom-0 right-5 w-4 h-4 rounded-full bg-blue-500 anime" style=""></div>
+        <div ref="anime" class="xl:hidden absolute w-6 h-6 rounded-full -bottom-2 right-7 anime" style="mix-blend-mode: multiply; background-color:#60D9B3;"></div>
+        <div ref="anime" class="xl:hidden absolute -bottom-6 left-10 w-3 h-3 rounded-full bg-blue-500 anime" style=""></div>
       </div>
     </div>
     <div class="hidden xl:block">
-        <svg width="100vw" height="687px" viewBox="0 0 1112 687" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <svg class="z-2 xl:w-4/5 xl:m-auto" width="100vw" height="687px" viewBox="0 0 1112 687" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <title>Diagram</title>
             <defs>
                 <filter id="filter-1">
@@ -400,7 +400,7 @@
                     <g id="Secondary-section" transform="translate(-12.000000, 996.000000)">
                         <g id="Diagram" transform="translate(413.000000, 686.000000)">
                             <g id="seats" transform="translate(92.000000, 442.000000)">
-                                <g id="Group-9" opacity="0.512044271">
+                                <g ref="seats-1" class="seats-1" id="Group-9" opacity="0.512044271">
                                     <g style="mix-blend-mode: multiply;" transform="translate(201.591778, 0.000000)">
                                         <g id="Group-4" transform="translate(0.000000, 1.050420)">
                                             <path d="M0.644182895,34.104812 L0.644182895,8.52851326 C0.644182895,3.87148847 5.19523055,0.0902015765 10.8088576,0.0902015765 L61.0508198,0.0902015765 C66.6611054,0.0902015765 71.2121531,3.87148847 71.2121531,8.52851326 L71.2121531,34.104812" id="Fill-1" fill="#D0D0D0"></path>
@@ -432,7 +432,7 @@
                                         </g>
                                     </g>
                                 </g>
-                                <g id="Group-7">
+                                <g ref="seats-2" class="seats-2" id="Group-7">
                                     <g transform="translate(172.727667, 24.350649)">
                                         <g id="Group-32">
                                             <path d="M0.217355739,46.0143147 L0.217355739,11.9955917 C0.217355739,5.79656576 5.2297108,0.772648014 11.4144695,0.772648014 L66.7710243,0.772648014 C72.955783,0.772648014 77.9681381,5.79656576 77.9681381,11.9955917 L77.9681381,46.0143147" id="Fill-29" fill="#DBDBDB"></path>
@@ -464,7 +464,7 @@
                                         </g>
                                     </g>
                                 </g>
-                                <g id="Group-5">
+                                <g ref="seats-3" class="seats-3" id="Group-5">
                                     <g transform="translate(116.773634, 52.521008)">
                                         <g id="Group-60">
                                             <path d="M0.765139522,57.2337567 L0.765139522,14.3933251 C0.765139522,6.58841673 6.77287685,0.26039916 14.182755,0.26039916 L80.5194459,0.26039916 C87.9326784,0.26039916 93.9370614,6.58841673 93.9370614,14.3933251 L93.9370614,57.2337567" id="Fill-57" fill="#E7E7E7"></path>
@@ -496,7 +496,7 @@
                                         </g>
                                     </g>
                                 </g>
-                                <g id="Group-6">
+                                <g ref="seats-4" class="seats-4" id="Group-6">
                                     <g transform="translate(0.000000, 98.787242)">
                                         <path d="M111.435351,149.743303 L2.93906876,150.162665 C-0.917591059,150.136455 -0.987110249,147.354903 2.78016776,143.944306 L30.2932148,122.062104 C34.0604928,118.651508 40.2443902,115.909271 44.0977396,115.935295 L145.890386,116.63005 C149.747046,116.652984 150.283337,118.471313 146.049287,122.845133 L125.157115,144.733887 C121.386527,148.141207 117.665595,150.120074 111.435351,149.743303" id="Fill-85" fill="#FFFFFF"></path>
                                         <path d="M380.41726,150.162338 L275.709675,150.043881 C271.91821,150.04068 270.073446,147.380279 271.589375,144.102 L284.611234,123.052501 C286.127162,119.777423 290.428322,117.123425 294.223076,117.126623 L394.323685,117.22267 C398.11515,117.225871 399.959914,119.886272 398.443985,123.16135 L390.35136,144.14682 C388.83872,147.4251 384.208726,150.165536 380.41726,150.162338" id="Fill-88" fill="#FFFFFF"></path>
@@ -523,8 +523,8 @@
                                 </g>
                             </g>
                             <g id="bars" transform="translate(306.000000, 107.000000)">
-                                <g id="green-chart" fill="#65D8B4">
-                                    <path d="M131.312775,107.888112 C142.056782,107.888112 150.76652,116.59785 150.76652,127.341856 L150.76652,580 L150.76652,580 L111.859031,580 L111.859031,127.341856 C111.859031,116.59785 120.568769,107.888112 131.312775,107.888112 Z" id="Rectangle"></path>
+                                <g ref="green-graph" class="green-graph" id="green-chart" fill="#65D8B4">
+                                    <path ref="first-green" class="first-green" d="M131.312775,107.888112 C142.056782,107.888112 150.76652,116.59785 150.76652,127.341856 L150.76652,580 L150.76652,580 L111.859031,580 L111.859031,127.341856 C111.859031,116.59785 120.568769,107.888112 131.312775,107.888112 Z" id="Rectangle"></path>
                                     <path d="M19.4537445,139.524476 C30.1977509,139.524476 38.907489,148.234214 38.907489,158.97822 L38.907489,580 L38.907489,580 L0,580 L0,158.97822 C2.23695237e-15,148.234214 8.70973808,139.524476 19.4537445,139.524476 Z" id="Rectangle"></path>
                                     <path d="M248.035242,81.9300699 C258.779249,81.9300699 267.488987,90.639808 267.488987,101.383814 L267.488987,580 L267.488987,580 L228.581498,580 L228.581498,101.383814 C228.581498,90.639808 237.291236,81.9300699 248.035242,81.9300699 Z" id="Rectangle"></path>
                                     <path d="M303.964758,57.5944056 C314.708764,57.5944056 323.418502,66.3041437 323.418502,77.0481501 L323.418502,580 L323.418502,580 L284.511013,580 L284.511013,77.0481501 C284.511013,66.3041437 293.220751,57.5944056 303.964758,57.5944056 Z" id="Rectangle"></path>
@@ -535,32 +535,32 @@
                                     <path d="M187.242291,57.5944056 C197.986297,57.5944056 206.696035,66.3041437 206.696035,77.0481501 L206.696035,580 L206.696035,580 L167.788546,580 L167.788546,77.0481501 C167.788546,66.3041437 176.498284,57.5944056 187.242291,57.5944056 Z" id="Rectangle"></path>
                                     <path d="M76.1938326,0 C86.937839,-1.97364196e-15 95.6475771,8.70973808 95.6475771,19.4537445 L95.6475771,580 L95.6475771,580 L56.7400881,580 L56.7400881,19.4537445 C56.7400881,8.70973808 65.4498262,1.97364196e-15 76.1938326,0 Z" id="Rectangle"></path>
                                 </g>
-                                <g id="blue-chart">
+                                <g ref="blue-graph" class="blue-graph" id="blue-chart">
                                     <g transform="translate(0.000000, 328.000000)">
-                                        <rect id="Rectangle" fill="#4BBFE1" x="111.859031" y="46.3575949" width="38.907489" height="210.642405"></rect>
-                                        <rect id="Rectangle" fill="#4BBFE1" x="0" y="88.6487342" width="38.907489" height="168.351266"></rect>
-                                        <rect id="Rectangle" fill="#4BBFE1" x="228.581498" y="34.971519" width="38.907489" height="222.028481"></rect>
-                                        <rect id="Rectangle" fill="#4BBFE1" x="284.511013" y="0" width="38.907489" height="257"></rect>
-                                        <rect id="Rectangle" fill="#4BBFE1" x="396.370044" y="28.4651899" width="38.907489" height="228.53481"></rect>
-                                        <rect id="Rectangle" fill="#4BBFE1" x="456.352423" y="100.848101" width="38.907489" height="156.151899"></rect>
-                                        <rect id="Rectangle" fill="#4BBFE1" x="513.092511" y="28.4651899" width="38.907489" height="228.53481"></rect>
-                                        <rect id="Rectangle" fill="#4BBFE1" x="341.251101" y="62.6234177" width="38.907489" height="194.376582"></rect>
-                                        <rect id="Rectangle" fill="#4BBFE1" x="167.788546" y="62.6234177" width="38.907489" height="194.376582"></rect>
-                                        <rect id="Rectangle" fill="#4BBFE1" x="56.7400881" y="0" width="38.907489" height="257"></rect>
+                                        <rect ref="blue-1" class="blue-1" id="Rectangle" fill="#4BBFE1" x="111.859031" y="46.3575949" width="38.907489" height="210.642405"></rect>
+                                        <rect ref="blue-2" class="blue-2" id="Rectangle" fill="#4BBFE1" x="0" y="88.6487342" width="38.907489" height="168.351266"></rect>
+                                        <rect ref="blue-3" class="blue-3" id="Rectangle" fill="#4BBFE1" x="228.581498" y="34.971519" width="38.907489" height="222.028481"></rect>
+                                        <rect ref="blue-4" class="blue-4" id="Rectangle" fill="#4BBFE1" x="284.511013" y="0" width="38.907489" height="257"></rect>
+                                        <rect ref="blue-5" class="blue-5" id="Rectangle" fill="#4BBFE1" x="396.370044" y="28.4651899" width="38.907489" height="228.53481"></rect>
+                                        <rect ref="blue-6" class="blue-6t" id="Rectangle" fill="#4BBFE1" x="456.352423" y="100.848101" width="38.907489" height="156.151899"></rect>
+                                        <rect ref="blue-7" class="blue-7" id="Rectangle" fill="#4BBFE1" x="513.092511" y="28.4651899" width="38.907489" height="228.53481"></rect>
+                                        <rect ref="blue-8" class="blue-8" id="Rectangle" fill="#4BBFE1" x="341.251101" y="62.6234177" width="38.907489" height="194.376582"></rect>
+                                        <rect ref="blue-9" class="blue-9" id="Rectangle" fill="#4BBFE1" x="167.788546" y="62.6234177" width="38.907489" height="194.376582"></rect>
+                                        <rect ref="blue-10" class="blue-10" id="Rectangle" fill="#4BBFE1" x="56.7400881" y="0" width="38.907489" height="257"></rect>
                                     </g>
                                 </g>
                             </g>
-                            <ellipse id="Oval" fill="#60D9B3" style="mix-blend-mode: multiply;" cx="37.5" cy="608" rx="27.5" ry="26"></ellipse>
-                            <circle id="geometric" fill="#4BBFE1" style="mix-blend-mode: multiply;" cx="12" cy="591" r="12"></circle>
+                            <ellipse ref="anime" class="anime" id="Oval" fill="#60D9B3" style="mix-blend-mode: multiply;" cx="37.5" cy="608" rx="27.5" ry="26"></ellipse>
+                            <circle ref="anime" class="anime" id="geometric" fill="#4BBFE1" style="mix-blend-mode: multiply;" cx="12" cy="591" r="12"></circle>
                             <g id="Group-2" transform="translate(85.000000, 108.000000)">
-                                <ellipse id="Oval" fill="#60D9B3" style="mix-blend-mode: multiply;" cx="24" cy="43.5" rx="24" ry="22.5"></ellipse>
-                                <circle id="geometric" fill="#4BBFE1" style="mix-blend-mode: multiply;" cx="52.5" cy="26.5" r="26.5"></circle>
+                                <ellipse ref="anime" class="anime" id="Oval" fill="#60D9B3" style="mix-blend-mode: multiply;" cx="24" cy="43.5" rx="24" ry="22.5"></ellipse>
+                                <circle ref="anime" class="anime" id="geometric" fill="#4BBFE1" style="mix-blend-mode: multiply;" cx="52.5" cy="26.5" r="26.5"></circle>
                             </g>
-                            <g id="Group-3" transform="translate(960.000000, 0.000000)">
-                                <ellipse id="Oval" fill="#4BBFE1" style="mix-blend-mode: multiply;" transform="translate(27.000000, 26.500000) rotate(-164.000000) translate(-27.000000, -26.500000) " cx="27" cy="26.5" rx="21" ry="21.5"></ellipse>
-                                <path d="M83.0852499,7.72252257 C60.7178508,1.2890948 37.6224557,13.4350392 31.5002412,34.8512486 C25.3780267,56.267458 38.5473509,78.8440497 60.9147501,85.2774774 C83.2821492,91.7109052 106.377544,79.5649608 112.499759,58.1487514 C118.621973,36.732542 105.452649,14.1559503 83.0852499,7.72252257 Z" id="Oval" fill="#60D9B3" style="mix-blend-mode: multiply;"></path>
+                            <g id="Group-3" transform="translate(920.000000, 0.000000)">
+                                <ellipse ref="anime" class="anime" id="Oval" fill="#4BBFE1" style="mix-blend-mode: multiply;" transform="translate(27.000000, 26.500000) rotate(-164.000000) translate(-27.000000, -26.500000) " cx="27" cy="26.5" rx="21" ry="21.5"></ellipse>
+                                <path ref="anime" class="anime" d="M83.0852499,7.72252257 C60.7178508,1.2890948 37.6224557,13.4350392 31.5002412,34.8512486 C25.3780267,56.267458 38.5473509,78.8440497 60.9147501,85.2774774 C83.2821492,91.7109052 106.377544,79.5649608 112.499759,58.1487514 C118.621973,36.732542 105.452649,14.1559503 83.0852499,7.72252257 Z" id="Oval" fill="#60D9B3" style="mix-blend-mode: multiply;"></path>
                             </g>
-                            <ellipse id="Oval" fill="#60D9B3" style="mix-blend-mode: multiply;" cx="1099.5" cy="559" rx="12.5" ry="12"></ellipse>
+                            <ellipse ref="anime" class="anime" id="Oval" fill="#60D9B3" style="mix-blend-mode: multiply;" cx="1099.5" cy="559" rx="12.5" ry="12"></ellipse>
                         </g>
                     </g>
                 </g>
@@ -577,10 +577,240 @@
 </template>
 
 <script>
+import gsap from 'gsap';
+import { ScrollToPlugin } from "gsap/ScrollToPlugin";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { ExpoScaleEase, RoughEase, SlowMo } from "gsap/EasePack";
+
+gsap.registerPlugin(ExpoScaleEase, RoughEase, SlowMo);
+gsap.registerPlugin(ScrollToPlugin, ScrollTrigger);
+
 export default {
   layout: "scroller",
+  mounted() {
+    let rough = new RoughEase({strength:1, points:10, taper:"none", randomize: true, clamp: true,});
+    gsap.utils.toArray('.anime').forEach(box => {
+        gsap.fromTo(box, {
+            autoAlpha: 0, 
+            opacity: .7,
+            scale: .2,
+            }, {
+            scrollTrigger: {
+            trigger: box,
+            once: true
+            },
+            duration: 1,
+            autoAlpha: 1, 
+            scale: 1,
+            opacity: 1,
+            yoyo: true,
+            ease: "expo",
+        });
+    });
+    gsap.fromTo(".blue-1", {
+        autoAlpha: 0, 
+        y: 200,
+        delay: .5,
+        }, {
+        scrollTrigger: {
+        trigger: ".blue-1",
+        once: true
+        },
+        duration: 3, 
+        autoAlpha: 1, 
+        ease: "bounce",
+        y: 0,
+    });
+    gsap.fromTo(".blue-2", {
+        autoAlpha: 0, 
+        y: 100,
+        delay: 1,
+        }, {
+        scrollTrigger: {
+        trigger: ".blue-2",
+        once: true
+        },
+        duration: 2.5, 
+        autoAlpha: 1, 
+        ease: "bounce",
+        y: 0,
+    });
+    gsap.fromTo(".blue-3", {
+        autoAlpha: 0, 
+        y: 150,
+        delay: .7,
+        }, {
+        scrollTrigger: {
+        trigger: ".blue-3",
+        once: true
+        },
+        duration: 2, 
+        autoAlpha: 1, 
+        ease: "bounce",
+        y: 0,
+    });
+    gsap.fromTo(".blue-4", {
+        autoAlpha: 0, 
+        y: 200,
+        delay: .2,
+        }, {
+        scrollTrigger: {
+        trigger: ".blue-4",
+        once: true
+        },
+        duration: 2.5, 
+        autoAlpha: 1, 
+        ease: "bounce",
+        y: 0,
+    });
+    gsap.fromTo(".blue-5", {
+        autoAlpha: 0, 
+        y: 100,
+        delay: .8,
+        }, {
+        scrollTrigger: {
+        trigger: ".blue-5",
+        once: true
+        },
+        duration: 1.5, 
+        autoAlpha: 1, 
+        ease: "bounce",
+        y: 0,
+    });
+    gsap.fromTo(".blue-6", {
+        autoAlpha: 0, 
+        y: 60,
+        delay: .5,
+        }, {
+        scrollTrigger: {
+        trigger: ".blue-6",
+        once: true
+        },
+        duration: 1, 
+        autoAlpha: 1, 
+        ease: "bounce",
+        y: 0,
+    });
+    gsap.fromTo(".blue-7", {
+        autoAlpha: 0, 
+        y: 180,
+        delay: .9,
+        }, {
+        scrollTrigger: {
+        trigger: ".blue-7",
+        once: true
+        },
+        duration: 1.5, 
+        autoAlpha: 1, 
+        ease: "bounce",
+        y: 0,
+    });
+    gsap.fromTo(".blue-8", {
+        autoAlpha: 0, 
+        y: 130,
+        delay: .4,
+        }, {
+        scrollTrigger: {
+        trigger: ".blue-8",
+        once: true
+        },
+        duration: 2.5, 
+        autoAlpha: 1, 
+        ease: "bounce",
+        y: 0,
+    });
+    gsap.fromTo(".blue-9", {
+        autoAlpha: 0, 
+        y: 70,
+        delay: .2,
+        }, {
+        scrollTrigger: {
+        trigger: ".blue-9",
+        once: true
+        },
+        duration: 1.2, 
+        autoAlpha: 1, 
+        ease: "bounce",
+        y: 0,
+    });
+    gsap.fromTo(".blue-10", {
+        autoAlpha: 0, 
+        y: 180,
+        delay: .7,
+        }, {
+        scrollTrigger: {
+        trigger: ".blue-10",
+        once: true
+        },
+        duration: 2, 
+        autoAlpha: 1, 
+        ease: "bounce",
+        y: 0,
+    });
+    gsap.fromTo(".seats-1", {
+        autoAlpha: 0, 
+        delay: 1.3,
+        y: 100,
+        }, {
+        scrollTrigger: {
+        trigger: ".seats-1",
+        once: true
+        },
+        duration: 1.4,
+        delay: 1, 
+        autoAlpha: 1,
+        ease: RoughEase.out,
+        y: 0,
+    });
+    gsap.fromTo(".seats-2", {
+        autoAlpha: 0, 
+        delay: 1.3,
+        y: 100,
+        }, {
+        scrollTrigger: {
+        trigger: ".seats-2",
+        once: true
+        },
+        duration: 1.4,
+        delay: 1, 
+        autoAlpha: 1,
+        ease: RoughEase.out,
+        y: 0,
+    });
+    gsap.fromTo(".seats-3", {
+        autoAlpha: 0, 
+        delay: 1.6,
+        y: 100,
+        }, {
+        scrollTrigger: {
+        trigger: ".seats-3",
+        once: true
+        },
+        duration: 1.4,
+        delay: 1.6, 
+        autoAlpha: 1,
+        ease: RoughEase.out,
+        y: 0,
+    });
+    gsap.fromTo(".seats-4", {
+        autoAlpha: 0, 
+        delay: 2,
+        y: 100,
+        }, {
+        scrollTrigger: {
+        trigger: ".seats-4",
+        once: true
+        },
+        duration: 1.4,
+        delay: 2, 
+        autoAlpha: 1,
+        ease: RoughEase.out,
+        y: 0,
+    });
+  } 
 };
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
+
 </style>

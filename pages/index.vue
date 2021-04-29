@@ -1,8 +1,8 @@
 <template>
-<div>
-  <div class="flex initial">
+<div class="fade-in">
+  <div class="flex initial h-screen">
     <svg
-      class="flex-1 canvas-mobile md:hidden xl:hidden"
+      class="flex-1 canvas-mobile lg:hidden xl:hidden"
       :viewBox="`0 0 800 1200`"
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"
@@ -87,7 +87,7 @@
       </foreignObject>
     </svg>
 
-    <div class="hidden md:block xl:block m-20 pl-24 md:pl-16 md:m-12 md:mt-24 lg:mt-16 lg:ml-16 xl:mt-20 xl:ml-32">
+    <div class="hidden lg:block xl:block m-20 pl-24 md:pl-16 md:m-12 md:mt-24 lg:mt-16 lg:ml-16 xl:mt-20 xl:ml-32">
       <h1 class="text-4xl md:text-2xl lg:text-3xl xl:text-4xl xl:leading-relaxed tracking-wide text-purple-900 w-2/4 md:w-3/4 lg:w-3/4 xl:w-2/4">
         Audience marketing and software solutions that transform engagement and bring brands into digital harmony.
       </h1>
@@ -157,18 +157,18 @@
         </nav>
         <h2 class="text-4xl md:text-3xl lg:text-3xl xl:text-4xl leading-snug text-ie-purple">Evolve Responsively.</h2>
     </div>
-    <div class="absolute inset-0 pointer-events-none" style="mix-blend-mode: multiply">
-      <div class="absolute w-12 h-12 rounded-full -bottom-6 right-10 xl:right-100" style="background-color: #65D8B4; mix-blend-mode: multiply"></div>
-      <div class="absolute bottom-10 right-24 h-2.5 w-2.5 rounded-full bg-blue-500 xl:right-108" style="mix-blend-mode: multiply"></div>
+    <div ref="anime-1" class="absolute inset-0 pointer-events-none anime-1" style="mix-blend-mode: multiply">
+      <div ref="anime-2" class="absolute w-12 h-12 rounded-full -bottom-6 right-10 xl:right-100 anime-2" style="background-color: #65D8B4; mix-blend-mode: multiply"></div>
+      <div ref="anime-3" class="absolute bottom-10 right-24 h-2.5 w-2.5 rounded-full bg-blue-500 xl:right-108 anime-3" style="mix-blend-mode: multiply"></div>
 
-      <div class="absolute rounded-xl top-56 -left-10 w-14 h-14" style="background-color: #4F77FF"></div>
-      <div class="absolute w-4 h-4 bg-blue-500 rounded-full left-2" style="top: 16.9rem; mix-blend-mode: multiply"></div>
+      <div ref="anime-4" class="absolute rounded-xl top-56 -left-10 w-14 h-14 anime-4" style="background-color: #4F77FF"></div>
+      <div ref="anime-5" class="absolute w-4 h-4 bg-blue-500 rounded-full left-2 anime-5" style="top: 16.9rem; mix-blend-mode: multiply"></div>
 
-      <div class="absolute rounded-xl -bottom-8 -left-8 w-14 h-14" style="background-color: #DF5FBE"></div>
-      <div class="absolute left-2.5 bottom-2.5 h-6 w-6 rounded-full bg-blue-500" style="mix-blend-mode: multiply"></div>
+      <div ref="anime-6" class="absolute rounded-xl -bottom-8 -left-8 w-14 h-14 anime-6" style="background-color: #DF5FBE"></div>
+      <div ref="anime-7" class="absolute left-2.5 bottom-2.5 h-6 w-6 rounded-full bg-blue-500 anime-7" style="mix-blend-mode: multiply"></div>
 
-      <div class="xl:hidden absolute bottom-40 -right-1.5 w-8 h-8 rounded-xl" style="background-color: #966CE0"></div>
-      <div class="xl:hidden absolute w-6 h-6 bg-blue-500 rounded-full bottom-44 -right-3" style="mix-blend-mode: multiply"></div>
+      <div ref="anime-8" class="xl:hidden absolute bottom-40 -right-1.5 w-8 h-8 rounded-xl anime-8" style="background-color: #966CE0"></div>
+      <div ref="anime-9" class="xl:hidden absolute w-6 h-6 bg-blue-500 rounded-full bottom-44 -right-3 anime-9" style="mix-blend-mode: multiply"></div>
 
 
     <svg class="hidden xl:block absolute hidden xl:block bottom-96 right-32" width="60px" height="68px" viewBox="0 0 60 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -187,7 +187,122 @@
 </template>
 
 <script>
+import gsap from 'gsap';
+import { ScrollToPlugin } from "gsap/ScrollToPlugin";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { ExpoScaleEase, RoughEase, SlowMo } from "gsap/EasePack";
 
+gsap.registerPlugin(ExpoScaleEase, RoughEase, SlowMo);
+gsap.registerPlugin(ScrollToPlugin, ScrollTrigger);
+
+export default {
+  layout: "default",
+  mounted() {
+    gsap.fromTo(".anime-1", {
+      autoAlpha: 0, 
+      opacity: .7,
+      scale: .6,
+      }, {
+      duration: .4,
+      autoAlpha: 1, 
+      scale: 1,
+      opacity: 1,
+      yoyo: true,
+      ease: "expo",
+    });
+    gsap.fromTo(".anime-2", {
+      autoAlpha: 0, 
+      opacity: .7,
+      scale: .6,
+      }, {
+      duration: .4,
+      delay: .5,
+      autoAlpha: 1, 
+      scale: 1,
+      opacity: 1,
+      yoyo: true,
+      ease: "expo",
+    });
+    gsap.fromTo(".anime-3", {
+      autoAlpha: 0, 
+      opacity: .7,
+      scale: .6,
+      }, {
+      duration: .4,
+      delay: .8,
+      autoAlpha: 1, 
+      scale: 1,
+      opacity: 1,
+      yoyo: true,
+      ease: "expo",
+    });
+    gsap.fromTo(".anime-4", {
+      autoAlpha: 0, 
+      opacity: .7,
+      scale: .6,
+      }, {
+      duration: .4,
+      delay: 1,
+      autoAlpha: 1, 
+      scale: 1,
+      opacity: 1,
+      yoyo: true,
+      ease: "expo",
+    });
+    gsap.fromTo(".anime-5", {
+      autoAlpha: 0, 
+      opacity: .7,
+      scale: .6,
+      }, {
+      duration: .4,
+      delay: 1.2,
+      autoAlpha: 1, 
+      scale: 1,
+      opacity: 1,
+      yoyo: true,
+      ease: "expo",
+    });
+    gsap.fromTo(".anime-6", {
+      autoAlpha: 0, 
+      opacity: .7,
+      scale: .6,
+      }, {
+      duration: .4,
+      delay: 1.4,
+      autoAlpha: 1, 
+      scale: 1,
+      opacity: 1,
+      yoyo: true,
+      ease: "expo",
+    });
+    gsap.fromTo(".anime-7", {
+      autoAlpha: 0, 
+      opacity: .7,
+      scale: .6,
+      }, {
+      duration: .4,
+      delay: 1.5,
+      autoAlpha: 1, 
+      scale: 1,
+      opacity: 1,
+      yoyo: true,
+      ease: "expo",
+    });
+    gsap.fromTo(".anime-8", {
+      autoAlpha: 0, 
+      opacity: .7,
+      scale: .6,
+      }, {
+      duration: .4,
+      delay: 1.6,
+      autoAlpha: 1, 
+      scale: 1,
+      opacity: 1,
+      yoyo: true,
+      ease: "expo",
+    });
+  }
+};
 </script>
 
 <style scoped>

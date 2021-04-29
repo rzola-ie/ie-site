@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="fade-in">
   <div class="absolute z-0">
     <svg
         class="canvas-mobile flex-1 lg:hidden xl:hidden"
@@ -83,7 +83,7 @@
       <p class="ml-8 mr-10 mb-4 text-xl leading-normal text-gray-600 pb-6 md:w-4/5">
         We are always on the lookout for talented marketers, software engineers, designers and regulatory specialists.
       </p>
-      <a class="text-base text-gray-600 border-b-2 border-blue-300 text-xl ml-8" href="mailto:press1for@idea-evolver.com">careers@idea-evolver.com</a>
+      <a class="text-base text-gray-600 border-b-2 border-blue-300 text-xl ml-8" href="mailto:careers@ideaevolver.com">careers@ideaevolver.com</a>
     </div>
 
   </div>
