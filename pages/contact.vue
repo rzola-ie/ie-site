@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="fade-in">
   <div class="absolute z-0">
     <svg
         class="canvas-mobile flex-1 lg:hidden xl:hidden"
@@ -64,9 +64,9 @@
         </g>
     </svg>
   </div>
-  <div class="relative justify-items-center z-1 md:mt-16">
+  <div class="relative justify-items-center z-1 md:mt-16" style="mix-blend-mode: multiply;">
 
-    <svg class="my-8 md:h-40 xl:hidden" width="100vw" height="105px" viewBox="0 0 139 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <svg class="my-8 md:h-40 xl:hidden" width="100vw" height="105px" viewBox="0 0 139 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
         <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
             <g id="IE_mobile_Contact" transform="translate(-118.000000, -116.000000)">
                 <g id="hero-Icon" transform="translate(118.000000, 116.000000)">
@@ -87,7 +87,7 @@
         Philadelphia, PA 19107
       </p>
       <p class="ml-8 text-xl text-gray-600">215-420-9053</p>
-      <a class="ml-8 text-base text-gray-600 border-b-2 border-blue-300 text-xl" href="mailto:press1for@idea-evolver.com">careers@idea-evolver.com</a>
+      <a class="ml-8 text-base text-gray-600 border-b-2 border-blue-300 text-xl" href="mailto:press1for@ideaevolver.com">press1for@ideaevolver.com</a>
       <div class="flex mt-12 ml-8">
         <a class="text-black" href="https://www.facebook.com/IdeaEvolver/"><img class="mr-8" src="/images/facebook.svg" alt="Idea Evolver Facebook Link"></a>
         <a href="https://www.linkedin.com/company/idea-evolver/"><img class="mr-8" src="/images/linkedin.svg" alt="Idea Evolver LinkedIn Link"></a>
@@ -96,7 +96,7 @@
     </div>
 
   </div>
-    <svg class="hidden xl:block absolute -bottom-6 z-2" width="100vw" height="320px" viewBox="0 0 451 360" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <svg class="hidden xl:block absolute -bottom-6 z-2" width="100vw" height="320px" viewBox="0 0 451 360" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  style="mix-blend-mode: multiply;">
         <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
             <g id="IE_desktop_Contact" transform="translate(-843.000000, -693.000000)">
                 <g id="Big-icon" transform="translate(843.000000, 693.000000)">

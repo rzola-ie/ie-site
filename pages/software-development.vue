@@ -1,13 +1,14 @@
 <template>
-<div>
+<div class="fade-in">
   <div class="absolute z-0">
     <svg
-        class="canvas-mobile flex-1 md:hidden xl:hidden"
+        class="canvas-mobile flex-1 md:hidden"
         :viewBox="`0 0 800 2000`"
         version="1.1"
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
         preserveAspectRatio="xMidYMin meet"
+        style="mix-blend-mode: multiply;"
       >
         <defs>
           <filter id="dropshadow" height="130%">
@@ -65,7 +66,7 @@
     </svg>
   </div>
   <div class="relative w-screen xl:h-scrollerheight">
-      <svg class="hidden xl:block absolute -bottom-16 z-1 right-1/3" width="" height="399px" viewBox="0 0 377 399" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <svg class="hidden xl:block absolute -bottom-16 z-1 right-1/3" width="" height="399px" viewBox="0 0 377 399" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
         <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
             <g id="IE_desktop_SaMD" transform="translate(-925.000000, -611.000000)">
                 <g id="Secondary-section" transform="translate(-34.000000, 611.000000)">
@@ -78,8 +79,8 @@
             </g>
         </g>
     </svg>
-    <div class="relative justify-items-center z-1">
-      <svg class="my-8 md:h-40 xl:hidden" width="100vw" height="105px" viewBox="0 0 104 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <div class="relative justify-items-center z-1" style="mix-blend-mode: multiply;">
+      <svg class="my-8 lg:h-40 xl:hidden" width="100vw" height="105px" viewBox="0 0 104 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
           <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
               <g id="IE_mobile_SAMD" transform="translate(-134.000000, -116.000000)">
                   <g id="Icon-2" transform="translate(134.000000, 116.000000)">
@@ -90,7 +91,7 @@
               </g>
           </g>
       </svg>
-      <div class="relative md:ml-20 xl:ml-32 xl:pl-12 xl:py-32 xl:bg-transparent md:w-4/5 xl:w-4/12">
+      <div class="relative lg:ml-20 xl:ml-32 xl:pl-12 xl:py-32 xl:bg-transparent lg:w-4/5 xl:w-4/12">
         <h1 class="text-2xl xl:text-5xl tracking-wide leading-normal text-ie-purple mb-4 ml-8">
           Custom Software Development
         </h1>
@@ -99,7 +100,7 @@
           Management System is aligned with ISO 13485 and IEC 62304. Building on a scalable infrastructure, we implement the right languages and
           frameworks, so your applications are reliable, fast and intuitive.
         </p>
-        <svg class="md:w-100 xl:ml-8" width="" height="13px" viewBox="0 0 23 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <svg class="w-screen md:w-20 xl:w-10 xl:ml-6" width="100vw" height="13px" viewBox="0 0 23 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                 <g id="IE_mobile_SEM" transform="translate(-176.000000, -544.000000)">
                     <g id="Scrolll-arrow" transform="translate(50.000000, 250.000000)">
@@ -122,45 +123,45 @@
             <g id="IE_desktop_SaMD" transform="translate(-229.000000, -1158.000000)">
                 <g id="Secondary-section" transform="translate(-34.000000, 611.000000)">
                     <g id="geometric-shapes-" transform="translate(263.000000, 547.000000)">
-                        <ellipse id="Oval" fill="#4BBFE1" style="mix-blend-mode: multiply;" cx="28.5" cy="28" rx="28.5" ry="28"></ellipse>
-                        <rect id="Rectangle" fill="#966CE0" style="mix-blend-mode: multiply;" x="745" y="628" width="48" height="39" rx="4"></rect>
-                        <ellipse id="Oval" fill="#4BBFE1" style="mix-blend-mode: multiply;" transform="translate(783.000000, 701.500000) scale(1, -1) translate(-783.000000, -701.500000) " cx="783" cy="701.5" rx="21" ry="22.5"></ellipse>
-                        <circle id="Oval" fill="#4BBFE1" cx="54.5" cy="501.5" r="10.5"></circle>
-                        <rect id="Rectangle" fill="#966CE0" style="mix-blend-mode: multiply;" x="11" y="467" width="46" height="39" rx="4"></rect>
-                        <circle id="Oval" fill="#4BBFE1" cx="1346.5" cy="1378.5" r="10.5"></circle>
-                        <circle id="Oval" fill="#4BBFE1" style="mix-blend-mode: multiply;" cx="1379.5" cy="774.5" r="10.5"></circle>
-                        <circle id="Oval" fill="#4BBFE1" style="mix-blend-mode: multiply;" cx="113" cy="946" r="8"></circle>
-                        <rect id="Rectangle" fill="#966CE0" style="mix-blend-mode: multiply;" x="1340" y="1379" width="28" height="31" rx="4"></rect>
-                        <rect id="Rectangle" fill="#966CE0" style="mix-blend-mode: multiply;" x="1352" y="10" width="44" height="46" rx="4"></rect>
-                        <circle id="Oval" fill="#4BBFE1" style="mix-blend-mode: multiply;" cx="1347.5" cy="54.5" r="19.5"></circle>
-                        <path d="M271.12777,1420 L285.87223,1420 C287.655267,1420 288.30184,1420.18565 288.953691,1420.53427 C289.605543,1420.88288 290.11712,1421.39446 290.465735,1422.04631 C290.814349,1422.69816 291,1423.34473 291,1425.12777 L291,1439.87223 C291,1441.65527 290.814349,1442.30184 290.465735,1442.95369 C290.11712,1443.60554 289.605543,1444.11712 288.953691,1444.46573 C288.30184,1444.81435 287.655267,1445 285.87223,1445 L271.12777,1445 C269.344733,1445 268.69816,1444.81435 268.046309,1444.46573 C267.394457,1444.11712 266.88288,1443.60554 266.534265,1442.95369 C266.185651,1442.30184 266,1441.65527 266,1439.87223 L266,1425.12777 C266,1423.34473 266.185651,1422.69816 266.534265,1422.04631 C266.88288,1421.39446 267.394457,1420.88288 268.046309,1420.53427 C268.69816,1420.18565 269.344733,1420 271.12777,1420 Z" id="Rectangle" fill="#966CE0" style="mix-blend-mode: darken;"></path>
-                        <circle id="Oval" fill="#4BBFE1" style="mix-blend-mode: multiply;" cx="266" cy="1445" r="17"></circle>
-                        <path d="M1174.12777,923 L1197.87223,923 C1199.65527,923 1200.30184,923.185651 1200.95369,923.534265 C1201.60554,923.88288 1202.11712,924.394457 1202.46573,925.046309 C1202.81435,925.69816 1203,926.344733 1203,928.12777 L1203,951.87223 C1203,953.655267 1202.81435,954.30184 1202.46573,954.953691 C1202.11712,955.605543 1201.60554,956.11712 1200.95369,956.465735 C1200.30184,956.814349 1199.65527,957 1197.87223,957 L1174.12777,957 C1172.34473,957 1171.69816,956.814349 1171.04631,956.465735 C1170.39446,956.11712 1169.88288,955.605543 1169.53427,954.953691 C1169.18565,954.30184 1169,953.655267 1169,951.87223 L1169,928.12777 C1169,926.344733 1169.18565,925.69816 1169.53427,925.046309 C1169.88288,924.394457 1170.39446,923.88288 1171.04631,923.534265 C1171.69816,923.185651 1172.34473,923 1174.12777,923 Z" id="Rectangle" fill="#966CE0" style="mix-blend-mode: darken;"></path>
-                        <path d="M129.12777,897 L152.87223,897 C154.655267,897 155.30184,897.185651 155.953691,897.534265 C156.605543,897.88288 157.11712,898.394457 157.465735,899.046309 C157.814349,899.69816 158,900.344733 158,902.12777 L158,925.87223 C158,927.655267 157.814349,928.30184 157.465735,928.953691 C157.11712,929.605543 156.605543,930.11712 155.953691,930.465735 C155.30184,930.814349 154.655267,931 152.87223,931 L129.12777,931 C127.344733,931 126.69816,930.814349 126.046309,930.465735 C125.394457,930.11712 124.88288,929.605543 124.534265,928.953691 C124.185651,928.30184 124,927.655267 124,925.87223 L124,902.12777 C124,900.344733 124.185651,899.69816 124.534265,899.046309 C124.88288,898.394457 125.394457,897.88288 126.046309,897.534265 C126.69816,897.185651 127.344733,897 129.12777,897 Z" id="Rectangle" fill="#966CE0" style="mix-blend-mode: darken;"></path>
-                        <circle id="Oval" fill="#4BBFE1" style="mix-blend-mode: multiply;" cx="1203" cy="931" r="17"></circle>
+                        <ellipse ref="anime" class="anime" id="Oval" fill="#4BBFE1" style="mix-blend-mode: multiply;" cx="28.5" cy="28" rx="28.5" ry="28"></ellipse>
+                        <rect ref="anime" class="anime" id="Rectangle" fill="#966CE0" style="mix-blend-mode: multiply;" x="745" y="628" width="48" height="39" rx="4"></rect>
+                        <ellipse ref="anime" class="anime" id="Oval" fill="#4BBFE1" style="mix-blend-mode: multiply;" transform="translate(783.000000, 701.500000) scale(1, -1) translate(-783.000000, -701.500000) " cx="783" cy="701.5" rx="21" ry="22.5"></ellipse>
+                        <circle ref="anime" class="anime" id="Oval" fill="#4BBFE1" cx="54.5" cy="501.5" r="10.5"></circle>
+                        <rect ref="anime" class="anime" id="Rectangle" fill="#966CE0" style="mix-blend-mode: multiply;" x="11" y="467" width="46" height="39" rx="4"></rect>
+                        <circle ref="anime" class="anime" id="Oval" fill="#4BBFE1" cx="1346.5" cy="1378.5" r="10.5"></circle>
+                        <circle ref="anime" class="anime" id="Oval" fill="#4BBFE1" style="mix-blend-mode: multiply;" cx="1379.5" cy="774.5" r="10.5"></circle>
+                        <circle ref="anime" class="anime" id="Oval" fill="#4BBFE1" style="mix-blend-mode: multiply;" cx="113" cy="946" r="8"></circle>
+                        <rect ref="anime" class="anime" id="Rectangle" fill="#966CE0" style="mix-blend-mode: multiply;" x="1340" y="1379" width="28" height="31" rx="4"></rect>
+                        <rect ref="anime" class="anime" id="Rectangle" fill="#966CE0" style="mix-blend-mode: multiply;" x="1352" y="10" width="44" height="46" rx="4"></rect>
+                        <circle ref="anime" class="anime" id="Oval" fill="#4BBFE1" style="mix-blend-mode: multiply;" cx="1347.5" cy="54.5" r="19.5"></circle>
+                        <path ref="anime" class="anime" d="M271.12777,1420 L285.87223,1420 C287.655267,1420 288.30184,1420.18565 288.953691,1420.53427 C289.605543,1420.88288 290.11712,1421.39446 290.465735,1422.04631 C290.814349,1422.69816 291,1423.34473 291,1425.12777 L291,1439.87223 C291,1441.65527 290.814349,1442.30184 290.465735,1442.95369 C290.11712,1443.60554 289.605543,1444.11712 288.953691,1444.46573 C288.30184,1444.81435 287.655267,1445 285.87223,1445 L271.12777,1445 C269.344733,1445 268.69816,1444.81435 268.046309,1444.46573 C267.394457,1444.11712 266.88288,1443.60554 266.534265,1442.95369 C266.185651,1442.30184 266,1441.65527 266,1439.87223 L266,1425.12777 C266,1423.34473 266.185651,1422.69816 266.534265,1422.04631 C266.88288,1421.39446 267.394457,1420.88288 268.046309,1420.53427 C268.69816,1420.18565 269.344733,1420 271.12777,1420 Z" id="Rectangle" fill="#966CE0" style="mix-blend-mode: darken;"></path>
+                        <circle ref="anime" class="anime" id="Oval" fill="#4BBFE1" style="mix-blend-mode: multiply;" cx="266" cy="1445" r="17"></circle>
+                        <path ref="anime" class="anime" d="M1174.12777,923 L1197.87223,923 C1199.65527,923 1200.30184,923.185651 1200.95369,923.534265 C1201.60554,923.88288 1202.11712,924.394457 1202.46573,925.046309 C1202.81435,925.69816 1203,926.344733 1203,928.12777 L1203,951.87223 C1203,953.655267 1202.81435,954.30184 1202.46573,954.953691 C1202.11712,955.605543 1201.60554,956.11712 1200.95369,956.465735 C1200.30184,956.814349 1199.65527,957 1197.87223,957 L1174.12777,957 C1172.34473,957 1171.69816,956.814349 1171.04631,956.465735 C1170.39446,956.11712 1169.88288,955.605543 1169.53427,954.953691 C1169.18565,954.30184 1169,953.655267 1169,951.87223 L1169,928.12777 C1169,926.344733 1169.18565,925.69816 1169.53427,925.046309 C1169.88288,924.394457 1170.39446,923.88288 1171.04631,923.534265 C1171.69816,923.185651 1172.34473,923 1174.12777,923 Z" id="Rectangle" fill="#966CE0" style="mix-blend-mode: darken;"></path>
+                        <path ref="anime" class="anime" d="M129.12777,897 L152.87223,897 C154.655267,897 155.30184,897.185651 155.953691,897.534265 C156.605543,897.88288 157.11712,898.394457 157.465735,899.046309 C157.814349,899.69816 158,900.344733 158,902.12777 L158,925.87223 C158,927.655267 157.814349,928.30184 157.465735,928.953691 C157.11712,929.605543 156.605543,930.11712 155.953691,930.465735 C155.30184,930.814349 154.655267,931 152.87223,931 L129.12777,931 C127.344733,931 126.69816,930.814349 126.046309,930.465735 C125.394457,930.11712 124.88288,929.605543 124.534265,928.953691 C124.185651,928.30184 124,927.655267 124,925.87223 L124,902.12777 C124,900.344733 124.185651,899.69816 124.534265,899.046309 C124.88288,898.394457 125.394457,897.88288 126.046309,897.534265 C126.69816,897.185651 127.344733,897 129.12777,897 Z" id="Rectangle" fill="#966CE0" style="mix-blend-mode: darken;"></path>
+                        <circle ref="anime" class="anime" id="Oval" fill="#4BBFE1" style="mix-blend-mode: multiply;" cx="1203" cy="931" r="17"></circle>
                     </g>
                 </g>
             </g>
         </g>
     </svg>
     <div class="relative z-1 py-12 mt-12">
-      <svg class="md:h-72 md:w-100 md:m-auto xl:hidden" width="353px" height="194px" viewBox="0 0 353 194" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <svg class="lg:h-72 lg:w-100 lg:m-auto md:w-screen xl:hidden" width="353px" height="194px" viewBox="0 0 353 194" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
               <g id="IE_mobile_SAMD" transform="translate(-6.000000, -707.000000)">
                   <g id="Software-Development-Process" transform="translate(6.000000, 707.000000)">
-                      <circle id="Oval" fill="#4BBFE1" cx="279.5" cy="35.5" r="9.5"></circle>
-                      <rect id="Rectangle" fill="#966CE0" style="mix-blend-mode: multiply;" x="280" y="13" width="22" height="23" rx="3"></rect>
+                      <circle ref="anime" class="anime" id="Oval" fill="#4BBFE1" cx="279.5" cy="35.5" r="9.5"></circle>
+                      <rect ref="anime" class="anime" id="Rectangle" fill="#966CE0" style="mix-blend-mode: multiply;" x="280" y="13" width="22" height="23" rx="3"></rect>
                       <g id="Phone-graphic-" transform="translate(176.448480, 96.596445) rotate(-1.000000) translate(-176.448480, -96.596445) translate(1.948480, 3.096445)">
                           <polygon id="Fill-2" fill="#FFFFFF" points="333.983005 111.897806 205.531504 167.94749 19.9830045 76.7107921 143.912416 26.9474905"></polygon>
-                          <g id="Group-14" style="mix-blend-mode: multiply;" transform="translate(110.120187, 56.227947)" fill="#966CE0">
+                          <g ref="mobile-bar-1" class="mobile-bar-1" id="Group-14" style="mix-blend-mode: multiply;" transform="translate(110.120187, 56.227947)" fill="#966CE0">
                               <path d="M161.098993,17.7050733 L38.9448682,65.4632212 C36.4389661,66.4429445 33.6439857,66.3715191 31.1913952,65.2650822 L4.30259027,53.1347385 C3.29573576,52.6805163 2.84773874,51.4960796 3.30196091,50.4892251 C3.51524884,50.016439 3.90386581,49.6450025 4.3858065,49.4532954 L125.380716,1.32376593 C127.074282,0.650096824 128.963822,0.663546741 130.647626,1.36125628 L161.136346,13.994714 C162.156781,14.4175464 162.641233,15.5875453 162.218401,16.6079798 C162.010072,17.1107477 161.605854,17.5069081 161.098993,17.7050733 Z" id="Fill-8"></path>
                           </g>
                           <g id="Group-26" transform="translate(160.797591, 62.193814)" fill="#4F77FF">
-                              <g id="Group-10" transform="translate(0.042688, 0.158688)">
+                              <g ref="mobile-bar-2" class="mobile-bar-2" id="Group-10" transform="translate(0.042688, 0.158688)">
                                   <path d="M168.845503,38.1414185 L43.5529673,89.4691053 C40.9854589,90.5209179 38.0963646,90.4587191 35.5765029,89.2973813 L14.9325636,79.7831347 C13.9294058,79.3208057 13.4909773,78.1327939 13.9533063,77.129636 C14.1642354,76.6719638 14.5401634,76.3107877 15.0059085,76.1183394 L139.883878,24.5181043 C141.609093,23.8052367 143.547576,23.8109717 145.268542,24.5340349 L168.862031,34.44683 C169.88037,34.8746846 170.359052,36.0470562 169.931197,37.0653951 C169.726047,37.5536741 169.335598,37.9406449 168.845503,38.1414185 Z" id="Fill-16"></path>
                               </g>
                           </g>
-                          <g id="Group-39" transform="translate(14.998245, 0.612413)">
+                          <g ref="mobile-bar-3" class="mobile-bar-3" id="Group-39" transform="translate(14.998245, 0.612413)">
                               <g id="Group-36" transform="translate(30.645802, 0.012838)">
                                   <mask id="mask-2" fill="white">
                                       <use xlink:href="#path-1"></use>
@@ -174,7 +175,7 @@
               </g>
           </g>
           <g id="Group-48" style="mix-blend-mode: multiply;" transform="translate(227.251506, 73.180322)">
-            <g id="Clip-47"></g>
+            <g  ref="mobile-bar-4" class="mobile-bar-4" id="Clip-47"></g>
             <path d="M6.06425856,16.17175 C14.0530228,19.87 27.0052814,19.870125 34.9938897,16.171875 C42.9823422,12.473875 42.9821863,6.47775 34.9932662,2.7795 C30.9984943,0.930125 25.764057,0.005625 20.5282167,0.005625 C15.2936236,0.005875 10.0577833,0.930375 6.06394677,2.77925 C-1.9246616,6.4775 -1.9245057,12.4735 6.06425856,16.17175 Z" id="Fill-46" fill="#4BBFE1" style="mix-blend-mode: multiply;" mask="url(#mask-4)"></path>
           </g>
         <svg class="xl:hidden" width="17px" height="17px" x="300px" y="150px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -248,9 +249,9 @@
           <div class="absolute xl:hidden -bottom-2.5 right-10 w-5 h-5 rounded-xl" style="background-color: #966CE0"></div>
         </div>
         <div class="relative mx-8 lg:mx-4 xl:mx-0 text-gray-600 bg-white lg:mt-0 p-8 mt-16 xl:mt-12 xl:p-14 xl:flex-1 lg:h-1/6">
-          <div class="absolute xl:hidden -top-6 left-20 w-10 h-6 rounded-sm" style="background-color: #966CE0"></div>
-          <div class="absolute xl:hidden -top-3 w-6 h-3 bg-blue-500 rounded-full" style="mix-blend-mode: multiply; left: 6.7rem; border-bottom-left-radius: 4rem; border-bottom-right-radius: 4rem;"></div>
-          <div class="absolute xl:hidden -top-1.5 left-56 w-3 h-1.5 bg-blue-500 rounded-full" style="mix-blend-mode: multiply; border-bottom-left-radius: 4rem; border-bottom-right-radius: 4rem;"></div>
+          <div ref="anime" class="absolute xl:hidden -top-6 left-20 w-10 h-6 rounded-sm anime" style="background-color: #966CE0"></div>
+          <div ref="anime" class="absolute xl:hidden -top-3 w-6 h-3 bg-blue-500 rounded-full anime" style="mix-blend-mode: multiply; left: 6.7rem; border-bottom-left-radius: 4rem; border-bottom-right-radius: 4rem;"></div>
+          <div ref="anime" class="absolute xl:hidden -top-1.5 left-56 w-3 h-1.5 bg-blue-500 rounded-full anime" style="mix-blend-mode: multiply; border-bottom-left-radius: 4rem; border-bottom-right-radius: 4rem;"></div>
           <h4 class="text-4xl lg:text-3xl pb-2">
             Medical Device Software
           </h4>
@@ -289,11 +290,11 @@
                             <g id="Phone-graphic-" transform="translate(629.666196, 346.249834) rotate(-1.000000) translate(-629.666196, -346.249834) translate(6.666196, 11.749834)">
                                 <polygon id="Fill-2" fill="#FFFFFF" points="1190.72098 402.081839 731.926695 603.192122 69.1972573 275.828314 511.839851 97.2740233"></polygon>
                                 <g id="Group-14" style="mix-blend-mode: multiply;" transform="translate(390.653770, 199.541340)" fill="#966CE0">
-                                    <path d="M581.51955,61.6980075 L133.207885,237.888821 C128.175478,239.866605 122.556695,239.722495 117.63229,237.489338 L10.6965181,188.995283 C8.18160933,187.854803 7.06741477,184.891525 8.20789492,182.376616 C8.74074809,181.201605 9.70717859,180.27805 10.9051454,179.799031 L452.417105,3.2558804 C456.061129,1.79877948 460.131083,1.82785806 463.753915,3.33687845 L581.613216,52.4288841 C584.162345,53.4906746 585.368072,56.4179038 584.306281,58.9670334 C583.785552,60.2171919 582.779977,61.2026479 581.51955,61.6980075 Z" id="Fill-8"></path>
+                                    <path ref="bar-1" class="bar-1" d="M581.51955,61.6980075 L133.207885,237.888821 C128.175478,239.866605 122.556695,239.722495 117.63229,237.489338 L10.6965181,188.995283 C8.18160933,187.854803 7.06741477,184.891525 8.20789492,182.376616 C8.74074809,181.201605 9.70717859,180.27805 10.9051454,179.799031 L452.417105,3.2558804 C456.061129,1.79877948 460.131083,1.82785806 463.753915,3.33687845 L581.613216,52.4288841 C584.162345,53.4906746 585.368072,56.4179038 584.306281,58.9670334 C583.785552,60.2171919 582.779977,61.2026479 581.51955,61.6980075 Z" id="Fill-8"></path>
                                 </g>
                                 <g id="Group-26" transform="translate(572.524493, 223.943690)" fill="#4F77FF">
                                     <g id="Group-10" transform="translate(0.152167, 0.563437)">
-                                        <path d="M606.571609,133.507718 L148.924818,320.250358 C143.805442,322.339318 138.049685,322.215736 133.024689,319.908967 L48.850582,281.268094 C46.3409589,280.116029 45.2404405,277.147645 46.3925053,274.638022 C46.9201939,273.488521 47.863926,272.581725 49.0335679,272.100325 L502.487379,85.4685935 C506.172938,83.9516979 510.310655,83.9639054 513.987199,85.5025214 L606.612836,124.265911 C609.160185,125.331965 610.361013,128.261207 609.294959,130.808557 C608.781936,132.034432 607.802013,133.005652 606.571609,133.507718 Z" id="Fill-16"></path>
+                                        <path ref="bar-2" class="bar-2" d="M606.571609,133.507718 L148.924818,320.250358 C143.805442,322.339318 138.049685,322.215736 133.024689,319.908967 L48.850582,281.268094 C46.3409589,280.116029 45.2404405,277.147645 46.3925053,274.638022 C46.9201939,273.488521 47.863926,272.581725 49.0335679,272.100325 L502.487379,85.4685935 C506.172938,83.9516979 510.310655,83.9639054 513.987199,85.5025214 L606.612836,124.265911 C609.160185,125.331965 610.361013,128.261207 609.294959,130.808557 C608.781936,132.034432 607.802013,133.005652 606.571609,133.507718 Z" id="Fill-16"></path>
                                     </g>
                                 </g>
                                 <g id="Group-39" transform="translate(52.755820, 0.625708)">
@@ -303,7 +304,7 @@
                                         </mask>
                                         <g id="Clip-35"></g>
                                     </g>
-                                    <path d="M554.73777,96.8529414 L110.571506,267.036913 C105.547992,268.961691 99.9608858,268.781561 95.0717864,266.537199 L10.8931215,227.894616 C8.38349414,226.742561 7.28296459,223.77418 8.43501997,221.264553 C8.97395138,220.090549 9.94634388,219.170688 11.148439,218.69772 L442.518098,48.9740368 C449.855751,46.087015 458.035037,46.2049535 465.2864,49.3023369 L554.912875,87.585834 C557.452334,88.6705509 558.631635,91.6085258 557.546918,94.1479844 C557.015248,95.3926896 556.001672,96.3686727 554.73777,96.8529414 Z" id="Fill-28" fill="#966CE0" style="mix-blend-mode: multiply;"></path>
+                                    <path ref="bar-3" class="bar-3" d="M554.73777,96.8529414 L110.571506,267.036913 C105.547992,268.961691 99.9608858,268.781561 95.0717864,266.537199 L10.8931215,227.894616 C8.38349414,226.742561 7.28296459,223.77418 8.43501997,221.264553 C8.97395138,220.090549 9.94634388,219.170688 11.148439,218.69772 L442.518098,48.9740368 C449.855751,46.087015 458.035037,46.2049535 465.2864,49.3023369 L554.912875,87.585834 C557.452334,88.6705509 558.631635,91.6085258 557.546918,94.1479844 C557.015248,95.3926896 556.001672,96.3686727 554.73777,96.8529414 Z" id="Fill-28" fill="#966CE0" style="mix-blend-mode: multiply;"></path>
                                 </g>
                             </g>
                         </g>
@@ -312,12 +313,12 @@
             </g>
             <g id="Group-48" style="mix-blend-mode: multiply;" transform="translate(808.104240, 260.922569)">
               <g id="Clip-47"></g>
-              <path d="M21.7425856,59.5801316 C50.3852281,73.2052632 96.8238137,73.2057237 125.465897,59.5805921 C154.107422,45.9563816 154.106863,23.8653947 125.463662,10.2402632 C111.140943,3.42677632 92.3735703,0.0207236842 73.6011673,0.0207236842 C54.8332357,0.0216447368 36.0608327,3.42769737 21.7414677,10.2393421 C-6.90061597,23.8644737 -6.90005703,45.955 21.7425856,59.5801316 Z" id="Fill-46" fill="#4BBFE1" style="mix-blend-mode: multiply;" mask="url(#mask-4)"></path>
+              <path ref="bar-4" class="bar-4" d="M21.7425856,59.5801316 C50.3852281,73.2052632 96.8238137,73.2057237 125.465897,59.5805921 C154.107422,45.9563816 154.106863,23.8653947 125.463662,10.2402632 C111.140943,3.42677632 92.3735703,0.0207236842 73.6011673,0.0207236842 C54.8332357,0.0216447368 36.0608327,3.42769737 21.7414677,10.2393421 C-6.90061597,23.8644737 -6.90005703,45.955 21.7425856,59.5801316 Z" id="Fill-46" fill="#4BBFE1" style="mix-blend-mode: multiply;" mask="url(#mask-4)"></path>
             </g>
         </svg>
       </div>
-      <div class="absolute xl:hidden bottom-0 left-24 w-7 h-10 rounded-xl" style="background-color: #966CE0"></div>
-      <div class="absolute xl:hidden bottom-2 w-6 h-6 bg-blue-500 rounded-full" style="mix-blend-mode: multiply; left: 5.3rem;"></div>
+      <div ref="anime" class="absolute xl:hidden bottom-0 left-24 w-7 h-10 rounded-xl anime" style="background-color: #966CE0"></div>
+      <div ref="anime" class="absolute xl:hidden bottom-2 w-6 h-6 bg-blue-500 rounded-full anime" style="mix-blend-mode: multiply; left: 5.3rem;"></div>
     </div>
   </div>
     <footer class="w-screen">
@@ -328,10 +329,164 @@
 </template>
 
 <script>
+import gsap from 'gsap';
+import { ScrollToPlugin } from "gsap/ScrollToPlugin";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollToPlugin, ScrollTrigger);
+
 export default {
   layout: "scroller",
+  mounted() {
+    gsap.utils.toArray('.anime').forEach(box => {
+        gsap.fromTo(box, {
+            autoAlpha: 0, 
+            opacity: .7,
+            scale: .2,
+            }, {
+            scrollTrigger: {
+            trigger: box,
+            once: true,
+            start: "center bottom",
+            },
+            duration: 1.3,
+            delay: .2,
+            autoAlpha: 1, 
+            scale: 1,
+            opacity: 1,
+            yoyo: true,
+            ease: "expo",
+        });
+    });
+    gsap.fromTo(".bar-1", {
+        autoAlpha: 0, 
+        y: 200,
+        delay: .5,
+        }, {
+        scrollTrigger: {
+        trigger: ".bar-1",
+        start: "center bottom",
+        once: true
+        },
+        duration: 3, 
+        autoAlpha: 1, 
+        ease: "expo",
+        y: 0,
+    });
+    gsap.fromTo(".bar-2", {
+        autoAlpha: 0, 
+        y: -200,
+        delay: .5,
+        }, {
+        scrollTrigger: {
+        trigger: ".bar-2",
+        start: "center bottom",
+        once: true
+        },
+        duration: 3, 
+        autoAlpha: 1, 
+        ease: "expo",
+        y: 0,
+    });
+    gsap.fromTo(".bar-3", {
+        autoAlpha: 0, 
+        y: 100,
+        delay: .5,
+        }, {
+        scrollTrigger: {
+        trigger: ".bar-3",
+        start: "center bottom",
+        once: true
+        },
+        duration: 3, 
+        autoAlpha: 1, 
+        ease: "expo",
+        y: 0,
+    });
+    gsap.fromTo(".bar-4", {
+        autoAlpha: 0, 
+        y: -100,
+        delay: .5,
+        }, {
+        scrollTrigger: {
+        trigger: ".bar-4",
+        start: "center bottom",
+        once: true
+        },
+        duration: 3, 
+        autoAlpha: 1, 
+        ease: "bounce",
+        y: 0,
+    });
+    gsap.fromTo(".bar-1", {
+        autoAlpha: 0, 
+        y: 200,
+        delay: .5,
+        }, {
+        scrollTrigger: {
+        trigger: ".mobile-bar-1",
+        start: "center bottom",
+        once: true
+        },
+        duration: 3, 
+        autoAlpha: 1, 
+        ease: "expo",
+        y: 0,
+    });
+    gsap.fromTo(".mobile-bar-2", {
+        autoAlpha: 0, 
+        y: -200,
+        delay: .5,
+        }, {
+        scrollTrigger: {
+        trigger: ".bar-2",
+        start: "center bottom",
+        once: true
+        },
+        duration: 3, 
+        autoAlpha: 1, 
+        ease: "expo",
+        y: 0,
+    });
+    gsap.fromTo(".mobile-bar-3", {
+        autoAlpha: 0, 
+        y: 100,
+        delay: .5,
+        }, {
+        scrollTrigger: {
+        trigger: ".bar-3",
+        start: "center bottom",
+        once: true
+        },
+        duration: 3, 
+        autoAlpha: 1, 
+        ease: "expo",
+        y: 0,
+    });
+    gsap.fromTo(".mobile-bar-4", {
+        autoAlpha: 0, 
+        y: -100,
+        delay: .5,
+        }, {
+        scrollTrigger: {
+        trigger: ".bar-4",
+        start: "center bottom",
+        once: true
+        },
+        duration: 3, 
+        autoAlpha: 1, 
+        ease: "bounce",
+        y: 0,
+    });
+  }
 };
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
+/* :root {
+  --before-scale: 0.5;
+  --before-opacity: 0;
+  --after-scale: 0.5;
+  --after-opacity: 0;
+} */
 </style>
