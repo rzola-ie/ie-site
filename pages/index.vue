@@ -2,7 +2,7 @@
 <div class="fade-in">
   <div class="flex initial h-screen">
     <svg
-      class="flex-1 canvas-mobile lg:hidden xl:hidden"
+      class="flex-1 canvas-mobile lg:hidden"
       :viewBox="`0 0 800 1200`"
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"

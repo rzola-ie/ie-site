@@ -3,7 +3,7 @@
     id="app"
     class="relative h-screen flex flex-col overflow-hidden"
   >
-    <img class="w-screen absolute hidden lg:block xl:block -top-12 z-behind opacity-75" src="/images/bracket-bg.svg" alt="Background Image">
+    <img class="w-screen absolute hidden lg:block -top-12 z-behind opacity-75" src="/images/bracket-bg.svg" alt="Background Image">
 
     <Header ref="header" />
     <Nuxt class="flex-1" />
