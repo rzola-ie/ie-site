@@ -2,7 +2,7 @@
 <div class="fade-in">
   <div class="flex initial h-screen">
     <svg
-    class="flex-1 canvas-mobile absolute z-behind md:hidden m-0 p-0"
+    class="flex-1 canvas-mobile absolute z-behind lg:hidden m-0 p-0"
     :viewBox="`0 0 800 2000`"
     version="1.1"
     xmlns="http://www.w3.org/2000/svg"
@@ -35,7 +35,7 @@
     </g>
     </svg>
     <div class="relative justify-items-center z-1 md:mt-12" style="mix-blend-mode: multiply;">
-      <svg class="my-8 md:h-40 xl:hidden" width="100vw" height="105px" viewBox="0 0 139 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
+      <svg class="my-8 md:h-44 lg:h-50 xl:hidden" width="100vw" height="105px" viewBox="0 0 139 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
           <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
               <g id="IE_mobile_Contact" transform="translate(-118.000000, -116.000000)">
                   <g id="hero-Icon" transform="translate(118.000000, 116.000000)">

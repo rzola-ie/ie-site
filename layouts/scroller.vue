@@ -1,6 +1,6 @@
 <template>
   <div id="app" class="relative min-h-screen min-h-none flex flex-col">
-    <img class="w-screen absolute hidden md:block top-2 md:-top-2 lg:top-8 xl:-top-12 z-behind opacity-75" src="/images/bracket-bg.svg" alt="Background Image">
+    <img class="w-screen absolute hidden lg:block -top-12 z-behind opacity-75 lg:top-8 xl:-top-4" src="/images/bracket-bg.svg" alt="Background Image">
 
     <Header ref="header" />
     <Nuxt class="flex-1" />

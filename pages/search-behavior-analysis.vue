@@ -1,7 +1,7 @@
 <template>
 <div class="fade-in">
     <svg
-    class="flex-1 canvas-mobile absolute z-behind md:hidden m-0 p-0"
+    class="flex-1 canvas-mobile absolute z-behind lg:hidden m-0 p-0"
     :viewBox="`0 0 800 2000`"
     version="1.1"
     xmlns="http://www.w3.org/2000/svg"
@@ -44,8 +44,8 @@
             </g>
         </g>
     </svg>
-    <div class="relative justify-items-center z-1 md:pt-12" style="mix-blend-mode: multiply;">
-        <svg class="my-8 lg:h-40 xl:hidden" width="100vw" height="105px" viewBox="0 0 108 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
+    <div class="relative justify-items-center z-1 lg:py-16 md:py-24" style="mix-blend-mode: multiply;">
+        <svg class="my-8 md:h-48 lg:h-56 xl:hidden" width="100vw" height="105px" viewBox="0 0 108 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                 <g id="IE_mobile_Audience" transform="translate(-134.000000, -116.000000)">
                     <g id="Icon-1" transform="translate(134.000000, 116.000000)" style="mix-blend-mode: multiply;">
