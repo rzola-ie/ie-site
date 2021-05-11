@@ -81,9 +81,6 @@
       </div>
     </div>
   </div>
-  <!-- #efefef url(//ideaevolver.com/wp-content/themes/idea-evolver/assets-img/service-background-pattern.svg) center -5px/100% repeat -->
-  <!-- style="background: #efefef url('/images/background-pattern.svg') center -5px/100% repeat" -->
-  <!-- class="bg-stripes bg-repeat bg-center bg-gray-200" -->
   <section class="relative z-1" style="background: #efefef url('/images/background-pattern.svg') center -5px/100% repeat">
   <div class="relative">
     <svg class="absolute hidden xl:block z-behind center m-auto py-20 px-20" width="100vw" height="100%" viewBox="0 0 1396 1462" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -167,33 +164,6 @@
           </g>
       </svg>
       <div class="relative xl:flex xl:flex-row xl:mt-14 xl:mx-40 lg:flex lg:px-20">
-<!-- 
-        <svg class="absolute mt-16 p-10" width="1396px" height="1462px" viewBox="0 0 1396 1462" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                <g id="IE_desktop_SaMD" transform="translate(-229.000000, -1158.000000)">
-                    <g id="Secondary-section" transform="translate(-34.000000, 611.000000)">
-                        <g id="geometric-shapes-" transform="translate(263.000000, 547.000000)">
-                            <ellipse id="Oval" fill="#4BBFE1" style="mix-blend-mode: multiply;" cx="28.5" cy="28" rx="28.5" ry="28"></ellipse>
-                            <rect id="Rectangle" fill="#966CE0" style="mix-blend-mode: multiply;" x="745" y="628" width="48" height="39" rx="4"></rect>
-                            <ellipse id="Oval" fill="#4BBFE1" style="mix-blend-mode: multiply;" transform="translate(783.000000, 701.500000) scale(1, -1) translate(-783.000000, -701.500000) " cx="783" cy="701.5" rx="21" ry="22.5"></ellipse>
-                            <circle id="Oval" fill="#4BBFE1" cx="54.5" cy="501.5" r="10.5"></circle>
-                            <rect id="Rectangle" fill="#966CE0" style="mix-blend-mode: multiply;" x="11" y="467" width="46" height="39" rx="4"></rect>
-                            <circle id="Oval" fill="#4BBFE1" cx="1346.5" cy="1378.5" r="10.5"></circle>
-                            <circle id="Oval" fill="#4BBFE1" style="mix-blend-mode: multiply;" cx="1379.5" cy="774.5" r="10.5"></circle>
-                            <circle id="Oval" fill="#4BBFE1" style="mix-blend-mode: multiply;" cx="113" cy="946" r="8"></circle>
-                            <rect id="Rectangle" fill="#966CE0" style="mix-blend-mode: multiply;" x="1340" y="1379" width="28" height="31" rx="4"></rect>
-                            <rect id="Rectangle" fill="#966CE0" style="mix-blend-mode: multiply;" x="1352" y="10" width="44" height="46" rx="4"></rect>
-                            <circle id="Oval" fill="#4BBFE1" style="mix-blend-mode: multiply;" cx="1347.5" cy="54.5" r="19.5"></circle>
-                            <path d="M271.12777,1420 L285.87223,1420 C287.655267,1420 288.30184,1420.18565 288.953691,1420.53427 C289.605543,1420.88288 290.11712,1421.39446 290.465735,1422.04631 C290.814349,1422.69816 291,1423.34473 291,1425.12777 L291,1439.87223 C291,1441.65527 290.814349,1442.30184 290.465735,1442.95369 C290.11712,1443.60554 289.605543,1444.11712 288.953691,1444.46573 C288.30184,1444.81435 287.655267,1445 285.87223,1445 L271.12777,1445 C269.344733,1445 268.69816,1444.81435 268.046309,1444.46573 C267.394457,1444.11712 266.88288,1443.60554 266.534265,1442.95369 C266.185651,1442.30184 266,1441.65527 266,1439.87223 L266,1425.12777 C266,1423.34473 266.185651,1422.69816 266.534265,1422.04631 C266.88288,1421.39446 267.394457,1420.88288 268.046309,1420.53427 C268.69816,1420.18565 269.344733,1420 271.12777,1420 Z" id="Rectangle" fill="#966CE0" style="mix-blend-mode: darken;"></path>
-                            <circle id="Oval" fill="#4BBFE1" style="mix-blend-mode: multiply;" cx="266" cy="1445" r="17"></circle>
-                            <path d="M1174.12777,923 L1197.87223,923 C1199.65527,923 1200.30184,923.185651 1200.95369,923.534265 C1201.60554,923.88288 1202.11712,924.394457 1202.46573,925.046309 C1202.81435,925.69816 1203,926.344733 1203,928.12777 L1203,951.87223 C1203,953.655267 1202.81435,954.30184 1202.46573,954.953691 C1202.11712,955.605543 1201.60554,956.11712 1200.95369,956.465735 C1200.30184,956.814349 1199.65527,957 1197.87223,957 L1174.12777,957 C1172.34473,957 1171.69816,956.814349 1171.04631,956.465735 C1170.39446,956.11712 1169.88288,955.605543 1169.53427,954.953691 C1169.18565,954.30184 1169,953.655267 1169,951.87223 L1169,928.12777 C1169,926.344733 1169.18565,925.69816 1169.53427,925.046309 C1169.88288,924.394457 1170.39446,923.88288 1171.04631,923.534265 C1171.69816,923.185651 1172.34473,923 1174.12777,923 Z" id="Rectangle" fill="#966CE0" style="mix-blend-mode: darken;"></path>
-                            <path d="M129.12777,897 L152.87223,897 C154.655267,897 155.30184,897.185651 155.953691,897.534265 C156.605543,897.88288 157.11712,898.394457 157.465735,899.046309 C157.814349,899.69816 158,900.344733 158,902.12777 L158,925.87223 C158,927.655267 157.814349,928.30184 157.465735,928.953691 C157.11712,929.605543 156.605543,930.11712 155.953691,930.465735 C155.30184,930.814349 154.655267,931 152.87223,931 L129.12777,931 C127.344733,931 126.69816,930.814349 126.046309,930.465735 C125.394457,930.11712 124.88288,929.605543 124.534265,928.953691 C124.185651,928.30184 124,927.655267 124,925.87223 L124,902.12777 C124,900.344733 124.185651,899.69816 124.534265,899.046309 C124.88288,898.394457 125.394457,897.88288 126.046309,897.534265 C126.69816,897.185651 127.344733,897 129.12777,897 Z" id="Rectangle" fill="#966CE0" style="mix-blend-mode: darken;"></path>
-                            <circle id="Oval" fill="#4BBFE1" style="mix-blend-mode: multiply;" cx="1203" cy="931" r="17"></circle>
-                        </g>
-                    </g>
-                </g>
-            </g>
-        </svg> -->
         <div class="relative xl:inline-block mx-8 xl:mx-0 xl:mr-4 text-gray-600 bg-white p-8 xl:p-14 xl:flex-1 xl:h-1/6 lg:mx-0 lg:mt-16">
           <h4 class="text-4xl lg:text-3xl pb-2">
             Product Development

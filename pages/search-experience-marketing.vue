@@ -356,7 +356,6 @@
               </g>
           </svg>
         </div>
-        <!-- <img class="hidden xl:block py-16" src="/images/sem-large.svg" alt="Large Icon"> -->
 
         <div class="relative mx-8 xl:mx-0 text-gray-600 bg-white p-8 xl:p-16 xl:flex-1 xl:h-1/6">
             <svg ref="anime" class="absolute hidden xl:block -top-6 -left-6 z-behind anime" width="51px" height="50px" viewBox="0 0 51 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">

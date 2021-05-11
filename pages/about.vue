@@ -84,14 +84,11 @@
         </div>
     </div>
   </div>
-  <!-- #efefef url(//ideaevolver.com/wp-content/themes/idea-evolver/assets-img/service-background-pattern.svg) center -5px/100% repeat -->
-  <!-- style="background: #efefef url('/images/background-pattern.svg') center -5px/100% repeat" -->
-  <!-- class="bg-stripes bg-repeat bg-center bg-gray-200" -->
   <section class="relative z-1" style="background: #efefef url('/images/background-pattern.svg') center -5px/100% repeat">
     <div class="relative z-1 py-8 mt-12 pt-20 xl:pt-0 lg:p-20 lg:p-12 lg:pt-20 xl:mb-20">
-        <img ref="anime" src="/images/blue-cross.svg" class="xl:hidden absolute z-behind anime filter-blue" alt="Blue Cross" style="mix-blend-mode: multiply; left: 9.5rem; top: 4.4rem;">
-        <img ref="anime" src="/images/pink-heart.svg" class="xl:hidden absolute right-10 top-4 anime filter-pink" alt="Pink Heart" style="mix-blend-mode: multiply;">
-        <img ref="anime" width="15px" height="14px" src="/images/pink-heart.svg" class="xl:hidden absolute top-12 left-10 anime filter-pink" alt="Pink Heart" style="mix-blend-mode: multiply;">
+        <img ref="anime" src="/images/blue-cross.svg" class="xl:hidden absolute z-behind anime filter-blue" alt="Blue Cross" style="mix-blend-mode: multiply; left: 9.5rem; top: 4.4rem;" rel="preload">
+        <img ref="anime" src="/images/pink-heart.svg" class="xl:hidden absolute right-10 top-4 anime filter-pink" alt="Pink Heart" style="mix-blend-mode: multiply;" rel="preload">
+        <img ref="anime" width="15px" height="14px" src="/images/pink-heart.svg" class="xl:hidden absolute top-12 left-10 anime filter-pink" alt="Pink Heart" style="mix-blend-mode: multiply;" rel="preload">
 
       <svg ref="anime" class="xl:hidden absolute z-behind anime" style="top: 4.3rem; left: 9.1rem; mix-blend-mode: multiply;" width="25px" height="19px" viewBox="0 0 25 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -114,10 +111,6 @@
               <g id="IE_mobile_About" transform="translate(-302.000000, -708.000000)">
                   <g id="Seconary-section" transform="translate(24.000000, 708.000000)">
                       <g id="Healthcare" transform="translate(7.000000, 0.000000)">
-                          <g id="heart" style="mix-blend-mode: multiply;">
-                              <img style="filter: invert(0.2) sepia(1) saturate(100) hue-rotate(300deg) opacity(0.7)" x="270" y="3" width="27" height="27" xlink:href="data:image/png;base64,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"></image>
-                              <use fill="#DF5FBE" fill-rule="evenodd" xlink:href="#rect-1"></use>
-                          </g>
                           <circle id="Oval" fill="#4BBFE1" style="mix-blend-mode: multiply;" cx="295.5" cy="7.5" r="7.5"></circle>
                       </g>
                   </g>
@@ -128,15 +121,15 @@
       <div class="relative xl:flex xl:flex-row xl:mt-12 xl:mx-40 xl:pt-24 lg:flex">
         <div class="relative xl:inline-block mx-8 xl:mx-0 lg:mx-0 xl:mt-16 lg:mt-16 xl:mr-4 lg:mr-4 text-gray-600 bg-white p-8 xl:p-14 xl:flex-1 xl:h-1/6">
             <!-- mobile  -->
-            <img ref="anime" src="/images/blue-cross.svg" class="xl:hidden absolute right-6 -bottom-4 anime filter-blue" alt="Blue Cross">
-            <img ref="anime" width="20px" height="18px" src="/images/pink-heart.svg" class="xl:hidden absolute -bottom-4 z-behind anime filter-pink" alt="Pink Heart">
+            <img ref="anime" src="/images/blue-cross.svg" class="xl:hidden absolute right-6 -bottom-4 anime filter-blue" alt="Blue Cross" rel="preload">
+            <img ref="anime" width="20px" height="18px" src="/images/pink-heart.svg" class="xl:hidden absolute -bottom-4 z-behind anime filter-pink" alt="Pink Heart" rel="preload">
 
             <!-- desktop  -->
-            <img ref="anime" width="37px" height="37px" src="/images/pink-heart.svg" class="hidden xl:block absolute -top-8 left-4 anime z-behind filter-pink" alt="Pink Heart">
-            <img ref="anime" width="24px" height="21px" src="/images/pink-heart.svg" class="hidden xl:block absolute -top-20 right-12  anime filter-pink" alt="Pink Heart">
-            <img ref="anime" width="15px" height="15px" src="/images/blue-oval.svg" class="hidden xl:block absolute -top-5 left-10 anime" alt="Blue Oval" style="mix-blend-mode: multiply;">
-            <img ref="anime" width="20px" height="18px" src="/images/blue-oval.svg" class="hidden xl:block absolute -top-3 right-32 z-behind anime" alt="Blue Oval">
-            <img ref="anime" width="23px" height="23px" src="/images/blue-cross.svg" class="hidden xl:block absolute -top-5 z-behind left-2/4 anime filter-blue" alt="Blue Cross">
+            <img ref="anime" width="37px" height="37px" src="/images/pink-heart.svg" class="hidden xl:block absolute -top-8 left-4 anime z-behind filter-pink" alt="Pink Heart" rel="preload">
+            <img ref="anime" width="24px" height="21px" src="/images/pink-heart.svg" class="hidden xl:block absolute -top-20 right-12  anime filter-pink" alt="Pink Heart" rel="preload">
+            <img ref="anime" width="15px" height="15px" src="/images/blue-oval.svg" class="hidden xl:block absolute -top-5 left-10 anime" alt="Blue Oval" style="mix-blend-mode: multiply;" rel="preload">
+            <img ref="anime" width="20px" height="18px" src="/images/blue-oval.svg" class="hidden xl:block absolute -top-3 right-32 z-behind anime" alt="Blue Oval" rel="preload">
+            <img ref="anime" width="23px" height="23px" src="/images/blue-cross.svg" class="hidden xl:block absolute -top-5 z-behind left-2/4 anime filter-blue" alt="Blue Cross" rel="preload">
             <img ref="anime" src="/images/blue-rectangle.svg" class="hidden xl:block absolute top-32 -left-3 z-behind anime" alt="Blue Rectangle">
             <h4 class="text-2xl xl:text-4xl pb-2">
             Healthcare
@@ -153,39 +146,24 @@
                 </g>
             </svg>
 
-            <img class="pt-6 w-full filter-dark" src="/images/healthcare-logos.svg" alt="Healthcare Brand Logos">
+            <img class="pt-6 w-full filter-dark" src="/images/healthcare-logos.svg" alt="Healthcare Brand Logos" rel="preload">
 
             <!-- mobile  -->
             <div ref="anime" class="xl:hidden absolute -bottom-10 right-24 h-3 w-3 rounded-full bg-blue-500 z-behind anime" style="mix-blend-mode: multiply"></div>
 
             <!-- desktop  -->
-            <img ref="anime" width="20px" height="18px" src="/images/pink-heart.svg" class="hidden xl:block absolute -bottom-12 anime filter-pink anime" alt="Pink Heart" style="right: 12rem;">
-            <img ref="anime" width="40px" height="40px" src="/images/blue-cross.svg" class="hidden xl:block absolute right-32 -bottom-4 anime filter-blue anime" alt="Blue Cross" style="mix-blend-mode: multiply;">
-            <img ref="anime" width="20px" height="18px" src="/images/blue-oval.svg" class="hidden xl:block absolute -bottom-3 left-40 z-behind anime" alt="Blue Oval">
+            <img ref="anime" width="20px" height="18px" src="/images/pink-heart.svg" class="hidden xl:block absolute -bottom-12 anime filter-pink anime" alt="Pink Heart" style="right: 12rem;" rel="preload">
+            <img ref="anime" width="40px" height="40px" src="/images/blue-cross.svg" class="hidden xl:block absolute right-32 -bottom-4 anime filter-blue anime" alt="Blue Cross" style="mix-blend-mode: multiply;" rel="preload">
+            <img ref="anime" width="20px" height="18px" src="/images/blue-oval.svg" class="hidden xl:block absolute -bottom-3 left-40 z-behind anime" alt="Blue Oval" rel="preload">
 
-
-            <!-- <svg ref="anime" class="hidden xl:block absolute -bottom-4 right-32 anime" width="42px" height="1.5rem" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                    <g id="IE_desktop_About" transform="translate(-721.000000, -1811.000000)">
-                        <g id="Secondary-section" transform="translate(-14.000000, 601.000000)">
-                            <g id="Group-3" transform="translate(248.000000, 514.000000)">
-                                <g id="cross" transform="translate(13.000000, 86.000000)" style="mix-blend-mode: multiply;">
-                                    <image filter="invert(0.2) sepia(1) saturate(450) hue-rotate(210deg) opacity(0.8)" color-interpolation-filters="sRGB" x="474" y="610" width="42" height="42" xlink:href="data:image/png;base64,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"></image>
-                                    <use fill="#4F77FF" fill-rule="evenodd" xlink:href="#rect-1"></use>
-                                </g>
-                            </g>
-                        </g>
-                    </g>
-                </g>
-            </svg> -->
         </div>
         <div class="relative mx-8 lg:mx-4 xl:mx-0 text-gray-600 bg-white p-8 mt-16 xl:mt-0 lg:mt-0 xl:p-14 xl:flex-1 xl:h-1/6 lg:h-1/6">
             <!-- mobile  -->
-            <img ref="anime" width="34px" height="22px" src="/images/credit-card.svg" class="xl:hidden absolute -bottom-4 anime filter-green anime" alt="Credit Card">
-            <img ref="anime" class="xl:hidden absolute -top-5 right-24 z-behind anime filter-green" src="/images/credit-card.svg" alt="Credit Card" style="mix-blend-mode: multiply;">
+            <img ref="anime" width="34px" height="22px" src="/images/credit-card.svg" class="xl:hidden absolute -bottom-4 anime filter-green anime" alt="Credit Card" rel="preload">
+            <img ref="anime" class="xl:hidden absolute -top-5 right-24 z-behind anime filter-green" src="/images/credit-card.svg" alt="Credit Card" style="mix-blend-mode: multiply;" rel="preload">
 
             <!-- desktop  -->
-            <img ref="anime" width="50px" height="37px" src="/images/credit-card.svg" class="hidden xl:block absolute -top-3 left-20 z-behind anime filter-green" alt="Credit Card">
+            <img ref="anime" width="50px" height="37px" src="/images/credit-card.svg" class="hidden xl:block absolute -top-3 left-20 z-behind anime filter-green" alt="Credit Card" rel="preload">
             <div ref="anime" class="hidden xl:block absolute w-10 h-10 bg-blue-500 rounded-full -top-4 right-40 z-behind anime" style="mix-blend-mode: multiply; background-color: #4BBFE1;"></div>
 
             <svg ref="anime" class="xl:hidden absolute -top-5 right-24 z-behind anime" width="60px" height="27px" viewBox="0 0 60 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
@@ -218,7 +196,7 @@
                 </g>
             </svg>
 
-            <img class="pt-6 w-full filter-dark" src="/images/foodretail-logos.svg" alt="Food and Retail Brand Logos">
+            <img class="pt-6 w-full filter-dark" src="/images/foodretail-logos.svg" alt="Food and Retail Brand Logos" rel="preload">
 
             <div ref="anime" class="xl:hidden absolute bottom-2 -right-2 w-5 h-4 rounded-sm bg-blue-500 z-behind anime"></div>
 
@@ -235,23 +213,9 @@
             </svg>
             <div ref="anime" class="xl:hidden absolute -bottom-5 left-24 h-2 w-2 rounded-full bg-blue-500 anime" style="mix-blend-mode: multiply"></div>
 
-            <!-- <svg ref="anime" class="hidden xl:block absolute -bottom-4 right-12 anime" width="66px" height="1.5rem" viewBox="0 0 66 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                    <g id="IE_desktop_About" transform="translate(-1541.000000, -1728.000000)">
-                        <g id="Secondary-section" transform="translate(-14.000000, 601.000000)">
-                            <g id="Group-3" transform="translate(248.000000, 514.000000)">
-                                <g id="card-icon" transform="translate(750.000000, 26.000000)" style="mix-blend-mode: multiply;">
-                                    <image filter="invert(0.4) sepia(1) saturate(30) hue-rotate(135deg) opacity(0.6)" color-interpolation-filters="sRGB" x="557" y="575" width="66" height="66" xlink:href="data:image/png;base64,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"></image>
-                                    <use fill="#65D8B4" fill-rule="evenodd" xlink:href="#rect-1"></use>
-                                </g>
-                            </g>
-                        </g>
-                    </g>
-                </g>
-            </svg> -->
             <!-- desktop  -->
             <div ref="anime" class="hidden xl:block absolute -bottom-3 left-40 w-20 h-6 z-behind rounded-md anime" style="background-color: #4BBFE1;"></div>
-            <img ref="anime" width="60px" height="47px" src="/images/credit-card.svg" class="hidden xl:block absolute -bottom-4 right-16 anime filter-green" alt="Credit Card" style="mix-blend-mode: multiply;">
+            <img ref="anime" width="60px" height="47px" src="/images/credit-card.svg" class="hidden xl:block absolute -bottom-4 right-16 anime filter-green" alt="Credit Card" style="mix-blend-mode: multiply;" rel="preload">
             <div ref="anime" class="hidden xl:block absolute w-5 h-5 bg-blue-500 rounded-full -bottom-16 right-6 anime" style="mix-blend-mode: multiply; background-color: #4BBFE1;"></div>
         </div>
       </div>

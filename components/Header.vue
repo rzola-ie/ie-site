@@ -6,7 +6,7 @@
     >
       <div id="header-logo">
         <nuxt-link to="/">
-          <img class="w-24" src="/images/logo.svg" alt="Idea Evolver Logo" />
+          <img class="w-24" src="/images/logo.svg" alt="Idea Evolver Logo" rel="preload"/>
         </nuxt-link>
       </div>
       <nav id="header-links" class="hidden xl:inline-block">

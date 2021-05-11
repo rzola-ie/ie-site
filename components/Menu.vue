@@ -15,6 +15,7 @@
           src="/images/logo.svg"
           alt="Idea Evolver Logo"
           @click="toggleMenu"
+          rel="preload"
         />
       </nuxt-link>
 
@@ -40,7 +41,7 @@
     </div>
     <div class="flex-1" @click="toggleMenu">
       <nav id="menu-links" class="flex flex-col text-2xl text-gray-600 pt-32">
-        <nuxt-link class="mb-8" to="/search-behavior-analysis">
+        <nuxt-link class="mb-8 sba" to="/search-behavior-analysis">
           Search Behavior Analysis
         </nuxt-link>
 
@@ -48,15 +49,15 @@
           Software Development
         </nuxt-link>
 
-        <nuxt-link id="search-experience-marketing" class="mb-8" to="/search-experience-marketing">
+        <nuxt-link id="search-experience-marketing" class="mb-8 sem" to="/search-experience-marketing">
           Search Experience Marketing
         </nuxt-link>
 
-        <nuxt-link id="about" class="mb-8" to="/about"> About </nuxt-link>
+        <nuxt-link id="about" class="mb-8 abo" to="/about"> About </nuxt-link>
 
-        <nuxt-link id="careers" class="mb-8" to="/careers"> Careers </nuxt-link>
+        <nuxt-link id="careers" class="mb-8 car" to="/careers"> Careers </nuxt-link>
 
-        <nuxt-link id="contact" class="" to="/contact">Contact Us</nuxt-link>
+        <nuxt-link id="contact" class="con" to="/contact">Contact Us</nuxt-link>
       </nav>
     </div>
   </div>
@@ -79,3 +80,51 @@ export default {
   },
 };
 </script>
+
+<style>
+  .nuxt-link {
+    display: inline-block;
+  }
+  .nuxt-link-active.sba::after {
+    border-bottom: 5px solid #65D8B4;
+    content: '';
+    border-radius: 2px;
+    width: 270px;
+    display: block;
+  }
+  .nuxt-link-active.sd::after {
+    border-bottom: 5px solid #966CE0;
+    content: '';
+    border-radius: 2px;
+    width: 250px;
+    display: block;
+  }
+  .nuxt-link-active.sem::after {
+    border-bottom: 5px solid #4F77FF;
+    content: '';
+    border-radius: 2px;
+    width: 320px;
+    display: block;
+  }
+  .nuxt-link-active.abo::after {
+    border-bottom: 5px solid #4BBFE1;
+    content: '';
+    border-radius: 2px;
+    width: 70px;
+    display: block;
+  }
+  .nuxt-link-active.car::after {
+    border-bottom: 5px solid #DF5FBE;
+    content: '';
+    border-radius: 2px;
+    width: 85px;
+    display: block;
+  }
+  .nuxt-link-active.con::after {
+    border-bottom: 5px solid #EFCB57;
+    content: '';
+    border-radius: 2px;
+    width: 125px;
+    display: block;
+  }
+</style>

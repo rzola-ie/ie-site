@@ -58,9 +58,9 @@
         <p class="ml-8 text-xl text-gray-600">215-420-9053</p>
         <a class="ml-8 text-base text-gray-600 border-b-2 border-blue-300 text-xl" href="mailto:press1for@ideaevolver.com">press1for@ideaevolver.com</a>
         <div class="flex mt-12 ml-8">
-          <a class="text-black" href="https://www.facebook.com/IdeaEvolver/"><img class="mr-8" src="/images/facebook.svg" alt="Idea Evolver Facebook Link"></a>
-          <a href="https://www.linkedin.com/company/idea-evolver/"><img class="mr-8" src="/images/linkedin.svg" alt="Idea Evolver LinkedIn Link"></a>
-          <a href="https://www.instagram.com/idea_evolver/"><img src="/images/instagram.svg" alt="Idea Evolver Instagram Link"></a>
+          <a class="text-black" href="https://www.facebook.com/IdeaEvolver/"><img class="mr-8" src="/images/facebook.svg" alt="Idea Evolver Facebook Link" rel="preload"></a>
+          <a href="https://www.linkedin.com/company/idea-evolver/"><img class="mr-8" src="/images/linkedin.svg" alt="Idea Evolver LinkedIn Link" rel="preload"></a>
+          <a href="https://www.instagram.com/idea_evolver/"><img src="/images/instagram.svg" alt="Idea Evolver Instagram Link" rel="preload"></a>
         </div>
       </div>
 
