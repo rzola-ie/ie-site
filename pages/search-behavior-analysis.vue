@@ -607,25 +607,25 @@ export default {
         });
     });
     gsap.set(".blue-1", {rotate: 180, transformOrigin: "50% 50%"})
-    gsap.fromTo(".blue-1", { height: 0 }, { duration: 3, ease: 'bounce', height: 179.496835, delay: .5 });
+    gsap.fromTo(".blue-1", { height: 0 }, { duration: 2, ease: 'bounce', height: 179.496835, delay: .5 });
     gsap.set(".blue-2", {rotate: 180, transformOrigin: "50% 50%"})
-    gsap.fromTo(".blue-2", { height: 0 }, { duration: 3, ease: 'bounce', height: 143.458861, delay: 2});
+    gsap.fromTo(".blue-2", { height: 0 }, { duration: 2, ease: 'bounce', height: 143.458861, delay: 2});
     gsap.set(".blue-3", {rotate: 180, transformOrigin: "50% 50%"})
-    gsap.fromTo(".blue-3", { height: 0 }, { duration: 3, ease: 'bounce', height: 189.199367, delay: 1});
+    gsap.fromTo(".blue-3", { height: 0 }, { duration: 2, ease: 'bounce', height: 189.199367, delay: 1});
     gsap.set(".blue-4", {rotate: 180, transformOrigin: "50% 50%"})
-    gsap.fromTo(".blue-4", { height: 0 }, { duration: 3, ease: 'bounce', height: 219, delay: 1.5});
+    gsap.fromTo(".blue-4", { height: 0 }, { duration: 2, ease: 'bounce', height: 219, delay: 1.5});
     gsap.set(".blue-5", {rotate: 180, transformOrigin: "50% 50%"})
-    gsap.fromTo(".blue-5", { height: 0 }, { duration: 3, ease: 'bounce', height: 194.743671, delay: 3});
+    gsap.fromTo(".blue-5", { height: 0 }, { duration: 2, ease: 'bounce', height: 194.743671, delay: 1.7});
     gsap.set(".blue-6", {rotate: 180, transformOrigin: "50% 50%"})
-    gsap.fromTo(".blue-6", { height: 0 }, { duration: 3, ease: 'bounce', height: 133.063291, delay: 1.4});
+    gsap.fromTo(".blue-6", { height: 0 }, { duration: 2, ease: 'bounce', height: 133.063291, delay: 1.4});
     gsap.set(".blue-7", {rotate: 180, transformOrigin: "50% 50%"})
-    gsap.fromTo(".blue-7", { height: 0 }, { duration: 3, ease: 'bounce', height: 194.743671, delay: 2.2});
+    gsap.fromTo(".blue-7", { height: 0 }, { duration: 2, ease: 'bounce', height: 194.743671, delay: 2.2});
     gsap.set(".blue-8", {rotate: 180, transformOrigin: "50% 50%"})
-    gsap.fromTo(".blue-8", { height: 0 }, { duration: 3, ease: 'bounce', height: 165.636076, delay: .8});
+    gsap.fromTo(".blue-8", { height: 0 }, { duration: 2, ease: 'bounce', height: 165.636076, delay: .8});
     gsap.set(".blue-9", {rotate: 180, transformOrigin: "50% 50%"})
-    gsap.fromTo(".blue-9", { height: 0 }, { duration: 3, ease: 'bounce', height: 165.636076, delay: 1.7});
+    gsap.fromTo(".blue-9", { height: 0 }, { duration: 2, ease: 'bounce', height: 165.636076, delay: 1.7});
     gsap.set(".blue-10", {rotate: 180, transformOrigin: "50% 50%"})
-    gsap.fromTo(".blue-10", { height: 0 }, { duration: 3, ease: 'bounce', height: 219, delay: .2});
+    gsap.fromTo(".blue-10", { height: 0 }, { duration: 2, ease: 'bounce', height: 219, delay: .2});
     gsap.fromTo(".seats-1", {
         autoAlpha: 0, 
         delay: 1.3,

@@ -107,7 +107,7 @@
   <section class="relative z-1" style="background: #efefef url('/images/background-pattern.svg') center -5px/100% repeat">
   <div class="relative">
     <div class="relative z-1 py-12 mt-12 lg:my-20">
-      <svg class="lg:h-72 lg:w-100 lg:m-auto md:w-screen lg:hidden" width="353px" height="300px" viewBox="0 0 353 194" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <svg class="lg:h-72 lg:w-100 lg:m-auto md:w-screen lg:hidden" width="100vw" height="300px" viewBox="0 0 353 194" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
               <g id="IE_mobile_SAMD" transform="translate(-6.000000, -707.000000)">
                   <g id="Software-Development-Process" transform="translate(6.000000, 707.000000)">
