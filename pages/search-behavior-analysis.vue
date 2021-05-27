@@ -34,7 +34,7 @@
                 </g>
             </svg>
         </div>
-        <svg class="hidden lg:block lg:h-100 z-2 lg:pr-16 xl:w-2/4 xl:m-auto lg:mr-16 lg:h-full" width="887px" height="559px" viewBox="0 0 887 559" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <svg class="hidden lg:block z-2 lg:h-100 lg:pr-16 xl:w-3/5 xl:m-auto lg:mr-16" width="887px" height="559px" viewBox="0 0 887 559" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <title>Diagram</title>
             <defs>
                 <filter x="-1.5%" y="-5.6%" width="103.0%" height="111.3%" filterUnits="objectBoundingBox" id="filter-1">
@@ -256,12 +256,18 @@
     <div class="relative z-1 py-8 mt-12">
         <div ref="anime" class="lg:hidden absolute top-8 right-20 h-4 w-4 rounded-full bg-blue-500 z-behind anime" style="mix-blend-mode: multiply"></div>
         <div class="relative">
-            <svg class="lg:h-72 lg:hidden mb-12" width="100vw" height="164px" viewBox="0 0 324 164" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <svg class="p-6 lg:hidden mb-12" width="100vw" height="300px" viewBox="0 0 324 164" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>chart</title>
                 <defs>
-                    <filter id="filter-1">
-                        <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.712579 0 0 0 0 0.697820 0 0 0 0 0.697820 0 0 0 1.000000 0"></feColorMatrix>
-                    </filter>
+                <filter x="-1.5%" y="-5.6%" width="103.0%" height="111.3%" filterUnits="objectBoundingBox" id="filter-1">
+                    <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+                    <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+                    <feColorMatrix values="0 0 0 0 0.773522418   0 0 0 0 0.773522418   0 0 0 0 0.773522418  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+                    <feMerge>
+                        <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                        <feMergeNode in="SourceGraphic"></feMergeNode>
+                    </feMerge>
+                </filter>
                     <filter id="filter-2">
                         <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.746065 0 0 0 0 0.746065 0 0 0 0 0.746065 0 0 0 1.000000 0"></feColorMatrix>
                     </filter>
@@ -280,7 +286,7 @@
                         <g id="chart" transform="translate(24.000000, 696.786828)">
                             <circle ref="anime" class="anime" id="Oval" fill="#59CBA7" cx="5.5" cy="34.7131722" r="5.5"></circle>
                             <g id="seats" transform="translate(22.000000, 92.213172)">
-                                <g ref="mseats-1" class="mseats-1" filter="url(#filter-1)" id="Group-9" opacity="0.512044271">
+                                <g ref="mseats-1" class="mseats-1" filter="url(#filter-2)" id="Group-9" opacity="0.512044271">
                                     <g style="mix-blend-mode: multiply;" transform="translate(59.572954, 0.000000)">
                                         <g id="Group-4">
                                             <path d="M0.81941623,10.6665 L0.81941623,3.1315 C0.81941623,1.7595 2.17663976,0.6455 3.85074807,0.6455 L18.8340175,0.6455 C20.5071293,0.6455 21.8643528,1.7595 21.8643528,3.1315 L21.8643528,10.6665" id="Fill-1" fill="#FF0000"></path>
@@ -312,7 +318,7 @@
                                         </g>
                                     </g>
                                 </g>
-                                <g ref="mseats-2" class="mseats-2" filter="url(#filter-2)" id="Group-7">
+                                <g ref="mseats-2" class="mseats-2" filter="url(#filter-3)" id="Group-7">
                                     <g transform="translate(51.629893, 7.000000)">
                                         <g id="Group-32">
                                             <path d="M0.0648021352,14.2583 L0.0648021352,3.9523 C0.0648021352,2.0743 1.55917865,0.5523 3.40309395,0.5523 L19.9070196,0.5523 C21.7509349,0.5523 23.2453114,2.0743 23.2453114,3.9523 L23.2453114,14.2583" id="Fill-29" fill="#FF0000"></path>
@@ -344,7 +350,7 @@
                                         </g>
                                     </g>
                                 </g>
-                                <g ref="mseats-3" class="mseats-3" filter="url(#filter-3)" id="Group-5">
+                                <g ref="mseats-3" class="mseats-3" filter="url(#filter-4)" id="Group-5">
                                     <g transform="translate(34.750890, 16.000000)">
                                         <g id="Group-60">
                                             <path d="M0.228255252,17.1515647 L0.228255252,4.31332941 C0.228255252,1.97438824 2.02047426,0.0780352941 4.23097777,0.0780352941 L24.0204379,0.0780352941 C26.2319421,0.0780352941 28.0231604,1.97438824 28.0231604,4.31332941 L28.0231604,17.1515647" id="Fill-57" fill="#FF0000"></path>
@@ -376,7 +382,7 @@
                                         </g>
                                     </g>
                                 </g>
-                                <g ref="mseats-4" class="mseats-4" filter="url(#filter-4)" id="Group-6">
+                                <g ref="mseats-4" class="mseats-4" filter="url(#filter-5)" id="Group-6">
                                     <g transform="translate(0.000000, 30.000000)">
                                         <path d="M33.2518321,44.8744255 L0.877005545,45.0000982 C-0.273805247,44.9922436 -0.294549475,44.15868 0.829590165,43.1366073 L9.03936569,36.5790436 C10.1635053,35.5569709 12.0087539,34.7351891 13.1585769,34.7429878 L43.533067,34.9511891 C44.6838778,34.9580618 44.8439047,35.5029709 43.5804824,36.8136982 L37.3463477,43.3732255 C36.2212202,44.3943164 35.1109101,44.9873345 33.2518321,44.8744255" id="Fill-85" fill="#FFFFFF"></path>
                                         <path d="M113.514883,45 L82.2705876,44.9645015 C81.1392305,44.9635421 80.588761,44.1662848 81.0411076,43.1838642 L84.9267746,36.8758412 C85.3791212,35.89438 86.6625688,35.0990415 87.7949071,35.1 L117.664501,35.1287827 C118.795858,35.1297421 119.346327,35.9269995 118.893981,36.9084607 L116.479176,43.1972957 C116.027811,44.1797163 114.64624,45.0009586 113.514883,45" id="Fill-88" fill="#FFFFFF"></path>
@@ -600,146 +606,26 @@ export default {
             ease: "expo",
         });
     });
-    gsap.fromTo(".blue-1", {
-        autoAlpha: 0, 
-        y: 200,
-        delay: .5,
-        }, {
-        scrollTrigger: {
-        trigger: ".blue-1",
-        once: true
-        },
-        duration: 3, 
-        autoAlpha: 1, 
-        ease: "bounce",
-        y: 0,
-    });
-    gsap.fromTo(".blue-2", {
-        autoAlpha: 0, 
-        y: 100,
-        delay: 1,
-        }, {
-        scrollTrigger: {
-        trigger: ".blue-2",
-        once: true
-        },
-        duration: 2.5, 
-        autoAlpha: 1, 
-        ease: "bounce",
-        y: 0,
-    });
-    gsap.fromTo(".blue-3", {
-        autoAlpha: 0, 
-        y: 150,
-        delay: .7,
-        }, {
-        scrollTrigger: {
-        trigger: ".blue-3",
-        once: true
-        },
-        duration: 2, 
-        autoAlpha: 1, 
-        ease: "bounce",
-        y: 0,
-    });
-    gsap.fromTo(".blue-4", {
-        autoAlpha: 0, 
-        y: 200,
-        delay: .2,
-        }, {
-        scrollTrigger: {
-        trigger: ".blue-4",
-        once: true
-        },
-        duration: 2.5, 
-        autoAlpha: 1, 
-        ease: "bounce",
-        y: 0,
-    });
-    gsap.fromTo(".blue-5", {
-        autoAlpha: 0, 
-        y: 100,
-        delay: .8,
-        }, {
-        scrollTrigger: {
-        trigger: ".blue-5",
-        once: true
-        },
-        duration: 1.5, 
-        autoAlpha: 1, 
-        ease: "bounce",
-        y: 0,
-    });
-    gsap.fromTo(".blue-6", {
-        autoAlpha: 0, 
-        y: 60,
-        delay: .5,
-        }, {
-        scrollTrigger: {
-        trigger: ".blue-6",
-        once: true
-        },
-        duration: 1, 
-        autoAlpha: 1, 
-        ease: "bounce",
-        y: 0,
-    });
-    gsap.fromTo(".blue-7", {
-        autoAlpha: 0, 
-        y: 180,
-        delay: .9,
-        }, {
-        scrollTrigger: {
-        trigger: ".blue-7",
-        once: true
-        },
-        duration: 1.5, 
-        autoAlpha: 1, 
-        ease: "bounce",
-        y: 0,
-    });
-    gsap.fromTo(".blue-8", {
-        autoAlpha: 0, 
-        y: 130,
-        delay: .4,
-        }, {
-        scrollTrigger: {
-        trigger: ".blue-8",
-        once: true
-        },
-        duration: 2.5, 
-        autoAlpha: 1, 
-        ease: "bounce",
-        y: 0,
-    });
-    gsap.fromTo(".blue-9", {
-        autoAlpha: 0, 
-        y: 70,
-        delay: .2,
-        }, {
-        scrollTrigger: {
-        trigger: ".blue-9",
-        once: true
-        },
-        duration: 1.2, 
-        autoAlpha: 1, 
-        ease: "bounce",
-        y: 0,
-    });
-    gsap.fromTo(".blue-10", {
-        autoAlpha: 0, 
-        y: 180,
-        delay: .7,
-        }, {
-        scrollTrigger: {
-        trigger: ".blue-10",
-        once: true
-        },
-        duration: 2, 
-        autoAlpha: 1, 
-        ease: "bounce",
-        y: 0,
-    });
+    gsap.set(".blue-1", {rotate: 180, transformOrigin: "50% 50%"})
+    gsap.fromTo(".blue-1", { height: 0 }, { duration: 3, ease: 'bounce', height: 179.496835, delay: .5 });
+    gsap.set(".blue-2", {rotate: 180, transformOrigin: "50% 50%"})
+    gsap.fromTo(".blue-2", { height: 0 }, { duration: 3, ease: 'bounce', height: 143.458861, delay: 2});
+    gsap.set(".blue-3", {rotate: 180, transformOrigin: "50% 50%"})
+    gsap.fromTo(".blue-3", { height: 0 }, { duration: 3, ease: 'bounce', height: 189.199367, delay: 1});
+    gsap.set(".blue-4", {rotate: 180, transformOrigin: "50% 50%"})
+    gsap.fromTo(".blue-4", { height: 0 }, { duration: 3, ease: 'bounce', height: 219, delay: 1.5});
+    gsap.set(".blue-5", {rotate: 180, transformOrigin: "50% 50%"})
+    gsap.fromTo(".blue-5", { height: 0 }, { duration: 3, ease: 'bounce', height: 194.743671, delay: 3});
+    gsap.set(".blue-6", {rotate: 180, transformOrigin: "50% 50%"})
+    gsap.fromTo(".blue-6", { height: 0 }, { duration: 3, ease: 'bounce', height: 133.063291, delay: 1.4});
+    gsap.set(".blue-7", {rotate: 180, transformOrigin: "50% 50%"})
+    gsap.fromTo(".blue-7", { height: 0 }, { duration: 3, ease: 'bounce', height: 194.743671, delay: 2.2});
+    gsap.set(".blue-8", {rotate: 180, transformOrigin: "50% 50%"})
+    gsap.fromTo(".blue-8", { height: 0 }, { duration: 3, ease: 'bounce', height: 165.636076, delay: .8});
+    gsap.set(".blue-9", {rotate: 180, transformOrigin: "50% 50%"})
+    gsap.fromTo(".blue-9", { height: 0 }, { duration: 3, ease: 'bounce', height: 165.636076, delay: 1.7});
+    gsap.set(".blue-10", {rotate: 180, transformOrigin: "50% 50%"})
+    gsap.fromTo(".blue-10", { height: 0 }, { duration: 3, ease: 'bounce', height: 219, delay: .2});
     gsap.fromTo(".seats-1", {
         autoAlpha: 0, 
         delay: 1.3,

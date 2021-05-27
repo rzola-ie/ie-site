@@ -34,7 +34,7 @@
                 </g>
             </svg>
         </div>
-        <svg class="hidden lg:block lg:h-100 z-2 lg:pr-16 xl:w-2/4 xl:m-auto lg:mr-16 lg:h-full" width="924px" height="584px" viewBox="0 0 924 584" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <svg class="hidden lg:block z-2 lg:h-100 lg:pr-16 xl:w-3/5 xl:m-auto lg:mr-16" width="924px" height="584px" viewBox="0 0 924 584" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <title>Software Development Process</title>
             <defs>
                 <polygon id="path-1" points="873.888947 295.169905 537.17257 442.805778 50.7849609 202.486681 375.647357 71.4092541"></polygon>
@@ -322,14 +322,9 @@ export default {
     gsap.fromTo(".bar-1", {
         autoAlpha: 0, 
         y: 200,
-        delay: .5,
+        delay: 1,
         }, {
-        scrollTrigger: {
-        trigger: ".bar-1",
-        start: "center bottom",
-        once: true
-        },
-        duration: 3, 
+        duration: 4, 
         autoAlpha: 1, 
         ease: "expo",
         y: 0,
@@ -337,14 +332,9 @@ export default {
     gsap.fromTo(".bar-2", {
         autoAlpha: 0, 
         y: -200,
-        delay: .5,
+        delay: 1.5,
         }, {
-        scrollTrigger: {
-        trigger: ".bar-2",
-        start: "center bottom",
-        once: true
-        },
-        duration: 3, 
+        duration: 4, 
         autoAlpha: 1, 
         ease: "expo",
         y: 0,
@@ -352,14 +342,9 @@ export default {
     gsap.fromTo(".bar-3", {
         autoAlpha: 0, 
         y: 100,
-        delay: .5,
+        delay: 2.5,
         }, {
-        scrollTrigger: {
-        trigger: ".bar-3",
-        start: "center bottom",
-        once: true
-        },
-        duration: 3, 
+        duration: 4, 
         autoAlpha: 1, 
         ease: "expo",
         y: 0,
@@ -367,14 +352,9 @@ export default {
     gsap.fromTo(".bar-4", {
         autoAlpha: 0, 
         y: -100,
-        delay: .5,
+        delay: 2,
         }, {
-        scrollTrigger: {
-        trigger: ".bar-4",
-        start: "center bottom",
-        once: true
-        },
-        duration: 3, 
+        duration: 4, 
         autoAlpha: 1, 
         ease: "bounce",
         y: 0,

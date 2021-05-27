@@ -193,7 +193,6 @@ export default {
             duration: 7,
             ease: 'ease',
             repeat: -1,
-            delay: 2,
             repeatDelay: 3,
             motionPath: {
                 path: '.left-path',
@@ -207,8 +206,6 @@ export default {
             duration: 4,
             ease: 'ease',
             repeat: -1,
-            delay: .8,
-            repeatDelay: 2.5,
             motionPath: {
                 path: '.left-path',
                 align: '.left-path',
@@ -221,8 +218,6 @@ export default {
             duration: 3,
             repeat: -1,
             ease: 'ease',
-            delay: 1.1,
-            repeatDelay: 3,
             motionPath: {
                 path: '.bottom-path',
                 align: '.bottom-path',
@@ -235,8 +230,6 @@ export default {
             duration: 6,
             ease: 'ease',
             repeat: -1,
-            delay: .7,
-            repeatDelay: .7,
             motionPath: {
                 path: '.bottom-path',
                 align: '.bottom-path',
@@ -249,8 +242,6 @@ export default {
             duration: 5,
             ease: 'ease',
             repeat: -1,
-            delay: 2.4,
-            repeatDelay: 1.1,
             motionPath: {
                 path: ".right-path",
                 align: ".right-path",
@@ -263,8 +254,6 @@ export default {
             duration: 3,
             ease: 'ease',
             repeat: -1,
-            delay: .6,
-            repeatDelay: 1,
             motionPath: {
                 path: ".bottom-path",
                 align: ".bottom-path",
@@ -277,8 +266,6 @@ export default {
             duration: 4,
             ease: 'ease',
             repeat: -1,
-            delay: 1.2,
-            repeatDelay: 4,
             motionPath: {
                 path: ".bottom-path",
                 align: ".bottom-path",
@@ -288,11 +275,9 @@ export default {
         })
         gsap.from('.squigR1', {
             delay: 3,
-            duration: 6,
+            duration: 7,
             ease: 'ease',
             repeat: -1,
-            repeatDelay: 2,
-            delay: .8,
             motionPath: {
                 path: '.right-path',
                 align: '.right-path',
@@ -305,8 +290,6 @@ export default {
             duration: 2,
             ease: 'ease',
             repeat: -1,
-            delay: 2.1,
-            repeatDelay: 1,
             motionPath: {
                 path: ".right-path",
                 align: ".right-path",

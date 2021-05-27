@@ -37,7 +37,7 @@
             <h1 class="text-3xl lg:text-4xl xl:text-5xl tracking-wide leading-normal lg:leading-loose text-ie-purple mb-4 mx-12 lg:mx-0 ">
             About
             </h1>
-            <p class="mx-12 mr-10 text-base leading-normal text-gray-600 pb-6 lg:mx-0">
+            <p class="mx-12 mr-10 text-base leading-normal text-gray-600 pb-6 lg:mx-0 lg:leading-loose">
             We minimize the guesswork associated with feature planning and requirements gathering by starting with audience
             and user research. Our quality and development processes are governed by our ISO 13485 compliant Quality
             Management System (QMS). Building on a scalable infrastructure, we implement the right languages and

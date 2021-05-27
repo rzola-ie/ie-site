@@ -2,7 +2,7 @@
 <div class="fade-in">
   <div class="relative w-screen md:h-scrollerheight">
     <div class="relative justify-items-center z-1 lg:py-16 md:py-24" style="mix-blend-mode: multiply;">
-        <svg class="my-8 md:h-48 lg:h-56 xl:hidden" width="100vw" height="105px" viewBox="0 0 95 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
+        <svg class="my-8 md:h-48 lg:h-56 lg:hidden" width="100vw" height="105px" viewBox="0 0 95 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                 <g id="IE_mobile_SEM" transform="translate(-140.000000, -116.000000)">
                     <g id="Icon-3" transform="translate(140.000000, 116.000000)">
@@ -226,7 +226,7 @@
                     </g>
                 </g>
             </svg>
-            <svg class="lg:h-72 xl:hidden mb-8" width="100vw" height="268px" viewBox="0 0 352 268" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <svg class="p-6 lg:h-72 lg:hidden mb-8" width="100vw" height="300px" viewBox="0 0 352 268" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>Group</title>
                 <defs>
                     <polygon id="path-1" points="0 0 180 0 180 158.839844 0 158.839844"></polygon>
@@ -354,7 +354,7 @@
                 </g>
             </svg>
 
-            <svg ref="anime" class="relative xl:hidden top-5 left-4 z-behind anime" width="36px" height="35px" viewBox="0 0 36 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <svg ref="anime" class="relative lg:hidden top-5 left-4 z-behind anime" width="36px" height="35px" viewBox="0 0 36 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                     <g id="IE_mobile_SEM" transform="translate(-16.000000, -1030.000000)">
                         <g id="SEO" transform="translate(16.000000, 1030.000000)">
@@ -377,7 +377,7 @@
         </div>
       <div class="relative xl:flex xl:flex-row xl:mt-12 xl:mx-44 xl:space-x-6 lg:my-20">
 
-        <div class="relative mx-8 xl:mx-0 xl:mt-16 text-gray-600 bg-white p-8 xl:mt-0 xl:p-16 xl:flex-1 xl:h-1/6">
+        <div class="relative xl:inline-block mx-8 xl:mx-0 xl:mt-16 xl:mr-4 text-gray-600 bg-white p-8 xl:p-14 xl:flex-1 xl:h-1/6 lg:mx-0 lg:mt-16">
 
             <svg class="hidden lg:block absolute right-40 -top-8 z-behind anime" width="51px" height="50px" viewBox="0 0 51 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <g id="New-2021" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -442,7 +442,7 @@
             </g>
         </svg>
         </div>
-        <svg ref="anime" class="relative xl:hidden top-4 left-72 anime" width="17px" height="17px" x="300px" y="150px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <svg ref="anime" class="relative lg:hidden top-4 left-72 anime" width="17px" height="17px" x="300px" y="150px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
             <g id="IE_mobile_SAMD" transform="translate(-302.000000, -871.000000)" fill="#4BBFE1">
                 <g id="Product-Development.---Column-1" transform="translate(29.000000, 871.000000)">
@@ -451,9 +451,9 @@
             </g>
         </g>
         </svg>
-        <div class="relative mx-8 mt-16 xl:mx-0 text-gray-600 bg-white p-8 xl:p-16 xl:flex-1 xl:h-1/6">
-            <div ref="anime" class="xl:hidden absolute left-9 -top-5 w-6 h-6 bg-blue-500 rounded-full z-behind anime" style=""></div>
-            <div ref="anime" class="xl:hidden absolute -top-4 left-12 w-16 h-4 rounded-t-xl anime" style="background-color: #4F77FF; mix-blend-mode: multiply;"></div>
+        <div class="relative mx-8 lg:mx-4 xl:mx-0 text-gray-600 bg-white lg:mt-0 p-8 mt-16 xl:mt-0 xl:p-14 xl:flex-1 xl:h-1/6 lg:h-1/6">
+            <div ref="anime" class="lg:hidden absolute left-9 -top-5 w-6 h-6 bg-blue-500 rounded-full z-behind anime" style=""></div>
+            <div ref="anime" class="lg:hidden absolute -top-4 left-12 w-16 h-4 rounded-t-xl anime" style="background-color: #4F77FF; mix-blend-mode: multiply;"></div>
 
             <svg class="hidden lg:block absolute z-behind -top-4 right-60 anime" width="68px" height="223px" viewBox="0 0 68 223" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <g id="New-2021" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -518,10 +518,10 @@
                     </g>
                 </g>
             </svg>
-            <div ref="anime" class="xl:hidden absolute -bottom-2 right-1 w-5 h-5 bg-blue-500 rounded-full anime" style=""></div>
-            <div ref="anime" class="xl:hidden absolute -bottom-7 -right-2 w-5 h-8 rounded-xl anime" style="background-color: #4F77FF"></div>
+            <div ref="anime" class="lg:hidden absolute -bottom-2 right-1 w-5 h-5 bg-blue-500 rounded-full anime" style=""></div>
+            <div ref="anime" class="lg:hidden absolute -bottom-7 -right-2 w-5 h-8 rounded-xl anime" style="background-color: #4F77FF"></div>
         </div>
-          <svg ref="anime" class="xl:hidden relative top-4 left-16 anime" width="13px" height="13px" x="300px" y="150px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <svg ref="anime" class="lg:hidden relative top-4 left-16 anime" width="13px" height="13px" x="300px" y="150px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                 <g id="IE_mobile_SAMD" transform="translate(-302.000000, -871.000000)" fill="#4BBFE1">
                     <g id="Product-Development.---Column-1" transform="translate(29.000000, 871.000000)">
@@ -570,27 +570,27 @@ export default {
         });
     });
     gsap.timeline()
-        .from('.sem1', { opacity: 0, scale: 0, x: 0, duration: .15, ease:'ease' })
-        .from('.sem2', { opacity: 0, scale: 0, x: 0, duration: .15, ease:'back' })
-        .from('.sem3', { opacity: 0, scale: 0, x: 0, duration: .15, ease: 'back' })
-        .from('.sem4', { opacity: 0, scale: 0, x: 0, duration: .15, ease:'back' })
-        .from('.sem5', { opacity: 0, scale: 0, x: 0, duration: .15, ease: 'back' })
-        .from('.sem6', { opacity: 0, scale: 0, x: 0, duration: .15, ease: 'back' })
-        .from('.sem7', { opacity: 0, scale: 0, x: 0, duration: .15, ease:'back' })
-        .from('.sem8', { opacity: 0, scale: 0, x: 0, duration: .15, ease:'back' })
-        .from('.sem9', { opacity: 0, scale: 0, x: 0, duration: .15, ease:'back' })
-        .from('.sem10', { opacity: 0, scale: 0, x: 0, duration: .15, ease:'back' })
-        .from('.icon1', { opacity: 0, scale: 0, duration: .15, ease: 'ease' })
-        .from('.icon2', { opacity: 0, scale: 0, duration: .15, ease: 'ease' })
-        .from('.icon3', { opacity: 0, scale: 0, duration: .15, ease: 'ease' })
-        .from('.icon4', { opacity: 0, scale: 0, duration: .15, ease: 'ease' })
-        .from('.icon5', { opacity: 0, scale: 0, duration: .15, ease: 'ease' })
-        .from('.icon6', { opacity: 0, scale: 0, duration: .15, ease: 'ease' })
-        .from('.icon7', { opacity: 0, scale: 0, duration: .15, ease: 'ease' })
-        .from('.icon8', { opacity: 0, scale: 0, duration: .15, ease: 'ease' })
-        .from('.icon9', { opacity: 0, scale: 0, duration: .15, ease: 'ease' })
-        .from('.icon10', { opacity: 0, scale: 0, duration: .15, ease: 'ease' })
-        .from('.icon11', { opacity: 0, scale: 0, duration: .15, ease: 'ease' })
+        .from('.sem1', { opacity: 0, scale: 0, x: 0, duration: .3, ease:'ease' })
+        .from('.sem2', { opacity: 0, scale: 0, x: 0, duration: .3, ease:'ease' })
+        .from('.sem3', { opacity: 0, scale: 0, x: 0, duration: .3, ease: 'ease' })
+        .from('.sem4', { opacity: 0, scale: 0, x: 0, duration: .3, ease:'ease' })
+        .from('.sem5', { opacity: 0, scale: 0, x: 0, duration: .3, ease: 'ease' })
+        .from('.sem6', { opacity: 0, scale: 0, x: 0, duration: .3, ease: 'ease' })
+        .from('.sem7', { opacity: 0, scale: 0, x: 0, duration: .3, ease:'ease' })
+        .from('.sem8', { opacity: 0, scale: 0, x: 0, duration: .3, ease:'ease' })
+        .from('.sem9', { opacity: 0, scale: 0, x: 0, duration: .3, ease:'ease' })
+        .from('.sem10', { opacity: 0, scale: 0, x: 0, duration: .3, ease:'ease' })
+        .from('.icon1', { opacity: 0, scale: 0, duration: .2, ease: 'ease' })
+        .from('.icon2', { opacity: 0, scale: 0, duration: .2, ease: 'ease' })
+        .from('.icon3', { opacity: 0, scale: 0, duration: .2, ease: 'ease' })
+        .from('.icon4', { opacity: 0, scale: 0, duration: .2, ease: 'ease' })
+        .from('.icon5', { opacity: 0, scale: 0, duration: .2, ease: 'ease' })
+        .from('.icon6', { opacity: 0, scale: 0, duration: .2, ease: 'ease' })
+        .from('.icon7', { opacity: 0, scale: 0, duration: .2, ease: 'ease' })
+        .from('.icon8', { opacity: 0, scale: 0, duration: .2, ease: 'ease' })
+        .from('.icon9', { opacity: 0, scale: 0, duration: .2, ease: 'ease' })
+        .from('.icon10', { opacity: 0, scale: 0, duration: .2, ease: 'ease' })
+        .from('.icon11', { opacity: 0, scale: 0, duration: .2, ease: 'ease' })
     }
 };
 </script>
