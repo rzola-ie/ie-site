@@ -2,7 +2,7 @@
   <header id="header" class="w-full py-6 z-40">
     <div
       id="header-container"
-      class="flex justify-between items-center mx-6 md:mx-16 xl:mx-24"
+      class="flex justify-between items-center mx-6 md:mx-16 xl:mx-32"
     >
       <div id="header-logo">
         <nuxt-link to="/">

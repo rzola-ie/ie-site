@@ -1,39 +1,11 @@
 <template>
 <div class="fade-in">
+    <img
+    class="w-screen absolute hidden lg:block -top-12 z-behind opacity-75 lg:top-8 xl:-top-4"
+    src="/images/bracket-bg.svg"
+    alt="Background Image" 
+  />
   <div class="flex initial h-screen">
-    <svg
-    class="flex-1 canvas-mobile absolute z-behind lg:hidden m-0 p-0"
-    :viewBox="`0 0 800 2000`"
-    version="1.1"
-    xmlns="http://www.w3.org/2000/svg"
-    xmlns:xlink="http://www.w3.org/1999/xlink"
-    preserveAspectRatio="xMidYMin meet"
-
-    >
-    <defs>
-    <filter id="dropshadow" height="130%">
-        <feGaussianBlur in="SourceAlpha" stdDeviation="4"/>
-        <feOffset dx="2" dy="2" result="offsetblur"/>
-        <feComponentTransfer>
-        <feFuncA type="linear" slope="0.13"/>
-        </feComponentTransfer>
-        <feMerge> 
-        <feMergeNode/>
-        <feMergeNode in="SourceGraphic"/>
-        </feMerge>
-    </filter>
-
-    <g id="brackets">
-        <path d="M108.78 0h26.51a21 21 0 0 120.08 27.16l-86.78 283A21 21 0 0 148.52 325H22a21 21 0 0 1-20.08-27.16l86.78-283A21 21 0 0 1108.78 0z" />
-        <path d="M158.29 0h-51.62a9 9 0 0 0-9 9 9.12 9.12 0 0 0.39 2.64l94.14 307a9 9 0 008.6 6.36h51.62a9 9 0 0 09-9 9.12 9.12 0 0 0-.39-2.64l-94.14-307a9 9 0 00-8.6-6.36z" />
-    </g>
-    </defs>
-
-    <g style="transform: scale(4) translate(45px, 1px);" fill="white" filter="url(#dropshadow)">
-      <use id="top" href="#brackets" />
-      <use id="bottom" href="#brackets" style="transform: scale(1, -1) translate(0, 545px); transform-origin: center" />
-    </g>
-    </svg>
     <div class="relative justify-items-center z-1 md:mt-12" style="mix-blend-mode: multiply;">
       <svg class="my-8 md:h-44 lg:h-50 xl:hidden" width="100vw" height="105px" viewBox="0 0 139 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
           <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -46,18 +18,18 @@
               </g>
           </g>
       </svg>
-      <div class="mx-4 relative xl:ml-32 md:ml-20 xl:pl-12 xl:py-32 xl:bg-transparent md:w-3/5 xl:w-100">
-        <h1 class="text-3xl xl:text-5xl tracking-wide leading-normal text-ie-purple mb-4 ml-8 xl:mb-8">
+      <div class="ml-12 md:mx-20 relative xl:ml-32 xl:py-32 xl:bg-transparent md:w-3/5 xl:w-100">
+        <h1 class="text-3xl xl:text-5xl tracking-wide leading-normal text-ie-purple mb-4 xl:mb-8">
           Contact Us
         </h1>
-        <p class="ml-8 mr-10 mb-4 text-xl leading-normal text-gray-600 pb-6 md:w-4/5">
+        <p class="mr-10 mb-4 text-xl leading-normal text-gray-600 pb-6 md:w-4/5">
           1315 Walnut Street <br />
           Suite 932 <br />
           Philadelphia, PA 19107
         </p>
-        <p class="ml-8 text-xl text-gray-600">215-420-9053</p>
-        <a class="ml-8 text-base text-gray-600 border-b-2 border-blue-300 text-xl" href="mailto:press1for@ideaevolver.com">press1for@ideaevolver.com</a>
-        <div class="flex mt-12 ml-8">
+        <p class="text-xl text-gray-600">215-420-9053</p>
+        <a class="text-base text-gray-600 border-b-2 border-blue-300 text-xl" href="mailto:press1for@ideaevolver.com">press1for@ideaevolver.com</a>
+        <div class="flex mt-12">
           <a class="text-black" href="https://www.facebook.com/IdeaEvolver/"><img class="mr-8" src="/images/facebook.svg" alt="Idea Evolver Facebook Link" rel="preload"></a>
           <a href="https://www.linkedin.com/company/idea-evolver/"><img class="mr-8" src="/images/linkedin.svg" alt="Idea Evolver LinkedIn Link" rel="preload"></a>
           <a href="https://www.instagram.com/idea_evolver/"><img src="/images/instagram.svg" alt="Idea Evolver Instagram Link" rel="preload"></a>
@@ -65,7 +37,7 @@
       </div>
 
     </div>
-      <svg class="hidden xl:block absolute -bottom-6 z-2" width="100vw" height="320px" viewBox="0 0 451 360" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  style="mix-blend-mode: multiply;">
+      <svg class="hidden xl:block absolute bottom-0 z-2" width="100vw" height="320px" viewBox="0 0 451 360" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  style="mix-blend-mode: multiply;">
           <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
               <g id="IE_desktop_Contact" transform="translate(-843.000000, -693.000000)">
                   <g id="Big-icon" transform="translate(843.000000, 693.000000)">
