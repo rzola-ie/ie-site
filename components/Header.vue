@@ -1,12 +1,12 @@
 <template>
-  <header id="header" class="w-full py-6 z-40">
+  <header id="header" class="w-full py-6 lg:py-12 z-40">
     <div
       id="header-container"
-      class="flex justify-between items-center mx-6 md:mx-16 xl:mx-24"
+      class="flex justify-between items-center mx-6 md:mx-16 xl:mx-32"
     >
       <div id="header-logo">
         <nuxt-link to="/">
-          <img class="w-24" src="/images/logo.svg" alt="Idea Evolver Logo" rel="preload"/>
+          <img class="w-28 lg:w-40" src="/images/logo.svg" alt="Idea Evolver Logo" rel="preload"/>
         </nuxt-link>
       </div>
       <nav id="header-links" class="hidden xl:inline-block">
@@ -51,7 +51,7 @@
             id="contact"
             class="mr-0 text-gray-700 hover:text-gray-500 transition ease-in duration-150 con"
           >
-            <nuxt-link to="/contact">Contact Us</nuxt-link>
+            <nuxt-link to="/contact">Contact</nuxt-link>
           </li>
         </ul>
       </nav>

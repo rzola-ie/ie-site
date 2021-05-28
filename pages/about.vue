@@ -1,40 +1,12 @@
 <template>
 <div class="fade-in">
-    <svg
-    class="flex-1 canvas-mobile absolute z-behind lg:hidden m-0 p-0"
-    :viewBox="`0 0 800 2000`"
-    version="1.1"
-    xmlns="http://www.w3.org/2000/svg"
-    xmlns:xlink="http://www.w3.org/1999/xlink"
-    preserveAspectRatio="xMidYMin meet"
-
-    >
-    <defs>
-    <filter id="dropshadow" height="130%">
-        <feGaussianBlur in="SourceAlpha" stdDeviation="4"/>
-        <feOffset dx="2" dy="2" result="offsetblur"/>
-        <feComponentTransfer>
-        <feFuncA type="linear" slope="0.13"/>
-        </feComponentTransfer>
-        <feMerge> 
-        <feMergeNode/>
-        <feMergeNode in="SourceGraphic"/>
-        </feMerge>
-    </filter>
-
-    <g id="brackets">
-        <path d="M108.78 0h26.51a21 21 0 0 120.08 27.16l-86.78 283A21 21 0 0 148.52 325H22a21 21 0 0 1-20.08-27.16l86.78-283A21 21 0 0 1108.78 0z" />
-        <path d="M158.29 0h-51.62a9 9 0 0 0-9 9 9.12 9.12 0 0 0.39 2.64l94.14 307a9 9 0 008.6 6.36h51.62a9 9 0 0 09-9 9.12 9.12 0 0 0-.39-2.64l-94.14-307a9 9 0 00-8.6-6.36z" />
-    </g>
-    </defs>
-
-    <g style="transform: scale(4) translate(45px, 1px);" fill="white" filter="url(#dropshadow)">
-      <use id="top" href="#brackets" />
-      <use id="bottom" href="#brackets" style="transform: scale(1, -1) translate(0, 545px); transform-origin: center" />
-    </g>
-    </svg>
-  <div class="relative w-screen md:h-scrollerheight" style="mix-blend-mode: multiply;">
-    <svg class="hidden xl:block absolute -bottom-20 z-1 right-1/3" width="438px" height="457px" viewBox="0 0 438 457" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
+<img
+    class="w-screen absolute hidden lg:block -top-12 z-behind opacity-75 lg:top-8 xl:-top-4"
+    src="/images/bracket-bg.svg"
+    alt="Background Image" 
+  />
+  <div class="relative w-screen screenHeightCalc" style="mix-blend-mode: multiply;">
+    <svg class="hidden xl:block absolute -bottom-14 z-1 right-1/3" width="438px" height="400px" viewBox="0 0 438 457" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
         <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
             <g id="IE_desktop_About" transform="translate(-890.000000, -601.000000)" fill="#4BBFE1">
                 <g id="Secondary-section" transform="translate(-14.000000, 601.000000)">
@@ -49,8 +21,8 @@
             </g>
         </g>
     </svg>
-    <div class="relative justify-items-center z-1 lg:py-16 md:py-24">
-        <svg class="my-8 md:h-48 lg:h-56 xl:hidden" width="100vw" height="105px" viewBox="0 0 100 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
+    <div class="relative justify-items-center z-1">
+        <svg class="w-screen my-8 md:h-48 lg:h-56 xl:hidden" width="100%" height="105px" viewBox="0 0 100 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                 <g id="IE_mobile_About" transform="translate(-138.000000, -116.000000)" fill="#4BBFE1">
                     <g id="Hero-Icon" transform="translate(138.000000, 116.000000)">
@@ -62,16 +34,16 @@
             </g>
         </svg>
         <div class="relative lg:ml-20 xl:ml-32 xl:pl-12 xl:py-32 xl:bg-transparent lg:w-4/5 xl:w-4/12 lg:mx-16 xl:mx-0">
-            <h1 class="text-2xl sm:text-4xl xl:text-5xl tracking-wide leading-normal text-ie-purple mb-4 mx-12 lg:mx-0">
+            <h1 class="text-3xl lg:text-4xl xl:text-5xl tracking-wide leading-normal lg:leading-loose text-ie-purple mb-4 mx-12 lg:mx-0 ">
             About
             </h1>
-            <p class="mx-12 mr-10 text-base leading-normal text-gray-600 pb-6 lg:mx-0">
+            <p class="mx-12 mr-10 text-base leading-normal text-gray-600 pb-6 lg:mx-0 lg:leading-loose">
             We minimize the guesswork associated with feature planning and requirements gathering by starting with audience
             and user research. Our quality and development processes are governed by our ISO 13485 compliant Quality
             Management System (QMS). Building on a scalable infrastructure, we implement the right languages and
             frameworks so your applications are reliable, fast and intuitive.
             </p>
-            <svg class="w-screen md:w-20 lg:m-0 xl:w-10 arrowdown md:w-full xl:m-0 filter-light" width="100vw" height="13px" viewBox="0 0 23 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <svg class="w-screen md:w-20 lg:m-0 xl:w-10 arrowdown md:w-full xl:m-0 filter-light" width="100%" height="13px" viewBox="0 0 23 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                     <g id="IE_mobile_SEM" transform="translate(-176.000000, -544.000000)">
                         <g id="Scrolll-arrow" transform="translate(50.000000, 250.000000)">
@@ -86,9 +58,9 @@
   </div>
   <section class="relative z-1" style="background: #efefef url('/images/background-pattern.svg') center -5px/100% repeat">
     <div class="relative z-1 py-8 mt-12 pt-20 xl:pt-0 lg:p-20 lg:p-12 lg:pt-20 xl:mb-20">
-        <img ref="anime" src="/images/blue-cross.svg" class="xl:hidden absolute z-behind anime filter-blue" alt="Blue Cross" style="mix-blend-mode: multiply; left: 9.5rem; top: 4.4rem;" rel="preload">
-        <img ref="anime" src="/images/pink-heart.svg" class="xl:hidden absolute right-10 top-4 anime filter-pink" alt="Pink Heart" style="mix-blend-mode: multiply;" rel="preload">
-        <img ref="anime" width="15px" height="14px" src="/images/pink-heart.svg" class="xl:hidden absolute top-12 left-10 anime filter-pink" alt="Pink Heart" style="mix-blend-mode: multiply;" rel="preload">
+        <img width="20px" height="20px" ref="anime" src="/images/cross_icon.png" class="xl:hidden absolute z-behind anime" alt="Blue Cross" style="mix-blend-mode: multiply; left: 9.5rem; top: 4.4rem;" rel="preload">
+        <img width="25px" height="19px" ref="anime" src="/images/heart_icon.png" class="xl:hidden absolute right-10 top-4 anime" alt="Pink Heart" style="mix-blend-mode: multiply;" rel="preload">
+        <img ref="anime" width="15px" height="14px" src="/images/heart_icon.png" class="xl:hidden absolute top-12 left-10 anime" alt="Pink Heart" style="mix-blend-mode: multiply;" rel="preload">
 
       <svg ref="anime" class="xl:hidden absolute z-behind anime" style="top: 4.3rem; left: 9.1rem; mix-blend-mode: multiply;" width="25px" height="19px" viewBox="0 0 25 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -118,21 +90,21 @@
           </g>
       </svg>
 
-      <div class="relative xl:flex xl:flex-row xl:mt-12 xl:mx-40 xl:pt-24 lg:flex">
-        <div class="relative xl:inline-block mx-8 xl:mx-0 lg:mx-0 xl:mt-16 lg:mt-16 xl:mr-4 lg:mr-4 text-gray-600 bg-white p-8 xl:p-14 xl:flex-1 xl:h-1/6">
+      <div class="relative md:flex xl:mt-12 xl:mx-40 xl:pt-24">
+        <div class="relative xl:inline-block mx-8 lg:mx-0 lg:mt-16 lg:mr-4 text-gray-600 bg-white p-8 xl:p-14 xl:flex-1 xl:h-1/6 md:w-2/4">
             <!-- mobile  -->
-            <img ref="anime" src="/images/blue-cross.svg" class="xl:hidden absolute right-6 -bottom-4 anime filter-blue" alt="Blue Cross" rel="preload">
-            <img ref="anime" width="20px" height="18px" src="/images/pink-heart.svg" class="xl:hidden absolute -bottom-4 z-behind anime filter-pink" alt="Pink Heart" rel="preload">
+            <img width="20px" height="20px" ref="anime" src="/images/cross_icon.png" class="xl:hidden absolute right-6 -bottom-4 anime" alt="Blue Cross" rel="preload">
+            <img ref="anime" width="20px" height="18px" src="/images/heart_icon.png" class="xl:hidden absolute -bottom-4 z-behind anime" alt="Pink Heart" rel="preload">
 
             <!-- desktop  -->
-            <img ref="anime" width="37px" height="37px" src="/images/pink-heart.svg" class="hidden xl:block absolute -top-8 left-4 anime z-behind filter-pink" alt="Pink Heart" rel="preload">
-            <img ref="anime" width="24px" height="21px" src="/images/pink-heart.svg" class="hidden xl:block absolute -top-20 right-12  anime filter-pink" alt="Pink Heart" rel="preload">
+            <img ref="anime" width="37px" height="37px" src="/images/heart_icon.png" class="hidden xl:block absolute -top-8 left-4 anime z-behind" alt="Pink Heart" rel="preload">
+            <img ref="anime" width="24px" height="21px" src="/images/heart_icon.png" class="hidden xl:block absolute -top-20 right-12  anime" alt="Pink Heart" rel="preload">
             <img ref="anime" width="15px" height="15px" src="/images/blue-oval.svg" class="hidden xl:block absolute -top-5 left-10 anime" alt="Blue Oval" style="mix-blend-mode: multiply;" rel="preload">
             <img ref="anime" width="20px" height="18px" src="/images/blue-oval.svg" class="hidden xl:block absolute -top-3 right-32 z-behind anime" alt="Blue Oval" rel="preload">
-            <img ref="anime" width="23px" height="23px" src="/images/blue-cross.svg" class="hidden xl:block absolute -top-5 z-behind left-2/4 anime filter-blue" alt="Blue Cross" rel="preload">
+            <img ref="anime" width="23px" height="23px" src="/images/cross_icon.png" class="hidden xl:block absolute -top-5 z-behind left-2/4 anime" alt="Blue Cross" rel="preload">
             <img ref="anime" src="/images/blue-rectangle.svg" class="hidden xl:block absolute top-32 -left-3 z-behind anime" alt="Blue Rectangle">
-            <h4 class="text-2xl xl:text-4xl pb-2">
-            Healthcare
+            <h4 class="text-xl md:text-2xl lg:text-3xl pb-2">
+                Healthcare
             </h4>
             <svg width="62px" height="3px" viewBox="0 0 62 3" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -152,18 +124,18 @@
             <div ref="anime" class="xl:hidden absolute -bottom-10 right-24 h-3 w-3 rounded-full bg-blue-500 z-behind anime" style="mix-blend-mode: multiply"></div>
 
             <!-- desktop  -->
-            <img ref="anime" width="20px" height="18px" src="/images/pink-heart.svg" class="hidden xl:block absolute -bottom-12 anime filter-pink anime" alt="Pink Heart" style="right: 12rem;" rel="preload">
-            <img ref="anime" width="40px" height="40px" src="/images/blue-cross.svg" class="hidden xl:block absolute right-32 -bottom-4 anime filter-blue anime" alt="Blue Cross" style="mix-blend-mode: multiply;" rel="preload">
+            <img ref="anime" width="20px" height="18px" src="/images/heart_icon.png" class="hidden xl:block absolute -bottom-12 anime anime" alt="Pink Heart" style="right: 12rem;" rel="preload">
+            <img ref="anime" width="40px" height="40px" src="/images/cross_icon.png" class="hidden xl:block absolute right-32 -bottom-4 anime anime" alt="Blue Cross" style="mix-blend-mode: multiply;" rel="preload">
             <img ref="anime" width="20px" height="18px" src="/images/blue-oval.svg" class="hidden xl:block absolute -bottom-3 left-40 z-behind anime" alt="Blue Oval" rel="preload">
 
         </div>
-        <div class="relative mx-8 lg:mx-4 xl:mx-0 text-gray-600 bg-white p-8 mt-16 xl:mt-0 lg:mt-0 xl:p-14 xl:flex-1 xl:h-1/6 lg:h-1/6">
+        <div class="relative mx-8 lg:mx-4 xl:mx-0 text-gray-600 bg-white lg:mt-0 p-8 mt-16 xl:mt-0 xl:p-14 xl:flex-1 xl:h-1/6 lg:h-1/6 md:w-2/4">
             <!-- mobile  -->
-            <img ref="anime" width="34px" height="22px" src="/images/credit-card.svg" class="xl:hidden absolute -bottom-4 anime filter-green anime" alt="Credit Card" rel="preload">
-            <img ref="anime" class="xl:hidden absolute -top-5 right-24 z-behind anime filter-green" src="/images/credit-card.svg" alt="Credit Card" style="mix-blend-mode: multiply;" rel="preload">
+            <img ref="anime" width="34px" height="22px" src="/images/card_icon.png" class="xl:hidden absolute -bottom-4 anime anime" alt="Credit Card" rel="preload">
+            <img ref="anime" width="40px" height="22px" class="xl:hidden absolute -top-4 right-24 z-behind anime" src="/images/card_icon.png" alt="Credit Card" style="mix-blend-mode: multiply;" rel="preload">
 
             <!-- desktop  -->
-            <img ref="anime" width="50px" height="37px" src="/images/credit-card.svg" class="hidden xl:block absolute -top-3 left-20 z-behind anime filter-green" alt="Credit Card" rel="preload">
+            <img ref="anime" width="50px" height="37px" src="/images/card_icon.png" class="hidden xl:block absolute -top-3 left-20 z-behind anime" alt="Credit Card" rel="preload">
             <div ref="anime" class="hidden xl:block absolute w-10 h-10 bg-blue-500 rounded-full -top-4 right-40 z-behind anime" style="mix-blend-mode: multiply; background-color: #4BBFE1;"></div>
 
             <svg ref="anime" class="xl:hidden absolute -top-5 right-24 z-behind anime" width="60px" height="27px" viewBox="0 0 60 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
@@ -180,7 +152,7 @@
                 </g>
             </svg>
             <div ref="anime" class="xl:hidden absolute top-20 -left-2 h-4 w-4 rounded-full bg-blue-500 z-behind anime" style="mix-blend-mode: multiply"></div>
-            <h4 class="text-2xl xl:text-4xl pb-2">
+            <h4 class="text-xl md:text-2xl lg:text-3xl pb-2">
             Food & Retail
             </h4>
 
@@ -215,7 +187,7 @@
 
             <!-- desktop  -->
             <div ref="anime" class="hidden xl:block absolute -bottom-3 left-40 w-20 h-6 z-behind rounded-md anime" style="background-color: #4BBFE1;"></div>
-            <img ref="anime" width="60px" height="47px" src="/images/credit-card.svg" class="hidden xl:block absolute -bottom-4 right-16 anime filter-green" alt="Credit Card" style="mix-blend-mode: multiply;" rel="preload">
+            <img ref="anime" width="60px" height="47px" src="/images/card_icon.png" class="hidden xl:block absolute -bottom-4 right-16 anime" alt="Credit Card" style="mix-blend-mode: multiply;" rel="preload">
             <div ref="anime" class="hidden xl:block absolute w-5 h-5 bg-blue-500 rounded-full -bottom-16 right-6 anime" style="mix-blend-mode: multiply; background-color: #4BBFE1;"></div>
         </div>
       </div>
@@ -262,23 +234,15 @@ export default {
 </script>
 
 <style scoped>
-.filter-pink {
-    filter: invert(0.2) sepia(1) saturate(100) hue-rotate(300deg) opacity(0.7);
-}
-
-.filter-blue {
-    filter: invert(0.2) sepia(1) saturate(450) hue-rotate(210deg) opacity(.8);
-}
-
-.filter-green {
-    filter: invert(0.4) sepia(1) saturate(30) hue-rotate(135deg) opacity(0.6);
-}
-
 .filter-dark {
-    filter: brightness(.2);
+    filter: brightness(.5);
 }
 
 .filter-light {
     filter: opacity(.3);
+}
+
+.screenHeightCalc {
+    height: calc(100vh - 12rem);
 }
 </style>

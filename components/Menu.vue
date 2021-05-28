@@ -11,7 +11,7 @@
     <div class="flex justify-between items-center">
       <nuxt-link to="/">
         <img
-          class="w-24"
+          class="w-28 lg:w-40"
           src="/images/logo.svg"
           alt="Idea Evolver Logo"
           @click="toggleMenu"
@@ -57,7 +57,7 @@
 
         <nuxt-link id="careers" class="mb-8 car" to="/careers"> Careers </nuxt-link>
 
-        <nuxt-link id="contact" class="con" to="/contact">Contact Us</nuxt-link>
+        <nuxt-link id="contact" class="con" to="/contact">Contact</nuxt-link>
       </nav>
     </div>
   </div>
