@@ -1,8 +1,8 @@
 <template>
 <div class="fade-in">
-  <div class="relative w-screen md:h-scrollerheight">
-    <div class="relative justify-items-center z-1 lg:py-16 md:py-24" style="mix-blend-mode: multiply;">
-        <svg class="my-8 md:h-48 lg:h-56 lg:hidden" width="100vw" height="105px" viewBox="0 0 103 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <div class="relative w-screen screenHeightCalc">
+    <div class="relative justify-items-center z-1 xl:pt-14" style="mix-blend-mode: multiply;">
+        <svg class="w-screen my-8 md:h-48 lg:h-56 lg:hidden" width="100%" height="105px" viewBox="0 0 103 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <g id="New-2021" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                 <g id="IE_mobile_Audience" transform="translate(-134.000000, -116.000000)">
                     <g id="Icon-1" transform="translate(185.500000, 168.500000) scale(1, -1) translate(-185.500000, -168.500000) translate(134.000000, 116.000000)">
@@ -14,16 +14,16 @@
         </svg>
 
     <div class="flex">
-        <div class="md:mx-20 relative lg:ml-32 xl:py-32 xl:bg-transparent lg:w-2/4 xl:w-2/5">
-            <h1 class="text-3xl tracking-wide leading-normal text-ie-purple mb-4 mx-12 lg:text-4xl xl:text-5xl">
+        <div class="md:mx-20 lg:ml-20 lg:mt-6 xl:mt-0 xl:ml-32 relative xl:py-20 xl:bg-transparent lg:w-2/4 xl:w-2/5">
+            <h1 class="mx-12 text-3xl tracking-wide leading-normal text-ie-purple mb-4 lg:mx-0 lg:text-4xl xl:text-5xl lg:w-4/5">
             Search Behavior Analysis
             </h1>
-            <p class="mx-12 mr-10 text-base leading-normal lg:leading-loose text-gray-600 pb-6">
+            <p class="mx-12 mr-10 text-base leading-normal lg:mx-0 lg:leading-loose text-gray-600 pb-6">
             Search behavior is personal, intentional, and precise. Analysis of this dataset provides a unique window into audience
             intent, core needs and their daily lives. Insights from the analysis helps you connect on a more meaningful level by
             delivering targeted content and/or technology at micro-moments that make all the difference.
             </p>
-            <svg class="w-screen md:w-full xl:w-10 xl:ml-10 animate-bounceslow filter-light" width="100vw" height="13px" viewBox="0 0 23 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <svg class="w-screen md:w-full lg:w-10 animate-bounceslow filter-light" width="100%" height="13px" viewBox="0 0 23 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                     <g id="IE_mobile_SEM" transform="translate(-176.000000, -544.000000)">
                         <g id="Scrolll-arrow" transform="translate(50.000000, 250.000000)">
@@ -256,7 +256,7 @@
     <div class="relative z-1 py-8 mt-12">
         <div ref="anime" class="lg:hidden absolute top-8 right-20 h-4 w-4 rounded-full bg-blue-500 z-behind anime" style="mix-blend-mode: multiply"></div>
         <div class="relative">
-            <svg class="p-6 lg:hidden mb-12" width="100vw" height="300px" viewBox="0 0 324 164" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <svg class="w-screen p-6 lg:hidden mb-12" width="100%" height="300px" viewBox="0 0 324 164" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>chart</title>
                 <defs>
                 <filter x="-1.5%" y="-5.6%" width="103.0%" height="111.3%" filterUnits="objectBoundingBox" id="filter-1">
@@ -318,7 +318,7 @@
                                         </g>
                                     </g>
                                 </g>
-                                <g ref="mseats-2" class="mseats-2" filter="url(#filter-3)" id="Group-7">
+                                <g ref="mseats-2" class="mseats-2" filter="url(#filter-2)" id="Group-7">
                                     <g transform="translate(51.629893, 7.000000)">
                                         <g id="Group-32">
                                             <path d="M0.0648021352,14.2583 L0.0648021352,3.9523 C0.0648021352,2.0743 1.55917865,0.5523 3.40309395,0.5523 L19.9070196,0.5523 C21.7509349,0.5523 23.2453114,2.0743 23.2453114,3.9523 L23.2453114,14.2583" id="Fill-29" fill="#FF0000"></path>
@@ -350,7 +350,7 @@
                                         </g>
                                     </g>
                                 </g>
-                                <g ref="mseats-3" class="mseats-3" filter="url(#filter-4)" id="Group-5">
+                                <g ref="mseats-3" class="mseats-3" filter="url(#filter-3)" id="Group-5">
                                     <g transform="translate(34.750890, 16.000000)">
                                         <g id="Group-60">
                                             <path d="M0.228255252,17.1515647 L0.228255252,4.31332941 C0.228255252,1.97438824 2.02047426,0.0780352941 4.23097777,0.0780352941 L24.0204379,0.0780352941 C26.2319421,0.0780352941 28.0231604,1.97438824 28.0231604,4.31332941 L28.0231604,17.1515647" id="Fill-57" fill="#FF0000"></path>
@@ -382,7 +382,7 @@
                                         </g>
                                     </g>
                                 </g>
-                                <g ref="mseats-4" class="mseats-4" filter="url(#filter-5)" id="Group-6">
+                                <g ref="mseats-4" class="mseats-4" filter="url(#filter-4)" id="Group-6">
                                     <g transform="translate(0.000000, 30.000000)">
                                         <path d="M33.2518321,44.8744255 L0.877005545,45.0000982 C-0.273805247,44.9922436 -0.294549475,44.15868 0.829590165,43.1366073 L9.03936569,36.5790436 C10.1635053,35.5569709 12.0087539,34.7351891 13.1585769,34.7429878 L43.533067,34.9511891 C44.6838778,34.9580618 44.8439047,35.5029709 43.5804824,36.8136982 L37.3463477,43.3732255 C36.2212202,44.3943164 35.1109101,44.9873345 33.2518321,44.8744255" id="Fill-85" fill="#FFFFFF"></path>
                                         <path d="M113.514883,45 L82.2705876,44.9645015 C81.1392305,44.9635421 80.588761,44.1662848 81.0411076,43.1838642 L84.9267746,36.8758412 C85.3791212,35.89438 86.6625688,35.0990415 87.7949071,35.1 L117.664501,35.1287827 C118.795858,35.1297421 119.346327,35.9269995 118.893981,36.9084607 L116.479176,43.1972957 C116.027811,44.1797163 114.64624,45.0009586 113.514883,45" id="Fill-88" fill="#FFFFFF"></path>
@@ -450,8 +450,8 @@
             </g>
         </svg>
         </div>
-    <div class="relative xl:flex xl:flex-row xl:mt-12 xl:mx-40 lg:flex lg:px-20 lg:my-20">
-      <div class="relative xl:inline-block mx-8 xl:mx-0 xl:mt-16 xl:mr-4 text-gray-600 bg-white p-8 xl:p-14 xl:flex-1 xl:h-1/6 lg:mx-0 lg:mt-16">
+    <div class="relative md:flex xl:mt-12 xl:mx-40 lg:my-20 xl:pt-12">
+      <div class="relative xl:inline-block mx-8 md:ml-8 xl:mx-0 xl:mt-16 xl:mr-4 text-gray-600 bg-white p-8 xl:p-14 xl:flex-1 xl:h-1/6 lg:mt-16">
 
         <svg ref="anime" class="hidden lg:block absolute z-behind -top-8 left-6 anime" width="50px" height="43px" viewBox="0 0 50 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <g id="New-2021" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -507,7 +507,7 @@
             </g>
         </svg>
       </div>
-      <div class="relative mx-8 lg:mx-4 xl:mx-0 text-gray-600 bg-white lg:mt-0 p-8 mt-16 xl:mt-0 xl:p-14 xl:flex-1 xl:h-1/6 lg:h-1/6">
+      <div class="relative mx-8 lg:mr-8 xl:mx-0 text-gray-600 bg-white lg:mt-0 p-8 mt-16 xl:mt-0 xl:p-14 xl:flex-1 xl:h-1/6 lg:h-1/6">
 
         <svg ref="anime" class="hidden lg:block z-behind absolute -top-10 right-8 anime" width="90px" height="57px" viewBox="0 0 90 57" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <g id="New-2021" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -893,5 +893,9 @@ gsap.fromTo(".mblue-1", {
 <style scoped>
 .filter-light {
     filter: opacity(.3);
+}
+
+.screenHeightCalc {
+    height: calc(100vh - 12rem);
 }
 </style>

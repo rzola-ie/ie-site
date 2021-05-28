@@ -1,8 +1,8 @@
 <template>
 <div class="fade-in">
-  <div class="relative w-screen md:h-scrollerheight">
-    <div class="relative justify-items-center z-1 lg:py-16 md:py-24" style="mix-blend-mode: multiply;">
-        <svg class="my-8 md:h-48 lg:h-56 lg:hidden" width="100vw" height="105px" viewBox="0 0 95 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
+  <div class="relative w-screen screenHeightCalc">
+    <div class="relative justify-items-center z-1 xl:pt-14" style="mix-blend-mode: multiply;">
+        <svg class="w-screen my-8 md:h-48 lg:h-56 lg:hidden" width="100%" height="105px" viewBox="0 0 95 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                 <g id="IE_mobile_SEM" transform="translate(-140.000000, -116.000000)">
                     <g id="Icon-3" transform="translate(140.000000, 116.000000)">
@@ -14,16 +14,16 @@
             </g>
         </svg>
         <div class="flex">
-            <div class="md:mx-20 relative lg:ml-32 xl:py-32 xl:bg-transparent lg:w-2/4 xl:w-2/5">
-                <h1 class="text-3xl tracking-wide leading-normal text-ie-purple mb-4 mx-12 lg:text-4xl xl:text-5xl">
+            <div class="md:mx-20 relative lg:ml-20 lg:mt-20 xl:mt-0 xl:py-20 xl:ml-32 xl:bg-transparent lg:w-2/4 xl:w-2/5">
+                <h1 class="mx-12 text-3xl tracking-wide leading-normal text-ie-purple mb-4 lg:mx-0 lg:text-4xl xl:text-5xl">
                 Search Experience Marketing
                 </h1>
-                <p class="mx-12 mr-10 text-base leading-normal lg:leading-loose text-gray-600 pb-6">
+                <p class="mx-12 mr-10 text-base leading-normal lg:mx-0 lg:leading-loose text-gray-600 pb-6">
                 Whether you are looking to increase awareness of a product or service, maximize conversions,
                 or have your digital presence work harder for you, our Content, SEO and Paid Search (PPC)
                 services help you achieve the right outcome with the right audiences.
                 </p>
-                <svg class="w-screen md:w-full xl:w-10 xl:ml-10 filter-light" width="100vw" height="13px" viewBox="0 0 23 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <svg class="w-screen md:w-full lg:w-10 filter-light" width="100%" height="13px" viewBox="0 0 23 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                         <g id="IE_mobile_SEM" transform="translate(-176.000000, -544.000000)">
                             <g id="Scrolll-arrow" transform="translate(50.000000, 250.000000)">
@@ -226,7 +226,7 @@
                     </g>
                 </g>
             </svg>
-            <svg class="p-6 lg:h-72 lg:hidden mb-8" width="100vw" height="300px" viewBox="0 0 352 268" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <svg class="w-screen p-6 lg:h-72 lg:hidden mb-8" width="100%" height="300px" viewBox="0 0 352 268" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>Group</title>
                 <defs>
                     <polygon id="path-1" points="0 0 180 0 180 158.839844 0 158.839844"></polygon>
@@ -375,9 +375,9 @@
                 </g>
             </svg>
         </div>
-      <div class="relative xl:flex xl:flex-row xl:mt-12 xl:mx-44 xl:space-x-6 lg:my-20">
+      <div class="relative md:flex xl:mt-12 xl:mx-40 xl:pt-24">
 
-        <div class="relative xl:inline-block mx-8 xl:mx-0 xl:mt-16 xl:mr-4 text-gray-600 bg-white p-8 xl:p-14 xl:flex-1 xl:h-1/6 lg:mx-0 lg:mt-16">
+        <div class="relative xl:inline-block mx-8 md:ml-8 lg:mx-0 lg:ml-8 xl:mx-0 xl:mt-16 text-gray-600 bg-white p-8 xl:p-14 xl:flex-1 xl:h-1/6 lg:mt-16">
 
             <svg class="hidden lg:block absolute right-40 -top-8 z-behind anime" width="51px" height="50px" viewBox="0 0 51 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <g id="New-2021" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -393,7 +393,7 @@
                     </g>
                 </g>
             </svg>
-            <h4 class="text-2xl md:text-3xl lg:text-4xl pb-2">
+            <h4 class="text-xl md:text-2xl lg:text-3xl pb-2">
                 Content + SEO
             </h4>
             <svg width="62px" height="3px" viewBox="0 0 62 3" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -451,7 +451,7 @@
             </g>
         </g>
         </svg>
-        <div class="relative mx-8 lg:mx-4 xl:mx-0 text-gray-600 bg-white lg:mt-0 p-8 mt-16 xl:mt-0 xl:p-14 xl:flex-1 xl:h-1/6 lg:h-1/6">
+        <div class="relative mx-8 lg:mr-8 text-gray-600 bg-white lg:mt-0 p-8 mt-16 xl:mt-0 xl:p-14 xl:flex-1 xl:h-1/6 lg:h-1/6">
             <div ref="anime" class="lg:hidden absolute left-9 -top-5 w-6 h-6 bg-blue-500 rounded-full z-behind anime" style=""></div>
             <div ref="anime" class="lg:hidden absolute -top-4 left-12 w-16 h-4 rounded-t-xl anime" style="background-color: #4F77FF; mix-blend-mode: multiply;"></div>
 
@@ -469,7 +469,7 @@
                     </g>
                 </g>
             </svg>
-            <h4 class="text-2xl md:text-3xl lg:text-4xl pb-2">
+            <h4 class="text-xl md:text-2xl lg:text-3xl pb-2">
                 Paid Search
             </h4>
             <svg width="62px" height="3px" viewBox="0 0 62 3" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -598,5 +598,9 @@ export default {
 <style scoped>
 .filter-light {
     filter: opacity(.3);
+}
+
+.screenHeightCalc {
+    height: calc(100vh - 14rem);
 }
 </style>

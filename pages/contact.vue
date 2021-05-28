@@ -6,8 +6,8 @@
     alt="Background Image" 
   />
   <div class="flex initial h-screen">
-    <div class="relative justify-items-center z-1 md:mt-12" style="mix-blend-mode: multiply;">
-      <svg class="my-8 md:h-44 lg:h-50 xl:hidden" width="100vw" height="105px" viewBox="0 0 139 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
+    <div class="relative justify-items-center z-1" style="mix-blend-mode: multiply;">
+      <svg class="w-screen my-8 md:h-44 lg:h-50 xl:hidden" width="100%" height="105px" viewBox="0 0 139 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
           <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
               <g id="IE_mobile_Contact" transform="translate(-118.000000, -116.000000)">
                   <g id="hero-Icon" transform="translate(118.000000, 116.000000)">
@@ -37,7 +37,7 @@
       </div>
 
     </div>
-      <svg class="hidden xl:block absolute bottom-0 z-2" width="100vw" height="320px" viewBox="0 0 451 360" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  style="mix-blend-mode: multiply;">
+      <svg class="w-screen hidden xl:block absolute bottom-0 z-2" width="100%" height="320px" viewBox="0 0 451 360" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  style="mix-blend-mode: multiply;">
           <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
               <g id="IE_desktop_Contact" transform="translate(-843.000000, -693.000000)">
                   <g id="Big-icon" transform="translate(843.000000, 693.000000)">

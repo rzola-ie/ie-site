@@ -1,8 +1,8 @@
 <template>
 <div class="fade-in">
-  <div class="relative w-screen md:h-scrollerheight">
-    <div class="relative justify-items-center z-1 lg:py-16 md:py-24" style="mix-blend-mode: multiply;">
-      <svg class="my-8 md:h-48 lg:h-56 lg:hidden" width="100vw" height="105px" viewBox="0 0 104 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
+  <div class="relative w-screen screenHeightCalc">
+    <div class="relative justify-items-center z-1 xl:pt-14" style="mix-blend-mode: multiply;">
+      <svg class="w-screen my-8 md:h-48 lg:h-56 lg:hidden" width="100%" height="105px" viewBox="0 0 104 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
           <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
               <g id="IE_mobile_SAMD" transform="translate(-134.000000, -116.000000)">
                   <g id="Icon-2" transform="translate(134.000000, 116.000000)">
@@ -14,16 +14,16 @@
           </g>
       </svg>
       <div class="flex">
-        <div class="md:mx-20 relative lg:ml-32 xl:py-32 xl:bg-transparent lg:w-2/4 xl:w-2/5">
-            <h1 class="text-3xl tracking-wide leading-normal text-ie-purple mb-4 mx-12 lg:text-4xl xl:text-5xl">
+        <div class="md:mx-20 lg:ml-20 lg:mt-20 xl:ml-32 xl:mt-0 relative xl:py-20 xl:bg-transparent lg:w-2/4 xl:w-2/5">
+            <h1 class="mx-12 mb-4 text-3xl tracking-wide leading-normal text-ie-purple lg:mx-0 lg:text-4xl xl:text-5xl">
             Custom Software Development
             </h1>
-            <p class="mx-12 mr-10 text-base leading-normal lg:leading-loose text-gray-600 pb-6">
+            <p class="mx-12 mr-10 text-base leading-normal lg:mx-0 lg:leading-loose text-gray-600 pb-6">
             We minimize the guesswork associated with feature planning and requirements gathering by starting with user behavior research. Our Quality
             Management System is aligned with ISO 13485 and IEC 62304. Building on a scalable infrastructure, we implement the right languages and
             frameworks, so your applications are reliable, fast and intuitive.
             </p>
-            <svg class="w-screen md:w-full xl:w-10 xl:ml-10 filter-light" width="100vw" height="13px" viewBox="0 0 23 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <svg class="w-screen md:w-full lg:w-10 filter-light" width="100%" height="13px" viewBox="0 0 23 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                     <g id="IE_mobile_SEM" transform="translate(-176.000000, -544.000000)">
                         <g id="Scrolll-arrow" transform="translate(50.000000, 250.000000)">
@@ -106,8 +106,8 @@
   </div>
   <section class="relative z-1" style="background: #efefef url('/images/background-pattern.svg') center -5px/100% repeat">
   <div class="relative">
-    <div class="relative z-1 py-12 mt-12 lg:my-20">
-      <svg class="lg:h-72 lg:w-100 lg:m-auto md:w-screen lg:hidden" width="100vw" height="300px" viewBox="0 0 353 194" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <div class="relative z-1 py-12 mt-12">
+      <svg class="w-screen lg:h-72 lg:w-100 lg:m-auto md:w-screen lg:hidden" width="100%" height="300px" viewBox="0 0 353 194" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
               <g id="IE_mobile_SAMD" transform="translate(-6.000000, -707.000000)">
                   <g id="Software-Development-Process" transform="translate(6.000000, 707.000000)">
@@ -160,8 +160,8 @@
               </g>
           </g>
       </svg>
-      <div class="relative xl:flex xl:flex-row xl:mt-14 xl:mx-40 lg:flex lg:px-20">
-        <div class="relative mx-8 text-gray-600 bg-white p-8 xl:p-16 xl:flex-1 xl:h-1/6">
+      <div class="relative md:flex xl:mt-12 xl:mx-40 lg:my-20 xl:pt-12">
+        <div class="relative p-8 mx-8 lg:ml-8 lg:mx-4 xl:mx-0 text-gray-600 bg-white lg:mt-0 xl:mt-0 xl:p-14 xl:flex-1 xl:h-1/6 lg:h-1/6 xl:mr-4">
 
         <svg class="hidden lg:block absolute top-4 -left-4 z-behind anime" width="57px" height="56px" viewBox="0 0 57 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <g id="New-2021" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -174,7 +174,7 @@
                 </g>
             </g>
         </svg>
-          <h4 class="text-2xl md:text-3xl lg:text-4xl pb-2">
+          <h4 class="text-xl md:text-2xl lg:text-3xl pb-2">
             Product Development
           </h4>
           <svg width="62px" height="3px" viewBox="0 0 62 3" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -208,7 +208,7 @@
         </svg>
           <div class="absolute lg:hidden -bottom-2.5 right-10 w-5 h-6 rounded-md" style="background-color: #966CE0"></div>
         </div>
-        <div class="relative mx-8 xl:mx-0 xl:mt-16 text-gray-600 bg-white p-8 mt-16 xl:mt-0 xl:p-16 xl:flex-1 xl:h-1/6">
+        <div class="relative mx-8 lg:mx-8 lg:mt-16 text-gray-600 bg-white lg:mt-0 p-8 mt-16 xl:mt-16 xl:p-14 xl:flex-1 xl:h-1/6 lg:h-1/6">
           <div ref="anime" class="absolute lg:hidden -top-6 left-20 w-10 h-6 rounded-sm anime" style="background-color: #966CE0"></div>
           <div ref="anime" class="absolute lg:hidden -top-3 w-6 h-3 bg-blue-500 rounded-full anime" style="mix-blend-mode: multiply; left: 6.7rem; border-bottom-left-radius: 4rem; border-bottom-right-radius: 4rem;"></div>
           <div ref="anime" class="absolute lg:hidden -top-1.5 left-56 w-3 h-1.5 bg-blue-500 rounded-full anime" style="mix-blend-mode: multiply; border-bottom-left-radius: 4rem; border-bottom-right-radius: 4rem;"></div>
@@ -225,7 +225,7 @@
                 </g>
             </g>
         </svg>
-          <h4 class="text-2xl md:text-3xl lg:text-4xl pb-2">
+          <h4 class="text-xl md:text-2xl lg:text-3xl pb-2">
             Medical Device Software
           </h4>
           <svg width="62px" height="3px" viewBox="0 0 62 3" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -377,7 +377,6 @@ export default {
         }, {
         scrollTrigger: {
         trigger: ".mobile-bar-1",
-        start: "center bottom",
         once: true
         },
         duration: 3, 
@@ -392,7 +391,6 @@ export default {
         }, {
         scrollTrigger: {
         trigger: ".bar-2",
-        start: "center center",
         once: true
         },
         duration: 3, 
@@ -407,7 +405,6 @@ export default {
         }, {
         scrollTrigger: {
         trigger: ".bar-3",
-        start: "center center",
         once: true
         },
         duration: 3, 
@@ -422,7 +419,6 @@ export default {
         }, {
         scrollTrigger: {
         trigger: ".bar-4",
-        start: "center center",
         once: true
         },
         duration: 3, 
@@ -437,5 +433,9 @@ export default {
 <style scoped>
 .filter-light {
     filter: opacity(.3);
+}
+
+.screenHeightCalc {
+    height: calc(100vh - 14rem);
 }
 </style>

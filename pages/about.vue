@@ -5,8 +5,8 @@
     src="/images/bracket-bg.svg"
     alt="Background Image" 
   />
-  <div class="relative w-screen md:h-scrollerheight" style="mix-blend-mode: multiply;">
-    <svg class="hidden xl:block absolute -bottom-20 z-1 right-1/3" width="438px" height="457px" viewBox="0 0 438 457" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
+  <div class="relative w-screen screenHeightCalc" style="mix-blend-mode: multiply;">
+    <svg class="hidden xl:block absolute -bottom-14 z-1 right-1/3" width="438px" height="400px" viewBox="0 0 438 457" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
         <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
             <g id="IE_desktop_About" transform="translate(-890.000000, -601.000000)" fill="#4BBFE1">
                 <g id="Secondary-section" transform="translate(-14.000000, 601.000000)">
@@ -21,8 +21,8 @@
             </g>
         </g>
     </svg>
-    <div class="relative justify-items-center z-1 lg:py-16 md:py-24">
-        <svg class="my-8 md:h-48 lg:h-56 xl:hidden" width="100vw" height="105px" viewBox="0 0 100 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
+    <div class="relative justify-items-center z-1">
+        <svg class="w-screen my-8 md:h-48 lg:h-56 xl:hidden" width="100%" height="105px" viewBox="0 0 100 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                 <g id="IE_mobile_About" transform="translate(-138.000000, -116.000000)" fill="#4BBFE1">
                     <g id="Hero-Icon" transform="translate(138.000000, 116.000000)">
@@ -43,7 +43,7 @@
             Management System (QMS). Building on a scalable infrastructure, we implement the right languages and
             frameworks so your applications are reliable, fast and intuitive.
             </p>
-            <svg class="w-screen md:w-20 lg:m-0 xl:w-10 arrowdown md:w-full xl:m-0 filter-light" width="100vw" height="13px" viewBox="0 0 23 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <svg class="w-screen md:w-20 lg:m-0 xl:w-10 arrowdown md:w-full xl:m-0 filter-light" width="100%" height="13px" viewBox="0 0 23 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                     <g id="IE_mobile_SEM" transform="translate(-176.000000, -544.000000)">
                         <g id="Scrolll-arrow" transform="translate(50.000000, 250.000000)">
@@ -103,7 +103,7 @@
             <img ref="anime" width="20px" height="18px" src="/images/blue-oval.svg" class="hidden xl:block absolute -top-3 right-32 z-behind anime" alt="Blue Oval" rel="preload">
             <img ref="anime" width="23px" height="23px" src="/images/cross_icon.png" class="hidden xl:block absolute -top-5 z-behind left-2/4 anime" alt="Blue Cross" rel="preload">
             <img ref="anime" src="/images/blue-rectangle.svg" class="hidden xl:block absolute top-32 -left-3 z-behind anime" alt="Blue Rectangle">
-            <h4 class="text-2xl md:text-3xl lg:text-4xl pb-2">
+            <h4 class="text-xl md:text-2xl lg:text-3xl pb-2">
                 Healthcare
             </h4>
             <svg width="62px" height="3px" viewBox="0 0 62 3" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -152,7 +152,7 @@
                 </g>
             </svg>
             <div ref="anime" class="xl:hidden absolute top-20 -left-2 h-4 w-4 rounded-full bg-blue-500 z-behind anime" style="mix-blend-mode: multiply"></div>
-            <h4 class="text-2xl md:text-3xl lg:text-4xl pb-2">
+            <h4 class="text-xl md:text-2xl lg:text-3xl pb-2">
             Food & Retail
             </h4>
 
@@ -168,7 +168,7 @@
                 </g>
             </svg>
 
-            <img class="p-6 w-full filter-dark" src="/images/foodretail-logos.svg" alt="Food and Retail Brand Logos" rel="preload">
+            <img class="pt-6 w-full filter-dark" src="/images/foodretail-logos.svg" alt="Food and Retail Brand Logos" rel="preload">
 
             <div ref="anime" class="xl:hidden absolute bottom-2 -right-2 w-5 h-4 rounded-sm bg-blue-500 z-behind anime"></div>
 
@@ -240,5 +240,9 @@ export default {
 
 .filter-light {
     filter: opacity(.3);
+}
+
+.screenHeightCalc {
+    height: calc(100vh - 12rem);
 }
 </style>
