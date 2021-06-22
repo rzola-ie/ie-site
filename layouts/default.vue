@@ -1,7 +1,7 @@
 <template>
   <div
     id="app"
-    class="relative overflow-hidden"
+    class="relative overflow-hidden main-content"
   >
 
     <Header ref="header" />
@@ -24,7 +24,7 @@
 
 
 export default {
-  // mounted() {
+  mounted() {
   //   let cookieBtn = document.getElementById("cookieBtn");
 
   //   gsap.from('.cookieNotice', { opacity: 0, height: 0, ease: 'ease', duration: 1 })
@@ -33,7 +33,7 @@ export default {
   //     gsap.to('.cookieNotice', { height: 0, opacity: 0, ease: 'ease', duration: 1 })
   //   }
   //   cookieBtn.addEventListener("click", cookieGoAway);
-  // }
+  }
 }
 </script>
 
@@ -84,7 +84,6 @@ export default {
 body {
   /* @apply bg-gray-100; */
   font-family: "Avenir";
-  overflow: hidden;
   height: 100%;
 }
 </style>
