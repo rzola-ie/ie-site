@@ -2,7 +2,7 @@
   <header id="header" class="w-full py-6 lg:py-12 z-40">
     <div
       id="header-container"
-      class="flex justify-between items-center mx-6 md:mx-16 xl:mx-32"
+      class="flex justify-between items-center mx-6 md:mx-16 xl:mx-40"
     >
       <div id="header-logo">
         <nuxt-link to="/">
@@ -13,43 +13,43 @@
         <ul class="flex">
           <li
             id="search-behavior-analysis"
-            class="mr-12 text-gray-700 hover:text-gray-500 transition ease-in duration-150 hover:border-b border-blue-500"
+            class="mr-12 text-gray-700 text-md hover:text-gray-500 transition ease-in duration-150 hover:border-b border-blue-500"
           >
             <nuxt-link to="/search-behavior-analysis">
-              Search Behavior Analysis
+              Behavior Analysis
             </nuxt-link>
           </li>
           <li
-            id="software-development"
-            class="mr-12 text-gray-700 hover:text-gray-500 transition ease-in duration-150 sd"
+            id="medical-device-custom-software-development"
+            class="mr-12 text-gray-700 text-md hover:text-gray-500 transition ease-in duration-150 sd"
           >
-            <nuxt-link to="/software-development">
+            <nuxt-link to="/medical-device-custom-software-development">
               Software Development
             </nuxt-link>
           </li>
           <li
-            id="search-experience-marketing"
-            class="mr-12 text-gray-700 hover:text-gray-500 transition ease-in duration-150 sem"
+            id="search-experience-marketing-optimization"
+            class="mr-12 text-gray-700 text-md hover:text-gray-500 transition ease-in duration-150 sem"
           >
-            <nuxt-link to="/search-experience-marketing">
-              Search Experience Marketing
+            <nuxt-link to="/search-experience-marketing-optimization">
+              Search Marketing
             </nuxt-link>
           </li>
           <li
-            id="about"
-            class="mr-12 text-gray-700 hover:text-gray-500 transition ease-in duration-150 ab"
+            id="about-us"
+            class="mr-12 text-gray-700 text-md hover:text-gray-500 transition ease-in duration-150 ab"
           >
-            <nuxt-link to="/about">About</nuxt-link>
+            <nuxt-link to="/about-us">About</nuxt-link>
           </li>
           <li
             id="careers"
-            class="mr-12 text-gray-700 hover:text-gray-500 transition ease-in duration-150 car"
+            class="mr-12 text-gray-700 text-md hover:text-gray-500 transition ease-in duration-150 car"
           >
             <nuxt-link to="/careers">Careers</nuxt-link>
           </li>
           <li
             id="contact"
-            class="mr-0 text-gray-700 hover:text-gray-500 transition ease-in duration-150 con"
+            class="mr-0 text-gray-700 text-md hover:text-gray-500 transition ease-in duration-150 con"
           >
             <nuxt-link to="/contact">Contact</nuxt-link>
           </li>
@@ -119,15 +119,15 @@ a.nuxt-link-active {
   border-bottom: 5px solid #65D8B4;
 }
 
-#software-development a.nuxt-link-active {
+#medical-device-custom-software-development a.nuxt-link-active {
   border-bottom: 5px solid #966CE0;
 }
 
-#search-experience-marketing a.nuxt-link-active {
+#search-experience-marketing-optimization a.nuxt-link-active {
   border-bottom: 5px solid #4F77FF;
 }
 
-#about a.nuxt-link-active {
+#about-us a.nuxt-link-active {
   border-bottom: 5px solid #4BBFE1;
 }
 
@@ -143,15 +143,15 @@ a.nuxt-link-active {
   background-color: #65D8B4;
 }
 
-#software-development::after {
+#medical-device-custom-software-development::after {
   background-color: #966CE0;
 }
 
-#search-experience-marketing::after {
+#search-experience-marketing-optimization::after {
   background-color: #4F77FF;
 }
 
-#about::after {
+#about-us::after {
   background-color: #4BBFE1;
 }
 
