@@ -36,8 +36,53 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/google-analytics',
+    '@nuxtjs/gtm',
   ],
+
+  env: {
+    GTM_ID: process.env.GTM_ID || 'GTM-MQ3RGJ',
+  },
+
+  gtm: {
+    enabled: true,
+    debug: false,
+
+    id: 'GTM-MQ3RGJ',
+    layer: 'dataLayer',
+    variables: {},
+
+    pageTracking: true,
+    pageViewEventName: 'nuxtRoute',
+
+    autoInit: true,
+    respectDoNotTrack: true,
+
+    scriptId: 'gtm-script',
+    scriptDefer: false,
+    scriptURL: 'https://www.googletagmanager.com/gtm.js',
+    crossOrigin: false,
+
+    noscript: true,
+    noscriptId: 'gtm-noscript',
+    noscriptURL: 'https://www.googletagmanager.com/ns.html'
+  },
+
+  publicRuntimeConfig: {
+    gtm: {
+      id: process.env.GTM_ID,
+    }
+  },
+
+  // googleAnalytics: {
+  //   id: process.env.GOOGLE_ANALYTICS_ID || 'MQ3RGJ', // Use as fallback if no runtime config is provided
+  // },
+  // publicRuntimeConfig: {
+  //   googleAnalytics: {
+  //     id: process.env.GOOGLE_ANALYTICS_ID || 'MQ3RGJ'
+  //   }
+  // },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [

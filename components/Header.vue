@@ -16,7 +16,7 @@
             class="mr-12 text-gray-700 text-md hover:text-gray-500 transition ease-in duration-150 hover:border-b border-blue-500"
           >
             <nuxt-link to="/search-behavior-analysis">
-              Search Behavior Analysis
+              Behavior Analysis
             </nuxt-link>
           </li>
           <li
@@ -32,7 +32,7 @@
             class="mr-12 text-gray-700 text-md hover:text-gray-500 transition ease-in duration-150 sem"
           >
             <nuxt-link to="/search-experience-marketing-optimization">
-              Search Experience Marketing
+              Search Marketing
             </nuxt-link>
           </li>
           <li
