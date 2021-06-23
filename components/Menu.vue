@@ -89,7 +89,7 @@ export default {
     border-bottom: 5px solid #65D8B4;
     content: '';
     border-radius: 2px;
-    width: 270px;
+    width: 190px;
     display: block;
   }
   .nuxt-link-active.sd::after {
@@ -103,7 +103,7 @@ export default {
     border-bottom: 5px solid #4F77FF;
     content: '';
     border-radius: 2px;
-    width: 320px;
+    width: 190px;
     display: block;
   }
   .nuxt-link-active.abo::after {
@@ -124,7 +124,7 @@ export default {
     border-bottom: 5px solid #EFCB57;
     content: '';
     border-radius: 2px;
-    width: 125px;
+    width: 90px;
     display: block;
   }
 </style>

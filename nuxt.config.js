@@ -75,15 +75,6 @@ export default {
     }
   },
 
-  // googleAnalytics: {
-  //   id: process.env.GOOGLE_ANALYTICS_ID || 'MQ3RGJ', // Use as fallback if no runtime config is provided
-  // },
-  // publicRuntimeConfig: {
-  //   googleAnalytics: {
-  //     id: process.env.GOOGLE_ANALYTICS_ID || 'MQ3RGJ'
-  //   }
-  // },
-
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
   ],
