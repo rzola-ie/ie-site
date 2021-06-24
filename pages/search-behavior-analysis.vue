@@ -877,7 +877,7 @@ export default {
         height: calc(100vh - 10rem);
     }
     .svg-small {
-        margin: 0;
+        margin: 2rem 0;
     }
 }
 

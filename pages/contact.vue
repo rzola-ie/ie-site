@@ -140,7 +140,16 @@ export default {
       overflow: hidden;
     }
 }
-
+@media (max-width: 420px) and (max-height: 670px) {
+    svg {
+      height: 100px;
+      margin: 1rem 0;
+    }
+    h1 {
+        font-size: 20px;
+        padding: 0;
+    }
+}
 @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
   .content {
     height: calc(100vh - 8rem);

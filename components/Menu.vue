@@ -40,24 +40,24 @@
       </button>
     </div>
     <div class="flex-1" @click="toggleMenu">
-      <nav id="menu-links" class="flex flex-col text-2xl text-gray-600 pt-32">
-        <nuxt-link class="mb-8 sba" to="/search-behavior-analysis">
+      <nav id="menu-links" class="flex flex-col text-2xl text-gray-600 pt-20">
+        <nuxt-link class="mb-8 pl-6 sba" to="/search-behavior-analysis">
           Behavior Analysis
         </nuxt-link>
 
-        <nuxt-link id="software-development" class="mb-8 sd" to="/medical-device-custom-software-development">
+        <nuxt-link id="software-development" class="mb-8 pl-6 sd" to="/medical-device-custom-software-development">
           Software Development
         </nuxt-link>
 
-        <nuxt-link id="search-experience-marketing" class="mb-8 sem" to="/search-experience-marketing-optimization">
+        <nuxt-link id="search-experience-marketing" class="mb-8 pl-6 sem" to="/search-experience-marketing-optimization">
           Search Marketing
         </nuxt-link>
 
-        <nuxt-link id="about" class="mb-8 abo" to="/about-us"> About </nuxt-link>
+        <nuxt-link id="about" class="mb-8 pl-6 abo" to="/about-us"> About </nuxt-link>
 
-        <nuxt-link id="careers" class="mb-8 car" to="/careers"> Careers </nuxt-link>
+        <nuxt-link id="careers" class="mb-8 pl-6 car" to="/careers"> Careers </nuxt-link>
 
-        <nuxt-link id="contact" class="con" to="/contact">Contact</nuxt-link>
+        <nuxt-link id="contact" class="pl-6 con" to="/contact">Contact</nuxt-link>
       </nav>
     </div>
   </div>

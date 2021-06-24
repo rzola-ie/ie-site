@@ -277,11 +277,12 @@ export default {
     .screenHeightCalc {
         height: 80%;
     }
+}
+@media (max-width: 380px) and (max-height: 670px) {
     .svg-small {
-        margin: 0;
+        margin: 2rem 0;
     }
 }
-
 @media (min-width: 350px) and (max-height: 800px) {
     .screenHeightCalc {
         height: 80%;
