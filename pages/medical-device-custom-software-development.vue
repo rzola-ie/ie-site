@@ -2,7 +2,7 @@
 <div class="fade-in">
   <div class="relative w-screen screenHeightCalc">
     <div class="relative justify-items-center z-1 xl:pt-6" style="mix-blend-mode: multiply;">
-      <svg class="w-screen my-8 md:h-48 lg:h-56 lg:hidden" width="100%" height="105px" viewBox="0 0 104 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
+      <svg class="w-screen my-8 md:h-48 lg:h-56 lg:hidden svg-small" width="100%" height="105px" viewBox="0 0 104 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
           <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
               <g id="IE_mobile_SAMD" transform="translate(-134.000000, -116.000000)">
                   <g id="Icon-2" transform="translate(134.000000, 116.000000)">
@@ -15,9 +15,7 @@
       </svg>
       <div class="flex">
         <div class="md:mx-20 lg:ml-20 lg:mt-20 xl:ml-40 xl:mt-0 relative xl:py-20 xl:bg-transparent lg:w-2/4 xl:w-2/5">
-            <h1 class="mx-12 mb-4 text-3xl tracking-wide leading-normal text-ie-purple lg:mx-0 lg:text-4xl xl:text-5xl">
-            Custom Software Development
-            </h1>
+            <h1 class="mx-12 mb-4 text-3xl tracking-wide leading-normal text-ie-purple lg:mx-0 lg:text-4xl xl:text-5xl">Custom Software Development</h1>
             <p class="mx-12 mr-10 lg:text-lg leading-normal lg:mx-0 lg:leading-loose text-gray-600 pb-6">
                 We minimize the guesswork associated with feature planning and requirements gathering by starting with user
                 behavior research. Our Quality Management System is ISO 13485 certified and is compliant with IEC 62304
@@ -479,6 +477,15 @@ export default {
 
 .iso-cert a{
     color: #A3238E;
+}
+
+@media (max-width: 380px) and (max-height: 670px) {
+    .screenHeightCalc {
+        height: calc(100vh - 10rem);
+    }
+    .svg-small {
+        margin: 0;
+    }
 }
 
 

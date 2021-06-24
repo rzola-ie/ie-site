@@ -2,7 +2,7 @@
 <div class="fade-in h-full screenHeight overflow-hidden content">
   <div class="md:flex">
     <div class="relative justify-items-center z-1 xl:w-2/4 xl:ml-8" style="mix-blend-mode: multiply;">
-      <svg class="w-screen my-8 md:h-44 lg:h-50 xl:hidden" width="100%" height="105px" viewBox="0 0 139 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
+      <svg class="w-screen my-8 md:h-44 lg:h-50 xl:hidden svg-small" width="100%" height="105px" viewBox="0 0 139 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
           <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
               <g id="IE_mobile_Contact" transform="translate(-118.000000, -116.000000)">
                   <g id="hero-Icon" transform="translate(118.000000, 116.000000)">
@@ -14,9 +14,7 @@
           </g>
       </svg>
       <div class="ml-12 md:mx-20 relative xl:ml-32 xl:py-32 xl:bg-transparent">
-        <h1 class="text-3xl xl:text-5xl tracking-wide leading-normal text-ie-purple mb-4 xl:mb-8">
-          Contact Us
-        </h1>
+        <h1 class="text-3xl xl:text-5xl tracking-wide leading-normal text-ie-purple mb-4 xl:mb-8">Contact Us</h1>
         <p class="mr-10 mb-4 text-xl leading-normal text-gray-600 pb-6 md:w-4/5">
           1315 Walnut Street <br />
           Suite 932 <br />
@@ -24,7 +22,7 @@
         </p>
         <p class="text-xl text-gray-600">215-420-9053</p>
         <a class="text-base text-gray-600 border-b-2 border-blue-300 text-xl" href="mailto:press1for@ideaevolver.com">press1for@ideaevolver.com</a>
-        <div class="flex mt-12 pb-24 md:pb-0">
+        <div class="flex mt-12 pb-12 md:pb-0">
           <a class="text-black" href="https://www.facebook.com/IdeaEvolver/"><img class="mr-8 xl:w-9 xl:h-9" src="/images/facebook.svg" alt="Idea Evolver Facebook Link" rel="preload"></a>
           <a href="https://www.linkedin.com/company/idea-evolver/"><img class="mr-8 xl:w-9 xl:h-9" src="/images/linkedin.svg" alt="Idea Evolver LinkedIn Link" rel="preload"></a>
           <a href="https://www.instagram.com/idea_evolver/"><img class="xl:w-9 xl:h-9" src="/images/instagram.svg" alt="Idea Evolver Instagram Link" rel="preload"></a>
@@ -153,12 +151,15 @@ export default {
   .content {
     height: calc(100vh - 10rem);
   }
+  svg.svg-small {
+    margin: 0;
+  }
 }
 
 @media (min-width: 422px) {
-    .screenHeight {
-        height: calc(100vh - 12rem);
-    }
+  .screenHeight {
+      height: calc(100vh - 12rem);
+  }
 }
 
 </style>

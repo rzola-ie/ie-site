@@ -22,7 +22,7 @@
         </g>
     </svg>
     <div class="relative justify-items-center z-1">
-        <svg class="w-screen my-8 md:h-48 lg:h-56 xl:hidden" width="100%" height="105px" viewBox="0 0 100 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
+        <svg class="w-screen my-8 md:h-48 lg:h-56 xl:hidden svg-small" width="100%" height="105px" viewBox="0 0 100 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                 <g id="IE_mobile_About" transform="translate(-138.000000, -116.000000)" fill="#4BBFE1">
                     <g id="Hero-Icon" transform="translate(138.000000, 116.000000)">
@@ -34,10 +34,8 @@
             </g>
         </svg>
         <div class="relative lg:ml-20 xl:ml-40 xl:py-32 xl:bg-transparent lg:w-4/5 xl:w-4/12 lg:mx-16 xl:mx-0">
-            <h1 class="text-3xl lg:text-4xl xl:text-5xl tracking-wide leading-normal lg:leading-loose text-ie-purple mb-4 mx-12 lg:mx-0 ">
-            About
-            </h1>
-            <p class="mx-12 mr-10 text-base leading-normal text-gray-600 pb-6 lg:mx-0 lg:leading-loose">
+            <h1 class="text-3xl lg:text-4xl xl:text-5xl tracking-wide leading-normal lg:leading-loose text-ie-purple mb-4 mx-12 lg:mx-0 ">About</h1>
+            <p class="mx-12 mr-10 text-base lg:text-lg leading-normal text-gray-600 pb-6 lg:mx-0 lg:leading-loose">
                 Established in 2010, Idea Evolver is an audience marketing and custom software development company that specializes
                 in medical device software (SaMD) and digital marketing for food, healthcare, and biotech companies.
             </p>
@@ -271,13 +269,37 @@ export default {
 
 @media (min-width: 1024px) {
     .screenHeightCalc {
-        height: calc(100vh - 20rem);
+        height: calc(100vh - 23.6rem);
     }
 }
 
 @media (min-width: 350px) and (max-width: 1023px) {
     .screenHeightCalc {
-        height: 50%;
+        height: 80%;
     }
+    .svg-small {
+        margin: 0;
+    }
+}
+
+@media (min-width: 350px) and (max-height: 800px) {
+    .screenHeightCalc {
+        height: 80%;
+    }
+}
+
+@media all and (device-width: 1024px) and (device-height: 1366px) and (orientation:portrait) {
+  .screenHeightCalc {
+    height: 50%;
+  }
+}
+
+@media all and (device-width: 1024px) and (device-height: 1366px) and (orientation:landscape) {
+  .screenHeightCalc {
+    height: calc(100vh - 10rem);
+  }
+  svg.svg-small {
+    margin: 0;
+  }
 }
 </style>

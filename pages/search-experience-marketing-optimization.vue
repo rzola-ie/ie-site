@@ -2,7 +2,7 @@
 <div class="fade-in">
   <div class="relative w-screen screenHeightCalc">
     <div class="relative justify-items-center z-1 xl:pt-6" style="mix-blend-mode: multiply;">
-        <svg class="w-screen my-8 md:h-48 lg:h-56 lg:hidden" width="100%" height="105px" viewBox="0 0 95 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
+        <svg class="w-screen my-8 md:h-48 lg:h-56 lg:hidden svg-small" width="100%" height="105px" viewBox="0 0 95 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                 <g id="IE_mobile_SEM" transform="translate(-140.000000, -116.000000)">
                     <g id="Icon-3" transform="translate(140.000000, 116.000000)">
@@ -13,11 +13,9 @@
                 </g>
             </g>
         </svg>
-        <div class="flex mb-8">
+        <div class="flex">
             <div class="md:mx-20 relative lg:ml-20 lg:mt-20 xl:mt-0 xl:py-20 xl:ml-40 xl:bg-transparent lg:w-2/4 xl:w-2/5">
-                <h1 class="mx-12 text-3xl tracking-wide leading-normal text-ie-purple mb-4 lg:mx-0 lg:text-4xl xl:text-5xl">
-                Search Experience Marketing
-                </h1>
+                <h1 class="mx-12 text-3xl tracking-wide leading-normal text-ie-purple mb-4 lg:mx-0 lg:text-4xl xl:text-5xl">Search Experience Marketing</h1>
                 <p class="mx-12 mr-10 lg:text-lg leading-normal lg:mx-0 lg:leading-loose text-gray-600 pb-6">
                 Whether you are looking to increase awareness of a product or service, maximize conversions,
                 or have your digital presence work harder for you, our Content, SEO and Paid Search (PPC)
@@ -702,12 +700,26 @@ export default {
 .filter-light {
     filter: opacity(.3);
 }
-/* 
+
 @media (min-width: 640px) {
     .screenHeightCalc {
-        height: calc(100vh - 1rem);
+        height: 50%;
     }
-} */
+}
+@media (max-width: 380px) and (max-height: 670px) {
+    .screenHeightCalc {
+        height: calc(100vh - 10rem);
+    }
+    .svg-small {
+        margin: 0;
+    }
+}
+
+@media (max-width: 420px) and (max-height: 825px) {
+    .screenHeightCalc {
+        height: calc(100vh - 16rem);
+    }
+}
 
 @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
   .screenHeightCalc {

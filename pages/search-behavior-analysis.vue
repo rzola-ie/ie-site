@@ -2,7 +2,7 @@
 <div class="fade-in">
   <div class="relative w-screen screenHeightCalc">
     <div class="relative justify-items-center z-1 xl:pt-6" style="mix-blend-mode: multiply;">
-        <svg class="w-screen my-8 md:h-48 lg:h-56 lg:hidden" width="100%" height="105px" viewBox="0 0 103 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <svg class="w-screen my-8 md:h-48 lg:h-56 lg:hidden svg-small" width="100%" height="105px" viewBox="0 0 103 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <g id="New-2021" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                 <g id="IE_mobile_Audience" transform="translate(-134.000000, -116.000000)">
                     <g id="Icon-1" transform="translate(185.500000, 168.500000) scale(1, -1) translate(-185.500000, -168.500000) translate(134.000000, 116.000000)">
@@ -15,9 +15,7 @@
 
     <div class="flex">
         <div class="md:mx-20 lg:ml-20 lg:mt-6 xl:mt-0 xl:ml-40 relative xl:py-20 xl:bg-transparent lg:w-2/4 xl:w-2/5">
-            <h1 class="mx-12 text-3xl tracking-wide leading-normal text-ie-purple mb-4 lg:mx-0 lg:text-4xl xl:text-5xl lg:w-4/5">
-            Search Behavior Analysis
-            </h1>
+            <h1 class="mx-12 text-3xl tracking-wide leading-normal text-ie-purple mb-4 lg:mx-0 lg:text-4xl xl:text-5xl lg:w-4/5">Search Behavior Analysis</h1>
             <p class="mx-12 mr-10 lg:text-lg leading-normal lg:mx-0 lg:leading-loose text-gray-600 pb-6">
             Search behavior is personal, intentional, and precise. Analysis of this dataset provides a unique window into audience
             intent, core needs and their daily lives. Insights from the analysis helps you connect on a more meaningful level by
@@ -874,6 +872,20 @@ export default {
     }
 }
 
+@media (max-width: 380px) and (max-height: 670px) {
+    .screenHeightCalc {
+        height: calc(100vh - 10rem);
+    }
+    .svg-small {
+        margin: 0;
+    }
+}
+
+@media (max-width: 380px) and (min-height: 671px) {
+    .screenHeightCalc {
+        height: calc(100vh - 16rem);
+    }
+}
 @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
   .screenHeightCalc {
     height: 50%;

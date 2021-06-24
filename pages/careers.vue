@@ -2,7 +2,7 @@
 <div class="fade-in h-full screenHeight overflow-hidden">
   <div class="md:flex">
     <div class="relative justify-items-center z-1 xl:w-2/4 xl:ml-8 content" style="mix-blend-mode: multiply;">
-      <svg class="w-screen my-8 md:h-44 lg:h-50 xl:hidden" width="100%" height="106px" viewBox="0 0 108 106" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
+      <svg class="w-screen my-8 md:h-44 lg:h-50 xl:hidden svg-small" width="100%" height="106px" viewBox="0 0 108 106" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
           <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
               <g id="IE_mobile_Careers" transform="translate(-134.000000, -116.000000)">
                   <g id="Hero-icon" transform="translate(134.000000, 116.000000)">
@@ -13,10 +13,8 @@
               </g>
           </g>
       </svg>
-      <div class="ml-12 md:mx-20 relative xl:ml-32 xl:py-32 xl:bg-transparent pb-24 md:pb-0">
-        <h1 class="text-3xl xl:text-5xl tracking-wide leading-normal text-ie-purple mb-4 xl:mb-8">
-          Careers
-        </h1>
+      <div class="ml-12 md:mx-20 relative xl:ml-32 xl:py-32 xl:bg-transparent pb-12 md:pb-0">
+        <h1 class="text-3xl xl:text-5xl tracking-wide leading-normal text-ie-purple mb-4 xl:mb-8">Careers</h1>
         <p class="mr-10 text-xl leading-normal text-gray-600 pb-6 lg:leading-loose">
           We are always on the lookout for talented marketers, software engineers, designers and regulatory specialists.
         </p>
@@ -154,6 +152,9 @@ export default {
 @media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
   .content {
     height: calc(100vh - 10rem);
+  }
+  svg.svg-small {
+    margin: 0;
   }
 }
 </style>

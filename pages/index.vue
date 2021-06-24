@@ -2,7 +2,7 @@
 <div class="fade-in h-full screenHeight xl:pt-6 content">
     <div class="lg:flex">
         <div class="flex-grow px-6 lg:ml-16 xl:ml-32">
-            <h1 class="mt-2 text-2xl leading-normal tracking-wide text-ie-purple text-center md:text-4xl md:px-12 md:my-8 md:text-3xl lg:px-0 lg:text-4xl lg:w-6/7 lg:text-left lg:leading-tight lg:mb-20 xl:text-4xl xl:leading-tight 2xl:text-6xl 2xl:leading-tight">Audience marketing and software solutions that transform engagement to bring brands into digital harmony.</h1>
+            <h1 class="mt-2 text-2xl leading-7 md:leading-normal tracking-wide text-ie-purple text-center md:text-4xl md:px-12 md:my-8 md:text-3xl lg:px-0 lg:text-4xl lg:w-6/7 lg:text-left lg:leading-tight lg:mb-20 xl:text-4xl xl:leading-tight 2xl:text-6xl 2xl:leading-tight">Audience marketing and software solutions that transform engagement to bring brands into digital harmony.</h1>
             <h4 class="hidden lg:block text-xl leading-normal tracking-wide text-ie-purple text-center lg:text-left lg:text-2xl">Evolve Responsively.</h4>
         </div>
         <div class="relative">
@@ -150,7 +150,7 @@
                 </g>
             </svg>
         </div>
-        <h1 class="block lg:hidden text-xl leading-normal tracking-wide text-ie-purple text-center md:text-2xl">Evolve Responsively.</h1>
+        <h1 class="block lg:hidden pb-12 md:pb-0 text-xl leading-normal tracking-wide text-ie-purple text-center md:text-2xl">Evolve Responsively.</h1>
         <p class="md:hidden text-gray-600 text-xs text-center p-5 bg-transparent">&copy; 2021 IDEA EVOLVER. All rights reserved.</p>
     </div>
 </div>
@@ -278,8 +278,11 @@ export default {
 }
 @media (max-width: 420px) and (max-height: 825px) {
     svg {
-      height: 300px;
-      margin: 1rem 0;
+      height: 230px;
+    }
+    h1 {
+        font-size: 20px;
+         padding: 0;
     }
 }
 @media (max-width: 361px) and (max-height: 825px) {
@@ -290,6 +293,10 @@ export default {
 @media (max-width: 321px) and (max-height: 825px) {
     svg {
       height: 200px;
+    }
+    h1 {
+        font-size: 18px;
+         padding: 0;
     }
 }
 
@@ -306,14 +313,19 @@ export default {
 }
 
 @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+    svg {
+      height:350px;
+      margin-bottom: 2rem;
+    }
+
   .content {
-    height: calc(100vh - 8rem);
+    height: calc(100vh - 14rem);
   }
 }
 
 @media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
   .content {
-    height: calc(100vh - 10rem);
+    height: calc(100vh - 14rem);
   }
 }
 

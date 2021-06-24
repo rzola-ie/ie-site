@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Idea Evolver | Evolve Responsibly',
+    title: 'Idea Evolver | Evolve Responsively',
     htmlAttrs: {
       lang: 'en'
     },
@@ -74,6 +74,15 @@ export default {
       id: process.env.GTM_ID,
     }
   },
+
+  // googleAnalytics: {
+  //   id: process.env.GOOGLE_ANALYTICS_ID || 'MQ3RGJ', // Use as fallback if no runtime config is provided
+  // },
+  // publicRuntimeConfig: {
+  //   googleAnalytics: {
+  //     id: process.env.GOOGLE_ANALYTICS_ID || 'MQ3RGJ'
+  //   }
+  // },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
