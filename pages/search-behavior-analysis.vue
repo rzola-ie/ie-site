@@ -16,11 +16,7 @@
     <div class="flex">
         <div class="md:mx-20 lg:ml-20 lg:mt-6 xl:mt-0 xl:ml-40 relative xl:py-20 xl:bg-transparent lg:w-2/4 xl:w-2/5">
             <h1 class="mx-12 text-3xl tracking-wide leading-normal text-ie-purple mb-4 lg:mx-0 lg:text-4xl xl:text-5xl lg:w-4/5">Search Behavior Analysis</h1>
-            <p class="mx-12 mr-10 lg:text-lg leading-normal lg:mx-0 lg:leading-loose text-gray-600 pb-6">
-            Search behavior is personal, intentional, and precise. Analysis of this dataset provides a unique window into audience
-            intent, core needs and their daily lives. Insights from the analysis helps you connect on a more meaningful level by
-            delivering targeted content and/or technology at micro-moments that make all the difference.
-            </p>
+            <p class="mx-12 mr-10 lg:text-lg leading-normal lg:mx-0 lg:leading-loose text-gray-600 pb-6">Search behavior is personal, intentional, and precise. Analysis of this dataset provides a unique window into audience intent, core needs and their daily lives. Insights from the analysis helps you connect on a more meaningful level by delivering targeted content and/or technology at micro-moments that make all the difference.</p>
             <button ref="scrollArrow" class="scrollArrow w-full m-auto lg:w-10" id="scrollArrow">
                 <svg class="animate-bounceslow filter-light" width="100%" height="13px" viewBox="0 0 23 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -467,9 +463,7 @@
                 </g>
             </g>
         </svg>
-        <h4 class="text-xl md:text-2xl lg:text-3xl pb-2">
-          Research & Analysis
-        </h4>
+        <h4 class="text-xl md:text-2xl lg:text-3xl pb-2">Research & Analysis</h4>
         <svg width="62px" height="3px" viewBox="0 0 62 3" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                 <g id="IE_mobile_SEM" transform="translate(-62.000000, -1120.000000)" fill="#4BBFE1">
@@ -481,11 +475,7 @@
                 </g>
             </g>
         </svg>
-        <p class="pt-4 lg:text-lg">
-            We meticulously analyze the most relevant search behavior and results to understand the interests, the intentions,
-            and the core needs of your audience. By processing natural language and categorizing search trends, we accurately
-            map the journey of your audience and how to best intercept them in search engines.
-        </p>
+        <p class="pt-4 lg:text-lg">We meticulously analyze the most relevant search behavior and results to understand the interests, the intentions, and the core needs of your audience. By processing natural language and categorizing search trends, we accurately map the journey of your audience and how to best intercept them in search engines.</p>
 
         <svg ref="anime" class="hidden lg:block absolute z-behind -bottom-20 right-2 anime" width="66px" height="85px" viewBox="0 0 66 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <g id="New-2021" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -530,9 +520,7 @@
                 </g>
             </g>
         </svg>
-        <h4 class="text-xl md:text-2xl lg:text-3xl pb-2">
-          Insights & Imagination
-        </h4>
+        <h4 class="text-xl md:text-2xl lg:text-3xl pb-2">Insights & Imagination</h4>
         <svg width="62px" height="3px" viewBox="0 0 62 3" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                 <g id="IE_mobile_SEM" transform="translate(-62.000000, -1120.000000)" fill="#4BBFE1">
@@ -544,11 +532,7 @@
                 </g>
             </g>
         </svg>
-        <p class="pt-4 lg:text-lg">
-            Based on the full analysis, we deliver a custom search audience strategy that advances your marketing and business goals.
-            This includes content and innovation opportunities that are discovered by aligning the unique needs of your audience to
-            the unique features of your brand. 
-        </p>
+        <p class="pt-4 lg:text-lg">Based on the full analysis, we deliver a custom search audience strategy that advances your marketing and business goals. This includes content and innovation opportunities that are discovered by aligning the unique needs of your audience to the unique features of your brand.</p>
 
         <svg class="lg:hidden absolute -bottom-4 right-10 anime" width="38px" height="30px" viewBox="0 0 38 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <g id="New-2021" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -881,11 +865,6 @@ export default {
     }
 }
 
-@media (max-width: 380px) and (min-height: 671px) {
-    .screenHeightCalc {
-        height: calc(100vh - 16rem);
-    }
-}
 @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
   .screenHeightCalc {
     height: 50%;

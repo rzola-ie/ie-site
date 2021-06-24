@@ -150,7 +150,7 @@
                 </g>
             </svg>
         </div>
-        <h1 class="block lg:hidden pb-12 md:pb-0 text-xl leading-normal tracking-wide text-ie-purple text-center md:text-2xl">Evolve Responsively.</h1>
+        <h4 class="block lg:hidden pb-12 md:pb-0 text-xl leading-normal tracking-wide text-ie-purple text-center md:text-2xl">Evolve Responsively.</h4>
         <p class="md:hidden text-gray-600 text-xs text-center p-5 bg-transparent">&copy; 2021 IDEA EVOLVER. All rights reserved.</p>
     </div>
 </div>
@@ -282,9 +282,12 @@ export default {
       margin: 2rem 0;
     }
     h1 {
-        font-size: 22px;
+        font-size: 24px;
         padding-bottom: 1rem 0;
         padding-top: .5rem 0;
+    }
+    h4 {
+        font-size: 20px;
     }
 }
 @media (max-width: 420px) and (max-height: 670px) {
