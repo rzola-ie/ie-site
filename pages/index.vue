@@ -278,31 +278,30 @@ export default {
 }
 @media (max-width: 420px) and (max-height: 825px) {
     svg {
-      height: 270px;
+      height: 300px;
       margin: 2rem 0;
     }
     h1 {
-        font-size: 24px;
+        font-size: 28px;
         padding-bottom: 1rem 0;
         padding-top: .5rem 0;
     }
     h4 {
-        font-size: 18px;
+        font-size: 20px;
         padding-bottom: 0;
     }
 }
 @media (max-width: 420px) and (max-height: 740px) {
     svg {
-      height: 260px;
+      height: 280px;
       margin: 1rem 0;
     }
     h1 {
-        font-size: 23px;
+        font-size: 28px;
         padding: 0;
     }
     h4 {
-        font-size: 18px;
-        padding: 0;
+        font-size: 20px;
     }
 }
 @media (max-width: 361px) and (max-height: 825px) {
@@ -312,13 +311,13 @@ export default {
 }
 @media (max-width: 380px) and (max-height: 670px) {
     svg {
-      height: 230px;
+      height: 250px;
     }
     h1 {
-        font-size: 21px;
+        font-size: 22px;
     }
     h4 {
-        font-size: 17px;
+        font-size: 14px;
     }
 }
 @media (max-width: 321px) and (max-height: 825px) {
