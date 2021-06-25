@@ -279,7 +279,7 @@ export default {
 @media (max-width: 420px) and (max-height: 825px) {
     svg {
       height: 300px;
-      margin: 2rem 0;
+      margin: 2.5rem 0;
     }
     h1 {
         font-size: 28px;
@@ -294,7 +294,7 @@ export default {
 @media (max-width: 420px) and (max-height: 740px) {
     svg {
       height: 280px;
-      margin: 1rem 0;
+      margin: 2rem 0;
     }
     h1 {
         font-size: 28px;
