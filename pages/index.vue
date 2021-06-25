@@ -287,21 +287,38 @@ export default {
         padding-top: .5rem 0;
     }
     h4 {
-        font-size: 20px;
+        font-size: 18px;
+        padding-bottom: 0;
     }
 }
-@media (max-width: 420px) and (max-height: 670px) {
+@media (max-width: 420px) and (max-height: 740px) {
     svg {
       height: 260px;
+      margin: 1rem 0;
     }
     h1 {
-        font-size: 20px;
+        font-size: 23px;
+        padding: 0;
+    }
+    h4 {
+        font-size: 18px;
         padding: 0;
     }
 }
 @media (max-width: 361px) and (max-height: 825px) {
     svg {
       height: 270px;
+    }
+}
+@media (max-width: 380px) and (max-height: 670px) {
+    svg {
+      height: 230px;
+    }
+    h1 {
+        font-size: 21px;
+    }
+    h4 {
+        font-size: 17px;
     }
 }
 @media (max-width: 321px) and (max-height: 825px) {
