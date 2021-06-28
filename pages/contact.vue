@@ -18,7 +18,7 @@
         <p class="mr-10 mb-4 text-xl leading-normal text-gray-600 pb-6 md:w-4/5">1315 Walnut Street <br />Suite 932 <br />Philadelphia, PA 19107</p>
         <p class="text-xl text-gray-600">215-420-9053</p>
         <a class="text-base text-gray-600 border-b-2 border-blue-300 text-xl" href="mailto:press1for@ideaevolver.com">press1for@ideaevolver.com</a>
-        <div class="flex mt-12 pb-2 md:pb-0">
+        <div class="flex mt-12 pb-5 md:pb-0">
           <a class="text-black" href="https://www.facebook.com/IdeaEvolver/"><img class="mr-8 xl:w-9 xl:h-9" src="/images/facebook.svg" alt="Idea Evolver Facebook Link" rel="preload"></a>
           <a href="https://www.linkedin.com/company/idea-evolver/"><img class="mr-8 xl:w-9 xl:h-9" src="/images/linkedin.svg" alt="Idea Evolver LinkedIn Link" rel="preload"></a>
           <a href="https://www.instagram.com/idea_evolver/"><img class="xl:w-9 xl:h-9" src="/images/instagram.svg" alt="Idea Evolver Instagram Link" rel="preload"></a>
@@ -136,13 +136,7 @@ export default {
       overflow: hidden;
     }
 }
-@media (max-width: 420px) and (max-height: 670px) {
-    svg {
-      height: 100px;
-      margin: 1rem 0;
-    }
 
-}
 @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
   .content {
     height: calc(100vh - 8rem);
