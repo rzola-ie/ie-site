@@ -237,7 +237,6 @@ export default {
             scrollTrigger: {
             trigger: box,
             once: true,
-            // start: "center top",
             },
             duration: 1.3,
             delay: .2,
