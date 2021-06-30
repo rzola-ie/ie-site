@@ -16,6 +16,19 @@ export default {
         name: 'description',
         content: 'Learn more about Idea Evolver, an audience marketing and custom software development company specializing in food, healthcare and biotech.'
       },
+      // open graph tags
+      {
+        property: 'og:title',
+        content: 'Idea Evolver'
+      },
+      {
+        property: 'og:description',
+        content: 'Learn more about Idea Evolver, an audience marketing and custom software development company specializing in food, healthcare and biotech. Evolve responsively.'
+      },
+      {
+        property: 'og:image',
+        content: 'https://storage.googleapis.com/idea-evolver.com/images/open_graph.jpg'
+      }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: 'images/favicon_v2.ico' }
