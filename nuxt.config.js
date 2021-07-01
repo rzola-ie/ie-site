@@ -28,6 +28,14 @@ export default {
       {
         property: 'og:image',
         content: 'https://storage.googleapis.com/idea-evolver.com/images/open_graph.jpg'
+      },
+      {
+        property: 'og:url',
+        content: 'https://idea-evolver.com'
+      },
+      {
+        property: 'og:type',
+        content: 'website'
       }
     ],
     link: [
