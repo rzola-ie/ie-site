@@ -16,7 +16,7 @@
       <div class="ml-12 md:mx-20 relative xl:ml-32 xl:py-32 xl:bg-transparent">
         <h1 class="text-3xl xl:text-5xl tracking-wide leading-normal text-ie-purple mb-4 xl:mb-8">Contact Us</h1>
         <p class="mr-10 mb-4 text-xl leading-normal text-gray-600 pb-6 md:w-4/5">1315 Walnut Street <br />Suite 932 <br />Philadelphia, PA 19107</p>
-        <p class="text-xl text-gray-600">215-420-9053</p>
+        <a class="text-xl text-gray-600" href="tel:215-420-9053">215-420-9053</a><br />
         <a class="text-base text-gray-600 border-b-2 border-blue-300 text-xl" href="mailto:press1for@ideaevolver.com">press1for@ideaevolver.com</a>
         <div class="flex mt-12 pb-5 md:pb-0">
           <a class="text-black" href="https://www.facebook.com/IdeaEvolver/"><img class="mr-8 xl:w-9 xl:h-9" src="/images/facebook.svg" alt="Idea Evolver Facebook Link" rel="preload"></a>
