@@ -1,0 +1,10 @@
+[
+  {
+    "from": "/medical-device-custom-software-development",
+    "to": "/medical-device-software-development"
+  },
+  {
+    "from": "/software-development",
+    "to": "/medical-device-software-development"
+  }
+]
