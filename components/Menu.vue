@@ -45,7 +45,7 @@
           Behavior Analysis
         </nuxt-link>
 
-        <nuxt-link id="software-development" class="mb-8 pl-6 sd" to="/medical-device-custom-software-development">
+        <nuxt-link id="software-development" class="mb-8 pl-6 sd" to="/medical-device-software-development">
           Software Development
         </nuxt-link>
 

@@ -64,17 +64,17 @@
             <h1
               class="mx-12 mb-4 text-3xl leading-normal tracking-wide  text-ie-purple lg:mx-0 lg:text-4xl xl:text-5xl"
             >
-              Custom Software Development
+              Medical Device Software Development
             </h1>
             <p
               class="pb-6 mx-12 mr-10 leading-normal text-gray-600  lg:text-lg lg:mx-0 lg:leading-loose"
             >
-              We minimize the guesswork associated with feature planning and
-              requirements gathering by starting with user behavior research.
-              Our Quality Management System is ISO 13485 certified and is
-              compliant with IEC 62304 international standards. Building on a
-              scalable infrastructure, we implement the right languages and
-              frameworks, so your applications are reliable, fast and intuitive.
+              Building on our scalable Google Cloud infrastructure platform,
+              we design, develop, and launch medical device software products
+              that are reliable, fast, and intuitive. Specializing in Software
+              as a Medical Device (SaMD), our Quality Management System (QMS)
+              is ISO13485 certified, and we are compliant with IEC 62304 and
+              ISO 14971 international standards.
             </p>
             <button
               ref="scrollArrow"
@@ -627,7 +627,7 @@
           </svg>
           <div class="relative md:flex xl:mx-40 xl:pt-24">
             <div
-              class="relative p-8 mx-8 text-gray-600 bg-white  lg:ml-8 lg:mx-4 xl:mx-0 lg:mt-0 xl:mt-0 xl:p-14 xl:flex-1 xl:h-1/6 md:h-1/6 xl:mr-4"
+              class="relative p-8 mx-8 text-gray-600 bg-white lg:ml-8 lg:mx-4 xl:mx-0 lg:mt-0 xl:mt-0 xl:p-14 xl:h-1/6 md:h-1/6 xl:w-3/5 xl:mr-4"
             >
               <svg
                 class="absolute hidden lg:block top-4 -left-4 z-behind anime"
@@ -672,7 +672,7 @@
                 </g>
               </svg>
               <h4 class="pb-2 text-xl md:text-2xl lg:text-3xl">
-                Product Development
+                Software as a Medical Device (SaMD)
               </h4>
               <svg
                 width="62px"
@@ -709,14 +709,28 @@
                 </g>
               </svg>
               <p class="pt-4 lg:text-lg">
-                Our objective for developing digital software products is to
-                cultivate, maintain and increase a company's market share by
-                satisfying consumer demand. A product/market fit can be
-                established through our research process before any development
-                begins. Services include the conceptualization, design, and
-                development of newly created or newly rebranded digital products
-                and med tech device software.
+                Medical device software has a long history of being embedded
+                within proprietary hardware devices, but in recent years,
+                has transitioned to living inside our everyday devices like
+                phones and watches. The software in these common devices is
+                reaching more people and solving old problems on larger scales.
+                Clients appreciate our harmonious blend of regulatory rigor,
+                scalable development practices, and delightful design patterns.
+                Our ISO 13485 certified Quality Management System (QMS) guides
+                our regulated technology practices to ensure safe and successful
+                product launches under any safety classification.
               </p>
+
+              <div class="flex items-center pt-4 iso-cert">
+                <img
+                  class="w-20 h-28"
+                  src="images/certificate.png"
+                  alt="ISO certificate"
+                />
+                <a class="pl-4" href="images/ISO.pdf" download
+                  >Idea Evolver ISO 13485 Certificate</a
+                >
+              </div>
 
               <svg
                 class="absolute hidden  lg:block z-behind -bottom-4 -left-2 anime"
@@ -782,7 +796,7 @@
               ></div>
             </div>
             <div
-              class="relative p-8 mx-8 mt-16 text-gray-600 bg-white  lg:mx-8 lg:mt-16 lg:mt-0 xl:mt-16 xl:p-14 xl:flex-1 xl:h-1/6 md:h-1/6"
+              class="relative p-8 mx-8 mt-16 text-gray-600 bg-white lg:mx-8 lg:mt-16 lg:mt-0 xl:mt-16 xl:p-14 xl:w-2/5 xl:h-1/6 md:h-1/6"
             >
               <div
                 ref="anime"
@@ -871,7 +885,7 @@
                 </g>
               </svg>
               <h4 class="pb-2 text-xl md:text-2xl lg:text-3xl">
-                Medical Device Software
+                RX to OTC Switch Expertise
               </h4>
               <svg
                 width="62px"
@@ -908,34 +922,13 @@
                 </g>
               </svg>
               <p class="pt-4 lg:text-lg">
-                Medical device software (SaMD) has a long history of living
-                within proprietary hardware devices, but in recent years, has
-                taken home inside our everyday devices like phones and watches.
-                The software living in common devices is reaching more people
-                and solving old problems on larger scales.
+                Many modern Rx to OTC switch efforts require a greater level of
+                governance over the consumer self-selection process to satisfy FDA
+                requirements. In many instances, this self-selection process may
+                be best facilitated using technology in the form of a combination
+                product. Our experience with Rx to OTC switch technology includes
+                all factors and features needed to gain FDA approval.
               </p>
-              <p class="pt-4 lg:text-lg">
-                Clients appreciate our harmonious blend of regulatory rigor,
-                scalable development practices, and engaging design patterns.
-                Our ISO 13485 certified Quality Management System (QMS) guides
-                our regulated technology practices to ensure safe and successful
-                product launches under any safety classification. We build
-                medical device software on modern technology stacks designed for
-                security, scalability, fast responses, and best in class user
-                design. The validated tools and infrastructure we offer beneath
-                your custom software layer facilitates a fast and cost-efficient
-                program.
-              </p>
-              <div class="flex items-center pt-4 iso-cert">
-                <img
-                  class="w-20 h-28"
-                  src="images/certificate.png"
-                  alt="ISO certificate"
-                />
-                <a class="pl-4" href="images/ISO.pdf" download
-                  >Idea Evolver ISO 13485 Certificate</a
-                >
-              </div>
 
               <svg
                 class="absolute hidden lg:block z-behind bottom-8 -left-4 anime"
@@ -1063,14 +1056,13 @@ gsap.registerPlugin(ScrollToPlugin, ScrollTrigger);
 
 export default {
   head: {
-    title: "Medical Device & Custom Software Development",
+    title: "Medical Device Software Development",
     meta: [
       {
         name: "Description",
         content:
-          "We build medical device software and custom products on modern technology stacks designed for security,\
-            scalability, and experience. Building on a scalable infrastructure, we implement the right languages and frameworks,\
-            so your software applications are reliable, fast, and intuitive.",
+          "Specializing in Software as a Medical Device (SaMD), our Quality Management System (QMS)\
+          is ISO 13485 certified, and we are compliant with IEC 62304 and ISO 14971 international standards.",
       },
     ],
   },

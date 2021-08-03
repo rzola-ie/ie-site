@@ -23,7 +23,7 @@
             id="medical-device-custom-software-development"
             class="mr-12 text-gray-700 text-md hover:text-gray-500 transition ease-in duration-150 sd"
           >
-            <nuxt-link to="/medical-device-custom-software-development">
+            <nuxt-link to="/medical-device-software-development">
               Software Development
             </nuxt-link>
           </li>
