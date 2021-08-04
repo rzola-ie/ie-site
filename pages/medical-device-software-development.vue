@@ -885,7 +885,7 @@
                 </g>
               </svg>
               <h4 class="pb-2 text-xl md:text-2xl lg:text-3xl">
-                RX to OTC Switch Expertise
+                Rx to OTC Switch Specialists
               </h4>
               <svg
                 width="62px"

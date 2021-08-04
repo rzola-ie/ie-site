@@ -46,7 +46,7 @@
         </nuxt-link>
 
         <nuxt-link id="software-development" class="mb-8 pl-6 sd" to="/medical-device-software-development">
-          Software Development
+          Medical Device Software
         </nuxt-link>
 
         <nuxt-link id="search-experience-marketing" class="mb-8 pl-6 sem" to="/search-experience-marketing-optimization">
@@ -96,7 +96,7 @@ export default {
     border-bottom: 5px solid #966CE0;
     content: '';
     border-radius: 2px;
-    width: 250px;
+    width: 270px;
     display: block;
   }
   .nuxt-link-active.sem::after {
