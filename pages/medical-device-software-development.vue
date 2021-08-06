@@ -64,7 +64,7 @@
             <h1
               class="mx-12 mb-4 text-3xl leading-normal tracking-wide  text-ie-purple lg:mx-0 lg:text-4xl xl:text-5xl"
             >
-              Medical Device Software Development
+              Medical Device Software
             </h1>
             <p
               class="pb-6 mx-12 mr-10 leading-normal text-gray-600  lg:text-lg lg:mx-0 lg:leading-loose"
