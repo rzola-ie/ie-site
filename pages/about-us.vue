@@ -253,7 +253,7 @@ export default {
 
 <style scoped>
 .filter-dark {
-    filter: brightness(.5);
+    filter: brightness(.6);
 }
 
 .filter-light {
