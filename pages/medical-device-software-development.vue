@@ -721,7 +721,7 @@
                 product launches under any safety classification.
               </p>
 
-              <div class="flex items-center pt-4 iso-cert">
+              <div class="flex items-center pt-4 med-links">
                 <img
                   class="w-20 h-28"
                   src="images/certificate.png"
@@ -921,7 +921,7 @@
                   </g>
                 </g>
               </svg>
-              <p class="pt-4 lg:text-lg">
+              <p class="pt-4 lg:text-lg pb-8">
                 Many modern Rx to OTC switch efforts require a greater level of
                 governance over the consumer self-selection process to satisfy FDA
                 requirements. In many instances, this self-selection process may
@@ -929,6 +929,22 @@
                 product. Our experience with Rx to OTC switch technology includes
                 all factors and features needed to gain FDA approval.
               </p>
+
+              <h5 class="pb-2 text-xl md:text-xl lg:text-2xl">
+                Example in Study
+              </h5>
+              <div class="flex items-center med-links">
+                <img
+                  class="w-20 h-20"
+                  src="images/clinicaltrials.png"
+                  alt="Clincial Trials Logo"
+                />
+                <a
+                  class="pl-4 underline"
+                  href="https://clinicaltrials.gov/ct2/show/NCT04964544"
+                  >TACTic</a
+                >
+              </div>
 
               <svg
                 class="absolute hidden lg:block z-behind bottom-8 -left-4 anime"
@@ -1269,7 +1285,7 @@ export default {
   }
 }
 
-.iso-cert a {
+.med-links a {
   color: #a3238e;
 }
 
