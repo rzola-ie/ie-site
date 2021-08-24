@@ -722,12 +722,14 @@
               </p>
 
               <div class="flex items-center pt-4 med-links">
-                <img
-                  class="w-20 h-28"
-                  src="images/certificate.png"
-                  alt="ISO certificate"
-                />
-                <a class="pl-4" href="images/ISO.pdf" download
+                <a href="images/ISO.pdf" download>
+                  <img
+                    class="w-20 h-28"
+                    src="images/certificate.png"
+                    alt="ISO certificate"
+                  />
+                </a>
+                <a class="pl-4 underline" href="images/ISO.pdf" download
                   >Idea Evolver ISO 13485 Certificate</a
                 >
               </div>
@@ -934,15 +936,17 @@
                 Example in Study
               </h5>
               <div class="flex items-center med-links">
-                <img
-                  class="w-20 h-20"
-                  src="images/clinicaltrials.png"
-                  alt="Clincial Trials Logo"
-                />
+                <a href="https://clinicaltrials.gov/ct2/show/NCT04964544">
+                  <img
+                    class="w-20 h-20"
+                    src="images/clinicaltrials.png"
+                    alt="Clincial Trials Logo"
+                  />
+                </a>
                 <a
                   class="pl-4 underline"
                   href="https://clinicaltrials.gov/ct2/show/NCT04964544"
-                  >TACTic</a
+                  >TACTiC</a
                 >
               </div>
 
