@@ -724,7 +724,7 @@
               <div class="flex items-center pt-4 med-links">
                 <a href="images/ISO.pdf" download>
                   <img
-                    class="w-20 h-28"
+                    class="w-20 h-20 md:h-28"
                     src="images/certificate.png"
                     alt="ISO certificate"
                   />
