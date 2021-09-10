@@ -2,7 +2,7 @@
 <div class="fade-in h-full screenHeight xl:pt-6 content">
     <div class="lg:flex">
         <div class="flex-grow px-6 lg:ml-16 xl:ml-32 phone-content">
-            <h1 class="mt-2 text-2xl leading-7 md:leading-normal tracking-wide text-ie-purple text-center md:text-4xl md:px-12 md:my-8 md:text-3xl lg:px-0 lg:text-4xl lg:w-6/7 lg:text-left lg:leading-tight lg:mb-20 xl:text-4xl xl:leading-tight 2xl:text-6xl 2xl:leading-tight">Audience marketing and software solutions for food, healthcare and biotech.</h1>
+            <h1 class="mt-2 text-2xl leading-7 md:leading-normal tracking-wide text-ie-purple text-center md:text-4xl md:px-12 md:my-8 md:text-3xl lg:px-0 lg:text-4xl lg:w-6/7 lg:text-left lg:leading-tight lg:mb-20 xl:text-4xl xl:leading-tight 2xl:text-6xl 2xl:leading-tight">Custom software and audience marketing services for food, healthcare, and biotech.</h1>
             <h4 class="hidden lg:block text-xl leading-normal tracking-wide text-ie-purple text-center lg:text-left lg:text-2xl">Evolve Responsively.</h4>
         </div>
         <div class="relative">
