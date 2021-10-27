@@ -792,7 +792,7 @@
                   right-10
                   w-5
                   h-6
-                  rounded-md
+                  rounded-sm
                 "
                 style="background-color: #966ce0"
               ></div>
@@ -1053,6 +1053,128 @@
           ></div>
         </div>
       </div>
+      <div class="flex my-24 w-screen mx-auto justify-center">
+        <form class="bg-white p-16 relative" id="contact-form" @submit.prevent="processForm">
+          <h2 class="text-4xl text-center pb-2">Contact Us</h2>
+          <!-- company name -->
+          <div class="field mb-2">
+            <label class="uppercase text-xs" for="">Company Name*</label><br>
+            <input
+              type="text"
+              placeholder="Eg. Google"
+              class="input px-2 py-2 my-2 rounded-sm border border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent w-100 shadow" 
+              name="companyName"
+              v-model="companyName"
+            />
+          </div>
+          <!-- name -->
+          <div class="field mb-2">
+            <label class="uppercase text-xs pb-4" for="">Name*</label><br>
+            <div class="flex flex-direction-row">
+              <input 
+                type="text"
+                placeholder="Eg. Sam"
+                class="input px-2 py-2 my-2 input py-2 my-2 rounded-sm border border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent w-100 shadow w-2/4 mr-2" 
+                name="firstName"
+                v-model="firstName"
+              />
+              <input 
+                type="text"
+                placeholder="Eg. Smith"
+                class="input px-2 py-2 my-2 input py-2 my-2 rounded-sm border border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent w-100 shadow w-2/4" 
+                name="lastName"
+                v-model="lastName"
+              />
+            </div>
+          </div>
+          <!-- title -->
+          <div class="field mb-2">
+            <label class="uppercase text-xs" for="">Title*</label><br>
+            <input 
+              type="text"
+              placeholder="Eg. Software Engineer"
+              class="input px-2 py-2 my-2 input py-2 my-2 rounded-sm border border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent w-100 shadow w-100" 
+              name="title"
+              v-model="title"
+            />
+          </div>
+          <!-- Email -->
+          <div class="field mb-2">
+            <label class="uppercase text-xs" for="">Email*</label><br>
+            <input 
+              type="text"
+              placeholder="Eg. email123@gmail.com"
+              class="input px-2 py-2 my-2 input py-2 my-2 rounded-sm border border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent w-100 shadow w-100" 
+              name="email"
+              v-model="email"
+            />
+          </div>
+          <!-- Phone -->
+          <div class="field mb-2">
+            <label class="uppercase text-xs" for="">Phone</label><br>
+            <input 
+              type="text"
+              placeholder="Eg. 800-000-0000"
+              class="input px-2 py-2 my-2 input py-2 my-2 rounded-sm border border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent w-100 shadow w-100" 
+              name="phone"
+              v-model="phone"
+            />
+          </div>
+          <!-- Preferred contact -->
+          <div class="field mb-2">
+            <label class="label uppercase text-xs">Preferred method of contact</label><br>
+            <div class="flex flex-direction-row w-100">
+              <p class="pr-4">Phone</p>
+              <input
+                type="checkbox"
+                class="input" 
+                name="prefPhone"
+                v-model="prefPhone"
+              />
+              <p class="pl-8 pr-4">Email</p>
+              <input 
+                type="checkbox"
+                class="input" 
+                name="prefEmail"
+                v-model="prefEmail"
+              />
+            </div>
+          </div>
+          <!-- Industry -->
+          <div class="field mb-2">
+            <label class="uppercase text-xs" for="">Industry*</label><br>
+            <input 
+              type="text"
+              placeholder="Eg. Healthcare"
+              class="input px-2 py-2 my-2 input py-2 my-2 rounded-sm border border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent w-100 shadow w-100" 
+              name="industry"
+              v-model="industry"
+            />
+          </div>
+          <div class="field mb-2">
+            <!-- Description -->
+            <label class="uppercase text-xs" for="">Short description of what you're looking for*</label><br>
+            <textarea
+              name="description"
+              rows="4"
+              cols="50"
+              v-model="description"
+              placeholder="Eg. Looking to build out an application for a medical device..."
+              class="input px-2 py-2 my-2 input py-2 my-2 rounded-sm border border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent w-100 shadow w-100" 
+            />
+          </div>
+
+          <!-- submit button -->
+          <div class="field flex justify-center">
+            <button
+              type="submit"
+              class="button p-3 rounded-lg text-white uppercase w-100 my-4 text-lg bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50"
+            >
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
       <footer class="w-screen">
         <p class="p-5 text-xs text-center text-gray-600 bg-transparent">
           &copy; 2021 IDEA EVOLVER. All rights reserved.
@@ -1075,6 +1197,17 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollToPlugin, ScrollTrigger);
 
 export default {
+  data: {
+    companyName: '',
+    name: '',
+    title: '',
+    email: '',
+    phone: '',
+    prefPhone: true,
+    prefEmail: true,
+    industry: '',
+    description: '',
+  },
   head: {
     title: "Medical Device Software Development",
     meta: [
@@ -1274,6 +1407,22 @@ export default {
         y: 80,
       }
     );
+  },
+  methods: {
+    processForm: function() {
+      console.log({
+        companyName: this.companyName,
+        name: this.name,
+        title: this.title,
+        email: this.email,
+        phone: this.phone,
+        prefPhone: this.prefPhone,
+        prefEmail: this.prefEmail,
+        industry: this.industry,
+        description: this.description,
+      });
+      alert('Processing!');
+    },
   },
 };
 </script>
