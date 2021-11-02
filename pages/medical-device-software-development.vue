@@ -62,9 +62,9 @@
             class="relative  md:mx-20 lg:ml-20 lg:mt-20 xl:ml-40 xl:mt-0 xl:py-20 xl:bg-transparent lg:w-2/4 xl:w-2/5"
           >
             <h1
-              class="mx-12 mb-4 text-3xl leading-normal tracking-wide  text-ie-purple lg:mx-0 lg:text-4xl xl:text-5xl"
+              class="mx-12 mb-4 text-3xl leading-normal tracking-wide text-ie-purple lg:mx-0 lg:text-4xl xl:text-5xl font-black text-gray-600"
             >
-              Medical Device Software
+              Custom Software Development
             </h1>
             <p
               class="pb-6 mx-12 mr-10 leading-normal text-gray-600  lg:text-lg lg:mx-0 lg:leading-loose"
@@ -1054,15 +1054,50 @@
         </div>
       </div>
       <div class="flex my-24 w-screen mx-auto justify-center">
-        <form class="bg-white p-16 relative" id="contact-form" @submit.prevent="processForm">
-          <h2 class="text-4xl text-center pb-2">Contact Us</h2>
+        <form class="w-5/6 bg-white p-16 relative shadow-md md:w-4/5 lg:w-3/5 xl:w-2/5" id="contact-form" @submit.prevent="processForm">
+          <h2 class="text-2xl text-left pb-2">Contact Us</h2>
+          <svg
+            width="62px"
+            height="3px"
+            class="mb-4"
+            viewBox="0 0 62 3"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <g
+              id="Page-1"
+              stroke="none"
+              stroke-width="1"
+              fill="none"
+              fill-rule="evenodd"
+            >
+              <g
+                id="IE_mobile_SEM"
+                transform="translate(-62.000000, -1120.000000)"
+                fill="#4BBFE1"
+              >
+                <g id="SEO" transform="translate(16.000000, 1030.000000)">
+                  <g
+                    id="Group-2"
+                    transform="translate(14.000000, 14.000000)"
+                  >
+                    <polygon
+                      id="Rectangle"
+                      points="32 76 73.5535038 76 94 76 94 79 32 79"
+                    ></polygon>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </svg>
           <!-- company name -->
-          <div class="field mb-2">
+          <div class="field mb-2 w-full">
             <label class="uppercase text-xs" for="">Company Name*</label><br>
             <input
               type="text"
               placeholder="Eg. Google"
-              class="input px-2 py-2 my-2 rounded-sm border border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent w-100 shadow" 
+              class="input px-2 py-2 my-2 rounded-sm border border-transparent focus:outline-none focus:ring-2 focus:ring-ie-dark-blue focus:border-transparent shadow w-full" 
               name="companyName"
               v-model="companyName"
             />
@@ -1070,30 +1105,30 @@
           <!-- name -->
           <div class="field mb-2">
             <label class="uppercase text-xs pb-4" for="">Name*</label><br>
-            <div class="flex flex-direction-row">
+            <div class="flex flex-direction-column md:flex-direction-row">
               <input 
                 type="text"
-                placeholder="Eg. Sam"
-                class="input px-2 py-2 my-2 input py-2 my-2 rounded-sm border border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent w-100 shadow w-2/4 mr-2" 
+                placeholder="Eg. Anne"
+                class="input px-2 py-2 my-2 input py-2 my-2 rounded-sm border border-transparent focus:outline-none focus:ring-2 focus:ring-ie-dark-blue focus:border-transparent shadow w-full md:w-2/4 mr-2" 
                 name="firstName"
                 v-model="firstName"
               />
               <input 
                 type="text"
                 placeholder="Eg. Smith"
-                class="input px-2 py-2 my-2 input py-2 my-2 rounded-sm border border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent w-100 shadow w-2/4" 
+                class="input px-2 py-2 my-2 input py-2 my-2 rounded-sm border border-transparent focus:outline-none focus:ring-2 focus:ring-ie-dark-blue focus:border-transparent shadow w-full md:w-2/4" 
                 name="lastName"
                 v-model="lastName"
               />
             </div>
           </div>
           <!-- title -->
-          <div class="field mb-2">
+          <div class="field mb-2 w-full">
             <label class="uppercase text-xs" for="">Title*</label><br>
             <input 
               type="text"
-              placeholder="Eg. Software Engineer"
-              class="input px-2 py-2 my-2 input py-2 my-2 rounded-sm border border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent w-100 shadow w-100" 
+              placeholder="Eg. Brand Manager"
+              class="input px-2 py-2 my-2 input py-2 my-2 rounded-sm border border-transparent focus:outline-none focus:ring-2 focus:ring-ie-dark-blue focus:border-transparent shadow w-full" 
               name="title"
               v-model="title"
             />
@@ -1104,7 +1139,7 @@
             <input 
               type="text"
               placeholder="Eg. email123@gmail.com"
-              class="input px-2 py-2 my-2 input py-2 my-2 rounded-sm border border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent w-100 shadow w-100" 
+              class="input px-2 py-2 my-2 input py-2 my-2 rounded-sm border border-transparent focus:outline-none focus:ring-2 focus:ring-ie-dark-blue focus:border-transparent shadow w-full" 
               name="email"
               v-model="email"
             />
@@ -1115,52 +1150,58 @@
             <input 
               type="text"
               placeholder="Eg. 800-000-0000"
-              class="input px-2 py-2 my-2 input py-2 my-2 rounded-sm border border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent w-100 shadow w-100" 
+              class="input px-2 py-2 my-2 input py-2 my-2 rounded-sm border border-transparent focus:outline-none focus:ring-2 focus:ring-ie-dark-blue focus:border-transparent shadow w-full" 
               name="phone"
               v-model="phone"
             />
           </div>
           <!-- Preferred contact -->
-          <div class="field mb-2">
+          <div class="field mb-2 w-full">
             <label class="label uppercase text-xs">Preferred method of contact</label><br>
-            <div class="flex flex-direction-row w-100">
-              <p class="pr-4">Phone</p>
-              <input
-                type="checkbox"
-                class="input" 
-                name="prefPhone"
-                v-model="prefPhone"
-              />
-              <p class="pl-8 pr-4">Email</p>
-              <input 
-                type="checkbox"
-                class="input" 
-                name="prefEmail"
-                v-model="prefEmail"
-              />
+            <div class="flex flex-direction-row w-full mt-2">
+              <label class="container uppercase text-xs pt-1">Phone
+                <input
+                  type="checkbox"
+                  class="input shadow"
+                  checked="checked"
+                  name="prefPhone"
+                  v-model="prefPhone"
+                />
+                <span class="checkmark"></span>
+              </label>
+              <label class="container uppercase text-xs pt-1">Email
+                <input 
+                  type="checkbox"
+                  class="input shadow"
+                  checked="checked"
+                  name="prefEmail"
+                  v-model="prefEmail"
+                />
+                <span class="checkmark"></span>
+              </label>
             </div>
           </div>
           <!-- Industry -->
-          <div class="field mb-2">
+          <div class="field mb-2 w-full">
             <label class="uppercase text-xs" for="">Industry*</label><br>
             <input 
               type="text"
               placeholder="Eg. Healthcare"
-              class="input px-2 py-2 my-2 input py-2 my-2 rounded-sm border border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent w-100 shadow w-100" 
+              class="input px-2 py-2 my-2 input py-2 my-2 rounded-sm border border-transparent focus:outline-none focus:ring-2 focus:ring-ie-dark-blue focus:border-transparent shadow w-full" 
               name="industry"
               v-model="industry"
             />
           </div>
-          <div class="field mb-2">
+          <div class="field mb-2 w-full">
             <!-- Description -->
-            <label class="uppercase text-xs" for="">Short description of what you're looking for*</label><br>
+            <label class="uppercase text-xs" for="">Short description of what you're looking for</label><br>
             <textarea
               name="description"
               rows="4"
               cols="50"
               v-model="description"
               placeholder="Eg. Looking to build out an application for a medical device..."
-              class="input px-2 py-2 my-2 input py-2 my-2 rounded-sm border border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent w-100 shadow w-100" 
+              class="input px-2 py-2 my-2 rounded-sm border border-transparent focus:outline-none focus:ring-2 focus:ring-ie-dark-blue focus:border-transparent shadow w-full" 
             />
           </div>
 
@@ -1168,7 +1209,7 @@
           <div class="field flex justify-center">
             <button
               type="submit"
-              class="button p-3 rounded-lg text-white uppercase w-100 my-4 text-lg bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50"
+              class="button p-3 rounded-lg text-white uppercase w-100 my-4 text-lg bg-ie-blue hover:bg-ie-dark-blue focus:outline-none focus:ring-2 focus:ring-ie-dark-blue focus:ring-opacity-50"
             >
               Submit
             </button>
@@ -1464,5 +1505,65 @@ export default {
   .content {
     height: 50%;
   }
+}
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 23px;
+  width: 23px;
+  background-color: #eee;
+}
+
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.container input:checked ~ .checkmark {
+  background-color: #4BBFE1
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.container .checkmark:after {
+  left: 8px;
+  top: 4px;
+  width: 7px;
+  height: 13px;
+  border: 1px solid white;
+  border-width: 0 3px 3px 0;
+  border-radius: 10%;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 </style>
