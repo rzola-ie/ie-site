@@ -1054,7 +1054,7 @@
         </div>
       </div>
       <div class="flex my-24 w-screen mx-auto justify-center">
-        <form class="w-5/6 bg-white p-16 relative shadow-md md:w-4/5 lg:w-3/5 xl:w-2/5" id="contact-form" @submit.prevent="processForm">
+        <form class="w-5/6 bg-white p-16 relative shadow-md md:w-4/5 lg:w-3/5 xl:w-2/5" id="contact-form" @submit.prevent="sendEmail" ref="form">
           <h2 class="text-2xl text-left pb-2">Contact Us</h2>
           <svg
             width="62px"
@@ -1193,7 +1193,7 @@
             />
           </div>
           <div class="field mb-2 w-full">
-            <!-- Description -->
+          <!-- Description -->
             <label class="uppercase text-xs" for="">Short description of what you're looking for</label><br>
             <textarea
               name="description"
@@ -1207,6 +1207,12 @@
 
           <!-- submit button -->
           <div class="field flex justify-center">
+            <p v-if="errors.length">
+              <b>Please correct the following error(s):</b>
+              <!-- <ul> -->
+                <!-- <li v-for="error in errors">{{ error }}</li> -->
+              </ul>
+            </p>
             <button
               type="submit"
               class="button p-3 rounded-lg text-white uppercase w-100 my-4 text-lg bg-ie-blue hover:bg-ie-dark-blue focus:outline-none focus:ring-2 focus:ring-ie-dark-blue focus:ring-opacity-50"
@@ -1234,20 +1240,24 @@ import {
 import gsap from "gsap";
 import { ScrollToPlugin } from "gsap/ScrollToPlugin";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import emailjs from 'emailjs-com';
 
 gsap.registerPlugin(ScrollToPlugin, ScrollTrigger);
 
 export default {
-  data: {
-    companyName: '',
-    name: '',
-    title: '',
-    email: '',
-    phone: '',
-    prefPhone: true,
-    prefEmail: true,
-    industry: '',
-    description: '',
+  data() {
+    return {
+      companyName: '',
+      firstName: '',
+      lastName: '',
+      title: '',
+      email: '',
+      phone: '',
+      prefPhone: '',
+      prefEmail: '',
+      industry: '',
+      description: '',
+    }
   },
   head: {
     title: "Medical Device Software Development",
@@ -1449,22 +1459,41 @@ export default {
       }
     );
   },
+          // companyName = this.companyName,
+          // firstName = this.firstName,
+          // lastName = this.lastName,
+          // title = this.title,
+          // email = this.email,
+          // phone = this.phone,
+          // prefPhone = this.prefPhone,
+          // prefEmail = this.prefEmail,
+          // industry = this.industry,
+          // description = this.description,
   methods: {
-    processForm: function() {
-      console.log({
-        companyName: this.companyName,
-        name: this.name,
-        title: this.title,
-        email: this.email,
-        phone: this.phone,
-        prefPhone: this.prefPhone,
-        prefEmail: this.prefEmail,
-        industry: this.industry,
-        description: this.description,
+    sendEmail() {
+      emailjs.sendForm(
+        'service_4abj34h',
+        'template_hmv49er',
+        this.$refs.form,
+        'user_XypTG85C21ZDwxNlgJIlj'
+      )
+      .then((result) => {
+          console.log('SUCCESS!', result.text);
+          this.companyName = '';
+          this.firstName = '';
+          this.lastName = '';
+          this.title = '';
+          this.email = '';
+          this.phone = '';
+          this.prefPhone = '';
+          this.prefEmail = '';
+          this.industry = '';
+          this.description = '';
+      }, (error) => {
+          console.log('FAILED...', error.text);
       });
-      alert('Processing!');
-    },
-  },
+    }
+  }
 };
 </script>
 
