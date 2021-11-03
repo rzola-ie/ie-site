@@ -62,9 +62,9 @@
             class="relative  md:mx-20 lg:ml-20 lg:mt-20 xl:ml-40 xl:mt-0 xl:py-20 xl:bg-transparent lg:w-2/4 xl:w-2/5"
           >
             <h1
-              class="mx-12 mb-4 text-3xl leading-normal tracking-wide  text-ie-purple lg:mx-0 lg:text-4xl xl:text-5xl"
+              class="mx-12 mb-4 text-3xl leading-normal tracking-wide text-ie-purple lg:mx-0 lg:text-4xl xl:text-5xl font-black text-gray-600"
             >
-              Medical Device Software
+              Custom Software Development
             </h1>
             <p
               class="pb-6 mx-12 mr-10 leading-normal text-gray-600  lg:text-lg lg:mx-0 lg:leading-loose"
@@ -792,7 +792,7 @@
                   right-10
                   w-5
                   h-6
-                  rounded-md
+                  rounded-sm
                 "
                 style="background-color: #966ce0"
               ></div>
