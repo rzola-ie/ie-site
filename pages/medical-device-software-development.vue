@@ -1054,7 +1054,7 @@
         </div>
       </div>
       <div class="flex my-24 w-screen mx-auto justify-center">
-        <form class="w-5/6 bg-white p-16 relative shadow-md md:w-4/5 lg:w-3/5 xl:w-2/5" id="contact-form" @submit.prevent="sendEmail" ref="form">
+        <form class="w-5/6 bg-white p-16 relative shadow-md md:w-4/5 lg:w-3/5 xl:w-2/5" id="contact-form" @submit="checkForm" action="sendEmail" ref="form">
           <h2 class="text-2xl text-left pb-2">Contact Us</h2>
           <svg
             width="62px"
@@ -1137,7 +1137,7 @@
           <div class="field mb-2">
             <label class="uppercase text-xs" for="">Email*</label><br>
             <input 
-              type="text"
+              type="email"
               placeholder="Eg. email123@gmail.com"
               class="input px-2 py-2 my-2 input py-2 my-2 rounded-sm border border-transparent focus:outline-none focus:ring-2 focus:ring-ie-dark-blue focus:border-transparent shadow w-full" 
               name="email"
@@ -1148,7 +1148,7 @@
           <div class="field mb-2">
             <label class="uppercase text-xs" for="">Phone</label><br>
             <input 
-              type="text"
+              type="number"
               placeholder="Eg. 800-000-0000"
               class="input px-2 py-2 my-2 input py-2 my-2 rounded-sm border border-transparent focus:outline-none focus:ring-2 focus:ring-ie-dark-blue focus:border-transparent shadow w-full" 
               name="phone"
@@ -1203,16 +1203,16 @@
               placeholder="Eg. Looking to build out an application for a medical device..."
               class="input px-2 py-2 my-2 rounded-sm border border-transparent focus:outline-none focus:ring-2 focus:ring-ie-dark-blue focus:border-transparent shadow w-full" 
             />
+            <p v-if="errors.length">
+              <b>Please correct the following error(s):</b>
+              <ul>
+                <li class="text-red-700" v-for="error in errors" :key="error">{{ error }}</li>
+              </ul>
+            </p>
           </div>
 
           <!-- submit button -->
           <div class="field flex justify-center">
-            <p v-if="errors.length">
-              <b>Please correct the following error(s):</b>
-              <!-- <ul> -->
-                <!-- <li v-for="error in errors">{{ error }}</li> -->
-              </ul>
-            </p>
             <button
               type="submit"
               class="button p-3 rounded-lg text-white uppercase w-100 my-4 text-lg bg-ie-blue hover:bg-ie-dark-blue focus:outline-none focus:ring-2 focus:ring-ie-dark-blue focus:ring-opacity-50"
@@ -1241,6 +1241,8 @@ import gsap from "gsap";
 import { ScrollToPlugin } from "gsap/ScrollToPlugin";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import emailjs from 'emailjs-com';
+import useValidate from '@vuelidate/core'
+import { required } from '@vuelidate/validators'
 
 gsap.registerPlugin(ScrollToPlugin, ScrollTrigger);
 
@@ -1257,7 +1259,17 @@ export default {
       prefEmail: '',
       industry: '',
       description: '',
+      errors: '',
+      submitted: false,
     }
+  },
+  validations: {
+    companyName: { required },
+    firstName: { required },
+    lastName: { required },
+    title: { required },
+    email: { required, email },
+    industry: { required },
   },
   head: {
     title: "Medical Device Software Development",
@@ -1492,6 +1504,16 @@ export default {
       }, (error) => {
           console.log('FAILED...', error.text);
       });
+    },
+    checkForm(e) {
+      this.submitted = true;
+
+      this.$v.$touch();
+      if (this.$v.$invalid) {
+          return;
+      }
+
+      alert("SUCCESS!! :-)\n\n" + JSON.stringify(this.user));
     }
   }
 };
