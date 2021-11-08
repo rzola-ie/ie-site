@@ -39,6 +39,20 @@ export default {
 }
 
 @font-face {
+  font-family: 'Inter';
+  src: url("/fonts/inter-semibold.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url("/fonts/inter-regular-bold.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+/* @font-face {
   font-family: "Nunito";
   src: url("/fonts/nunito-regular.woff") format("woff"),
     url("/fonts/nunito-regular.woff2") format("woff2"),
@@ -66,7 +80,7 @@ export default {
   src: url("//db.onlinewebfonts.com/t/901497541657a2f24e42848bcf7fad52.eot");
   font-weight: 900;
   font-style: bold;
-}
+} */
 
 ::selection {
   background-color: rgb(242, 242, 242);
@@ -74,7 +88,7 @@ export default {
 
 body {
   /* @apply bg-gray-100; */
-  font-family: "Avenir";
+  font-family: "Inter";
   height: 100%;
 }
 </style>
