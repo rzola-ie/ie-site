@@ -21,7 +21,7 @@
             </g>
         </g>
     </svg>
-    <div class="relative justify-items-center z-1">
+    <div class="relative justify-items-center z-1 xl:mx-16">
         <svg class="w-screen my-8 md:h-48 lg:h-56 xl:hidden svg-small" width="100%" height="105px" viewBox="0 0 100 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                 <g id="IE_mobile_About" transform="translate(-138.000000, -116.000000)" fill="#4BBFE1">
@@ -34,7 +34,7 @@
             </g>
         </svg>
         <div class="relative lg:ml-20 xl:ml-40 xl:py-32 xl:bg-transparent lg:w-4/5 xl:w-4/12 lg:mx-16 xl:mx-0">
-            <h1 class="text-3xl lg:text-4xl xl:text-5xl tracking-wide leading-normal lg:leading-loose mb-4 mx-12 lg:mx-0 font-black text-gray-600">About</h1>
+            <h1 class="text-3xl lg:text-4xl xl:text-5xl tracking-wide leading-normal lg:leading-loose mb-4 mx-12 lg:mx-0  text-gray-600">About</h1>
             <p class="mx-12 mr-10 text-base lg:text-lg leading-normal text-gray-600 pb-6 lg:mx-0 lg:leading-loose">Established in 2010, Idea Evolver is an audience marketing and custom software development company that specializes in medical device software (SaMD) and digital marketing for food, healthcare, and biotech companies.
             </p>
             <button ref="scrollArrow" class="scrollArrow w-full m-auto lg:w-10" id="scrollArrow">

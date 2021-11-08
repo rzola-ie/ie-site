@@ -57,12 +57,12 @@
             </g>
           </g>
         </svg>
-        <div class="flex">
+        <div class="flex xl:mx-16">
           <div
             class="relative  md:mx-20 lg:ml-20 lg:mt-20 xl:ml-40 xl:mt-0 xl:py-20 xl:bg-transparent lg:w-2/4 xl:w-2/5"
           >
             <h1
-              class="mx-12 mb-4 text-3xl leading-normal tracking-wide text-ie-purple lg:mx-0 lg:text-4xl xl:text-5xl font-black text-gray-600"
+              class="mx-12 mb-4 text-3xl leading-normal tracking-wide text-ie-purple lg:mx-0 lg:text-4xl xl:text-5xl  text-gray-600"
             >
               Custom Software Development
             </h1>

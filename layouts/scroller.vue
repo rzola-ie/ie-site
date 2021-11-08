@@ -76,7 +76,7 @@ export default {
 body {
   /* @apply bg-gray-100; */
   background-color: #f8f8f8;
-  font-family: "'Inter', sans-serif;";
+  font-family: "Inter";
   overflow: scroll;
 }
 </style>

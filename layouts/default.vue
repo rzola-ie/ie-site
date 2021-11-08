@@ -40,14 +40,14 @@ export default {
 
 @font-face {
   font-family: 'Inter';
-  src: url("/fonts/inter-semibold.ttf") format("truetype");
+  src: url("/fonts/Inter-SemiBold.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Inter';
-  src: url("/fonts/inter-regular-bold.ttf") format("truetype");
+  src: url("/fonts/Inter-Regular.ttf") format("truetype");
   font-weight: 100;
   font-style: normal;
 }
@@ -86,9 +86,14 @@ export default {
   background-color: rgb(242, 242, 242);
 }
 
+h1, h2 {
+  font-weight: 300;
+}
+
 body {
   /* @apply bg-gray-100; */
   font-family: "Inter";
+  font-weight: 100;
   height: 100%;
 }
 </style>
