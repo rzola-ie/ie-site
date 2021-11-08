@@ -16,6 +16,7 @@
 <script>
   import gsap from 'gsap';
 
+
 export default {
 }
 </script>
@@ -38,27 +39,6 @@ export default {
 }
 
 @font-face {
-  font-family: 'Inter SemiBold';
-  src: url("/fonts/Inter-SemiBold.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Inter Regular';
-  src: url("/fonts/Inter-Regular.ttf") format("truetype");
-  font-weight: 100;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Inter Bold';
-  src: url("/fonts/Inter-Bold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-}
-
-/* @font-face {
   font-family: "Nunito";
   src: url("/fonts/nunito-regular.woff") format("woff"),
     url("/fonts/nunito-regular.woff2") format("woff2"),
@@ -87,20 +67,14 @@ export default {
   font-weight: 900;
   font-style: bold;
 }
-*/
 
 ::selection {
   background-color: rgb(242, 242, 242);
 }
 
-h1, h2 {
-  font-weight: 300;
-}
-
 body {
   /* @apply bg-gray-100; */
-  font-family: "Inter";
-  font-weight: 100;
+  font-family: "Avenir";
   height: 100%;
 }
 </style>

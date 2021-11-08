@@ -33,20 +33,6 @@ export default {
 }
 
 @font-face {
-  font-family: 'Inter';
-  src: url("/fonts/inter-semibold.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Inter';
-  src: url("/fonts/inter-regular.ttf") format("truetype");
-  font-weight: 100;
-  font-style: normal;
-}
-
-/* @font-face {
   font-family: "Nunito";
   src: url("/fonts/nunito-regular.woff") format("woff"),
     url("/fonts/nunito-regular.woff2") format("woff2"),
@@ -67,7 +53,7 @@ export default {
   src: url("/fonts/avenir-black.otf") format("opentype");
   font-weight: 700;
   font-style: normal;
-} */
+}
 
 ::selection {
   background-color: rgb(242, 242, 242);
@@ -76,7 +62,7 @@ export default {
 body {
   /* @apply bg-gray-100; */
   background-color: #f8f8f8;
-  font-family: "Inter";
+  font-family: "Avenir";
   overflow: scroll;
 }
 </style>
