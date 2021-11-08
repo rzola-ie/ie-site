@@ -80,7 +80,7 @@ export default {
   src: url("//db.onlinewebfonts.com/t/901497541657a2f24e42848bcf7fad52.eot");
   font-weight: 900;
   font-style: bold;
-} */
+}
 
 ::selection {
   background-color: rgb(242, 242, 242);
