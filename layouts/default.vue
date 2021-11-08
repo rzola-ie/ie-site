@@ -81,6 +81,7 @@ export default {
   font-weight: 900;
   font-style: bold;
 }
+*/
 
 ::selection {
   background-color: rgb(242, 242, 242);

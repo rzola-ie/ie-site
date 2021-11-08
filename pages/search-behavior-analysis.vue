@@ -15,7 +15,7 @@
 
     <div class="flex xl:mx-16">
         <div class="md:mx-20 lg:ml-20 lg:mt-6 xl:mt-0 xl:ml-40 relative xl:py-20 xl:bg-transparent lg:w-2/4 xl:w-2/5">
-            <h1 class="mx-12 text-3xl tracking-wide leading-normal text-ie-purple mb-4 lg:mx-0 lg:text-4xl xl:text-5xl lg:w-4/5 font-black text-gray-600">Search Behavior Analysis</h1>
+            <h1 class="mx-12 text-3xl tracking-wide leading-normal text-ie-purple mb-4 lg:mx-0 lg:text-4xl xl:text-5xl lg:w-4/5  text-gray-600">Search Behavior Analysis</h1>
             <p class="mx-12 mr-10 lg:text-lg leading-normal lg:mx-0 lg:leading-loose text-gray-600 pb-6">Search behavior is personal, intentional, and precise. Analysis of this dataset provides a unique window into audience intent, core needs and their daily lives. Insights from the analysis helps you connect on a more meaningful level by delivering targeted products, content and/or technology at micro-moments that make all the difference.</p>
             <button ref="scrollArrow" class="scrollArrow w-full m-auto lg:w-10" id="scrollArrow">
                 <svg class="animate-bounceslow filter-light" width="100%" height="13px" viewBox="0 0 23 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
