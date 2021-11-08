@@ -39,6 +39,20 @@ export default {
 }
 
 @font-face {
+  font-family: 'Inter';
+  src: url("/fonts/Inter-SemiBold.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url("/fonts/Inter-Regular.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+/* @font-face {
   font-family: "Nunito";
   src: url("/fonts/nunito-regular.woff") format("woff"),
     url("/fonts/nunito-regular.woff2") format("woff2"),
@@ -72,9 +86,14 @@ export default {
   background-color: rgb(242, 242, 242);
 }
 
+h1, h2 {
+  font-weight: 300;
+}
+
 body {
   /* @apply bg-gray-100; */
-  font-family: "Avenir";
+  font-family: "Inter";
+  font-weight: 100;
   height: 100%;
 }
 </style>
