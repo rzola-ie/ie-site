@@ -1054,8 +1054,8 @@
         </div>
       </div>
       <div class="flex my-24 w-screen mx-auto justify-center">
-        <form class="w-5/6 bg-white p-16 relative shadow-md md:w-4/5 lg:w-3/5 xl:w-2/5" id="contact-form" @submit.prevent="sendEmail" ref="form">
-          <h2 class="text-2xl text-left pb-2">Contact Us</h2>
+        <form class="w-5/6 bg-white p-16 relative shadow-md md:w-4/5 lg:w-3/5 xl:w-2/5 text-gray-700" id="contact-form" @submit.prevent="sendEmail" ref="form">
+          <h2 class="text-2xl text-left pb-2 text-gray-700">Contact Us</h2>
           <svg
             width="62px"
             height="3px"
@@ -1214,6 +1214,7 @@
               Submit
             </button>
           </div>
+          <p id="submitMessage" class="hidden text-center text-gray-600">Thank you! We will be in touch with you shortly.</p>
         </form>
       </div>
       <footer class="w-screen">
@@ -1236,6 +1237,7 @@ import { ScrollToPlugin } from "gsap/ScrollToPlugin";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import emailjs from 'emailjs-com';
 gsap.registerPlugin(ScrollToPlugin, ScrollTrigger);
+
 export default {
   data() {
     return {
@@ -1249,6 +1251,7 @@ export default {
       prefEmail: '',
       industry: '',
       description: '',
+      errors: [],
     }
   },
   head: {
@@ -1460,6 +1463,14 @@ export default {
           // description = this.description,
   methods: {
     sendEmail() {
+      if (
+        this.companyName &&
+        this.firstName &&
+        this.lastName &&
+        this.email &&
+        this.title &&
+        this.industry
+      ) {
       emailjs.sendForm(
         'service_4abj34h',
         'template_hmv49er',
@@ -1468,6 +1479,8 @@ export default {
       )
       .then((result) => {
           console.log('SUCCESS!', result.text);
+          let thanksMessage = document.getElementById("submitMessage");
+          thanksMessage.classList.remove('hidden');
           this.companyName = '';
           this.firstName = '';
           this.lastName = '';
@@ -1481,6 +1494,7 @@ export default {
       }, (error) => {
           console.log('FAILED...', error.text);
       });
+      }
     }
   }
 };
@@ -1519,6 +1533,13 @@ export default {
     height: 50%;
   }
 }
+
+form,
+label,
+input {
+  font-weight: 100;
+}
+
 .container {
   display: block;
   position: relative;
