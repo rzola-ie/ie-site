@@ -30,7 +30,7 @@
                     </svg>
                 </button>
             </div>
-            <svg class="hidden lg:block z-2 lg:h-100 lg:pr-16 xl:w-3/5 xl:m-auto lg:mr-16" width="776px" height="731px" viewBox="0 0 776 731" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <svg class="hidden lg:block z-2 lg:h-100 lg:pr-16 xl:w-2/5 xl:m-auto lg:mr-16" width="776px" height="731px" viewBox="0 0 776 731" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>SEM graphic</title>
                 <defs>
                     <polygon id="path-1" points="0 0 327 0 327 290.082031 0 290.082031"></polygon>
