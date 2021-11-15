@@ -1,5 +1,5 @@
 <template>
-  <header id="header" class="w-full py-6 lg:py-12 z-40">
+  <header id="header" class="w-full py-6 lg:pt-12 lg:pb-2 z-40">
     <div
       id="header-container"
       class="flex justify-between items-center mx-6 md:mx-16 xl:mx-40"
@@ -12,19 +12,19 @@
       <nav id="header-links" class="hidden xl:inline-block">
         <ul class="flex">
           <li
-            id="search-behavior-analysis"
+            id="consumer-insights"
             class="mr-12 text-gray-700 text-md hover:text-gray-500 transition ease-in duration-150 hover:border-b border-blue-500"
           >
-            <nuxt-link to="/search-behavior-analysis">
-              Behavior Analysis
+            <nuxt-link to="/consumer-insights">
+              Consumer Insights
             </nuxt-link>
           </li>
           <li
             id="medical-device-custom-software-development"
             class="mr-12 text-gray-700 text-md hover:text-gray-500 transition ease-in duration-150 sd"
           >
-            <nuxt-link to="/medical-device-software-development">
-              Medical Device Software
+            <nuxt-link to="/medical-device-custom-software-development">
+              Software Development
             </nuxt-link>
           </li>
           <li
@@ -90,6 +90,10 @@ export default {
 </script>
 
 <style>
+ul li {
+  font-family: "Inter Medium";
+}
+
 ul > li::after {
   content: '';
   display: block;
@@ -115,7 +119,7 @@ a.nuxt-link-active {
   border-radius: 2px;
 }
 
-#search-behavior-analysis a.nuxt-link-active {
+#consumer-insights a.nuxt-link-active {
   border-bottom: 5px solid #65D8B4;
 }
 
@@ -139,7 +143,7 @@ a.nuxt-link-active {
   border-bottom: 5px solid #EFCB57;
 }
 
-#search-behavior-analysis::after {
+#consumer-insights::after {
   background-color: #65D8B4;
 }
 

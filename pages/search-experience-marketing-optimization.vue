@@ -1,7 +1,7 @@
 <template>
 <div class="fade-in">
   <div class="relative w-screen screenHeightCalc">
-    <div class="relative justify-items-center z-1 xl:pt-6" style="mix-blend-mode: multiply;">
+    <div class="relative justify-items-center z-1" style="mix-blend-mode: multiply;">
         <svg class="w-screen my-8 md:h-48 lg:h-56 lg:hidden svg-small" width="100%" height="105px" viewBox="0 0 95 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                 <g id="IE_mobile_SEM" transform="translate(-140.000000, -116.000000)">
@@ -13,11 +13,11 @@
                 </g>
             </g>
         </svg>
-        <div class="flex">
-            <div class="md:mx-20 relative lg:ml-20 lg:mt-20 xl:mt-0 xl:py-20 xl:ml-40 xl:bg-transparent lg:w-2/4 xl:w-2/5">
-                <h1 class="mx-12 text-3xl tracking-wide leading-normal text-ie-purple mb-4 lg:mx-0 lg:text-4xl xl:text-5xl font-black text-gray-600">Search Experience Marketing</h1>
-                <p class="mx-12 mr-10 lg:text-lg leading-normal lg:mx-0 lg:leading-loose text-gray-600 pb-6">Whether you are looking to increase awareness of a product or service, maximize conversions, or have your digital presence work harder for you, our Content, SEO and Paid Search (PPC) services help you achieve the right outcome with the right audiences.</p>
-                <button ref="scrollArrow" class="scrollArrow w-full m-auto lg:w-10" id="scrollArrow">
+        <div class="flex xl:mx-16 lg:justify-center lg:items-center">
+            <div class="flex flex-col md:ml-32 lg:ml-32 lg:mt-6 xl:mt-0 xl:ml-60 relative xl:py-20 xl:bg-transparent lg:w-2/4 xl:w-2/5 lg:h-100 lg:justify-center">
+                <h1 class="mx-12 text-3xl tracking-wide text-ie-purple mb-4 lg:mx-0 lg:text-4xl xl:text-5xl font-black text-gray-600">Search Experience Marketing</h1>
+                <p class="mx-12 mr-10 lg:text-lg lg:mx-0 text-gray-600 pb-6 lg:w-11/12">Whether you are looking to increase awareness of a product or service, maximize conversions, or have your digital presence work harder for you, our Content, SEO and Paid Search (PPC) services help you achieve the right outcome with the right audiences.</p>
+                <button ref="scrollArrow" class="scrollArrow w-full lg:w-10" id="scrollArrow">
                     <svg class="filter-light" width="100%" height="13px" viewBox="0 0 23 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                             <g id="IE_mobile_SEM" transform="translate(-176.000000, -544.000000)">
@@ -30,7 +30,7 @@
                     </svg>
                 </button>
             </div>
-            <svg class="hidden lg:block z-2 lg:h-100 lg:pr-16 xl:w-3/5 xl:m-auto lg:mr-16" width="776px" height="731px" viewBox="0 0 776 731" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <svg class="hidden lg:block z-2 lg:h-100 lg:pr-16 lg:mr-32 lg:w-2/5 xl:mr-48" width="776px" height="" viewBox="0 0 776 731" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>SEM graphic</title>
                 <defs>
                     <polygon id="path-1" points="0 0 327 0 327 290.082031 0 290.082031"></polygon>
@@ -207,7 +207,7 @@
     </div>
   </div>
   <section class="relative z-1" style="background: #efefef url('/images/background-pattern.svg') center -5px/100% repeat">
-    <div class="relative z-1 py-8 mt-12 lg:mt-0 lg:mb-20">
+    <div class="relative z-1 py-8 mt-12 lg:mt-0 lg:mb-20 xl:mx-16">
         <div class="relative">
             <svg class="lg:hidden absolute top-4 left-14 anime" width="22px" height="29px" viewBox="0 0 22 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <g id="New-2021" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -512,6 +512,9 @@
           </svg>
         </div>
     </div>
+    <div class="flex my-24 w-screen mx-auto justify-center">
+        <contact-form />
+    </div>
     <footer class="w-screen">
       <p class="text-gray-600 text-xs text-center p-5 bg-transparent">&copy; 2021 IDEA EVOLVER. All rights reserved.</p>
     </footer>
@@ -629,7 +632,6 @@ export default {
             scrollTrigger: {
             trigger: 'mfirst',
             once: true,
-            start: "center bottom",
             },
             duration: 1.3,
             delay: .2,
@@ -647,7 +649,6 @@ export default {
             scrollTrigger: {
             trigger: 'msecond',
             once: true,
-            start: "center bottom",
             },
             duration: 1.3,
             delay: .2,
@@ -665,7 +666,6 @@ export default {
             scrollTrigger: {
             trigger: '.mthird',
             once: true,
-            start: "center bottom",
             },
             duration: 1.3,
             delay: .2,
@@ -680,6 +680,10 @@ export default {
 </script>
 
 <style scoped>
+h1, h4 {
+  font-family: "Inter SemiBold";
+}
+
 .filter-light {
     filter: opacity(.3);
 }

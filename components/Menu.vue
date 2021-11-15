@@ -40,24 +40,24 @@
       </button>
     </div>
     <div class="flex-1" @click="toggleMenu">
-      <nav id="menu-links" class="flex flex-col text-2xl text-gray-600 pt-20">
-        <nuxt-link class="mb-8 pl-6 sba" to="/search-behavior-analysis">
-          Behavior Analysis
+      <nav id="menu-links" class="flex flex-col text-2xl text-gray-600 pt-32">
+        <nuxt-link class="mb-8 ci" to="/consumer-insights">
+          Consumer Insights
         </nuxt-link>
 
-        <nuxt-link id="software-development" class="mb-8 pl-6 sd" to="/medical-device-software-development">
-          Medical Device Software
+        <nuxt-link id="software-development" class="mb-8 sd" to="/medical-device-custom-software-development">
+          Software Development
         </nuxt-link>
 
-        <nuxt-link id="search-experience-marketing" class="mb-8 pl-6 sem" to="/search-experience-marketing-optimization">
+        <nuxt-link id="search-experience-marketing" class="mb-8 sem" to="/search-experience-marketing-optimization">
           Search Marketing
         </nuxt-link>
 
-        <nuxt-link id="about" class="mb-8 pl-6 abo" to="/about-us"> About </nuxt-link>
+        <nuxt-link id="about" class="mb-8 abo" to="/about-us"> About </nuxt-link>
 
-        <nuxt-link id="careers" class="mb-8 pl-6 car" to="/careers"> Careers </nuxt-link>
+        <nuxt-link id="careers" class="mb-8 car" to="/careers"> Careers </nuxt-link>
 
-        <nuxt-link id="contact" class="pl-6 con" to="/contact">Contact</nuxt-link>
+        <nuxt-link id="contact" class="con" to="/contact">Contact</nuxt-link>
       </nav>
     </div>
   </div>
@@ -82,14 +82,17 @@ export default {
 </script>
 
 <style>
+  a {
+    font-family: "Inter Medium";
+  }
   .nuxt-link {
     display: inline-block;
   }
-  .nuxt-link-active.sba::after {
+  .nuxt-link-active.ci::after {
     border-bottom: 5px solid #65D8B4;
     content: '';
     border-radius: 2px;
-    width: 190px;
+    width: 220px;
     display: block;
   }
   .nuxt-link-active.sd::after {
@@ -103,7 +106,7 @@ export default {
     border-bottom: 5px solid #4F77FF;
     content: '';
     border-radius: 2px;
-    width: 190px;
+    width: 205px;
     display: block;
   }
   .nuxt-link-active.abo::after {
@@ -117,14 +120,14 @@ export default {
     border-bottom: 5px solid #DF5FBE;
     content: '';
     border-radius: 2px;
-    width: 85px;
+    width: 95px;
     display: block;
   }
   .nuxt-link-active.con::after {
     border-bottom: 5px solid #EFCB57;
     content: '';
     border-radius: 2px;
-    width: 90px;
+    width: 100px;
     display: block;
   }
 </style>
