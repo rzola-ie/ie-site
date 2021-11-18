@@ -531,14 +531,42 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollToPlugin, ScrollTrigger);
 
 export default {
-    head: {
-        title: 'Search Experience Marketing: Content, SEO, & PPC Services',
-        meta: [
-          {
-            name: 'Description',
-            content: 'Learn more about our Content, SEO, and Paid Search (PPC) services that help you achieve the right outcome with the right audiences.'
-          }
-        ],
+    head() {
+        return {
+            title: 'Search Experience Marketing: Content, SEO, & PPC Services',
+            meta: [
+                { charset: 'utf-8' },
+                { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+                {
+                    hid: 'description',
+                    name: 'description',
+                    content: 'Learn more about our Content, SEO, and Paid Search (PPC) services that help you achieve the right outcome with the right audiences.'
+                },
+                {
+                    hid: 'description',
+                    property: 'og:title',
+                    content: 'Search Experience Marketing: Content, SEO, & PPC Services'
+                },
+                {
+                    hid: 'description',
+                    property: 'og:description',
+                    content: 'Learn more about our Content, SEO, and Paid Search (PPC) services that help you achieve the right outcome with the right audiences.'
+                },
+                {
+                    hid: 'description',
+                    property: 'og:url',
+                    content: 'https://idea-evolver.com/search-experience-marketing-optimization'
+                },
+                {
+                    property: 'og:image',
+                    content: 'https://storage.googleapis.com/idea-evolver.com/images/open_graph.jpg'
+                },
+                {
+                    property: 'og:type',
+                    content: 'website'
+                }
+            ],
+        }
     },
   layout: "scroller",
     mounted() {

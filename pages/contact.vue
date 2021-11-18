@@ -85,14 +85,42 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollToPlugin, ScrollTrigger, TimelineMax);
 
 export default {
-    head: {
-        title: 'Contact Us',
-        meta: [
-          {
-            name: 'Description',
-            content: 'We are located at 1315 Walnut Street, Suite 932, Philadelphia, PA 19107. Give us a call at 215-420-9053 or shoot us an email at press1for@ideaevolver.com.'
-          }
-        ],
+    head() {
+        return {
+          title: 'Contact Us',
+          meta: [
+            { charset: 'utf-8' },
+            { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+            {
+                hid: 'description',
+                name: 'description',
+                content: 'We are located at 1315 Walnut Street, Suite 932, Philadelphia, PA 19107. Give us a call at 215-420-9053 or shoot us an email at press1for@ideaevolver.com.'
+            },
+            {
+                hid: 'description',
+                property: 'og:title',
+                content: 'Contact Us'
+            },
+            {
+                hid: 'description',
+                property: 'og:description',
+                content: 'We are located at 1315 Walnut Street, Suite 932, Philadelphia, PA 19107. Give us a call at 215-420-9053 or shoot us an email at press1for@ideaevolver.com.'
+            },
+            {
+                hid: 'description',
+                property: 'og:url',
+                content: 'https://idea-evolver.com/contact'
+            },
+            {
+                property: 'og:image',
+                content: 'https://storage.googleapis.com/idea-evolver.com/images/open_graph.jpg'
+            },
+            {
+                property: 'og:type',
+                content: 'website'
+            }
+          ],
+        }
     },
   layout: "scroller",
   mounted() {
