@@ -1076,17 +1076,45 @@ import emailjs from 'emailjs-com';
 gsap.registerPlugin(ScrollToPlugin, ScrollTrigger);
 
 export default {
-  head: {
-    title: "Medical Device Software Development",
-    meta: [
-      {
-        name: "Description",
-        content:
-          "Specializing in Software as a Medical Device (SaMD), our Quality Management System (QMS)\
-          is ISO 13485 certified, and we are compliant with IEC 62304 and ISO 14971 international standards.",
-      },
-    ],
-  },
+    head() {
+        return {
+          title: "Custom Software Development",
+          meta: [
+            { charset: 'utf-8' },
+            { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+            {
+                hid: 'description',
+                name: 'description',
+                content: 'Building on our scalable Google Cloud infrastructure platform, we design, develop, and launch\
+                software products that are reliable, fast, and intuitive.'
+            },
+            {
+                hid: 'description',
+                property: 'og:title',
+                content: 'Custom Software Development'
+            },
+            {
+                hid: 'description',
+                property: 'og:description',
+                content: 'Building on our scalable Google Cloud infrastructure platform, we design, develop, and launch\
+                software products that are reliable, fast, and intuitive.'
+            },
+            {
+                hid: 'description',
+                property: 'og:url',
+                content: 'https://idea-evolver.com/custom-software-development'
+            },
+            {
+                property: 'og:image',
+                content: 'https://storage.googleapis.com/idea-evolver.com/images/open_graph.jpg'
+            },
+            {
+                property: 'og:type',
+                content: 'website'
+            }
+          ],
+        }
+    },
   layout: "scroller",
   mounted() {
     const targetElement = document.querySelector("body");

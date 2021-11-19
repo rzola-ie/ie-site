@@ -200,15 +200,44 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollToPlugin, ScrollTrigger);
 
 export default {
-    head: {
-        title: 'About Us',
-        meta: [
-          {
-            name: 'Description',
-            content: 'Established in 2010, Idea Evolver is an audience marketing and custom software development company that specializes in medical device software\
-            (SaMD) and digital marketing for food, healthcare, and biotech companies.'
-          }
-        ],
+    head() {
+        return {
+            title: 'About Us',
+            meta: [
+                { charset: 'utf-8' },
+                { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+                {
+                    hid: 'description',
+                    name: 'description',
+                    content: 'Established in 2010, Idea Evolver is an audience marketing and custom software development company that specializes in medical device software\
+                    (SaMD) and digital marketing for food, healthcare, and biotech companies.'
+                },
+                {
+                    hid: 'description',
+                    property: 'og:title',
+                    content: 'About Us'
+                },
+                {
+                    hid: 'description',
+                    property: 'og:description',
+                    content: 'Established in 2010, Idea Evolver is an audience marketing and custom software development company that specializes in medical device software\
+                    (SaMD) and digital marketing for food, healthcare, and biotech companies.'
+                },
+                {
+                    hid: 'description',
+                    property: 'og:url',
+                    content: 'https://idea-evolver.com/about-us'
+                },
+                {
+                    property: 'og:image',
+                    content: 'https://storage.googleapis.com/idea-evolver.com/images/open_graph.jpg'
+                },
+                {
+                    property: 'og:type',
+                    content: 'website'
+                }
+            ]
+        }
     },
   layout: "scroller",
     mounted() {

@@ -18,20 +18,18 @@ export default {
       },
       // open graph tags
       {
+        hid: 'description',
         property: 'og:title',
         content: 'Idea Evolver'
       },
       {
+        hid: 'description',
         property: 'og:description',
         content: 'Learn more about Idea Evolver, an audience marketing and custom software development company specializing in food, healthcare and biotech. Evolve responsively.'
       },
       {
         property: 'og:image',
         content: 'https://storage.googleapis.com/idea-evolver.com/images/open_graph.jpg'
-      },
-      {
-        property: 'og:url',
-        content: 'https://idea-evolver.com'
       },
       {
         property: 'og:type',

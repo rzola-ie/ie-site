@@ -165,15 +165,43 @@ import { ExpoScaleEase, RoughEase, SlowMo } from "gsap/EasePack";
 gsap.registerPlugin(MotionPathPlugin);
 
 export default {
-  head: {
-    title: 'Idea Evolver: Evolve Responsively',
-    meta: [
-      {
-        name: 'Description',
-        content: 'Learn more about Idea Evolver, an audience marketing and custom software development company specializing in food, healthcare and biotech.'
-      }
-    ],
-  },
+    head() {
+        return {
+            title: 'Idea Evolver: Evolve Responsively',
+            meta: [
+                { charset: 'utf-8' },
+                { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+                {
+                    hid: 'description',
+                    name: 'description',
+                    content: 'Learn more about Idea Evolver, an audience marketing and custom software development company specializing in food, healthcare and biotech.'
+                },
+                {
+                    hid: 'description',
+                    property: 'og:title',
+                    content: 'Idea Evolver: Evolve Responsively'
+                },
+                {
+                    hid: 'description',
+                    property: 'og:description',
+                    content: 'Learn more about Idea Evolver, an audience marketing and custom software development company specializing in food, healthcare and biotech.'
+                },
+                {
+                    hid: 'description',
+                    property: 'og:url',
+                    content: 'https://idea-evolver.com/'
+                },
+                {
+                    property: 'og:image',
+                    content: 'https://storage.googleapis.com/idea-evolver.com/images/open_graph.jpg'
+                },
+                {
+                    property: 'og:type',
+                    content: 'website'
+                }
+            ],
+        }
+    },
   layout: "default",
     mounted() {
         const targetElement = document.querySelector('body');
