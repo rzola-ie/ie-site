@@ -1426,6 +1426,20 @@
   optionalDependencies:
     prettier "^1.18.2"
 
+"@vuelidate/core@^2.0.0-alpha.32":
+  version "2.0.0-alpha.34"
+  resolved "https://registry.yarnpkg.com/@vuelidate/core/-/core-2.0.0-alpha.34.tgz#4a2ce2ae18c8ffadb76b296b2c7c0e10a2f48a37"
+  integrity sha512-8SHViBA+bBaXGH8UwcdGG7vEQ8mG8rhtsddJiq9Abz9YvzWxFxd8spAhe9ggfCtyRuvwCCpPbxx63NOGThVZkQ==
+  dependencies:
+    vue-demi "^0.12.0"
+
+"@vuelidate/validators@^2.0.0-alpha.25":
+  version "2.0.0-alpha.26"
+  resolved "https://registry.yarnpkg.com/@vuelidate/validators/-/validators-2.0.0-alpha.26.tgz#dbea8d44b7607ac0b4dced36ea3e4641f1617942"
+  integrity sha512-O53AU/dGMMOEPMC6bqhs9JvJAz03z0lLxIDq1tL8bWZylzRWeuF9a2sERxy82t2MnQ+ag15tUpTFpTbaYBm9tg==
+  dependencies:
+    vue-demi "^0.12.0"
+
 "@webassemblyjs/ast@1.9.0":
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/@webassemblyjs/ast/-/ast-1.9.0.tgz#bd850604b4042459a5a41cd7d338cbed695ed964"
@@ -2677,10 +2691,10 @@ core-js@^2.6.5:
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.12.tgz#d9333dfa7b065e347cc5682219d6f690859cc2ec"
   integrity sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ==
 
-core-js@^3.8.3:
-  version "3.8.3"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.8.3.tgz#c21906e1f14f3689f93abcc6e26883550dd92dd0"
-  integrity sha512-KPYXeVZYemC2TkNEkX/01I+7yd+nX3KddKwZ1Ww7SKWdI2wQprSgLmrTddT8nw92AjEklTsPBoSdQBhbI1bQ6Q==
+core-js@^3.20.3:
+  version "3.20.3"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.20.3.tgz#c710d0a676e684522f3db4ee84e5e18a9d11d69a"
+  integrity sha512-vVl8j8ph6tRS3B8qir40H7yw7voy17xL0piAjlbBUsH7WIfzoedL/ZOr1OV9FyZQLWXsayOJyV4tnRyXR85/ag==
 
 core-util-is@~1.0.0:
   version "1.0.2"
@@ -3233,6 +3247,16 @@ elliptic@^6.5.3:
     inherits "^2.0.4"
     minimalistic-assert "^1.0.1"
     minimalistic-crypto-utils "^1.0.1"
+
+emailjs-com@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/emailjs-com/-/emailjs-com-3.2.0.tgz#a53cb22f1bc433c701c84c53d8b56eefd5ce7111"
+  integrity sha512-Prbz3E1usiAwGjMNYRv6EsJ5c373cX7/AGnZQwOfrpNJrygQJ15+E9OOq4pU8yC977Z5xMetRfc3WmDX6RcjAA==
+
+emailjs@^3.6.0:
+  version "3.7.0"
+  resolved "https://registry.yarnpkg.com/emailjs/-/emailjs-3.7.0.tgz#1a4564293f7296d66d16d5c6cce10b43da4e2ebb"
+  integrity sha512-eLHvGdSaLyn2su51y5BJqdKVxVK77kyW/oesw5lQk7fDIANYqi9LEF7zhw2Rf/vN0t8QAdAy30Ju/SCi8HHuTg==
 
 emoji-regex@^7.0.1:
   version "7.0.3"
@@ -8026,6 +8050,11 @@ vue-client-only@^2.0.0:
   resolved "https://registry.yarnpkg.com/vue-client-only/-/vue-client-only-2.0.0.tgz#ddad8d675ee02c761a14229f0e440e219de1da1c"
   integrity sha512-arhk1wtWAfLsJyxGMoEYhoBowM87/i6HLSG2LH/03Yog6i2d9JEN1peMP0Ceis+/n9DxdenGYZZTxbPPJyHciA==
 
+vue-demi@^0.12.0:
+  version "0.12.1"
+  resolved "https://registry.yarnpkg.com/vue-demi/-/vue-demi-0.12.1.tgz#f7e18efbecffd11ab069d1472d7a06e319b4174c"
+  integrity sha512-QL3ny+wX8c6Xm1/EZylbgzdoDolye+VpCXRhI2hug9dJTP3OUJ3lmiKN3CsVV3mOJKwFi0nsstbgob0vG7aoIw==
+
 vue-hot-reload-api@^2.3.0:
   version "2.3.4"
   resolved "https://registry.yarnpkg.com/vue-hot-reload-api/-/vue-hot-reload-api-2.3.4.tgz#532955cc1eb208a3d990b3a9f9a70574657e08f2"
@@ -8098,6 +8127,11 @@ vue@^2.6.12:
   version "2.6.12"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.12.tgz#f5ebd4fa6bd2869403e29a896aed4904456c9123"
   integrity sha512-uhmLFETqPPNyuLLbsKz6ioJ4q7AZHzD8ZVFNATNyICSZouqP2Sz0rotWQC8UNBF6VGSCs5abnKJoStA6JbCbfg==
+
+vuelidate@^0.7.6:
+  version "0.7.7"
+  resolved "https://registry.yarnpkg.com/vuelidate/-/vuelidate-0.7.7.tgz#5df3930a63ddecf56fde7bdacea9dbaf0c9bf899"
+  integrity sha512-pT/U2lDI67wkIqI4tum7cMSIfGcAMfB+Phtqh2ttdXURwvHRBJEAQ0tVbUsW9Upg83Q5QH59bnCoXI7A9JDGnA==
 
 vuex@^3.6.0:
   version "3.6.2"
