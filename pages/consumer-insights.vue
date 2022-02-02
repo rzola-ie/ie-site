@@ -551,8 +551,16 @@
     <div class="flex my-24 w-screen mx-auto justify-center">
         <contact-form />
     </div>
-    <footer class="w-screen">
-      <p class="text-gray-600 text-xs text-center p-5 bg-transparent">&copy; 2021 IDEA EVOLVER. All rights reserved.</p>
+    <footer class="w-screen py-6">
+        <p class="text-gray-700 text-xs text-center p-5 bg-transparent">
+            &copy; 2022 IDEA EVOLVER. All rights reserved.
+            <a
+                class="text-gray-700 text-xs text-center p-5 bg-transparent underline hover:text-gray-500"
+                href="images/IE-privacy-policy.pdf"
+            >
+                Privacy Policy
+            </a>
+        </p>
     </footer>
   </section>
 </div>
@@ -883,6 +891,10 @@ export default {
 <style scoped>
 h1, h4 {
   font-family: "Inter SemiBold";
+}
+
+footer a, footer p {
+    font-family: "Inter Light";
 }
 
 .filter-light {
