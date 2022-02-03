@@ -290,7 +290,7 @@ export default {
 </script>
 
 <style scoped>
-h1 {
+h1, h4 {
     font-family: "Inter SemiBold";
 }
 
