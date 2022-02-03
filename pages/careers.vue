@@ -26,6 +26,7 @@
             <a
                 class="md:hidden text-gray-700 text-xs text-center p-5 bg-transparent underline hover:text-gray-500"
                 href="images/IE-privacy-policy.pdf"
+                download
             >
                 Privacy Policy
             </a>
