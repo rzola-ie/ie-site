@@ -189,7 +189,7 @@
             &copy; 2022 IDEA EVOLVER. All rights reserved.
             <a
                 class="text-gray-700 text-xs text-center p-5 bg-transparent underline hover:text-gray-500"
-                href="images/IE-privacy-policy.pdf"
+                href="images/privacyPolicy.pdf"
                 download
             >
                 Privacy Policy
