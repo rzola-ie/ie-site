@@ -7,7 +7,16 @@
     <Header ref="header" />
     <Nuxt class="flex-1" />
     <footer class="hidden md:block z-2 w-screen absolute bottom-12 md:bottom-0">
-      <p class="text-gray-600 text-xs text-center w-screen text-center p-5 bg-transparent">&copy; 2021 IDEA EVOLVER. All rights reserved.</p>
+        <p class="text-gray-700 text-xs text-center p-5 bg-transparent">
+            &copy; 2022 IDEA EVOLVER. All rights reserved.
+            <a
+                class="text-gray-700 text-xs text-center p-5 bg-transparent underline hover:text-gray-500"
+                href="images/privacyPolicy.pdf"
+                download
+            >
+                Privacy Policy
+            </a>
+        </p>
     </footer>
     <Menu />
   </div>
@@ -30,6 +39,9 @@ export default {
 </script>
 
 <style>
+footer a, footer p {
+    font-family: "Inter Light";
+}
 export default {
   transition: "default"
 }

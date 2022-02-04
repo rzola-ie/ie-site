@@ -31,7 +31,7 @@ export default {
 .page-leave-to {
   opacity: 0;
 }
-
+/* 
 @font-face {
   font-family: "Nunito";
   src: url("/fonts/nunito-regular.woff") format("woff"),
@@ -53,16 +53,15 @@ export default {
   src: url("/fonts/avenir-black.otf") format("opentype");
   font-weight: 700;
   font-style: normal;
-}
+} */
 
 ::selection {
   background-color: rgb(242, 242, 242);
 }
 
-body {
-  /* @apply bg-gray-100; */
+/* body {
   background-color: #f8f8f8;
   font-family: "Avenir";
   overflow: scroll;
-}
+} */
 </style>
