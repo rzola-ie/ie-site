@@ -727,9 +727,16 @@
                     alt="ISO certificate"
                   />
                 </a>
-                <a class="pl-4 underline" href="images/ISO.pdf" download
-                  >Idea Evolver ISO 13485 Certificate</a
-                >
+                <div class="flex flex-col">
+                  <a class="pl-4 underline" href="images/ISO.pdf" download
+                    >Idea Evolver ISO 13485 Certificate</a
+                  >
+                  <a class="pl-4 pt-2 underline"
+                    href="https://cloud.google.com/blog/products/identity-security/securing-medical-device-software-with-google-confidential-vm"
+                    target="_blank"
+                    >Securing Medical Device Software</a
+                  >
+                </div>
               </div>
 
               <svg
