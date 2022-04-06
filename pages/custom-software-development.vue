@@ -719,23 +719,30 @@
                 product launches under any safety classification.
               </p>
 
-              <div class="flex items-center pt-4 med-links">
-                <a href="images/ISO.pdf" download>
-                  <img
-                    class="w-20 h-20 md:h-28"
-                    src="images/certificate.png"
-                    alt="ISO certificate"
-                  />
-                </a>
-                <div class="flex flex-col">
-                  <a class="pl-4 underline" href="images/ISO.pdf" download
-                    >Idea Evolver ISO 13485 Certificate</a
-                  >
-                  <a class="pl-4 pt-2 underline"
-                    href="https://cloud.google.com/blog/products/identity-security/securing-medical-device-software-with-google-confidential-vm"
-                    target="_blank"
+              <div class="flex flex-col pt-4 med-links">
+                <div class="flex flex-row mb-6 items-center">
+                  <a href="https://cloud.google.com/blog/products/identity-security/securing-medical-device-software-with-google-confidential-vm" >
+                    <img
+                      class="w-20 h-12 md:h-16"
+                      src="images/cloud-logo.png"
+                      alt="Google Cloud Link Securing Medical Device Software"
+                    />
+                  </a>
+                  <a class="pl-4 underline" href="https://cloud.google.com/blog/products/identity-security/securing-medical-device-software-with-google-confidential-vm" download
                     >Securing Medical Device Software</a
                   >
+                </div>
+                <div class="flex flex-row items-center">
+                  <a href="images/ISO.pdf" download>
+                    <img
+                      class="w-20 h-24 md:h-28"
+                      src="images/certificate.png"
+                      alt="ISO certificate"
+                    />
+                  </a>
+                    <a class="pl-4 underline" href="images/ISO.pdf" download
+                      >Idea Evolver ISO 13485 Certificate</a
+                    >
                 </div>
               </div>
 
