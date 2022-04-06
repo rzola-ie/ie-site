@@ -20,7 +20,7 @@
     "emailjs": "^3.6.0",
     "emailjs-com": "^3.2.0",
     "gsap": "^3.6.1",
-    "nuxt": "^2.14.12",
+    "nuxt": "^2.15.8",
     "vuelidate": "^0.7.6"
   },
   "devDependencies": {
