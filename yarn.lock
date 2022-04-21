@@ -3253,10 +3253,10 @@ emailjs-com@^3.2.0:
   resolved "https://registry.yarnpkg.com/emailjs-com/-/emailjs-com-3.2.0.tgz#a53cb22f1bc433c701c84c53d8b56eefd5ce7111"
   integrity sha512-Prbz3E1usiAwGjMNYRv6EsJ5c373cX7/AGnZQwOfrpNJrygQJ15+E9OOq4pU8yC977Z5xMetRfc3WmDX6RcjAA==
 
-emailjs@^3.6.0:
-  version "3.8.0"
-  resolved "https://registry.yarnpkg.com/emailjs/-/emailjs-3.8.0.tgz#db1111911c6e1091341b5b34ecd9cc9d89f208b0"
-  integrity sha512-ZLMFAC3C8GNebBvDpPgHwPeK4Ajx/rkq1TqLNFH9bC9TwEac1JhIYb3KuBY5eNfr0YVUaEfGughWszRBD5rcgQ==
+emailjs@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/emailjs/-/emailjs-4.0.0.tgz#e439dfa4136c6ef2a7d9f00d1a1f595b9cc16f87"
+  integrity sha512-t6LqDjGZnIkM+1ghsgazsaZbXnK7Yt+0Qjx6aCK3EGosenTC3w3aoO5wkWuDiBmdl2z9H/zCnTbKJPjTJripkg==
 
 emoji-regex@^7.0.1:
   version "7.0.3"
