@@ -5,7 +5,9 @@
     src="/images/bracket-bg.svg"
     alt="Background Image" 
   />
-  <div class="relative w-screen screenHeightCalc xl:mx-16 lg:justify-center lg:items-center" style="mix-blend-mode: multiply;">
+
+  <!-- HEADER SECTION -->
+  <div class="relative screenHeightCalc xl:mx-16 lg:justify-center lg:items-center" style="mix-blend-mode: multiply;">
     <svg class="hidden xl:block absolute -bottom-14 z-1 right-1/3" width="438px" height="400px" viewBox="0 0 438 457" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
         <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
             <g id="IE_desktop_About" transform="translate(-890.000000, -601.000000)" fill="#4BBFE1">
@@ -52,6 +54,8 @@
         </div>
     </div>
   </div>
+
+  <!-- LOGOS SECTION  -->
   <section class="relative z-1" style="background: #efefef url('/images/background-pattern.svg') center -5px/100% repeat">
     <div class="relative z-1 py-8 mt-12 pt-20 xl:pt-0 lg:p-20 lg:p-12 lg:pt-20 xl:mb-20">
         <img width="20px" height="20px" ref="anime" src="/images/cross_icon.png" class="xl:hidden absolute z-behind anime" alt="Blue Cross" style="mix-blend-mode: multiply; left: 9.5rem; top: 4.4rem;" rel="preload">
@@ -72,8 +76,6 @@
               </g>
           </g>
       </svg>
-
-
       <svg ref="anime" class="xl:hidden absolute right-8 top-4 anime data-v-0a606064=" width="32px" height="29px" viewBox="0 0 32 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
           <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
               <g id="IE_mobile_About" transform="translate(-302.000000, -708.000000)">
@@ -87,6 +89,7 @@
       </svg>
 
       <div class="relative md:flex xl:mt-12 xl:mx-40 xl:pt-24">
+          <!-- HEALTHCARE LOGOS  -->
         <div class="relative xl:inline-block mx-8 lg:mx-0 lg:mt-16 lg:mr-4 text-gray-600 bg-white p-8 xl:p-14 xl:flex-1 md:h-1/6 md:w-2/4">
             <!-- mobile  -->
             <img width="20px" height="20px" ref="anime" src="/images/cross_icon.png" class="xl:hidden absolute right-6 -bottom-4 anime" alt="Blue Cross" rel="preload">
@@ -112,7 +115,27 @@
                 </g>
             </svg>
 
-            <img class="pt-6 w-full filter-dark" src="/images/healthcare-logos.svg" alt="Healthcare Brand Logos" rel="preload">
+            <!-- <img class="pt-6 w-full filter-dark" src="/images/healthcare-logos.svg" alt="Healthcare Brand Logos" rel="preload"> -->
+            
+            <!-- LOGO GRID  -->
+            <div class="grid grid-cols-4 gap-6 mt-4">
+                <div class=""><img class="p-1 2xl:p-4 w-100 h-full object-scale-down" src="/images/healthcare-logos/medidata.png" alt="Medidata Logo"></div>
+                <div class=""><img class="2xl:p-4 w-100 h-full object-scale-down" src="/images/healthcare-logos/merck.png" alt="Merck Logo"></div>
+                <div class=""><img class="2xl:p-4 w-100 h-full object-scale-down" src="/images/healthcare-logos/horizon.png" alt="Horizon Logo"></div>
+                <div class=""><img class="p-2 2xl:p-6 w-100 h-full object-scale-down" src="/images/healthcare-logos/teva.png" alt="Teva Logo"></div>
+                <div class=""><img class="w-100 h-full object-scale-down" src="/images/healthcare-logos/bluebird.png" alt="Bluebird Logo"></div>
+                <div class=""><img class="w-100 h-full object-scale-down" src="/images/healthcare-logos/AZ.png" alt="AstraZeneca Logo"></div>
+                <div class=""><img class="p-2 2xl:p-6 w-100 h-full object-scale-down" src="/images/healthcare-logos/bayer.png" alt="Bayer Logo"></div>
+                <div class=""><img class="p-3 2xl:p-6 w-100 h-full object-scale-down" src="/images/healthcare-logos/taiho.png" alt="Taiho Logo"></div>
+                <div class=""><img class="p-3 2xl:p-6 w-100 h-full object-scale-down" src="/images/healthcare-logos/para.png" alt="ParahealthClinics Logo"></div>
+                <div class=""><img class="w-100 h-full object-scale-down" src="/images/healthcare-logos/united.png" alt="United Therapeutics Logo"></div>
+                <div class=""><img class="2xl:p-4 w-100 h-full object-scale-down" src="/images/healthcare-logos/gore.png" alt="Gore Logo"></div>
+                <div class=""><img class="2xl:p-4 w-100 h-full object-scale-down" src="/images/healthcare-logos/regeneron.png" alt="Regeneron Logo"></div>
+                <div class=""><img class="2xl:p-4 w-100 h-full object-scale-down" src="/images/healthcare-logos/amgen.png" alt="Amgen Logo"></div>
+                <div class=""><img class="w-100 h-full object-scale-down" src="/images/healthcare-logos/prestige.png" alt="Prestige Brands Logo"></div>
+                <div class=""><img class="2xl:p-4 w-100 h-full object-scale-down" src="/images/healthcare-logos/ableto.png" alt="Ableto Logo"></div>
+                <div class=""><img class="2xl:p-4 w-100 h-full object-scale-down" src="/images/healthcare-logos/gilead.png" alt="Gilead Logo"></div>
+            </div>
 
             <!-- mobile  -->
             <div ref="anime" class="xl:hidden absolute -bottom-10 right-24 h-3 w-3 rounded-full bg-blue-500 z-behind anime" style="mix-blend-mode: multiply"></div>
@@ -123,6 +146,8 @@
             <img ref="anime" width="20px" height="18px" src="/images/blue-oval.svg" class="hidden xl:block absolute -bottom-3 left-40 z-behind anime" alt="Blue Oval" rel="preload">
 
         </div>
+
+        <!-- FOOD AND RETAIL LOGOS  -->
         <div class="relative mx-8 lg:mx-4 xl:mx-0 text-gray-600 bg-white lg:mt-0 p-8 mt-16 xl:mt-0 xl:p-14 xl:flex-1 xl:h-1/6 lg:h-1/6 md:w-2/4">
             <!-- mobile  -->
             <img ref="anime" width="34px" height="22px" src="/images/card_icon.png" class="xl:hidden absolute -bottom-4 anime anime" alt="Credit Card" rel="preload">
@@ -160,7 +185,31 @@
                 </g>
             </svg>
 
-            <img class="pt-6 p-2 xl:p-8 w-full filter-dark" src="/images/foodretail-logos.svg" alt="Food and Retail Brand Logos" rel="preload">
+            <!-- <img class="pt-6 p-2 xl:p-8 w-full filter-dark" src="/images/foodretail-logos.svg" alt="Food and Retail Brand Logos" rel="preload"> -->
+
+            <!-- LOGO GRID  -->
+            <div class="grid grid-cols-4 gap-6 mt-4">
+                <div class=""><img class="p-2 2xl:p-6 w-100 h-full object-scale-down" src="/images/foodretail-logos/Sabra.png" alt="Sabra Logo"></div>
+                <div class=""><img class="w-100 h-full object-scale-down" src="/images/foodretail-logos/Tiffany.png" alt="Tiffany Logo"></div>
+                <div class=""><img class="2xl:p-4 w-100 h-full object-scale-down" src="/images/foodretail-logos/danone.png" alt="Danone Logo"></div>
+                <div class=""><img class="2xl:p-4 w-100 h-full object-scale-down" src="/images/foodretail-logos/dunkin.png" alt="Dunkin Logo"></div>
+                <div class=""><img class="p-4 2xl:p-8 w-100 h-full object-scale-down" src="/images/foodretail-logos/hu.png" alt="Hu Logo"></div>
+                <div class=""><img class="w-100 h-full object-scale-down" src="/images/foodretail-logos/boeing.png" alt="Boeing Logo"></div>
+                <div class=""><img class="p-4 2xl:p-8 w-100 h-full object-scale-down" src="/images/foodretail-logos/Tito.png" alt="Tito Logo"></div>
+                <div class=""><img class="p-2 2xl:p-6 w-100 h-full object-scale-down" src="/images/foodretail-logos/evian.png" alt="Evian Logo"></div>
+                <div class=""><img class="2xl:p-4 w-100 h-full object-scale-down" src="/images/foodretail-logos/Bitmap.png" alt="Red Lobster Logo"></div>
+                <div class=""><img class="2xl:p-4 w-100 h-full object-scale-down" src="/images/foodretail-logos/khov-logo.png" alt="Khovanian Homes Logo"></div>
+                <div class=""><img class="2xl:p-4 w-100 h-full object-scale-down" src="/images/foodretail-logos/Campbell.png" alt="Campbell Logo"></div>
+                <div class=""><img class="2xl:p-4 w-100 h-full object-scale-down" src="/images/foodretail-logos/prego.png" alt="Prego Logo"></div>
+                <div class=""><img class="p-2 2xl:p-6 w-100 h-full object-scale-down" src="/images/foodretail-logos/silk.png" alt="Silk Logo"></div>
+                <div class=""><img class="p-2 2xl:p-6 w-100 h-full object-scale-down" src="/images/foodretail-logos/goldfish.png" alt="Goldfish Logo"></div>
+                <div class=""><img class="p-2 2xl:p-6 w-100 h-full object-scale-down" src="/images/foodretail-logos/activia.png" alt="Activia Logo"></div>
+                <div class=""><img class="p-2 2xl:p-6 w-100 h-full object-scale-down" src="/images/foodretail-logos/horizon.png" alt="Horizon Logo"></div>
+                <div class=""><img class="p-4 2xl:p-8 w-100 h-full object-scale-down" src="/images/foodretail-logos/v8.png" alt="v8 Logo"></div>
+                <div class=""><img class="w-100 h-full object-scale-down" src="/images/foodretail-logos/resortworld.png" alt="Resort World Logo"></div>
+                <div class=""><img class="2xl:p-4 w-100 h-full object-scale-down" src="/images/foodretail-logos/unisys.png" alt="Unisys Logo"></div>
+                <div class=""><img class="p-2 2xl:p-6 w-100 h-full object-scale-down" src="/images/foodretail-logos/swanson.png" alt="Swanson Logo"></div>
+            </div>
 
             <div ref="anime" class="xl:hidden absolute bottom-2 -right-2 w-5 h-4 rounded-sm bg-blue-500 z-behind anime"></div>
 

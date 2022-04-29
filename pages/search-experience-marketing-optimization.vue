@@ -1,6 +1,8 @@
 <template>
 <div class="fade-in">
   <div class="relative w-screen screenHeightCalc">
+
+      <!-- HEADER  -->
     <div class="relative justify-items-center z-1" style="mix-blend-mode: multiply;">
         <svg class="w-screen my-8 md:h-48 lg:h-56 lg:hidden svg-small" width="100%" height="105px" viewBox="0 0 95 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -206,6 +208,8 @@
         </div>
     </div>
   </div>
+
+  <!-- SECTION BELOW HEADER  -->
   <section class="relative z-1" style="background: #efefef url('/images/background-pattern.svg') center -5px/100% repeat">
     <div class="relative z-1 py-8 mt-12 lg:mt-0 lg:mb-20 xl:mx-16">
         <div class="relative">

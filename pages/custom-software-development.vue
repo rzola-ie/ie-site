@@ -1,6 +1,8 @@
 <template>
   <div class="fade-in">
     <div class="relative w-screen screenHeightCalc">
+
+      <!-- HEADER  -->
       <div
         class="relative justify-items-center z-1"
         style="mix-blend-mode: multiply"
@@ -410,6 +412,8 @@
         </div>
       </div>
     </div>
+
+    <!-- SECTION BELOW HEADER  -->
     <section
       class="relative z-1"
       style="

@@ -1,5 +1,7 @@
 <template>
 <div class="fade-in">
+
+<!-- HEADER  -->
   <div class="relative w-screen screenHeightCalc">
     <div class="relative justify-items-center z-1" style="mix-blend-mode: multiply;">
         <svg class="w-screen my-8 md:h-48 lg:h-56 lg:hidden svg-small" width="100%" height="105px" viewBox="0 0 103 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -248,6 +250,8 @@
     </div>
     </div>
 </div>
+
+    <!-- SECTION BELOW HEADER  -->
   <section class="relative z-1" style="background: #efefef url('/images/background-pattern.svg') center -5px/100% repeat">
     <div class="relative z-1 py-8 mt-12 lg:mt-0 lg:mb-20 xl:mx-16">
         <div ref="anime" class="lg:hidden absolute top-8 right-20 h-4 w-4 rounded-full bg-blue-500 z-behind anime" style="mix-blend-mode: multiply"></div>
