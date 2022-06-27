@@ -1426,10 +1426,10 @@
   optionalDependencies:
     prettier "^1.18.2"
 
-"@vuelidate/core@^2.0.0-alpha.32":
-  version "2.0.0-alpha.40"
-  resolved "https://registry.yarnpkg.com/@vuelidate/core/-/core-2.0.0-alpha.40.tgz#eb8e6a46c5c3f66873c0ccf3b14b1b9122c8249b"
-  integrity sha512-f4Uo0yV2BHDi5+MXWDXRcqBv0u1Cqc/RudJLGqke3wLnIcH2r8sXEqRyuVoaN2KEPqbZiTFw/Uo50wx1J+ZDFQ==
+"@vuelidate/core@^2.0.0-alpha.42":
+  version "2.0.0-alpha.42"
+  resolved "https://registry.yarnpkg.com/@vuelidate/core/-/core-2.0.0-alpha.42.tgz#f8b4b7c112af374d3f37e38bff34f8bc2da21c5e"
+  integrity sha512-yLp5/5IkwNZP8214TqEuexlFLGoEZybEad2OZu/heOYPnERm6tgiWHZltc0USCuQ1JVZ2EJuPRHmqMl/G/N7tw==
   dependencies:
     vue-demi "^0.12.0"
 
